@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:18:02.041Z
+date: 2023-01-20T19:18:09.917Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -159,7 +159,7 @@ To work with a parameter in the Canvas, **drag and drop** it directly into the C
 
 **Right Clicking** on a Graph Input brings up a contextual menu with the following options:
 
-- **Show in Variable Editor**: Shows the currently selected Graph Inputs in the <a href="Graph_Variable_Editor.html">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
+- **Show in Variable Editor**: Shows the currently selected Graph Inputs in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Graph Input is an ElementImage or ElementImageGray type, a local file from the user's machine can quickly be imported and assigned.
 - **Demote to Local Variable**: Demotes the selected public Graph Input to a private Local Variable. Learn more about Local Variables below.
 - **Change Variable Type to**: Quickly changes the Graph Input's data type.
