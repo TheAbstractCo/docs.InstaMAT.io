@@ -2,7 +2,7 @@
 title: Canvas Interface Overview
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-20T18:20:54.251Z
+date: 2023-01-20T18:22:13.553Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:57:07.444Z
@@ -40,8 +40,8 @@ By default, the right panel is split into two parts. The top contains the follow
 
 By default, the bottom contains:
 
-- ![Icon](Images/Viewport_Icon.png) <a href="">Viewport</a>: A physically-based 3D viewport illuminated by an environment image. Many aspects of the viewport can be customized with the [Viewport Settings]() panel.
-- ![Icon](Images/Image_Viewer_Icon.png) <a href="">Image Viewer</a>: A 2D Image Viewer that provides access to various useful features such as a tiling preview, rulers, individual channel filtering, and tabs that can simplify A/B testing.
+- ![Icon](/instamat_studio/canvas/viewport_icon.png) <a href="">Viewport</a>: A physically-based 3D viewport illuminated by an environment image. Many aspects of the viewport can be customized with the [Viewport Settings]() panel.
+- ![Icon](/instamat_studio/canvas/image_viewer_icon.png) <a href="">Image Viewer</a>: A 2D Image Viewer that provides access to various useful features such as a tiling preview, rulers, individual channel filtering, and tabs that can simplify A/B testing.
 
 ## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center Area
 
