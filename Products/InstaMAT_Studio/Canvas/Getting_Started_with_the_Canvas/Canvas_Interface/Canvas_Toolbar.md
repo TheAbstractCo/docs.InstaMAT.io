@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:43:19.948Z
+date: 2023-01-20T18:45:01.885Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -108,11 +108,11 @@ These items provide quick access to additional Canvas tools and functions.
 
 ## <img src="/instamat_studio/canvas/7.png" alt="7" width="30"/> Graph Performance Tools
 
-![Graph Performance Tools](Images/Graph_Performance.png)
+![Graph Performance Tools](/instamat_studio/canvas/graph_performance.png)
 
 These items assist in diagnosing the performance and execution of the active graph.
 
-- ![Render Unconnected Nodes](Images/Render_Unconnected.png) **Render Unconnected Nodes**: When disabled, nodes that are disconnected from a graph output are not rendered. Useful when optimizing a graph to only execute nodes that are actively used.
-- ![Show Timings](Images/Canvas_Timings.png) **Show Timings**: Toggles the execution timings which are visible on both the Canvas background and on individual nodes.
+- ![Render Unconnected Nodes](/instamat_studio/canvas/render_unconnected.png) **Render Unconnected Nodes**: When disabled, nodes that are disconnected from a graph output are not rendered. Useful when optimizing a graph to only execute nodes that are actively used.
+- ![Show Timings](/instamat_studio/canvas/canvas_timings.png) **Show Timings**: Toggles the execution timings which are visible on both the Canvas background and on individual nodes.
 > To view timing information about a particular set of nodes, use **Shift + Left Click and Drag** to drag a selection over multiple. A table will appear in the <a href="Graph_Object_Editor.html">Graph Object Editor</a> displaying the Name, Format, Size, and Execution Time of each node. Each column of the table is sortable making it easy to understand which portions of the graph take the most amount of compilation time. Additionally using the shortcut **Cmd/Ctrl + A** can be used to **Select All** nodes in the active graph.
-- ![Canvas Update Time Mode](Images/Render_Priority.png) **Canvas Update Time Mode**: Determines the rendering priority of the <a href="">Image Viewer</a> versus the Canvas Previews. Toggling the speedometer to the right will prioritize rendering the Canvas Previews. Toggling to the left prioritizes the Image Viewer.
+- ![Canvas Update Time Mode](/instamat_studio/canvas/render_priority.png) **Canvas Update Time Mode**: Determines the rendering priority of the <a href="">Image Viewer</a> versus the Canvas Previews. Toggling the speedometer to the right will prioritize rendering the Canvas Previews. Toggling to the left prioritizes the Image Viewer.
