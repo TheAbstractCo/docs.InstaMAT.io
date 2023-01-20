@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:07:34.713Z
+date: 2023-01-20T19:14:16.705Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -21,7 +21,7 @@ This article breaks down the interface of the Graph Object Editor based on the t
 ## Node
 When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
 
-<img src="Images/GOE_Top_Node.png" alt="Top of Graph Object Editor with a Node selected" width="500"/>
+<img src="/instamat_studio/canvas/goe_top_node.png" alt="Top of Graph Object Editor with a Node selected" width="500"/>
 
 At the top are the the following node attributes:
 
@@ -33,7 +33,7 @@ At the top are the the following node attributes:
 
 ### Element Format
 
-<img src="Images/GOE_Element_Format.png" alt="Element Format" width="500"/>
+<img src="/instamat_studio/canvas/goe_element_format.png" alt="Element Format" width="500"/>
 
 This section determines the node's format and execution size.
 
@@ -55,12 +55,12 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 ### Instance Properties
 
-<img src="Images/GOE_Instance_Properties.png" alt="Instance Properties" width="500"/>
+<img src="/instamat_studio/canvas/goe_instance_properties.png" alt="Instance Properties" width="500"/>
 
 This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
 
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
-- **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a ![sleeping icon](Images/Sleeping.png) icon in the top left corner in the Canvas. Nodes that have a **'Background'** or **'Image'** input will pass that information through to the output. 
+- **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a ![sleeping icon](/instamat_studio/canvas/sleeping.png) icon in the top left corner in the Canvas. Nodes that have a **'Background'** or **'Image'** input will pass that information through to the output. 
 > A shortcut for disabling nodes is highlighting the node and pressing **H**. You can also **Right click** the node to bring up the contextual menu and choose **'Enable/Disable Node'**. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
 
 - **Grayscale**: Determines the grayscale/color permutation of the node. Enabling will output grayscale information.
@@ -70,27 +70,27 @@ This section determines the execution seed, if a node is active or disabled, and
 >
 > For example: spawning a node that outputs grayscale information from a color image input pin will result in a converter node inserting between the two.
 >
-> ![GIF of both scenarios: QS and Converter](Images/Canvas_Permutations.gif)
+> ![GIF of both scenarios: QS and Converter](/instamat_studio/canvas/canvas_permutations.gif)
 
 ### Inputs
 
-<img src="Images/GOE_Inputs_Node.png" alt="Inputs" width="500"/>
+<img src="/instamat_studio/canvas/goe_inputs_node.png" alt="Inputs" width="500"/>
 
 This section displays a node's **Graph Inputs** also known as the node's Input Parameters. Inputs have many different data types and an assortment of widgets to control them.
 
 > To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
 >
->![Widgets](Images/Widgets.png)
+>![Widgets](/instamat_studio/canvas/widgets.png)
 
-Specific parameter values can be typed in with the keyboard either by **Double Clicking** on each parameter or using the ![Pencil](Images/Pencil_Icon.png) icon.
+Specific parameter values can be typed in with the keyboard either by **Double Clicking** on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
 
 > #### Overriding Input Parameters
 >
 >If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by **Right Clicking** it to bring up the contextual menu, then choosing **'Override Slider Range'**. This value can then be overridden temporarily or persisted in the graph.
 >
-><img src="Images/Override_Choice_Dialog.png" alt="Override Choice Dialog" width="400"/>
+><img src="/instamat_studio/canvas/override_choice_dialog.png" alt="Override Choice Dialog" width="400"/>
 >
-><img src="Images/Override_Dialog.png" alt="Override Slider Range Dialog" width="300"/>
+><img src="/instamat_studio/canvas/override_dialog.png" alt="Override Slider Range Dialog" width="300"/>
 
 #### Contextual Menu
 
