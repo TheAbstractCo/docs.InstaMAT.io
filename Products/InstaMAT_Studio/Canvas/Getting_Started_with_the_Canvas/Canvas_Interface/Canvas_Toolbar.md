@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:33:31.429Z
+date: 2023-01-20T18:36:46.945Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -40,19 +40,19 @@ This popup displays the undo history for the active session. The order of the it
 
 ## <img src="/instamat_studio/canvas/2.png" alt="2" width="30"/> Global Execution Settings and Seed
 
-![Global Res and Seed](Images/Global_Res_and_Seed.png)
+![Global Res and Seed](/instamat_studio/canvas/global_res_and_seed.png)
 
 These items determine the global resolution, format and seed for the active graph.
 
 ### Global Execution Settings
 
-<img src="Images/Global_Res.png" width="600"/>
+<img src="/instamat_studio/canvas/global_res.png" width="600"/>
 
-The **Execution Settings Popup** controls the size and format of the active graph. Clicking the ![lock](Images/Lock_Icon.png) icon will maintain the same **'Width'** and **'Height'** values so that they are always equal.
+The **Execution Settings Popup** controls the size and format of the active graph. Clicking the ![lock](/instamat_studio/canvas/lock_icon.png) icon will maintain the same **'Width'** and **'Height'** values so that they are always equal.
 
 ### Global Seed
 
-![Global Seed item](Images/Global_Seed.png)
+![Global Seed item](/instamat_studio/canvas/global_seed.png)
 
 The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk.
 
@@ -60,7 +60,7 @@ The **Global Seed** value sets the seed for all randomized parameters and attrib
 
 ## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center View Selection
 
-![Center View Selection Icons](Images/Center_View_Selection.png)
+![Center View Selection Icons](/instamat_studio/canvas/center_view_selection.png)
 
 These items determine which view takes up the center area of the Canvas interface. By clicking on the icon matching with the corresponding view, the interface will shift and reorganize accordingly. The icons correspond as follows:
 
