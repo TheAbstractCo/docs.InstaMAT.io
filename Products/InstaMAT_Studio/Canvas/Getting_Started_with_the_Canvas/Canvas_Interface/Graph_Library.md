@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-20T18:58:18.667Z
+date: 2023-01-20T18:59:40.001Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -34,9 +34,9 @@ Once a category has been selected, the bottom half of the panel known as the **C
 - ![icon](/instamat_studio/canvas/search_in_selected_category_icon.png) **Search in the Selected Category**: When enabled, using the dedicated search field at the top of the panel will only search in the selected category
 - ![icon](/instamat_studio/canvas/context_sensitivity_icon.png) **Context Sensitivity**: When enabled, only categories relevant to the currently active project will be shown in the top half of the panel
 - ![icon](/instamat_studio/canvas/show_objects_from_subcategories_icon.png) **Show Objects from Subcategories**: When enabled, resources from subcategories of the selected category will be shown
-- ![icon](Images/Show_Names_Icon.png) **Show Names**: Toggles the resource name
-- ![icon](Images/Show_Categories_Icon.png) **Show Categories**: Toggles the resource category
-- ![icon](Images/Show_Only_User_Library_Content_Icon.png) **Show Only User Library Content**: When enabled, only resources from the **User Library** will be displayed in the Graph Library panel. Learn more about the User Library below.
+- ![icon](/instamat_studio/canvas/show_names_icon.png) **Show Names**: Toggles the resource name
+- ![icon](/instamat_studio/canvas/show_categories_icon.png) **Show Categories**: Toggles the resource category
+- ![icon](/instamat_studio/canvas/show_only_user_library_content_icon.png) **Show Only User Library Content**: When enabled, only resources from the **User Library** will be displayed in the Graph Library panel. Learn more about the User Library below.
 - ![icon](Images/Use_A_Table_View_Icon.png) **Use a Table View**: Displays resources in a table view format
 - ![icon](Images/Display_Small_Icons_Icon.png) **Display Small Icons**: Displays resources with small icons and, if enabled, positions the resource name and category to the right of each icon
 - ![icon](Images/Display_Medium_Icons_Icon.png) **Display Medium Icons**: Displays resources with medium icons and, if enabled, positions the resource name and category underneath each icon
