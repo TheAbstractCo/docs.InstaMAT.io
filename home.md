@@ -2,14 +2,12 @@
 title: InstaMAT Documentation
 description: Documentation for InstaMAT products.
 published: true
-date: 2023-01-20T15:18:56.780Z
+date: 2023-01-20T15:19:10.594Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T16:44:13.838Z
 ---
 
-# Welcome
-This page is currently under construction!
 # Welcome to InstaMAT
 Discover new ways to create materials with limitless variations and leverage fully scalable automation that will reshape your content creation pipeline.
 
