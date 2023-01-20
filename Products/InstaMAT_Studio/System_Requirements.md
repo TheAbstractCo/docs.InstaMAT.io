@@ -1,8 +1,8 @@
 ---
-title: InstaMAT Studio System Requirements
+title: System Requirements
 description: The minimum and recommended system requirements to run InstaMAT Studio.
 published: true
-date: 2023-01-20T16:37:32.851Z
+date: 2023-01-20T16:38:11.004Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T16:37:32.851Z
