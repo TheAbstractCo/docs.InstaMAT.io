@@ -2,7 +2,7 @@
 title: Canvas Interface Overview
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-20T18:16:41.508Z
+date: 2023-01-20T18:19:20.656Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:57:07.444Z
@@ -31,8 +31,8 @@ The left panel contains the following tabs:
 
 By default, the right panel is split into two parts. The top contains the following tabs:
 
-- ![Icon](Images/Graph_Object_Editor_Icon.png) <a href="Graph_Object_Editor.html">Graph Object Editor</a>: Provides contextual access to a selected object's properties. From here various operations such as the creation of inputs and outputs, the adjustment of a node's <a href="">exposed parameters</a>, and the assignment of various meta data to a graph can be performed. By selecting multiple nodes in the Canvas, the Graph Object Editor (GOE) displays a table of execution times making it easier to determine which nodes require more processing time.
-- ![Icon](Images/Graph_Variable_Editor_Icon.png) <a href="">Graph Variable Editor</a>: Provides specific adjustments for graph variables such as a public **Graph Input** or a private **Local Variable**.
+- ![Icon](/instamat_studio/canvas/graph_object_editor_icon.png) <a href="Graph_Object_Editor.html">Graph Object Editor</a>: Provides contextual access to a selected object's properties. From here various operations such as the creation of inputs and outputs, the adjustment of a node's <a href="">exposed parameters</a>, and the assignment of various meta data to a graph can be performed. By selecting multiple nodes in the Canvas, the Graph Object Editor (GOE) displays a table of execution times making it easier to determine which nodes require more processing time.
+- ![Icon](/instamat_studio/canvas/graph_variable_editor_icon.png) <a href="">Graph Variable Editor</a>: Provides specific adjustments for graph variables such as a public **Graph Input** or a private **Local Variable**.
 
 <img src="Images/Viewport_Image_Viewer_GIF.gif" width="600"/>
 
