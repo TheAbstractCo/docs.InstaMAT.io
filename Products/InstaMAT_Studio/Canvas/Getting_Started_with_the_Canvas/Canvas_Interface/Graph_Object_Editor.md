@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:27:49.682Z
+date: 2023-01-20T19:29:25.810Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -61,7 +61,7 @@ This section determines the execution seed, if a node is active or disabled, and
 
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
 - **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a ![sleeping icon](/instamat_studio/canvas/sleeping.png) icon in the top left corner in the Canvas. Nodes that have a `Background` or `Image` input will pass that information through to the output. 
-> A shortcut for disabling nodes is highlighting the node and pressing **H**. You can also **Right click** the node to bring up the contextual menu and choose `Enable/Disable Node`. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
+> A shortcut for disabling nodes is highlighting the node and pressing **H**. You can also <kbd>Right click</kbd> the node to bring up the contextual menu and choose `Enable/Disable Node`. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
 
 - **Grayscale**: Determines the grayscale/color permutation of the node. Enabling will output grayscale information.
 
@@ -86,7 +86,7 @@ Specific parameter values can be typed in with the keyboard either by <kbd>Doubl
 
 > #### Overriding Input Parameters
 >
->If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by **Right Clicking** it to bring up the contextual menu, then choosing **'Override Slider Range'**. This value can then be overridden temporarily or persisted in the graph.
+>If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by <kbd>Right Clicking</kbd> it to bring up the contextual menu, then choosing **'Override Slider Range'**. This value can then be overridden temporarily or persisted in the graph.
 >
 ><img src="/instamat_studio/canvas/override_choice_dialog.png" alt="Override Choice Dialog" width="400"/>
 >
@@ -97,7 +97,7 @@ Specific parameter values can be typed in with the keyboard either by <kbd>Doubl
 <img src="/instamat_studio/canvas/goe_input_context1.png" alt="GOE Inputs Contextual Menu" width="300"/>
 <img src="/instamat_studio/canvas/goe_input_context2.png" alt="GOE Inputs Contextual Menu" width="300"/>
 
-**Right Clicking** on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
+<kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
 
 - **Load Image from Local File**: If the Graph Input is an ElementImage or ElementImageGray type, a local file from the user's machine can quickly be imported and assigned.
 - **Reset to Default Value**: Resets the Graph Input to the default value.
@@ -114,7 +114,7 @@ This section displays a node's **Graph Outputs** and the category assigned to ea
 
 <img src="/instamat_studio/canvas/goe_outputs_context.png" alt="GOE Outputs Contextual Menu" width="300"/>
 
-**Right Clicking** on a Graph Output brings up a contextual menu with the following options:
+<kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
 
 - **View Image**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a>.
 - **View Image in New Tab**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a> in a new tab.
@@ -157,7 +157,7 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 <img src="/instamat_studio/canvas/goe_input_context3.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
 <img src="/instamat_studio/canvas/goe_input_context4.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
 
-**Right Clicking** on a Graph Input brings up a contextual menu with the following options:
+<kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu with the following options:
 
 - **Show in Variable Editor**: Shows the currently selected Graph Inputs in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Graph Input is an ElementImage or ElementImageGray type, a local file from the user's machine can quickly be imported and assigned.
