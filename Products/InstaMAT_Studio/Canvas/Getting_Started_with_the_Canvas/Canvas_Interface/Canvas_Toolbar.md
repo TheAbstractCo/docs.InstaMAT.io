@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:47:27.019Z
+date: 2023-01-20T18:49:08.017Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -48,7 +48,7 @@ These items determine the global resolution, format and seed for the active grap
 
 <img src="/instamat_studio/canvas/global_res.png" width="600"/>
 
-The **Execution Settings Popup** controls the size and format of the active graph. Clicking the ![lock](/instamat_studio/canvas/lock_icon.png) icon will maintain the same **'Width'** and **'Height'** values so that they are always equal.
+The **Execution Settings Popup** controls the size and format of the active graph. Clicking the ![lock](/instamat_studio/canvas/lock_icon.png) icon will maintain the same `Width` and `Height` values so that they are always equal.
 
 ### Global Seed
 
