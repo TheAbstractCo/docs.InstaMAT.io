@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:40:06.793Z
+date: 2023-01-20T18:43:19.948Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -94,17 +94,17 @@ These items provide access to additional panels and features in InstaMAT Studio.
 
 ## <img src="/instamat_studio/canvas/6.png" alt="6" width="30"/> Canvas Tools and Display Functions
 
-![Canvas Tools and Display Functions](Images/Canvas_Tools.png)
+![Canvas Tools and Display Functions](/instamat_studio/canvas/canvas_tools.png)
 
 These items provide quick access to additional Canvas tools and functions.
 
-- ![Automatically Render Graph](Images/Auto_Render.png) **Automatically Render Graph**: When enabled, the graph will automatically render when a change is made. Useful to turn off if there are a few changes to be made and the graph requires intensive processing.
-- ![Flash Rendered Nodes](Images/Flash.png) **Flash Rendered Nodes**: When enabled, nodes that are executed will flash with a yellow outline. This helps to visually determine which section of the graph is being utilized when changes are being made.
-- ![Connection Rendering Mode](Images/Connection_Mode.png) **Connection Rendering Mode**: Determines the style in which connections are drawn in the Canvas. Cycle between Smooth, Angular, and straight lines.
-- ![Link Category Mode](Images/LCM.png) **Link Category Mode**: Combines related Input and Output pins that share the same category. Useful when blending multiple materials together or working with Mesh Bake Data. Connections turn blue, and nodes in the Canvas feature a blue line on the bottom to signify that Link Category Mode is active.
-- ![Canvas Previews](Images/Canvas_Previews.png) **Canvas Previews**: Toggles the Canvas Previews for nodes in the graph. Disabling can reduce a graph's memory footprint.
-- ![Minimap](Images/Minimap.png) **Minimap**: Displays the <a href="">Minimap</a>.
-- ![Lock Comments](Images/Lock_Comments.png) **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved.
+- ![Automatically Render Graph](/instamat_studio/canvas/auto_render.png) **Automatically Render Graph**: When enabled, the graph will automatically render when a change is made. Useful to turn off if there are a few changes to be made and the graph requires intensive processing.
+- ![Flash Rendered Nodes](/instamat_studio/canvas/flash.png) **Flash Rendered Nodes**: When enabled, nodes that are executed will flash with a yellow outline. This helps to visually determine which section of the graph is being utilized when changes are being made.
+- ![Connection Rendering Mode](/instamat_studio/canvas/connection_mode.png) **Connection Rendering Mode**: Determines the style in which connections are drawn in the Canvas. Cycle between Smooth, Angular, and straight lines.
+- ![Link Category Mode](/instamat_studio/canvas/lcm.png) **Link Category Mode**: Combines related Input and Output pins that share the same category. Useful when blending multiple materials together or working with Mesh Bake Data. Connections turn blue, and nodes in the Canvas feature a blue line on the bottom to signify that Link Category Mode is active.
+- ![Canvas Previews](/instamat_studio/canvas/canvas_previews.png) **Canvas Previews**: Toggles the Canvas Previews for nodes in the graph. Disabling can reduce a graph's memory footprint.
+- ![Minimap](/instamat_studio/canvas/minimap.png) **Minimap**: Displays the <a href="">Minimap</a>.
+- ![Lock Comments](/instamat_studio/canvas/lock_comments.png) **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved.
 
 ## <img src="/instamat_studio/canvas/7.png" alt="7" width="30"/> Graph Performance Tools
 
