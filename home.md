@@ -2,7 +2,7 @@
 title: InstaMAT Documentation
 description: Documentation for InstaMAT products.
 published: true
-date: 2023-01-20T15:19:52.493Z
+date: 2023-01-20T15:28:11.468Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T16:44:13.838Z
@@ -16,8 +16,7 @@ InstaMAT includes hundreds of different image processing algorithms: from automa
 If you are new to InstaMAT taking a quick look at the *InstaMAT Library Reference* can help you understand what's at your dispoal. However, a better way to get started is by revising the [InstaMAT documentation](https://www.InstaMaterial.com/GettingStarted). The InstaMAT documentation will provide you with advice on how the application works and covers everything you need to know on the app level: from navigating the user-interface to understanding how you can build both Atom and Element Graphs.
 
 > The technology behind InstaMAT is also available as C++ SDK. This means that you can integrate our technology into your app or native pipeline to dynamically execute Atoms and Elements. 
->	More information is available on the [InstaMAT SDK documentation](Products/InstaMAT C++ SDK.md) page.
-
+>	More information is available on the [InstaMAT C++ SDK documentation](/Products/InstaMAT_C++_SDK) page.
 
 > InstaMAT is also integrated in popular DCC tools and 3D engines such as [RSX Engine](https://www.RSXEngine.com). 
 > The documentation for these integration is available individually. 
