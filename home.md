@@ -2,7 +2,7 @@
 title: InstaMAT Documentation
 description: Documentation for InstaMAT products.
 published: true
-date: 2023-01-20T15:19:10.594Z
+date: 2023-01-20T15:19:52.493Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T16:44:13.838Z
@@ -28,6 +28,6 @@ The following links provider further information and resources that help you on 
 
  * [InstaMAT Website](https://www.InstaMaterial.com)
  * [InstaMAT Knowledge Base](https://InstaMaterial.com/KnowledgeBase)
- * [InstaMAT SDK documentation](Products/InstaMAT C++ SDK.md)
- * [InstaMAT Pipeline documentation](Products/InstaMAT Pipeline.md)
+ * [InstaMAT SDK documentation](Products/InstaMAT_C++_SDK.md)
+ * [InstaMAT Pipeline documentation](Products/InstaMAT_Pipeline.md)
  * [InstaMAT Integrations](https://www.InstaMaterial.com/Integrations)
