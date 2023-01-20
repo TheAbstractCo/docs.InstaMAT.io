@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:26:04.208Z
+date: 2023-01-20T19:27:17.079Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -82,7 +82,7 @@ This section displays a node's **Graph Inputs** also known as the node's Input P
 >
 >![Widgets](/instamat_studio/canvas/widgets.png)
 
-Specific parameter values can be typed in with the keyboard either by **Double Clicking** on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
+Specific parameter values can be typed in with the keyboard either by <kbd>Double Clicking</kbd> on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
 
 > #### Overriding Input Parameters
 >
