@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: true
-date: 2023-01-20T16:34:21.401Z
+date: 2023-01-20T16:49:55.148Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:38:57.724Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-20T15:38:57.724Z
 
 # Getting Started with InstaMAT Studio
 
-![instamat_studio_canvas_full_window.jpeg](/instant_studio/general/instamat_studio_canvas_full_window.jpeg)
+![instamat_studio_canvas_full_window.jpeg](/instamat_studio/general/instamat_studio_canvas_full_window.jpeg)
 
 InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner. With its many powerful project types and expansive node library, InstaMAT Studio lets you produce dazzling 3D assets and intuitive mesh-processing pipelines all from within one application.
 
