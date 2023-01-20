@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:16:59.137Z
+date: 2023-01-20T19:18:02.041Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -144,18 +144,18 @@ To create a new Input Parameter:
 2. Choose the data type for the new input
 3. **Double Click** the name of the parameter to rename it
 
-The parameter's value set in this section will be its default value when the graph is instantiated. Parameters can be re-arranged by **dragging and dropping** them into the desired order. To customize them further, use the <a href="Graph_Variable_Editor.html">Graph Variable Editor</a> to do things like organizing them into categories, setting the minimum and maximum ranges, changing the graphical UI widget best used to manipulate the data, and more.
+The parameter's value set in this section will be its default value when the graph is instantiated. Parameters can be re-arranged by **dragging and dropping** them into the desired order. To customize them further, use the <a href="">Graph Variable Editor</a> to do things like organizing them into categories, setting the minimum and maximum ranges, changing the graphical UI widget best used to manipulate the data, and more.
 
 To work with a parameter in the Canvas, **drag and drop** it directly into the Canvas view where it will become a node. It can then either be connected to a matching input type, or converted using one of the many conversion nodes built into InstaMAT Studio's node library. Conversion nodes can easily be created using <a href="">Quick Search</a>.
 
-![GIF of dragging an input into the Canvas, then using Quick Search to convert to another type.](Images/Param_Convert.gif)
+![GIF of dragging an input into the Canvas, then using Quick Search to convert to another type.](/instamat_studio/canvas/param_convert.gif)
 
 > To learn more about how to create and manipulate Graph Inputs, please read our article: <a href="">Node-Based Workflow Key Concepts</a>.
 
 #### Contextual Menu
 
-<img src="Images/GOE_Input_Context3.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
-<img src="Images/GOE_Input_Context4.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
+<img src="/instamat_studio/canvas/goe_input_context3.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
+<img src="/instamat_studio/canvas/goe_input_context4.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
 
 **Right Clicking** on a Graph Input brings up a contextual menu with the following options:
 
