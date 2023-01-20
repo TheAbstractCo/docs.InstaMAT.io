@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:32:27.216Z
+date: 2023-01-20T18:33:31.429Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -34,7 +34,7 @@ The Canvas Toolbar is organized into the following groups:
 
 The **Undo History** button is divided into two sections: Undo Button, and Undo Popup. Clicking the left portion with the icon will perform an undo operation. Additonally the keyboard shortcut **Cmd/Ctrl + Z** can be used to undo, and **Shift + Cmd/Ctrl + Z** will redo. Clicking the downward arrow will open up the **Undo History Popup**.
 
-<img src="Images/Undo_History_Popup.png" width="500"/>
+<img src="/instamat_studio/canvas/undo_history_popup.png" width="500"/>
 
 This popup displays the undo history for the active session. The order of the items are listed where the most recent action is at the bottom. Clicking on one of the items will undo back to the historical state where that operation took place. As long as no additional changes are made, clicking on future items at the bottom will restore and "redo" the subsequent actions until reaching the latest step.
 
