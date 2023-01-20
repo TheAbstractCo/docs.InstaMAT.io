@@ -2,7 +2,7 @@
 title: Canvas Interface Overview
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-20T18:19:20.656Z
+date: 2023-01-20T18:20:54.251Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:57:07.444Z
@@ -35,6 +35,8 @@ By default, the right panel is split into two parts. The top contains the follow
 - ![Icon](/instamat_studio/canvas/graph_variable_editor_icon.png) <a href="">Graph Variable Editor</a>: Provides specific adjustments for graph variables such as a public **Graph Input** or a private **Local Variable**.
 
 <img src="Images/Viewport_Image_Viewer_GIF.gif" width="600"/>
+
+<!-- Image currently too big to upload -->
 
 By default, the bottom contains:
 
