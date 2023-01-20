@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:18:09.917Z
+date: 2023-01-20T19:21:14.371Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -169,13 +169,13 @@ To work with a parameter in the Canvas, **drag and drop** it directly into the C
 
 ### Outputs
 
-<img src="Images/GOE_Outputs_Graph.png" alt="GOE Outputs with Graph Selected" width="500"/>
+<img src="/instamat_studio/canvas/goe_outputs_graph.png" alt="GOE Outputs with Graph Selected" width="500"/>
 
 This section manages a graph's Graph Outputs. When building a procedural PBR material with the <a href="">Element Graph</a>, these outputs are the maps that generate a material's fundamental channels such as *Base Color*, *Normal*, and *Roughness.*
 
 To create a new Graph Output:
 
-1. Click the ![+](Images/Add_Parameter_Icon.png) button in the top right corner of this section
+1. Click the ![+](/instamat_studio/canvas/add_parameter_icon.png) button in the top right corner of this section
 2. Choose the type for the new output
 3. **Double Click** the name of the output to rename it
 
@@ -186,12 +186,12 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 >### A Note about Categories and Link Category Mode
 > Graph Inputs and Outputs can be assigned a **Category** in the <a href="Graph_Variable_Editor.html">Graph Variable Editor</a>. If multiple Graph Inputs and Outputs share the same category, they can be combined and connected together with <a href="">Link Category Mode</a>. This mode visually combines connections that share the same category making it easy to connect multiple pieces of information together. Once combined, a single connection can be dragged from the outputs of one node to the inputs of a corresponding node that shares the same category.
 >
-> ![GIF of using LC mode](Images/LC_Mode.gif)
+> ![GIF of using LC mode](/instamat_studio/canvas/lc_mode.gif)
 
 #### Contextual Menu
 
-<img src="Images/GOE_Output_Graph_Context.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
-<img src="Images/GOE_Output_Graph_Context2.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
+<img src="/instamat_studio/canvas/goe_output_graph_context.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
+<img src="/instamat_studio/canvas/goe_output_graph_context2.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
 
 **Right Clicking** on a Graph Output brings up a contextual menu with the following options:
 
@@ -205,7 +205,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 
 ### Local Variables
 
-<img src="Images/GOE_Local_Variables.png" alt="GOE Local Variables" width="500"/>
+<img src="/instamat_studio/canvas/goe_local_variables.png" alt="GOE Local Variables" width="500"/>
 
 This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information.
 
@@ -214,12 +214,12 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 #### Contextual Menu
 
-<img src="Images/GOE_Local_Variables_Context1.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
-<img src="Images/GOE_Local_Variables_Context2.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
+<img src="/instamat_studio/canvas/goe_local_variables_context1.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
+<img src="/instamat_studio/canvas/goe_local_variables_context2.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
 
 **Right Clicking** on a Local Variable brings up a contextual menu with the following options:
 
-- **Show in Variable Editor**: Shows the currently selected Local Variable in the <a href="Graph_Variable_Editor.html">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
+- **Show in Variable Editor**: Shows the currently selected Local Variable in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Local Variable is an *ElementImage* or *ElementImageGray* type, a local file from the user's machine can quickly be imported and assigned.
 - **Promote to Input Parameter**: Promotes the selected private Local Variable to a public Graph Input.
 - **Change Variable Type to**: Quickly changes the Local Variable's data type.
@@ -235,7 +235,7 @@ Information coming soon.
 
 ### Meta Data
 
-<img src="Images/GOE_Meta_Data.png" alt="GOE Meta Data Section with Graph Selected" width="500"/>
+<img src="/instamat_studio/canvas/goe_meta_data.png" alt="GOE Meta Data Section with Graph Selected" width="500"/>
 
 This section allows the user to input attributes for the graph that are used across various parts of InstaMAT.
 
@@ -243,7 +243,7 @@ This section allows the user to input attributes for the graph that are used acr
 - **Tags**: Assigns various tags to the graph. These tags are searchable throughout InstaMAT Studio.
 - **Version**: Sets the graph's version number.
 - **Use Physical Size**: When enabled, the entered physical size in centimeters is assigned to the graph.
-- **Private**: When enabled, private graphs are not displayed in the <a href="Graph_Library.html">Graph Library</a>. This is useful when building out a project into subgraphs or "helper graphs" that should be concealed from the library.
+- **Private**: When enabled, private graphs are not displayed in the <a href="">Graph Library</a>. This is useful when building out a project into subgraphs or "helper graphs" that should be concealed from the library.
 - **Deprecation**: Sets the message to display when the graph is deprecated. All graphs that instance this graph will display this deprecation message when the graph loaded.
 - **Default Image**: Sets the default image for the graph's image parameters.
 - **Preview Mesh**: Assigns a mesh used when previewing the graph outputs in 3D.
