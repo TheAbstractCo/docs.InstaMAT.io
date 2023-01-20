@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:27:34.438Z
+date: 2023-01-20T18:32:27.216Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -10,9 +10,9 @@ dateCreated: 2023-01-20T18:27:34.438Z
 
 # Canvas Toolbar
 
-![Canvas Toolbar with sections highlighted and numbered](Images/Canvas_Toolbar.png)
+![Canvas Toolbar with sections highlighted and numbered](/instamat_studio/canvas/canvas_toolbar.png)
 
-The **Canvas Toolbar** sits above the main <a href="../../Canvas_Overview.html">Canvas</a> view and provides shortcuts to many features and functions of the Canvas. Each set of items is grouped together based on their functionality. This article goes into depth on each of these groups and items. 
+The **Canvas Toolbar** sits above the main <a href="">Canvas</a> view and provides shortcuts to many features and functions of the Canvas. Each set of items is grouped together based on their functionality. This article goes into depth on each of these groups and items. 
 
 > Additionally, you can view our dedicated YouTube Video overviewing the Canvas Toolbar <a href="">here</a>.
 
@@ -28,9 +28,9 @@ The Canvas Toolbar is organized into the following groups:
 6. **Canvas Tools and Display Functions**: Provides control over various Canvas functionality and display options.
 7. **Graph Performance Tools**: Gives access to various graph performance and execution tools.
 
-## <img src="Images/1.png" alt="1" width="40"/> Undo History
+## <img src="/instamat_studio/canvas/1.png" alt="1" width="30"/> Undo History
 
-![Undo History Icon](Images/Undo_History_Icon.png)
+![Undo History Icon](/instamat_studio/canvas/undo_history_icon.png)
 
 The **Undo History** button is divided into two sections: Undo Button, and Undo Popup. Clicking the left portion with the icon will perform an undo operation. Additonally the keyboard shortcut **Cmd/Ctrl + Z** can be used to undo, and **Shift + Cmd/Ctrl + Z** will redo. Clicking the downward arrow will open up the **Undo History Popup**.
 
@@ -38,7 +38,7 @@ The **Undo History** button is divided into two sections: Undo Button, and Undo 
 
 This popup displays the undo history for the active session. The order of the items are listed where the most recent action is at the bottom. Clicking on one of the items will undo back to the historical state where that operation took place. As long as no additional changes are made, clicking on future items at the bottom will restore and "redo" the subsequent actions until reaching the latest step.
 
-## <img src="Images/2.png" alt="2" width="40"/> Global Execution Settings and Seed
+## <img src="/instamat_studio/canvas/2.png" alt="2" width="30"/> Global Execution Settings and Seed
 
 ![Global Res and Seed](Images/Global_Res_and_Seed.png)
 
@@ -58,7 +58,7 @@ The **Global Seed** value sets the seed for all randomized parameters and attrib
 
 **Right Clicking** the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
 
-## <img src="Images/3.png" alt="3" width="40"/> Center View Selection
+## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center View Selection
 
 ![Center View Selection Icons](Images/Center_View_Selection.png)
 
@@ -72,7 +72,7 @@ Additionally, the keyboard shortcut **Option/Alt + C** cycles through each optio
 
 > Switching the <a href="">Viewport</a> to the center view is a great way to quickly perform design reviews of your 3D assets and materials.
 
-## <img src="Images/4.png" alt="4" width="40"/> Project Management
+## <img src="/instamat_studio/canvas/4.png" alt="4" width="30"/> Project Management
 
 ![Project Management Icons](Images/Project_Management.png)
 
@@ -82,7 +82,7 @@ These items provide shortcuts to common project management actions.
 - ![Save Project](Images/Save_Project.png) **Save Project**: Saves the active project.
 - ![Export Image and Data Outputs](Images/Export.png) **Export Image and Data Outputs**: Opens the <a href="">Image and Data Output Export Dialog</a>. Use this dialog to export the graph's outputs to disk.
 
-## <img src="Images/5.png" alt="5" width="40"/> Additional Panels
+## <img src="/instamat_studio/canvas/5.png" alt="5" width="30"/> Additional Panels
 
 ![Additional Panels](Images/Additional_Panels.png)
 
@@ -92,7 +92,7 @@ These items provide access to additional panels and features in InstaMAT Studio.
 - ![Raytracing](Images/Raytracing.png) **Raytracing**: Opens the <a href="">Raytracing Panel</a>.
 - ![Output Log](Images/Output_Log.png) **Show Output Log**: Displays the Output Log at the bottom of the interface below the Canvas view.
 
-## <img src="Images/6.png" alt="6" width="40"/> Canvas Tools and Display Functions
+## <img src="/instamat_studio/canvas/6.png" alt="6" width="30"/> Canvas Tools and Display Functions
 
 ![Canvas Tools and Display Functions](Images/Canvas_Tools.png)
 
@@ -106,7 +106,7 @@ These items provide quick access to additional Canvas tools and functions.
 - ![Minimap](Images/Minimap.png) **Minimap**: Displays the <a href="">Minimap</a>.
 - ![Lock Comments](Images/Lock_Comments.png) **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved.
 
-## <img src="Images/7.png" alt="7" width="40"/> Graph Performance Tools
+## <img src="/instamat_studio/canvas/7.png" alt="7" width="30"/> Graph Performance Tools
 
 ![Graph Performance Tools](Images/Graph_Performance.png)
 
