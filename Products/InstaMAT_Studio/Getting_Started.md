@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: true
-date: 2023-01-20T16:34:04.949Z
+date: 2023-01-20T16:34:21.401Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:38:57.724Z
@@ -36,4 +36,5 @@ The canvas is InstaMAT's node-based interface used to build powerful workflows w
 
 <a href="Canvas/Canvas_Overview.html">Click here to learn more about the Canvas</a>
 
-*More sections to be added soon...*
+> More sections to be added soon...
+{.is-warning}
