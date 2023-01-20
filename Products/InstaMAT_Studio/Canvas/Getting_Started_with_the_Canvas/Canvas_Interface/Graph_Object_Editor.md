@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:14:16.705Z
+date: 2023-01-20T19:16:59.137Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -94,8 +94,8 @@ Specific parameter values can be typed in with the keyboard either by **Double C
 
 #### Contextual Menu
 
-<img src="Images/GOE_Input_Context1.png" alt="GOE Inputs Contextual Menu" width="300"/>
-<img src="Images/GOE_Input_Context2.png" alt="GOE Inputs Contextual Menu" width="300"/>
+<img src="/instamat_studio/canvas/goe_input_context1.png" alt="GOE Inputs Contextual Menu" width="300"/>
+<img src="/instamat_studio/canvas/goe_input_context2.png" alt="GOE Inputs Contextual Menu" width="300"/>
 
 **Right Clicking** on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
 
@@ -106,13 +106,13 @@ Specific parameter values can be typed in with the keyboard either by **Double C
 
 ### Outputs
 
-<img src="Images/GOE_Node_Outputs.png" alt="Outputs" width="500"/>
+<img src="/instamat_studio/canvas/goe_node_outputs.png" alt="Outputs" width="500"/>
 
 This section displays a node's **Graph Outputs** and the category assigned to each output.
 
 #### Contextual Menu
 
-<img src="Images/GOE_Outputs_Context.png" alt="GOE Outputs Contextual Menu" width="300"/>
+<img src="/instamat_studio/canvas/goe_outputs_context.png" alt="GOE Outputs Contextual Menu" width="300"/>
 
 **Right Clicking** on a Graph Output brings up a contextual menu with the following options:
 
@@ -123,18 +123,18 @@ This section displays a node's **Graph Outputs** and the category assigned to ea
 ## Graph
 When a graph is selected in the Canvas by **clicking in an empty space**, the following categories and interface elements appear in the GOE.
 
-<img src="Images/GOE_Top_Graph.png" alt="Top of Graph Object Editor with a Graph selected" width="500"/>
+<img src="/instamat_studio/canvas/goe_top_graph.png" alt="Top of Graph Object Editor with a Graph selected" width="500"/>
 
 At the top are the following graph attributes:
 - Name
 - Category
 - Description
 
-Use the ![Pencil](Images/Pencil_Icon.png) icon to set the graph's name or **Double Click** on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="Graph_Library.html">Graph Library</a>.
+Use the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon to set the graph's name or **Double Click** on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="">Graph Library</a>.
 
 ### Inputs
 
-<img src="Images/GOE_Inputs_Graph.png" alt="GOE Inputs with Graph Selected" width="500"/>
+<img src="/instamat_studio/canvas/goe_inputs_graph.png" alt="GOE Inputs with Graph Selected" width="500"/>
 
 This section manages the creation and manipulation of a graph's Graph Inputs also known as Input Parameters or Exposed Parameters. These inputs are public and can be adjusted from within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, and through our <a href="">Integrated Plugins</a>.
 
