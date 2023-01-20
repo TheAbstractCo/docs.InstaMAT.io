@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:27:17.079Z
+date: 2023-01-20T19:27:49.682Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -46,7 +46,7 @@ This section determines the node's format and execution size.
 - **Absolute Size**: If enabled, the node's size will be determined by a specific resolution instead of a relative size.   
 
 #### Relative and Absolute Execution Size
-There are two methods to determine a node's execution size: Relative and Absolute. The method is chosen based on the status of the **'Absolute Size'** switch.
+There are two methods to determine a node's execution size: Relative and Absolute. The method is chosen based on the status of the `Absolute Size` switch.
 
 | 'Absolute Size' Switch | Method |
 | --- | --- |
