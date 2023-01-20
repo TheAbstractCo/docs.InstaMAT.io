@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:36:46.945Z
+date: 2023-01-20T18:40:06.793Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -64,9 +64,9 @@ The **Global Seed** value sets the seed for all randomized parameters and attrib
 
 These items determine which view takes up the center area of the Canvas interface. By clicking on the icon matching with the corresponding view, the interface will shift and reorganize accordingly. The icons correspond as follows:
 
-- ![Canvas](Images/Canavs.png) Canvas
-- ![Viewport](Images/Viewport.png) Viewport
-- ![Image Viewer](Images/Image_Viewer.png) Image Viewer
+- ![Canvas](/instamat_studio/canvas/canavs.png) Canvas
+- ![Viewport](/instamat_studio/canvas/viewport.png) Viewport
+- ![Image Viewer](/instamat_studio/canvas/image_viewer.png) Image Viewer
 
 Additionally, the keyboard shortcut **Option/Alt + C** cycles through each option.
 
@@ -74,7 +74,7 @@ Additionally, the keyboard shortcut **Option/Alt + C** cycles through each optio
 
 ## <img src="/instamat_studio/canvas/4.png" alt="4" width="30"/> Project Management
 
-![Project Management Icons](Images/Project_Management.png)
+![Project Management Icons](/instamat_studio/canvas/project_management.png)
 
 These items provide shortcuts to common project management actions.
 
@@ -84,13 +84,13 @@ These items provide shortcuts to common project management actions.
 
 ## <img src="/instamat_studio/canvas/5.png" alt="5" width="30"/> Additional Panels
 
-![Additional Panels](Images/Additional_Panels.png)
+![Additional Panels](/instamat_studio/canvas/additional_panels.png)
 
 These items provide access to additional panels and features in InstaMAT Studio.
 
-- ![Mesh Baking](Images/Mesh_Bake.png) **Mesh Baking**: Opens the <a href="">Mesh Baking Panel</a>. Baked mesh maps will be added to the active package and found in the <a href="Package_Management.html">Package Management Panel</a>.
-- ![Raytracing](Images/Raytracing.png) **Raytracing**: Opens the <a href="">Raytracing Panel</a>.
-- ![Output Log](Images/Output_Log.png) **Show Output Log**: Displays the Output Log at the bottom of the interface below the Canvas view.
+- ![Mesh Baking](/instamat_studio/canvas/mesh_bake.png) **Mesh Baking**: Opens the <a href="">Mesh Baking Panel</a>. Baked mesh maps will be added to the active package and found in the <a href="Package_Management.html">Package Management Panel</a>.
+- ![Raytracing](/instamat_studio/canvas/raytracing.png) **Raytracing**: Opens the <a href="">Raytracing Panel</a>.
+- ![Output Log](/instamat_studio/canvas/output_log.png) **Show Output Log**: Displays the Output Log at the bottom of the interface below the Canvas view.
 
 ## <img src="/instamat_studio/canvas/6.png" alt="6" width="30"/> Canvas Tools and Display Functions
 
