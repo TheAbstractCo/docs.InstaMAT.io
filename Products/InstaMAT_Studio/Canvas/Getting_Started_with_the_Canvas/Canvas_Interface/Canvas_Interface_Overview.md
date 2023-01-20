@@ -2,7 +2,7 @@
 title: Canvas Interface Overview
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-20T18:22:13.553Z
+date: 2023-01-20T18:25:38.388Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:57:07.444Z
@@ -36,7 +36,7 @@ By default, the right panel is split into two parts. The top contains the follow
 
 <img src="Images/Viewport_Image_Viewer_GIF.gif" width="600"/>
 
-<!-- Image currently too big to upload -->
+<!-- GIF currently too big to upload -->
 
 By default, the bottom contains:
 
@@ -45,7 +45,7 @@ By default, the bottom contains:
 
 ## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center Area
 
-<img src="Images/Canvas_View.png" width="700"/>
+<img src="/instamat_studio/canvas/canvas_view.png" width="700"/>
 
 
 By default, the center area contains the Canvas itself where nodes are instanced and connections are made between them. Various nodes, projects, media types, and variables can be dragged into the canvas or instantiated with <a href="">Quick Search</a> to build out the graph. Connections can be made by dragging from a node's input or output.
@@ -55,10 +55,12 @@ By default, the center area contains the Canvas itself where nodes are instanced
 >
 >- <a href="">Working in the Canvas</a>: Learn how to navigate and work within InstaMAT's Canvas to begin building procedural materials and workflows. Leverage how the Canvas UI can adapt to different use cases by swapping the position of the Viewport, Canvas, and Image Viewer to your liking. Discover how to take advantage of the many tools at your disposal to clean up your graphs with comments and reroute nodes as your projects get more complex.
 >- <a href="">Node-Based Workflow Key Concepts</a>: Uncover the power of a node-based workflow by tapping into its non-linear nature. Learn about graph inheritance, how to expose input parameters and create outputs, and explore the power of changing a graph's execution resolution and seed. These key concepts drive the core of working within the Canvas. 
+{.is-info}
+
 
 ## <img src="/instamat_studio/canvas/4.png" alt="4" width="30"/> Toolbar
 
-![Canvas toolbar with sections highlighted and numbered](Images/Canvas_Toolbar.png)
+![Canvas toolbar with sections highlighted and numbered](/instamat_studio/canvas/canvas_toolbar.png)
 
 
 The **Canvas Toolbar** is divided up into multiple sections and contains shortcuts to many of the various tools and Canvas functionality. The toolbar is organized into the following groups:
@@ -73,7 +75,7 @@ The **Canvas Toolbar** is divided up into multiple sections and contains shortcu
 
 >To learn more about the Canvas Toolbar and each individual section, please read our dedicated article: <a href="">Canvas Toolbar</a>. You can also view our <a href="">walkthrough video</a> on our YouTube channel.
 
-![Tab bar with a few open projects](Images/Tab_Bar.png)
+![Tab bar with a few open projects](/instamat_studio/canvas/tab_bar.png)
 
 Below the toolbar is the **Tab Bar** filled with the projects that are currently open. Tabs can be reordered by dragging and dropping. **Right Click** a tab to bring up a contextual menu that does the following:
 
