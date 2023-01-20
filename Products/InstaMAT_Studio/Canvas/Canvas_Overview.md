@@ -2,7 +2,7 @@
 title: Canvas Overview
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and  powerful workflows with immense flexibility.
 published: true
-date: 2023-01-20T16:46:26.914Z
+date: 2023-01-20T16:51:38.342Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:46:26.914Z
@@ -16,7 +16,7 @@ Check out the topics below to dive in.
 
 ## Getting Started with the Canvas
 
-![canvas_ui_rounded_preview2.jpeg](/instant_studio/canvas/canvas_ui_rounded_preview2.jpeg)
+![canvas_ui_rounded_preview2.jpeg](/instamat_studio/canvas/canvas_ui_rounded_preview2.jpeg)
 
 Learn how to begin working in InstaMAT's flexible and powerful node-based interface with the following articles:
 
@@ -30,24 +30,24 @@ Learn how to begin working in InstaMAT's flexible and powerful node-based interf
 
 ## Atom Graph!
 
-![atom_rounded_preview.jpeg](/instant_studio/canvas/atom_rounded_preview.jpeg)
+![atom_rounded_preview.jpeg](/instamat_studio/canvas/atom_rounded_preview.jpeg)
 
 An **Atom** is an image-processing program that runs on the GPU. With the intuitive <a href="">Control Flow</a> connection system, traditional programing operations such as branching and looping are possible determining the order in which the graph is executed.
 
 ## Element Graph
 
-![element_rounded_preview.jpeg](/instant_studio/canvas/element_rounded_preview.jpeg)
+![element_rounded_preview.jpeg](/instamat_studio/canvas/element_rounded_preview.jpeg)
 
 The **Element Graph** is the Swiss Army knife of project types in InstaMAT. Create stunning materials, build powerful mesh-processing pipelines, and combine different mediums such as images, meshes, and point clouds. Expressions and arithmetic can also be integrated directly into the same graph along side your materials to customize and direct <a href="">exposed parameters</a>. These parameters can be adjusted within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, or in our <a href="">Integrated Plugins</a>.
 
 ## nPass Element Graph
 
-![npass_rounded_preview.jpeg](/instant_studio/canvas/npass_rounded_preview.jpeg)
+![npass_rounded_preview.jpeg](/instamat_studio/canvas/npass_rounded_preview.jpeg)
 
 The **nPass Element Graph** unlocks the power of iteration by persisting data across multiple passes. This makes complex processes like simulations and scatters a streamlined and straightforward process. There is no limit to the type of data that can be iterated upon such as mesh data, strings, and image buffers. Many nodes within InstaMAT's node library were created with the nPass graph such as <a href="">Mesh Drop On Topology</a> and the <a href="">Mesh Array</a> node.
 
 ## Function Graph
 
-![Function Graph](/instant_studio/canvas/Function_Rounded_Preview.png)
+![function_rounded_preview.jpeg](/instamat_studio/canvas/function_rounded_preview.jpeg)
 
 The **Function Graph** is a small function node that can be reused inside <a href="">Atom Graphs</a>. While this is similar to the Atom Graph, the difference is that a Function Graph can have non-image output parameters.
