@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-20T19:21:14.371Z
+date: 2023-01-20T19:26:04.208Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -51,7 +51,7 @@ There are two methods to determine a node's execution size: Relative and Absolut
 | 'Absolute Size' Switch | Method |
 | --- | --- |
 | Enabled | Absolute: The node will be executed at a constant size such as *'1024' x '1024'*. |
-| Disabled | Relative: The node will either **'Inherit'** the size if selected, or be executed at a relative size to the parent graph such as */2* or **4*.
+| Disabled | Relative: The node will either `Inherit` the size if selected, or be executed at a relative size to the parent graph such as */2* or **4*.
 
 ### Instance Properties
 
@@ -60,8 +60,8 @@ There are two methods to determine a node's execution size: Relative and Absolut
 This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
 
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
-- **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a ![sleeping icon](/instamat_studio/canvas/sleeping.png) icon in the top left corner in the Canvas. Nodes that have a **'Background'** or **'Image'** input will pass that information through to the output. 
-> A shortcut for disabling nodes is highlighting the node and pressing **H**. You can also **Right click** the node to bring up the contextual menu and choose **'Enable/Disable Node'**. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
+- **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a ![sleeping icon](/instamat_studio/canvas/sleeping.png) icon in the top left corner in the Canvas. Nodes that have a `Background` or `Image` input will pass that information through to the output. 
+> A shortcut for disabling nodes is highlighting the node and pressing **H**. You can also **Right click** the node to bring up the contextual menu and choose `Enable/Disable Node`. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
 
 - **Grayscale**: Determines the grayscale/color permutation of the node. Enabling will output grayscale information.
 
@@ -130,7 +130,7 @@ At the top are the following graph attributes:
 - Category
 - Description
 
-Use the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon to set the graph's name or **Double Click** on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="">Graph Library</a>.
+Use the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon to set the graph's name or <kbd>Double Click</kbd> on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="">Graph Library</a>.
 
 ### Inputs
 
@@ -140,13 +140,13 @@ This section manages the creation and manipulation of a graph's Graph Inputs als
 
 To create a new Input Parameter:
 
-1. Click the ![+](Images/Add_Parameter_Icon.png) button in the top right corner of this section
+1. Click the ![+](/instamat_studio/canvas/add_parameter_icon.png) button in the top right corner of this section
 2. Choose the data type for the new input
-3. **Double Click** the name of the parameter to rename it
+3. <kbd>Double Click</kbd> the name of the parameter to rename it
 
 The parameter's value set in this section will be its default value when the graph is instantiated. Parameters can be re-arranged by **dragging and dropping** them into the desired order. To customize them further, use the <a href="">Graph Variable Editor</a> to do things like organizing them into categories, setting the minimum and maximum ranges, changing the graphical UI widget best used to manipulate the data, and more.
 
-To work with a parameter in the Canvas, **drag and drop** it directly into the Canvas view where it will become a node. It can then either be connected to a matching input type, or converted using one of the many conversion nodes built into InstaMAT Studio's node library. Conversion nodes can easily be created using <a href="">Quick Search</a>.
+To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly into the Canvas view where it will become a node. It can then either be connected to a matching input type, or converted using one of the many conversion nodes built into InstaMAT Studio's node library. Conversion nodes can easily be created using <a href="">Quick Search</a>.
 
 ![GIF of dragging an input into the Canvas, then using Quick Search to convert to another type.](/instamat_studio/canvas/param_convert.gif)
 
@@ -177,7 +177,7 @@ To create a new Graph Output:
 
 1. Click the ![+](/instamat_studio/canvas/add_parameter_icon.png) button in the top right corner of this section
 2. Choose the type for the new output
-3. **Double Click** the name of the output to rename it
+3. <kbd>Double Click</kbd> the name of the output to rename it
 
 > When giving an ElementImage or ElementImageGray Graph Output a common PBR Material map name such as "Base Color", "Roughness", or "Ambient Occlusion", InstaMAT will automatically connect these outputs to their proper channel for viewing in the <a href="">Viewport</a>.
 
@@ -193,7 +193,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 <img src="/instamat_studio/canvas/goe_output_graph_context.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
 <img src="/instamat_studio/canvas/goe_output_graph_context2.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
 
-**Right Clicking** on a Graph Output brings up a contextual menu with the following options:
+<kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
 
 - **View Image**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the <a href="">Image Viewer</a>.
 - **View Image in New Tab**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the <a href="">Image Viewer</a> in a new tab.
@@ -217,7 +217,7 @@ This section displays a graph's **Local Variables**. Local Variables are private
 <img src="/instamat_studio/canvas/goe_local_variables_context1.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
 <img src="/instamat_studio/canvas/goe_local_variables_context2.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
 
-**Right Clicking** on a Local Variable brings up a contextual menu with the following options:
+<kbd>Right Clicking</kbd> on a Local Variable brings up a contextual menu with the following options:
 
 - **Show in Variable Editor**: Shows the currently selected Local Variable in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Local Variable is an *ElementImage* or *ElementImageGray* type, a local file from the user's machine can quickly be imported and assigned.
@@ -248,7 +248,7 @@ This section allows the user to input attributes for the graph that are used acr
 - **Default Image**: Sets the default image for the graph's image parameters.
 - **Preview Mesh**: Assigns a mesh used when previewing the graph outputs in 3D.
 - **Expose Seed**: When enabled, exposes the graph's seed so the user can configure the randomization from the outside.
-- **Layering Compatibility**: Determines if and how the graph can be used with <a href="">Layering</a> projects. Setting the compatibility to **'Auto'** allows InstaMAT to choose the right compatibility based on the graph's category and parameter configuration.
+- **Layering Compatibility**: Determines if and how the graph can be used with <a href="">Layering</a> projects. Setting the compatibility to `Auto` allows InstaMAT to choose the right compatibility based on the graph's category and parameter configuration.
 - **Grayscale Permutable**: When enabled, allows the graph to automatically change between outputting grayscale and color information.
 
 >Grayscale permutable Atoms and Elements can automatically change their color inputs to grayscale inputs. Most of the heavy lifting is done by InstaMAT and most Atoms will just work. However, conditional behavior can be implemented by branching on the "is Grayscale Permutation" value.
