@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-20T18:49:08.017Z
+date: 2023-01-20T18:50:49.992Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -68,7 +68,7 @@ These items determine which view takes up the center area of the Canvas interfac
 - ![Viewport](/instamat_studio/canvas/viewport.png) Viewport
 - ![Image Viewer](/instamat_studio/canvas/image_viewer.png) Image Viewer
 
-Additionally, the keyboard shortcut **Option/Alt + C** cycles through each option.
+Additionally, the keyboard shortcut <kbd>Option/Alt + C</kbd> cycles through each option.
 
 > Switching the <a href="">Viewport</a> to the center view is a great way to quickly perform design reviews of your 3D assets and materials.
 
@@ -114,5 +114,5 @@ These items assist in diagnosing the performance and execution of the active gra
 
 - ![Render Unconnected Nodes](/instamat_studio/canvas/render_unconnected.png) **Render Unconnected Nodes**: When disabled, nodes that are disconnected from a graph output are not rendered. Useful when optimizing a graph to only execute nodes that are actively used.
 - ![Show Timings](/instamat_studio/canvas/canvas_timings.png) **Show Timings**: Toggles the execution timings which are visible on both the Canvas background and on individual nodes.
-> To view timing information about a particular set of nodes, use **Shift + Left Click and Drag** to drag a selection over multiple. A table will appear in the <a href="Graph_Object_Editor.html">Graph Object Editor</a> displaying the Name, Format, Size, and Execution Time of each node. Each column of the table is sortable making it easy to understand which portions of the graph take the most amount of compilation time. Additionally using the shortcut **Cmd/Ctrl + A** can be used to **Select All** nodes in the active graph.
+> To view timing information about a particular set of nodes, use <kbd>Shift + Left Click and Drag</kbd> to drag a selection over multiple. A table will appear in the <a href="">Graph Object Editor</a> displaying the Name, Format, Size, and Execution Time of each node. Each column of the table is sortable making it easy to understand which portions of the graph take the most amount of compilation time. Additionally using the shortcut <kbd>Cmd/Ctrl + A</kbd> can be used to **Select All** nodes in the active graph.
 - ![Canvas Update Time Mode](/instamat_studio/canvas/render_priority.png) **Canvas Update Time Mode**: Determines the rendering priority of the <a href="">Image Viewer</a> versus the Canvas Previews. Toggling the speedometer to the right will prioritize rendering the Canvas Previews. Toggling to the left prioritizes the Image Viewer.
