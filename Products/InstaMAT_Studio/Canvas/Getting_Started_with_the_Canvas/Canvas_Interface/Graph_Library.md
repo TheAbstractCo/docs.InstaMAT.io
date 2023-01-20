@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-20T19:02:32.233Z
+date: 2023-01-20T19:03:52.381Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -50,7 +50,7 @@ InstaMAT Studio allows the user to add library items to their **Favorites**. The
 To add or remove an item as a Favorite:
 
 1. Right click the resource to bring up the contextual menu
-2. Choose **'Add/Remove to Favorites'**
+2. Choose `Add/Remove to Favorites`
 
 
 ## User Library
@@ -58,7 +58,7 @@ The User Library is a custom machine-dependent library integrated into InstaMAT 
 
 To add a project to the User Library:
 
-1. Locate the **'InstaMAT'** folder located in the local machine's `~/Documents` directory by default.
-2. Add projects to the **'Library'** subfolder.
+1. Locate the "InstaMAT" folder located in the local machine's `~/Documents` directory by default.
+2. Add projects to the "Library" subfolder.
 
 InstaMAT Studio will automatically detect that the User Library has been altered and update the UI accordingly.
