@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-20T18:59:40.001Z
+date: 2023-01-20T19:01:15.415Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -37,11 +37,11 @@ Once a category has been selected, the bottom half of the panel known as the **C
 - ![icon](/instamat_studio/canvas/show_names_icon.png) **Show Names**: Toggles the resource name
 - ![icon](/instamat_studio/canvas/show_categories_icon.png) **Show Categories**: Toggles the resource category
 - ![icon](/instamat_studio/canvas/show_only_user_library_content_icon.png) **Show Only User Library Content**: When enabled, only resources from the **User Library** will be displayed in the Graph Library panel. Learn more about the User Library below.
-- ![icon](Images/Use_A_Table_View_Icon.png) **Use a Table View**: Displays resources in a table view format
-- ![icon](Images/Display_Small_Icons_Icon.png) **Display Small Icons**: Displays resources with small icons and, if enabled, positions the resource name and category to the right of each icon
-- ![icon](Images/Display_Medium_Icons_Icon.png) **Display Medium Icons**: Displays resources with medium icons and, if enabled, positions the resource name and category underneath each icon
-- ![icon](Images/Display_Large_Icons_Icon.png) **Display Large Icons**: Displays resources with large icons and, if enabled, positions the resource name and category underneath each icon
-- ![icon](Images/Show_Library_Status_Bar_Icon.png)  **Show Library Status Bar**: Toggles the Library Status Bar located at the bottom of the Graph Library panel
+- ![icon](/instamat_studio/canvas/use_a_table_view_icon.png) **Use a Table View**: Displays resources in a table view format
+- ![icon](/instamat_studio/canvas/display_small_icons_icon.png) **Display Small Icons**: Displays resources with small icons and, if enabled, positions the resource name and category to the right of each icon
+- ![icon](/instamat_studio/canvas/display_medium_icons_icon.png) **Display Medium Icons**: Displays resources with medium icons and, if enabled, positions the resource name and category underneath each icon
+- ![icon](/instamat_studio/canvas/display_large_icons_icon.png) **Display Large Icons**: Displays resources with large icons and, if enabled, positions the resource name and category underneath each icon
+- ![icon](/instamat_studio/canvas/show_library_status_bar_icon.png)  **Show Library Status Bar**: Toggles the Library Status Bar located at the bottom of the Graph Library panel
 
 
 ## Favorites
