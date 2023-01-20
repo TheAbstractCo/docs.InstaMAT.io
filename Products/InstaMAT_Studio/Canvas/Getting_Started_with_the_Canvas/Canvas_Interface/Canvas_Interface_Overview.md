@@ -2,7 +2,7 @@
 title: Canvas Interface Overview
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-20T16:57:07.444Z
+date: 2023-01-20T18:12:09.337Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:57:07.444Z
@@ -10,22 +10,22 @@ dateCreated: 2023-01-20T16:57:07.444Z
 
 # Canvas Interface Overview
 
-![Canvas interface with sections highlighted and numbered](Images/Canvas_Interface_Numbered.png)
+![canvas_interface_numbered.png](/instamat_studio/canvas/canvas_interface_numbered.png)
 
 
 InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Right Panel, Center Area, and the Toolbar.
 
-## <img src="Images/1.png" alt="1" width="40"/> Left Panel
+## <img src="/instamat_studio/canvas/1.png" alt="1" width="30"/> Left Panel
 
-<img src="Images/Left_Panel_GIF.gif" width="500"/>
+<img src="/instamat_studio/canvas/left_panel_gif.gif" width="500"/>
 
 The left panel contains the following tabs:
 
-- ![Icon](Images/Graph_Library_Icon.png) <a href="Graph_Library.html">Graph Library</a>: Provides access to the vast node library that is built into InstaMAT Studio. Nodes are broken down into categories and are easily searchable either from the dedicated search box or by using <a href="">Quick Search</a>. The Graph Library also contains the items from your personal <a href="">User Library</a> and is sorted based on a graph's assigned category.
-- ![Icon](Images/Package_Management_Icon.png) <a href="Package_Management.html">Package Management</a>: Contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Meta Data** section containing the meta data for the active package.
-- ![Icon](Images/Viewport_Settings_Icon.png) <a href="Viewport_Settings.html">Viewport Settings</a>: Houses the various camera, environment, and render settings for InstaMAT Studio's 3D viewport. Some additional settings are included for the generated Canvas node previews and <a href="Image_Viewer.html">Image Viewer</a>.
+- ![Icon](/instamat_studio/canvas/graph_library_icon.png) <a href="Graph_Library.html">Graph Library</a>: Provides access to the vast node library that is built into InstaMAT Studio. Nodes are broken down into categories and are easily searchable either from the dedicated search box or by using <a href="">Quick Search</a>. The Graph Library also contains the items from your personal <a href="">User Library</a> and is sorted based on a graph's assigned category.
+- ![Icon](/instamat_studio/canvas/package_management_icon.png) <a href="Package_Management.html">Package Management</a>: Contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Meta Data** section containing the meta data for the active package.
+- ![Icon](/instamat_studio/canvas/viewport_settings_icon.png) <a href="Viewport_Settings.html">Viewport Settings</a>: Houses the various camera, environment, and render settings for InstaMAT Studio's 3D viewport. Some additional settings are included for the generated Canvas node previews and <a href="Image_Viewer.html">Image Viewer</a>.
 
-## <img src="Images/2.png" alt="2" width="40"/> Right Panel
+## <img src="/instamat_studio/canvas/2.png" alt="2" width="30"/> Right Panel
 
 ![GIF of the top of the right panel cycling through the tabs|690x410](Images/Right_Panel_GIF.gif)
 
@@ -41,7 +41,7 @@ By default, the bottom contains:
 - ![Icon](Images/Viewport_Icon.png) <a href="">Viewport</a>: A physically-based 3D viewport illuminated by an environment image. Many aspects of the viewport can be customized with the [Viewport Settings]() panel.
 - ![Icon](Images/Image_Viewer_Icon.png) <a href="">Image Viewer</a>: A 2D Image Viewer that provides access to various useful features such as a tiling preview, rulers, individual channel filtering, and tabs that can simplify A/B testing.
 
-## <img src="Images/3.png" alt="3" width="40"/> Center Area
+## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center Area
 
 <img src="Images/Canvas_View.png" width="700"/>
 
@@ -54,7 +54,7 @@ By default, the center area contains the Canvas itself where nodes are instanced
 >- <a href="">Working in the Canvas</a>: Learn how to navigate and work within InstaMAT's Canvas to begin building procedural materials and workflows. Leverage how the Canvas UI can adapt to different use cases by swapping the position of the Viewport, Canvas, and Image Viewer to your liking. Discover how to take advantage of the many tools at your disposal to clean up your graphs with comments and reroute nodes as your projects get more complex.
 >- <a href="">Node-Based Workflow Key Concepts</a>: Uncover the power of a node-based workflow by tapping into its non-linear nature. Learn about graph inheritance, how to expose input parameters and create outputs, and explore the power of changing a graph's execution resolution and seed. These key concepts drive the core of working within the Canvas. 
 
-## <img src="Images/4.png" alt="4" width="40"/> Toolbar
+## <img src="/instamat_studio/canvas/4.png" alt="4" width="30"/> Toolbar
 
 ![Canvas toolbar with sections highlighted and numbered](Images/Canvas_Toolbar.png)
 
