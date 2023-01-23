@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:10:43.873Z
+date: 2023-01-23T20:12:37.985Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -161,14 +161,15 @@ These bakers share their settings.
 
 The following is how to bake mesh maps using the Mesh Baking Panel in InstaMAT Studio:
 
-1. Select a `Source Mesh` and a `Target Mesh` by clicking the ![Folder Icon](Images/Folder_Icon.png) icon. From the popup menu, choose **'Pick Package Resource'** to select a mesh from within the currently active package. Choose **'Pick Local File'** to select a mesh with your system's folder structure.
-2. Choose the output **'Resolution'** for the baked images.
-3. Choose a **'Super Sampling'** value if desired. This will multiply the output **'Resolution'** by the chosen factor, then sample the image down to the original result.
+1. Select a `Source Mesh` and a `Target Mesh` by clicking the ![Folder Icon](/instamat_studio/canvas/folder_icon.png) icon. From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package. Choose `Pick Local File` to select a mesh with your system's folder structure.
+2. Choose the output `Resolution` for the baked images.
+3. Choose a `Super Sampling` value if desired. This will multiply the output `Resolution` by the chosen factor, then sample the image down to the original result.
 4. Enable each baker with its dedicated switch on the right. Bakers will move to their Active and Inactive positions on the panel.
-5. Press the **'Bake'** button.
+5. Press the `Bake` button.
 
 > ### Baking from a Single Mesh
-> Baking does not require both a **'Source Mesh'** and a **'Target Mesh'**. To generate Mesh Bake Data for a single mesh, input it as the **'Target Mesh'**. This is useful when the need to transfer high-poly information onto a low-poly representation is not required, and instead the bakers are used specifically to extract information and generate maps to facilitate bespoke texturing effects for a specific mesh.
+> Baking does not require both a **Source Mesh** and a **Target Mesh**. To generate Mesh Bake Data for a single mesh, input it as the `Target Mesh`. This is useful when the need to transfer high-poly information onto a low-poly representation is not required, and instead the bakers are used specifically to extract information and generate maps to facilitate bespoke texturing effects for a specific mesh.
+{.is-info}
 
 ## Baking by Mesh Name
 
