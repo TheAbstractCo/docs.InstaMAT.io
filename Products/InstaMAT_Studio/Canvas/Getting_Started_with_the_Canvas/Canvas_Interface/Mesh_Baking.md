@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:12:37.985Z
+date: 2023-01-23T20:13:20.889Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -168,7 +168,7 @@ The following is how to bake mesh maps using the Mesh Baking Panel in InstaMAT S
 5. Press the `Bake` button.
 
 > ### Baking from a Single Mesh
-> Baking does not require both a **Source Mesh** and a **Target Mesh**. To generate Mesh Bake Data for a single mesh, input it as the `Target Mesh`. This is useful when the need to transfer high-poly information onto a low-poly representation is not required, and instead the bakers are used specifically to extract information and generate maps to facilitate bespoke texturing effects for a specific mesh.
+> Baking does not require both a **Source Mesh** and a **Target Mesh**. To generate Mesh Bake Data for a single mesh, input it as the `Target Mesh`. This is useful when the need to transfer high-poly information onto a low-poly representation is not required, and instead the bakers are used specifically to extract information and generate maps to facilitate bespoke texturing effects for the specific mesh.
 {.is-info}
 
 ## Baking by Mesh Name
