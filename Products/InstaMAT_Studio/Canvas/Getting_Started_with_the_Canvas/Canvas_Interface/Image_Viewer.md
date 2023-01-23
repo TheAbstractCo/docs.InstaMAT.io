@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T15:53:45.717Z
+date: 2023-01-23T15:54:58.262Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -31,6 +31,7 @@ The following is how to navigate in the Viewport:
 - **Focus**: Press the **F** key. This fits the image into the Image Viewer's viewing area.
 
 > If neither of these options are working, check if the ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) **Scale Image Automatically** icon in the Image Viewer's toolbar is disabled.
+{.is-info}
 
 ### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Toolbar
 
@@ -48,14 +49,15 @@ The Image Viewer contains a dedicated toolbar with the following actions:
 - ![Tonemapping_Icon](/instamat_studio/canvas/tonemapping_icon.png) **Tonemapping**: Applies tonemapping to the image
 
 > By default, the Image Viewer automatically toggles Tonemapping based on the colorspace of the loaded image. To disable this, use the **'Automatic Tonemapping'** toggle in <a href="">Preferences</a> under the **'Interface'** tab in the **Image Viewer** section.
+{.is-info}
 
 - ![R_Icon](/instamat_studio/canvas/r_icon.png) **R**: Solos the Red channel
 - ![G_Icon](/instamat_studio/canvas/g_icon.png) **G**: Solos the Green channel
 - ![B_Icon](/instamat_studio/canvas/b_icon.png) **B**: Solos the Blue channel
 - ![A_Icon](/instamat_studio/canvas/a_icon.png) **A**: Solos the Alpha channel
-- ![Rulers_Icon](Images/Rulers_Icon.png) **Show Rulers**: Toggles the Image Viewer rulers
+- ![Rulers_Icon](/instamat_studio/canvas/rulers_icon.png) **Show Rulers**: Toggles the Image Viewer rulers
 
-### <img src="Images/3.png" alt="3" width="22"/> Image Viewer Status Bar
+### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Image Viewer Status Bar
 
 <img src="Images/Image_Viewer_Status_Bar.png" alt="Image Viewer Status Bar" width="600"/>
 
