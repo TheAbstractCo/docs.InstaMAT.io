@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T15:48:59.197Z
+date: 2023-01-23T15:53:45.717Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -36,23 +36,23 @@ The following is how to navigate in the Viewport:
 
 The Image Viewer contains a dedicated toolbar with the following actions:
 
-- ![Save Image_Icon](Images/Save_Project.png) **Save Image**: Saves the current image to disk
-- ![Copy_Image_To_Clipboard_Icon](Images/Copy_Image_To_Clipboard_Icon.png) **Copy Image to Clipboard**: Copies the current image to the Clipboard
-- ![Focus_Scene_Icon](Images/Focus_Scene_Icon.png) **Focus**: Fits the image into the Image Viewer's viewing area
-- ![Scale_Image_Auto_Icon](Images/Scale_Image_Auto_Icon.png) **Scale Image Automatically**: Automatically scales the image loaded into the Image Viewer so that it fits the viewing area
-- ![Tiling_Preview_Mode_Icon](Images/Tiling_Preview_Mode_Icon.png) **Tiling Preview Mode**: Previews how the loaded image tiles either in a grid or cross layout
-- ![Highlight_Tile_Border_Icon](Images/Highlight_Tile_Border_Icon.png) **Highlight Central Tile Border**: Highlights the border of the central tile when using one of the Tiling Preview modes
-- ![Paint_Checker_Icon](Images/Paint_Checker_Icon.png) **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency in the Alpha channel
-- ![Pixel_Grid_Icon](Images/Pixel_Grid_Icon.png) **Show Pixel Grid**: Displays a pixel grid when zoomed in to a level where pixels can be distinguished
-- ![Filtering_Icon](Images/Filtering_Icon.png) **Image Filtering**: Enables bilinear filtering when magnifying the image
-- ![Tonemapping_Icon](Images/Tonemapping_Icon.png) **Tonemapping**: Applies tonemapping to the image
+- ![Save Image_Icon](/instamat_studio/canvas/save_project.png) **Save Image**: Saves the current image to disk
+- ![Copy_Image_To_Clipboard_Icon](/instamat_studio/canvas/copy_image_to_clipboard_icon.png) **Copy Image to Clipboard**: Copies the current image to the Clipboard
+- ![Focus_Scene_Icon](/instamat_studio/canvas/focus_scene_icon.png) **Focus**: Fits the image into the Image Viewer's viewing area
+- ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) **Scale Image Automatically**: Automatically scales the image loaded into the Image Viewer so that it fits the viewing area
+- ![Tiling_Preview_Mode_Icon](/instamat_studio/canvas/tiling_preview_mode_icon.png) **Tiling Preview Mode**: Previews how the loaded image tiles either in a grid or cross layout
+- ![Highlight_Tile_Border_Icon](/instamat_studio/canvas/highlight_tile_border_icon.png) **Highlight Central Tile Border**: Highlights the border of the central tile when using one of the Tiling Preview modes
+- ![Paint_Checker_Icon](/instamat_studio/canvas/paint_checker_icon.png) **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency in the Alpha channel
+- ![Pixel_Grid_Icon](/instamat_studio/canvas/pixel_grid_icon.png) **Show Pixel Grid**: Displays a pixel grid when zoomed in to a level where pixels can be distinguished
+- ![Filtering_Icon](/instamat_studio/canvas/filtering_icon.png) **Image Filtering**: Enables bilinear filtering when magnifying the image
+- ![Tonemapping_Icon](/instamat_studio/canvas/tonemapping_icon.png) **Tonemapping**: Applies tonemapping to the image
 
 > By default, the Image Viewer automatically toggles Tonemapping based on the colorspace of the loaded image. To disable this, use the **'Automatic Tonemapping'** toggle in <a href="">Preferences</a> under the **'Interface'** tab in the **Image Viewer** section.
 
-- ![R_Icon](Images/R_Icon.png) **R**: Solos the Red channel
-- ![G_Icon](Images/G_Icon.png) **G**: Solos the Green channel
-- ![B_Icon](Images/B_Icon.png) **B**: Solos the Blue channel
-- ![A_Icon](Images/A_Icon.png) **A**: Solos the Alpha channel
+- ![R_Icon](/instamat_studio/canvas/r_icon.png) **R**: Solos the Red channel
+- ![G_Icon](/instamat_studio/canvas/g_icon.png) **G**: Solos the Green channel
+- ![B_Icon](/instamat_studio/canvas/b_icon.png) **B**: Solos the Blue channel
+- ![A_Icon](/instamat_studio/canvas/a_icon.png) **A**: Solos the Alpha channel
 - ![Rulers_Icon](Images/Rulers_Icon.png) **Show Rulers**: Toggles the Image Viewer rulers
 
 ### <img src="Images/3.png" alt="3" width="22"/> Image Viewer Status Bar
