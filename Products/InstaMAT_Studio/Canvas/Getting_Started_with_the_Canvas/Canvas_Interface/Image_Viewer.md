@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T16:01:47.759Z
+date: 2023-01-23T16:03:47.271Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -88,8 +88,7 @@ Tabs can be reorderd by dragging and dropping them into their new position. To c
 >
 > Using tabs is a great way to perform A/B testing in the Canvas. Duplicate an effect with alternative settings for its attributes and open the output in a new tab. Switch between the two tabs to compare the results.
 >
-> <img src="/instamat_studio/canvas/image_viewer_ab.gif" alt="Image Viewer A/B Testing with Tabs" width="600"/>
-{.is-info}
+> <img src="/instamat_studio/canvas/image_viewer_ab.gif" alt="Image Viewer A/B Testing with Tabs" width="600"/>{.is-info}
 
 ## Previewing Image Tiling
 
@@ -99,7 +98,7 @@ To disable the tiling preview, click the Tiling Preview Mode icon again and choo
 
 ## Channel Soloing
 
-<img src="Images/Image_Viewer_Channels.gif" alt="GIF soloing each channel of a packed image output" width="600"/>
+<img src="/instamat_studio/canvas/image_viewer_channels.gif" alt="GIF soloing each channel of a packed image output" width="600"/>
 
 Many pipelines support "Channel Packing" or the packing of multiple pieces of information into one image output to optimize resources and performance. InstaMAT Studio's library contains nodes to extract and pack values into the Red, Green, and Blue channels of an image such as <a href="">Channel Compose</a> or <a href="">Channel Split</a>.
 
@@ -111,6 +110,7 @@ For example, a material's Roughness, Metalness, and Ambient Occlusion channels c
 | Green | Metalness |
 | Blue  | Ambient Occlusion |
 
-The Image Viewer makes it easy to solo each individual color channel of the active image by utilizing the **'R'**, **'G'**, **'B'**, and **'A'** buttons in the Image Viewer's toolbar.
+The Image Viewer makes it easy to solo each individual color channel of the active image by utilizing the `R`, `G`, `B`, and `A` buttons in the Image Viewer's toolbar.
 
 > Another way to pack outputs into particular color channels of a single image output is with InstaMAT Studio's Image and Data Output Export Dialog. To learn more, please read our dedicated article <a href="">here</a>.
+{.is-info}
