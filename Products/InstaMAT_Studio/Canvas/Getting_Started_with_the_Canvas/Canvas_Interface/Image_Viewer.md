@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T16:00:17.592Z
+date: 2023-01-23T16:01:47.759Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -88,14 +88,14 @@ Tabs can be reorderd by dragging and dropping them into their new position. To c
 >
 > Using tabs is a great way to perform A/B testing in the Canvas. Duplicate an effect with alternative settings for its attributes and open the output in a new tab. Switch between the two tabs to compare the results.
 >
-> <img src="Images/Image_Viewer_AB.gif" alt="Image Viewer A/B Testing with Tabs" width="600"/>
+> <img src="/instamat_studio/canvas/image_viewer_ab.gif" alt="Image Viewer A/B Testing with Tabs" width="600"/>
 {.is-info}
 
 ## Previewing Image Tiling
 
-The Image Viewer provides built-in features to preview how an image tiles. To preview the tiling of an image, click the ![Icon](Images/Tiling_Preview_Mode_Icon.png) (Tiling Preview Mode) icon in the Image Viewer's toolbar. The tiling can be displayed in a grid or a cross layout. To identify the seams of the image, click the ![Icon](Images/Highlight_Tile_Border_Icon.png) (Highlight Central Tile Border) icon.
+The Image Viewer provides built-in features to preview how an image tiles. To preview the tiling of an image, click the ![Icon](/instamat_studio/canvas/tiling_preview_mode_icon.png) (Tiling Preview Mode) icon in the Image Viewer's toolbar. The tiling can be displayed in a grid or a cross layout. To identify the seams of the image, click the ![Icon](/instamat_studio/canvas/highlight_tile_border_icon.png) (Highlight Central Tile Border) icon.
 
-To disable the tiling preview, click the Tiling Preview Mode icon again and choose the ![Icon](Images/Tiling_Preview_Mode_Icon.png) (No Tiling) option.
+To disable the tiling preview, click the Tiling Preview Mode icon again and choose the ![Icon](/instamat_studio/canvas/tiling_preview_mode_icon.png) (No Tiling) option.
 
 ## Channel Soloing
 
