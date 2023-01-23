@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-23T20:33:20.852Z
+date: 2023-01-23T20:34:13.033Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-23T20:33:20.852Z
 
 # Preferences
 
-![Preferences](Images/Preferences.png)
+![Preferences](/instamat_studio/canvas/preferences.png)
 
 The **Preferences** Panel provides access to all of InstaMAT Studio's settings. The panel is divided into tabs for different areas of the application and project types. Additionally, <a href="#shortcuts">Keyboard Shortcuts</a> can be referenced and assigned for application operations, <a href="../Graph_Library.html#favorites">Favorites</a>, and node **Quick Actions** in this panel. It is recommended to overview each of these settings to better understand how InstaMAT Studio operates and how it can be tailored to your workflow.
 
