@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-23T20:34:13.033Z
+date: 2023-01-23T20:37:47.330Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -12,9 +12,9 @@ dateCreated: 2023-01-23T20:33:20.852Z
 
 ![Preferences](/instamat_studio/canvas/preferences.png)
 
-The **Preferences** Panel provides access to all of InstaMAT Studio's settings. The panel is divided into tabs for different areas of the application and project types. Additionally, <a href="#shortcuts">Keyboard Shortcuts</a> can be referenced and assigned for application operations, <a href="../Graph_Library.html#favorites">Favorites</a>, and node **Quick Actions** in this panel. It is recommended to overview each of these settings to better understand how InstaMAT Studio operates and how it can be tailored to your workflow.
+The **Preferences** Panel provides access to all of InstaMAT Studio's settings. The panel is divided into tabs for different areas of the application and project types. Additionally, <a href="#shortcuts">Keyboard Shortcuts</a> can be referenced and assigned for application operations, <a href="">Favorites</a>, and node **Quick Actions** in this panel. It is recommended to overview each of these settings to better understand how InstaMAT Studio operates and how it can be tailored to your workflow.
 
-To reset any of the settings to their defaults, click the ![Arrow Icon](Images/Arrow_Icon.png) icon next to the respective setting.
+To reset any of the settings to their defaults, click the ![Arrow Icon](/instamat_studio/canvas/arrow_icon.png) icon next to the respective setting.
 
 ## Accessing the Preferences Panel
 
@@ -25,7 +25,7 @@ The Preferences Panel can be accessed from the appropriate menu based on the com
 | macOS | InstaMAT > Preferences |
 | Windows | Edit > Preferences |
 
-Additionally, the panel can be opened with the keyboard shortcut **Cmd/Ctrl + ,** (comma).
+Additionally, the panel can be opened with the keyboard shortcut <kbd>Cmd/Ctrl + ,</kbd> (comma).
 
 ## Interface Overview
 
@@ -37,9 +37,9 @@ These settings apply to the general application.
 
 #### User Paths
 
-<img src="Images/Preferences_User_Paths.png" alt="User Paths section in Preferences" />
+<img src="/instamat_studio/canvas/preferences_user_paths.png" alt="User Paths section in Preferences" />
 
-This area allows the user to provide multiple paths for InstaMAT's <a href="../Graph_Library.html/#user-library">User Library</a>. Directories listed here will be organized with InstaMAT's folder structure. Packages placed in the **'Library'** subdirectory will be accessible within InstaMAT Studio through the <a href="">Graph Library</a>, <a href="">Quick Search</a>, and the <a href="">Asset Picker</a> Panel.
+This area allows the user to provide multiple paths for InstaMAT's <a href="../Graph_Library.html/#user-library">User Library</a>. Directories listed here will be organized with InstaMAT's folder structure. Packages placed in the "Library" subdirectory will be accessible within InstaMAT Studio through the <a href="">Graph Library</a>, <a href="">Quick Search</a>, and the <a href="">Asset Picker</a> Panel.
 
 
 #### Application
@@ -48,7 +48,9 @@ This area allows the user to provide multiple paths for InstaMAT's <a href="../G
 - **Auto-Save**: Enables, Disables, and sets the duration for when the project and package is automatically saved
 
 > Auto-Saved packages are found in the **'AutoSave'** directory commonly found in the `~/Documents/InstaMAT` folder. If a disruption to InstaMAT Studio occurs, an Auto-Saved package can be restored upon relaunch.
-- **Application Skin**: The skin applied to the application's interface. Choose between **'Dark'** and **'Light'**. Adjustments to this setting occur after restarting the application.
+{.is-info}
+
+- **Application Skin**: The skin applied to the application's interface. Choose between `Dark` and `Light` Adjustments to this setting occur after restarting the application.
 
 ### Interface
 
@@ -58,7 +60,7 @@ These settings apply to the application's interface.
 
 - **Maximum Graph Execution Size**: Sets the maximum execution size for a graph. Limiting this size can prevent accidentally selecting a large resolution that would result in issues with the GPU.
 - **Wheel Scrolling Mode**: Determines the behavior of some UI elements and widgets when interacting with the scroll wheel
-- **Reset Button Policy**: Determines the behavior of the ![Rest Button Icon](Images/Arrow_Icon.png) button in the <a href="../Graph_Object_Editor.html">Graph Object Editor</a> when resetting a parameter back to its default value. The button can be set to **'Always Show'** when a change has been made, or **'Show When Hovered'**.
+- **Reset Button Policy**: Determines the behavior of the ![Rest Button Icon](/instamat_studio/canvas/arrow_icon.png) button in the <a href="">Graph Object Editor</a> when resetting a parameter back to its default value. The button can be set to `Always Show` when a change has been made, or `Show When Hovered`.
 - **Show Welcome Screen**: Toggles, showing the <a href="">Welcome Screen</a> upon application startup
 - **Show Contextual Help**: Toggles displaying extra help and information on how certain controls can be used. This information is displayed in the status bar along the bottom of the application.
 - **Reset Preferences and Settings**: Resets the application preferences and settings. This action occurs after restarting the application.
