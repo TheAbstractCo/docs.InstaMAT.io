@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-23T20:27:42.761Z
+date: 2023-01-23T20:31:34.301Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -61,7 +61,7 @@ The Output Template table shows each **Custom Output** in a row. The first colum
 
 ### <img src="/instamat_studio/canvas/4.png" alt="4" width="22"/> Export Template
 
-<img src="Images/Output_Export_Export_Template.png" alt="Export Template" width="600"/>
+<img src="/instamat_studio/canvas/output_export_export_template.png" alt="Export Template" width="600"/>
 
 This section shows the active Output Template used for export. Each output file is listed along with its file type expressed as a dot with a corresponding type color. Use the dropdown menu to quickly select an Output Template.
 
@@ -71,24 +71,25 @@ This section shows the active Output Template used for export. Each output file 
 
 ### 1. Create a New User Template
 
-<img src="Images/New_Template.gif" alt="New Template GIF" />
+<img src="/instamat_studio/canvas/new_template.gif" alt="New Template GIF" />
 
-Click the ![+](Images/Add_Template_Icon.png) button to create a new User Template. From the popup dialog, provide the template with a name and, if needed, a description. The template is now selected as the active template and can be found again from the large dropdown menu at the top of the window under the **'User Templates'** submenu.
+  Click the ![+](/instamat_studio/canvas/add_template_icon.png) button to create a new User Template. From the popup dialog, provide the template with a name and, if needed, a description. The template is now selected as the active template and can be found again from the large dropdown menu at the top of the window under the `User Templates` submenu.
 
 > Templates are stored in InstaMAT's home directory. This is typically found here: `~/Documents/InstaMAT/Output Templates`.
+{.is-info}
 
 ### 2. Configure the Template
 
-<img src="Images/Template_Configuration.gif" alt="Configuring the template" width="600"/>
+<img src="/instamat_studio/canvas/template_configuration.gif" alt="Configuring the template" width="600"/>
 
-Now that the template has been created, **Custom Outputs** can be added and configured using the Output Template table. Click the **'Add Custom Output'** button and choose from an **'RGBA'** or **'Grayscale'** image.
+Now that the template has been created, **Custom Outputs** can be added and configured using the Output Template table. Click the `Add Custom Output` button and choose from an `RGBA` or `Grayscale` image.
 
-**Double Click** the name of the Custom Output in the first column of the table to rename it.
+<kbd>Double Click</kbd> the name of the Custom Output in the first column of the table to rename it.
 
-InstaMAT Studio ships with many common Output Template options. These options are populated in the **Output Templates** section below the table. Options can be mapped or packed into specific Custom Output channels by **dragging and dropping** them into their respective slots on the table. Project or graph outputs that have matching names to these options will automatically be assigned to their proper Custom Output and channel upon export.
+InstaMAT Studio ships with many common Output Template options. These options are populated in the **Output Templates** section below the table. Options can be mapped or packed into specific Custom Output channels by <kbd>dragging and dropping</kbd> them into their respective slots on the table. Project or graph outputs that have matching names to these options will automatically be assigned to their proper Custom Output and channel upon export.
 
-For example, to map a "Roughness" output to the Red channel of a Custom RGBA Output called "RoughMetalAO", **drag** the **'Roughness'** option in the Output Templates area onto the **'Red'** column of the Custom Output. Additionally the "Metalness" and "AmbientOcclusion" Output Template options can be dragged into the Green and Blue channels to pack the information into one Custom Output image.
+For example, to map a "Roughness" output to the Red channel of a Custom RGBA Output called "RoughMetalAO", <kbd>drag</kbd> the `Roughness` option in the Output Templates area onto the `Red` column of the Custom Output. Additionally the "Metalness" and "AmbientOcclusion" Output Template options can be dragged into the Green and Blue channels to pack the information into one Custom Output image.
 
-Clicking **'More'** at the bottom of the list will reveal additional options. If an output that you need is not listed, a custom option can be created by clicking the ![+](Images/Add_Template_Icon.png) at the top of the list. You can then choose whether it is an RGBA or Grayscale option, then InstaMAT Studio will ask for a default color or value to be chosen. This value is used if the Export Output Template is used, but a matching output from the project is not provided. To rename the option, **double click** it.
+Clicking `More` at the bottom of the list will reveal additional options. If an output that you need is not listed, a custom option can be created by clicking the ![+](/instamat_studio/canvas/add_template_icon.png) at the top of the list. You can then choose whether it is an RGBA or Grayscale option, then InstaMAT Studio will ask for a default color or value to be chosen. This value is used if the Export Output Template is used, but a matching output from the project is not provided. To rename the option, <kbd>double click</kbd> it.
 
 <img src="Images/Template_Custom_Output_Template.gif" alt="Custom Output Template Creation" width="600"/>
