@@ -2,7 +2,7 @@
 title: Resource Picker
 description: The Resource Picker Panel is a contextual popup panel with access to InstaMAT Studio's library of nodes and assets.
 published: true
-date: 2023-01-23T20:59:31.653Z
+date: 2023-01-23T20:59:58.943Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:52:50.800Z
@@ -13,7 +13,7 @@ dateCreated: 2023-01-23T20:52:50.800Z
 ![Resource Picker variants](/instamat_studio/canvas/resource_picker_variants.png)
 
 
-The **Resource Picker** Panel is a contextual popup panel with access to InstaMAT Studio's library of nodes and assets. This panel provides quick access to the resources in both the <a href="../Graph_Library.html">Graph Library</a> and the <a href="../Package_Management.html">Package Management</a> Panel. To access the Resource Picker Panel, click the ![Pencil Icon](/instamat_studio/canvas/pencil_icon.png) to the right of any Graph Input. The Resource Picker Panel will display compatible results based on the type of input it is providing a resource for.
+The **Resource Picker** Panel is a contextual popup panel with access to InstaMAT Studio's library of nodes and assets. This panel provides quick access to the resources in both the <a href="">Graph Library</a> and the <a href="">Package Management</a> Panel. To access the Resource Picker Panel, click the ![Pencil Icon](/instamat_studio/canvas/pencil_icon.png) to the right of any Graph Input. The Resource Picker Panel will display compatible results based on the type of input it is providing a resource for.
 
 ## Interface Overview
 
