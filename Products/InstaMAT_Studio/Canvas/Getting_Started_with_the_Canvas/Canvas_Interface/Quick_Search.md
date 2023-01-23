@@ -2,7 +2,7 @@
 title: Quick Search
 description: Quick Search is a context-sensitive search box used to perform various functions in the Canvas such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active package or Graph Library.
 published: true
-date: 2023-01-23T17:14:46.459Z
+date: 2023-01-23T17:17:01.640Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:12:11.722Z
@@ -36,13 +36,13 @@ The quickest way to create Graph Inputs, Graph Outputs, and Local Variables is w
 
 ### Creating Graph Inputs
 
-<img src="Images/QS_Expose_Input.png" alt="Action Category in Quick Search" width="600"/>
+<img src="/instamat_studio/canvas/qs_expose_input.png" alt="Action Category in Quick Search" width="600"/>
 
 1. Drag a connection off of a node's Input and let go to invoke Quick Search
 2. (Optional) Type the name you would like the Graph Input to receive. Otherwise, it will inherit the name of the origin node's input.
 3. Choose **'Expose as graph input'** from the **'Action'** category
 
-The Graph Input will be created and can be adjusted in the <a href="Graph_Object_Editor.html">Graph Object Editor</a> or <a href="Graph_Variable_Editor.html">Graph Variable Editor</a>.
+The Graph Input will be created and can be adjusted in the <a href="">Graph Object Editor</a> or <a href="">Graph Variable Editor</a>.
 
 ### Creating Graph Outputs
 
@@ -52,7 +52,8 @@ The Graph Input will be created and can be adjusted in the <a href="Graph_Object
 
 > Some nodes such as the <a href="">Height to Normal</a> node already have the name "Normal" as an output. This makes it quicker to expose a material's Normal map output because the name is already assigned. Outputs that have common PBR Material Map names are automatically assigned to the proper channels in InstaMAT Studio's <a href="">Viewport</a>.
 >
-> ![GIF of Normal Map output example](Images/QS_Output.gif)
+> ![GIF of Normal Map output example](/instamat_studio/canvas/qs_output.gif)
+{.is-info}
 
 ### Creating Local Variables
 Local Variables are similar to Graph Inputs, however they are private and can only be accessed within the graph itself. To learn more about Local Variables, read our article on the <a href="/">Graph Object Editor</a>
@@ -61,7 +62,7 @@ Local Variables are similar to Graph Inputs, however they are private and can on
 2. (Optional) Type the name you would like the Local Variable to receive. Otherwise, it will inherit the name of the origin node's Input.
 3. Choose **'Expose as local variable'** from the **'Action'** category
 
-The Local Variable will be created and can be adjusted in the <a href="Graph_Object_Editor.html">Graph Object Editor</a> or <a href="Graph_Variable_Editor.html">Graph Variable Editor</a>.
+The Local Variable will be created and can be adjusted in the <a href="">Graph Object Editor</a> or <a href="">Graph Variable Editor</a>.
 
 ## Extracting Information from Data Types
 
@@ -73,9 +74,9 @@ For example, to extract the "X" property from a Vector3 data type:
 2. Type **".x"** into Quick Search
 3. Press **Enter**
 
-![GIF of extraction process](Images/QS_Extract.gif)
+![GIF of extraction process](/instamat_studio/canvas/qs_extract.gif)
 
 ## Favorites
-Quick Search has access to your Graph Library **Favorites** list. Branching off a connection from a node's Input or Output will automatically show a list containing compatible nodes in your Favorites list. To learn more about Favorites, please read our dedicated section in the <a href="Graph_Library.html">Graph Library</a> article.
+Quick Search has access to your Graph Library **Favorites** list. Branching off a connection from a node's Input or Output will automatically show a list containing compatible nodes in your Favorites list. To learn more about Favorites, please read our dedicated section in the <a href="">Graph Library</a> article.
 
-![GIF showing Favorites](Images/QS_Favorites.gif)
+![GIF showing Favorites](/instamat_studio/canvas/qs_favorites.gif)
