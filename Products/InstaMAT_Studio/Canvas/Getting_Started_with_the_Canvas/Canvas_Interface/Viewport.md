@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T17:45:27.925Z
+date: 2023-01-23T19:20:32.297Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -36,7 +36,7 @@ The following is how to navigate in the Viewport:
 - **Fly Through the Scene**: use the **Arrow Keys** or **W, A, S, D**.
 - **Rotate the Environment Image**: hold the **Alt/Option** key, **Right Click** and drag.
 
-### <img src="Images/2.png" alt="2" width="22"/> Toolbar
+### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Toolbar
 
 The Viewport contains a dedicated toolbar with the following actions:
 
