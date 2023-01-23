@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T15:47:21.820Z
+date: 2023-01-23T15:48:59.197Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -22,7 +22,7 @@ The Image Viewer has many useful built-in features such as rulers, tiling previe
 
 The Image Viewer is divided up into three parts: The Image View, the Toolbar, and the Image Viewer Status Bar.
 
-### <img src="Images/1.png" alt="1" width="22"/> Image View
+### <img src="/instamat_studio/canvas/1.png" alt="1" width="22"/> Image View
 
 The following is how to navigate in the Viewport:
 
@@ -30,9 +30,9 @@ The following is how to navigate in the Viewport:
 - **Zoom**: **Right Click** and drag up and down or use the **Scroll Wheel**
 - **Focus**: Press the **F** key. This fits the image into the Image Viewer's viewing area.
 
-> If neither of these options are working, check if the ![Scale_Image_Auto_Icon](Images/Scale_Image_Auto_Icon.png) **Scale Image Automatically** icon in the Image Viewer's toolbar is disabled.
+> If neither of these options are working, check if the ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) **Scale Image Automatically** icon in the Image Viewer's toolbar is disabled.
 
-### <img src="Images/2.png" alt="2" width="22"/> Toolbar
+### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Toolbar
 
 The Image Viewer contains a dedicated toolbar with the following actions:
 
