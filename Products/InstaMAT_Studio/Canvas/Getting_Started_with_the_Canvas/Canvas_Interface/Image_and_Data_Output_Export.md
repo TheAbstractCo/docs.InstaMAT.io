@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-23T20:26:42.801Z
+date: 2023-01-23T20:27:42.761Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -52,13 +52,14 @@ Add or remove a template by clicking the ![+](/instamat_studio/canvas/add_templa
 
 The Output Template table shows each **Custom Output** in a row. The first column displays the output's name. The second and third columns display how a particular project output is mapped to the channels of the Custom Output image.
 
-<img src="Images/Output_Export_Options.png" alt="Outputs and Converters" width="600"/>
+<img src="/instamat_studio/canvas/output_export_options.png" alt="Outputs and Converters" width="600"/>
 
-Options from the **'Output Templates'** and **'Output Converters'** lists can be dragged onto a Custom Output's channels to map or pack the information.
+  Options from the `Output Templates` and `Output Converters` lists can be dragged onto a Custom Output's channels to map or pack the information.
 
 > To learn more about creating custom Output Templates, please read the <a href="#creating-output-templates">Creating Output Templates</a> section below.
+{.is-info}
 
-### <img src="Images/4.png" alt="4" width="22"/> Export Template
+### <img src="/instamat_studio/canvas/4.png" alt="4" width="22"/> Export Template
 
 <img src="Images/Output_Export_Export_Template.png" alt="Export Template" width="600"/>
 
