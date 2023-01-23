@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-23T20:37:47.330Z
+date: 2023-01-23T20:39:37.473Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -73,7 +73,7 @@ These settings apply to the application's interface.
 
 ### Shortcuts
 
-<img src="Images/Preferences_Shortcuts.png" alt="Shortcuts tab in Preferences" />
+<img src="/instamat_studio/canvas/preferences_shortcuts.png" alt="Shortcuts tab in Preferences" />
 
 This tab is where all of InstaMAT Studio's shortcut hotkeys can be referenced and set. Shortcuts can be filtered using the dedicated search bar at the top of the tab.
 
@@ -83,9 +83,9 @@ To set a shortcut:
 2. Click the entry field next to the shortcut's name
 3. Enter the desired key combination
 
-A dialog will appear if a key combination is already in use. To reset a shortcut to its default, click the ![Reset Icon](Images/Arrow_Icon.png) icon. Once a shortcut is assigned or adjusted, the application will need to restart in order for it to come into effect.
+A dialog will appear if a key combination is already in use. To reset a shortcut to its default, click the ![Reset Icon](/instamat_studio/canvas/arrow_icon.png) icon. Once a shortcut is assigned or adjusted, the application will need to restart in order for it to come into effect.
 
-Shortcuts are broken down into categories for the general application, <a href="../../../Canvas_Overview.html">Canvas</a> and <a href="">Layering</a> interfaces, <a href="../Viewport.html">Viewport</a>, <a href="../Graph_Library.html#favorites">Favorites</a> and Quick Actions.
+Shortcuts are broken down into categories for the general application, <a href="">Canvas</a> and <a href="">Layering</a> interfaces, <a href="">Viewport</a>, <a href="">Favorites</a> and Quick Actions.
 
 #### Favorites
 
@@ -93,14 +93,14 @@ Assigning a hotkey to a favorited node automatically instances it in the Canvas.
 
 #### Quick Actions
 
-Some nodes such as the <a href="">Blend</a> node have Quick Actions. These are useful actions associated with that particular node. In the case of the Blend node, a Quick Action can be performed to swap the **'Foreground'** and **'Background'** input connections.
+Some nodes such as the <a href="">Blend</a> node have Quick Actions. These are useful actions associated with that particular node. In the case of the Blend node, a Quick Action can be performed to swap the `Foreground` and `Background` input connections.
 
-<img src="Images/Swap_Input_Parameters.gif" alt="Swapping Input Parameters on a Blend node" />
+<img src="/instamat_studio/canvas/swap_input_parameters.gif" alt="Swapping Input Parameters on a Blend node" />
 
 To assign a shortcut to a Quick Action:
 
 1. Click on the node with an available Quick Action in the Canvas
-2. Open the Preferences Panel and choose the **'Shortcuts'** tab
+2. Open the Preferences Panel and choose the `Shortcuts` tab
 3. Scroll to the bottom to find Quick Actions that can receive an assigned Shortcut
 4. Click the entry field next to the shortcut's name
 5. Enter the desired key combination
@@ -112,7 +112,7 @@ These settings are for advanced features and functions.
 - **Allow GPU Use for Neural Nodes**: Determines if AI-based nodes can use the GPU or if they are executed on the CPU only
 - **Execute Rendering on Idle Mouse**: Executes rendering only if the mouse is idling
 - **Show Advanced Features**: Shows advanced features in InstaMAT Studio's UI
-	- **Library Objects**: Shows advanced nodes in the <a href="../Graph_Library.html">Graph Library</a>. These nodes appear with a ![Advanced icon](Images/Advanced_icon.png) in the top left corner when instanced in a graph.
+	- **Library Objects**: Shows advanced nodes in the <a href="">Graph Library</a>. These nodes appear with a ![Advanced icon](/instamat_studio/canvas/advanced_icon.png) in the top left corner when instanced in a graph.
 	- **Parameters**: Shows advanced parameters in the <a href="../Graph_Object_Editor.html">Graph Object Editor</a> and <a href="../Graph_Variable_Editor.html">Graph Variable Editor</a>
 
 ### Canvas
