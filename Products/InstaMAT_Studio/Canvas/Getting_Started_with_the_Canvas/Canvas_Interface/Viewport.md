@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T19:26:36.859Z
+date: 2023-01-23T19:27:30.884Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -58,9 +58,9 @@ The Viewport contains a dedicated toolbar with the following actions:
 
 > Click the ![Move_To_The_Left_Icon](/instamat_studio/canvas/move_to_the_left_icon.png) button above the toolbar to move the Viewport and <a href="Image_Viewer.html">Image Viewer</a> over to the left panel. This allows both the Viewport and the Image Viewer to be seen at the same time.
 
-### <img src="Images/3.png" alt="3" width="22"/> Axis Gizmo
+### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Axis Gizmo
 
-![Axis Gizmo](Images/Viewport_Gizmo.png)
+![Axis Gizmo](/instamat_studio/canvas/viewport_gizmo.png)
 
 The **Axis Gizmo** shows the world space orientation of the scene. Additionally, the sphere reflects the current Environment Image lighting position in the highlights. 
 
