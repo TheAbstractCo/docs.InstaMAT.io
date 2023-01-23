@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-23T20:32:10.955Z
+date: 2023-01-23T21:09:14.967Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -86,7 +86,7 @@ Now that the template has been created, **Custom Outputs** can be added and conf
 
 <kbd>Double Click</kbd> the name of the Custom Output in the first column of the table to rename it.
 
-InstaMAT Studio ships with many common Output Template options. These options are populated in the **Output Templates** section below the table. Options can be mapped or packed into specific Custom Output channels by <kbd>dragging and dropping</kbd> them into their respective slots on the table. Project or graph outputs that have matching names to these options will automatically be assigned to their proper Custom Output and channel upon export.
+InstaMAT Studio ships with many common Output Template options. These options are populated in the `Output Templates` section below the table. Options can be mapped or packed into specific Custom Output channels by <kbd>dragging and dropping</kbd> them into their respective slots on the table. Project or graph outputs that have matching names to these options will automatically be assigned to their proper Custom Output and channel upon export.
 
 For example, to map a "Roughness" output to the Red channel of a Custom RGBA Output called "RoughMetalAO", <kbd>drag</kbd> the `Roughness` option in the Output Templates area onto the `Red` column of the Custom Output. Additionally the "Metalness" and "AmbientOcclusion" Output Template options can be dragged into the Green and Blue channels to pack the information into one Custom Output image.
 
