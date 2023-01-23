@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-23T20:46:19.259Z
+date: 2023-01-23T20:47:25.381Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -99,7 +99,7 @@ These settings apply to the photographic tone mapping filter that emulates the w
 - **Darken**: Darkens shadowed areas. Higher settings bring shadowed areas closer to black.
 - **Focal Length**: Sets the camera focal length
 - **ISO**: Sets the film ISO value
-- **Use ISO**: If enabled, uses the provided ISO value. Otherwise, uses the **'Saturation'** to compute sensitivity.
+- **Use ISO**: If enabled, uses the provided ISO value. Otherwise, uses the `Saturation` to compute sensitivity.
 
 #### Post Processing Stack
 
@@ -107,11 +107,11 @@ The Post-processing stack includes various filters and effects to complete entir
 
 - **Anti-aliasing (MLAA)**: Adds anti-aliasing to the final image
 - **Sobel Filter**: Creates a Black/White line effect
-- **Posterize**: Creates a poster effect. Specify levels of color depth with the provided **'Levels'** input when enabled.
-- **Bloom**: Adds bloom to bright areas in the image. Adjust using provided **'Radius'**, **'Decay'**, **'Threshold'**, and **'Weight'** settings when enabled.
-- **Motion Blur**: Adds a directional blur using the provided **'Radius'** and **'Axis Direction'** settings when enabled
+- **Posterize**: Creates a poster effect. Specify levels of color depth with the provided `Levels` input when enabled.
+- **Bloom**: Adds bloom to bright areas in the image. Adjust using provided `Radius` `Decay` `Threshold` and `Weight` settings when enabled.
+- **Motion Blur**: Adds a directional blur using the provided `Radius`and `Axis Direction` settings when enabled
 - **Denoise**: Denoises the image using different algorithms
-	- **Type**: Sets the algorithm used to denoise the image. Can be set to **'Median'** or **'AI'**.
+	- **Type**: Sets the algorithm used to denoise the image. Can be set to `Median` or `AI`.
 	- **Median**: Sets the median value in pixels
 > It is recommended to keep the **'Median'** setting to a value of '1'.
 
