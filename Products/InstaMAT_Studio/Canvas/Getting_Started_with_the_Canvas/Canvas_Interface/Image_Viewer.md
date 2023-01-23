@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T16:03:47.271Z
+date: 2023-01-23T16:04:41.830Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -67,9 +67,9 @@ The **Image Viewer Status Bar** displays information on the image's size, curren
 
 There are a few ways to load an image into the Image Viewer:
 
-- <kbd>Double Click</kbd> an image in the <a href="Package_Management.html">Package Management</a> Panel
-- <kbd>Right Click</kbd> a Node in the <a href="../../Canvas_Overview.html">Canvas</a> or Graph Output in the <a href="Graph_Object_Editor.html">Graph Object Editor</a> to bring up the contextual menu and choose `View Image`
-- <kbd>Single Left Click</kbd> on an image input or output connector pin on a Node in the <a href="../../Canvas_Overview.html">Canvas</a>
+- <kbd>Double Click</kbd> an image in the <a href="">Package Management</a> Panel
+- <kbd>Right Click</kbd> a Node in the <a href="">Canvas</a> or Graph Output in the <a href="">Graph Object Editor</a> to bring up the contextual menu and choose `View Image`
+- <kbd>Single Left Click</kbd> on an image input or output connector pin on a Node in the <a href="">Canvas</a>
 
 ## Tabs
 
