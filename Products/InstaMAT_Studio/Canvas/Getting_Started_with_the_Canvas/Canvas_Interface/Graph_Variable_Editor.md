@@ -2,7 +2,7 @@
 title: Graph Variable Editor
 description: The Graph Variable Editor (GVE) provides fine tune control and adjustments to variables such as Graph Inputs, Local Variables, and Graph Outputs.
 published: true
-date: 2023-01-23T15:43:43.579Z
+date: 2023-01-23T15:44:13.073Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:42:40.580Z
@@ -28,7 +28,7 @@ The Graph Variable Editor's list of controls adapts depending on the item select
 - **Image**: The default image used if the variable type is an ElementImage or ElementImageGray.
 - **Value**: The default value of the variable.
 - **Rotation Start**: The location of 0 degrees if the chosen widget is a VectorAngular.
-- **Rotation Direction**: The rotation direction of **'Clockwise'** or **'Counterclockwise'** if the chosen widget is a VectorAngular.
+- **Rotation Direction**: The rotation direction of `Clockwise` or `Counterclockwise` if the chosen widget is a VectorAngular.
 - **Range**: The minimum and maximum range if the chosen widget is a Slider.
 - **Category**: The category assigned to the variable. Input parameters with the same category will be grouped together in the <a href="">Graph Object Editor</a> and can be combined together using <a href="">Link Category Mode</a>.
 - **Documentation**: Documentation text for the variable. This can be used to provide the user with information about the effect on the resulting image or graph. The text appears in a tooltip when hovering over the variable in the <a href="">Graph Object Editor</a>.
