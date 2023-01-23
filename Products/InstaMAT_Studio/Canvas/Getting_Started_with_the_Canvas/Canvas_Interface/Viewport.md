@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T17:32:24.266Z
+date: 2023-01-23T17:42:51.759Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-23T17:32:24.266Z
 
 # Viewport
 
-<img src="Images/Viewport_Communicator.png" alt="Viewport" width="600"/>
+<img src="/instamat_studio/canvas/viewport_communicator.png" alt="Viewport" width="600"/>
 
 InstaMAT Studio's **Viewport** is a 3D view illuminated by an **Environment Image**. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections. The Viewport is utilized in many different project types within InstaMAT Studio such as in the <a href="">Element Graph</a>, <a href="">Layering</a>, and <a href="">Materialize Image</a>.
 
