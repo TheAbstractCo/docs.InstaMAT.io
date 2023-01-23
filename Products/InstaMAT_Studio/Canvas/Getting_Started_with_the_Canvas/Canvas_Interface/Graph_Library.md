@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-20T19:03:52.381Z
+date: 2023-01-23T15:31:58.545Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -17,6 +17,7 @@ The **Graph Library** panel provides access to the vast node library built into 
 To use a resource from the Graph Library, drag it from the library panel into your project.
 
 >In addition to the Graph Library, a faster way to use a node from InstaMAT's library is by using **Quick Search** — A context sensitive search box with extensive functionality built right into the Canvas. To learn more, read our article on Quick Search <a href="">here</a>.
+{.is-info}
 
 ## Interface Overview
 
