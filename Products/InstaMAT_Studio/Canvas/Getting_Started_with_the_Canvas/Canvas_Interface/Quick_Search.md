@@ -2,7 +2,7 @@
 title: Quick Search
 description: Quick Search is a context-sensitive search box used to perform various functions in the Canvas such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active package or Graph Library.
 published: true
-date: 2023-01-23T17:12:11.722Z
+date: 2023-01-23T17:14:46.459Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:12:11.722Z
@@ -10,26 +10,26 @@ dateCreated: 2023-01-23T17:12:11.722Z
 
 # Quick Search
 
-<img src="Images/QS_Options.gif" alt="Quick Search showing multiple searching examples" />
+<img src="/instamat_studio/canvas/qs_options.gif" alt="Quick Search showing multiple searching examples" />
 
-**Quick Search** is a context-sensitive search box used to perform various functions in the <a href="../../Canvas_Overview.html">Canvas</a> such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active <a href="Package_Management.html">package</a> or <a href="Graph_Library.html">Graph Library</a>.
+**Quick Search** is a context-sensitive search box used to perform various functions in the <a href="">Canvas</a> such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active <a href="">package</a> or <a href="">Graph Library</a>.
 
 ## Accessing Quick Search
 
 There are a few ways to bring up Quick Search:
 
-- Press the **Spacebar**
-- **Right Click** on an empty space in the Canvas
-- **Left Click and drag** off a connection from a node's Input or Output and let go
+- Press the <kbd>Spacebar</kbd>
+- <kbd>Right Click</kbd> on an empty space in the Canvas
+- <kbd>Left Click and drag</kbd> off a connection from a node's Input or Output and let go
 
 ## Context Sensitivity
 Quick Search will automatically display suggestions based on the type of information it is working with. For example, dragging a connection off of an input expecting Mesh information will result in Quick Search showing nodes that provide meshes as outputs such as the <a href="">Mesh From Height</a> node or the <a href="">Mesh Shape Generator</a>. It will continue to filter out the results as you type to show any further compatible nodes.
 
-![Quick Search context sensitivity examples with meshes](Images/QS_Mesh.gif)
+![Quick Search context sensitivity examples with meshes](/instamat_studio/canvas/qs_mesh.gif)
 
 Nodes that are Grayscale/Color permutable will automatically switch to work in the proper permutation. For example, dragging a connection off of the output of a <a href="">Perlin Noise</a> node, which outputs grayscale information, then using Quick Search to bring in a <a href="">Blend</a> node, will set the Blend to work in grayscale to match the output of the Perlin Noise.
 
-![Quick Search context sensitivity examples with node permutations](Images/QS_Permutations.gif)
+![Quick Search context sensitivity examples with node permutations](/instamat_studio/canvas/qs_permutations.gif)
 
 ## Creating Graph Inputs, Outputs, and Local Variables
 The quickest way to create Graph Inputs, Graph Outputs, and Local Variables is with Quick Search.
