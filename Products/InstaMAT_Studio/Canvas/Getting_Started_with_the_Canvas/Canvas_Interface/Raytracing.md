@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-23T20:51:09.038Z
+date: 2023-01-23T20:51:19.897Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -114,7 +114,7 @@ The Post-processing stack includes various filters and effects to complete entir
 	- **Type**: Sets the algorithm used to denoise the image. Can be set to `Median` or `AI`.
 	- **Median**: Sets the median value in pixels
   
-> It is recommended to keep the **'Median'** setting to a value of '1'.
+> It is recommended to keep the `Median` setting to a value of '1'.
 {.is-info}
 
 ### Toolbar
