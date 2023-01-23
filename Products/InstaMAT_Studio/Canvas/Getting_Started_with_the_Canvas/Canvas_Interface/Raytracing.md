@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-23T20:45:18.675Z
+date: 2023-01-23T20:46:19.259Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -48,17 +48,18 @@ These are the main settings for the Raytracing Panel.
 	- **Sobol**: casts rays in a uniform fashion
 	- **Adaptive**: prioritizes ray casting in noisy areas
 	- **Random**: cast samples randomly
-- **Screen**: Sets the **'Width'** and **'Height'** of the rendered image
+- **Screen**: Sets the `Width` and `Height` of the rendered image
 - **Ray Recursion**: Sets the maximum recursion depth for rays
 - **Ray Depth**: Sets the maximum depth for refraction, glossy, etc.
 - **Radiance Clamp**: Sets the radiance clamp to avoid fire flies
 - **Maximum Sample Count**: Sets the maximum amount of samples for the rendered image. Rendering stops if the amount of samples have been generated.
-- **Preview Sample Step**: Displays a render preview every "x" number of samples. When set to **'Off'** by sliding to or entering '0', only the final image is displayed in the Raytracing Viewport.
+- **Preview Sample Step**: Displays a render preview every "x" number of samples. When set to `Off` by sliding to or entering '0', only the final image is displayed in the Raytracing Viewport.
 - **Render IBL**: Renders the (Image Based Lighting) background image
 - **Preview**: Renders the image at half resolution for the first 10 samples
 - **Image Filtering**: Applies filtering when scaling the image to fit the Raytracing Viewport
 
-> To scale the rendered image to fit the Raytracing Viewport, click the ![Scale Image](Images/Scale_Image_Icon.png) (Scale Image) button in the Raytracing Panel's toolbar.
+> To scale the rendered image to fit the Raytracing Viewport, click the ![Scale Image](/instamat_studio/canvas/scale_image_icon.png) (Scale Image) button in the Raytracing Panel's toolbar.
+{.is-info}
 
 - **Viewport Interaction**: Allows interacting with the scene through the Raytracing Viewport. The same navigation hotkeys can be used from InstaMAT Studio's real-time <a href="../Viewport.html">Viewport</a>.
 - **Auto Pause**: Pauses rendering after one second of user input inactivity
