@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-21T15:08:12.605Z
+date: 2023-01-23T15:30:49.927Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -17,6 +17,8 @@ The **Graph Object Editor** (GOE) panel provides contextual access to a selected
 The GOE's UI and categories adjust based on the type of object selected. Selecting a *node* will display the properties of that node such as its Element Format settings, Instance Properties, Inputs, and Outputs. Clicking on the **Canvas** in a blank area will display the properties of the currently active *graph*. In addition to the graph's Inputs and Outputs, its Local Variables, Versioning, and the graph's Meta Data are also found in the GOE.
 
 This article breaks down the interface of the Graph Object Editor based on the type of object selected.
+
+
 
 ## Node
 When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
@@ -61,7 +63,9 @@ This section determines the execution seed, if a node is active or disabled, and
 
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
 - **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a ![sleeping icon](/instamat_studio/canvas/sleeping.png) icon in the top left corner next to their name in the Canvas view. Nodes that have a `Background` or `Image` input will pass that information through to the output. 
+
 > A shortcut for disabling nodes is highlighting the node and pressing **H**. You can also <kbd>Right click</kbd> the node to bring up the contextual menu and choose `Enable/Disable Node`. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
+{.is-info}
 
 - **Grayscale**: Determines the grayscale/color permutation of the node. Enabling will output grayscale information.
 
@@ -71,6 +75,7 @@ This section determines the execution seed, if a node is active or disabled, and
 > For example: spawning a node that outputs grayscale information from a color image input pin will result in a converter node inserting between the two.
 >
 > ![GIF of both scenarios: QS and Converter](/instamat_studio/canvas/canvas_permutations.gif)
+{.is-info}
 
 ### Inputs
 
@@ -81,6 +86,7 @@ This section displays a node's **Graph Inputs** also known as the node's Input P
 > To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
 >
 >![Widgets](/instamat_studio/canvas/widgets.png)
+{.is-info}
 
 Specific parameter values can be typed in with the keyboard either by <kbd>Double Clicking</kbd> on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
 
@@ -90,7 +96,7 @@ Specific parameter values can be typed in with the keyboard either by <kbd>Doubl
 >
 ><img src="/instamat_studio/canvas/override_choice_dialog.png" alt="Override Choice Dialog" width="400"/>
 >
-><img src="/instamat_studio/canvas/override_dialog.png" alt="Override Slider Range Dialog" width="300"/>
+><img src="/instamat_studio/canvas/override_dialog.png" alt="Override Slider Range Dialog" width="300"/>{.is-info}
 
 #### Contextual Menu
 
@@ -151,6 +157,7 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 ![GIF of dragging an input into the Canvas, then using Quick Search to convert to another type.](/instamat_studio/canvas/param_convert.gif)
 
 > To learn more about how to create and manipulate Graph Inputs, please read our article: <a href="">Node-Based Workflow Key Concepts</a>.
+{.is-info}
 
 #### Contextual Menu
 
@@ -187,6 +194,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 > Graph Inputs and Outputs can be assigned a **Category** in the <a href="Graph_Variable_Editor.html">Graph Variable Editor</a>. If multiple Graph Inputs and Outputs share the same category, they can be combined and connected together with <a href="">Link Category Mode</a>. This mode visually combines connections that share the same category making it easy to connect multiple pieces of information together. Once combined, a single connection can be dragged from the outputs of one node to the inputs of a corresponding node that shares the same category.
 >
 > ![GIF of using LC mode](/instamat_studio/canvas/lc_mode.gif)
+{.is-info}
 
 #### Contextual Menu
 
@@ -211,6 +219,7 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 > #### Did You Know?
 > Multiple instances of the same variable can be dragged into a graph regardless if it's a public Graph Input or private Local Variable. Each instance will update if the variable's value changes.
+{.is-info}
 
 #### Contextual Menu
 
@@ -231,7 +240,8 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 ![Versioning]()
 
-Information coming soon.
+> Information coming soon.
+{.is-warning}
 
 ### Meta Data
 
@@ -252,3 +262,4 @@ This section allows the user to input attributes for the graph that are used acr
 - **Grayscale Permutable**: When enabled, allows the graph to automatically change between outputting grayscale and color information.
 
 >Grayscale permutable Atoms and Elements can automatically change their color inputs to grayscale inputs. Most of the heavy lifting is done by InstaMAT and most Atoms will just work. However, conditional behavior can be implemented by branching on the "is Grayscale Permutation" value.
+{.is-info}
