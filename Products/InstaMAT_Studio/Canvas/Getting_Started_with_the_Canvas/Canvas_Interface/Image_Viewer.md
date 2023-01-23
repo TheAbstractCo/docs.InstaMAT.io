@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T15:58:05.036Z
+date: 2023-01-23T16:00:17.592Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -73,14 +73,14 @@ There are a few ways to load an image into the Image Viewer:
 
 ## Tabs
 
-<img src="Images/Image_Viewer_Tabs.gif" alt="Image Viewer switching through tabs" width="600"/>
+<img src="/instamat_studio/canvas/image_viewer_tabs.gif" alt="Image Viewer switching through tabs" width="600"/>
 
 Images can be loaded into multiple tabs. Tabs are displayed across the top of the Image Viewer.
 
 To load an image into a new tab:
 
-1. **Right Click** a Node or Graph Output to bring up the contextual menu
-2. Choose **'View Image in New Tab'**
+1. <kbd>Right Click</kbd> a Node or Graph Output to bring up the contextual menu
+2. Choose `View Image in New Tab`
 
 Tabs can be reorderd by dragging and dropping them into their new position. To close a tab, hover over it and click the (**X**) located in the right portion of the tab.
 
@@ -88,11 +88,10 @@ Tabs can be reorderd by dragging and dropping them into their new position. To c
 >
 > Using tabs is a great way to perform A/B testing in the Canvas. Duplicate an effect with alternative settings for its attributes and open the output in a new tab. Switch between the two tabs to compare the results.
 >
-> ![GIF of A/B Testing with Tabs]()
+> <img src="Images/Image_Viewer_AB.gif" alt="Image Viewer A/B Testing with Tabs" width="600"/>
+{.is-info}
 
 ## Previewing Image Tiling
-
-<img src="Images/Image_Viewer_AB.gif" alt="Image Viewer A/B Testing with Tabs" width="600"/>
 
 The Image Viewer provides built-in features to preview how an image tiles. To preview the tiling of an image, click the ![Icon](Images/Tiling_Preview_Mode_Icon.png) (Tiling Preview Mode) icon in the Image Viewer's toolbar. The tiling can be displayed in a grid or a cross layout. To identify the seams of the image, click the ![Icon](Images/Highlight_Tile_Border_Icon.png) (Highlight Central Tile Border) icon.
 
