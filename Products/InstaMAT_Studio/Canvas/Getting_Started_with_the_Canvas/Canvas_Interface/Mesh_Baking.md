@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:17:56.373Z
+date: 2023-01-23T20:18:35.263Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -205,4 +205,4 @@ Make sure that the `Target Mesh Suffix` and `Source Mesh Suffix` match the hiera
 
 ![Bake Button](/instamat_studio/canvas/bake_button.png)
 
-The rest of the baking process is the same as the above <a href="#baking-process-overview">Baking Process Overview</a>. After your selected bakers are enabled and the rest of the baking settings are dialed in, click the **'Bake'** button to begin the bake. If **'Store Result in Package'** in the **'Mesh Baking'** section is enabled, the baked mesh maps will appear in the <a href="../Package_Management.html">Package Management</a> Panel. When baking from a <a href="">Layering</a> project, baked mesh maps for the asset will automatically populate the proper channels in the **'Material Sections'** area in the <a href="">Layering Project Editor</a>.
+The rest of the baking process is the same as the above <a href="#baking-process-overview">Baking Process Overview</a>. After your selected bakers are enabled and the rest of the baking settings are dialed in, click the `Bake` button to begin the bake. If `Store Result in Package` in the `Mesh Baking` section is enabled, the baked mesh maps will appear in the <a href="">Package Management</a> Panel. When baking from a <a href="">Layering</a> project, baked mesh maps for the asset will automatically populate the proper channels in the `Material Sections` area in the <a href="">Layering Project Editor</a>.
