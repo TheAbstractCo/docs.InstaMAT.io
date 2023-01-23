@@ -2,7 +2,7 @@
 title: Viewport Settings
 description: The Viewport Settings Panel provides access to all of the adjustments and parameters needed to control InstaMAT Studio's 3D Viewport.
 published: true
-date: 2023-01-23T17:25:44.340Z
+date: 2023-01-23T17:26:23.526Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:21:17.648Z
@@ -82,7 +82,7 @@ These settings enable and adjust many useful rendering features in the Viewport.
 - **Scene Point Scale**: Adjust the scale of all rendered points when viewing point clouds.
 - **Displacement Mode**: The mode used when rendering displacement in the scene. Choose between `Tessellation` and `POM`: Parallax Occlusion Mapping.
 
-> Choosing **'Tessellation'** will tessellate the geometry in the scene and displace the vertices based on their normal directions. **'POM'** or "Parallax Occlusion Mapping" is useful to render displacement over meshes that have sparse topology or a low level of subdivision.
+> Choosing `Tessellation` will tessellate the geometry in the scene and displace the vertices based on their normal directions. `POM` or "Parallax Occlusion Mapping" is useful to render displacement over meshes that have sparse topology or a low level of subdivision.
 {.is-info}
 
 - **Displacement Factor**: Controls the factor at which displacement gets applied.
