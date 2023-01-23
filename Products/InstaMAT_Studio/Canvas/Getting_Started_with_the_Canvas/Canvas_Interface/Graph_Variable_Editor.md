@@ -2,7 +2,7 @@
 title: Graph Variable Editor
 description: The Graph Variable Editor (GVE) provides fine tune control and adjustments to variables such as Graph Inputs, Local Variables, and Graph Outputs.
 published: true
-date: 2023-01-23T15:42:40.580Z
+date: 2023-01-23T15:43:43.579Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:42:40.580Z
@@ -16,7 +16,7 @@ The **Graph Variable Editor** (GVE) provides fine tune control and adjustments t
 
 ## Interface Overview
 
-<img src="Images/Graph_Variable_Editor_Value.png" width="500"/>
+<img src="/instamat_studio/canvas/graph_variable_editor_value.png" width="500"/>
 
 The Graph Variable Editor's list of controls adapts depending on the item selected in the <a href="">Canvas</a>. The following is an overview of the available controls.
 
@@ -33,5 +33,9 @@ The Graph Variable Editor's list of controls adapts depending on the item select
 - **Category**: The category assigned to the variable. Input parameters with the same category will be grouped together in the <a href="">Graph Object Editor</a> and can be combined together using <a href="">Link Category Mode</a>.
 - **Documentation**: Documentation text for the variable. This can be used to provide the user with information about the effect on the resulting image or graph. The text appears in a tooltip when hovering over the variable in the <a href="">Graph Object Editor</a>.
 - **Visibility Expression**: An expression used to hide an Input Parameter based on a condition.
+
 > To learn more about Visibility Expressions or *VisEx*, please read our dedicated article: <a href="">Visibility Expressions</a>.
+{.is-info}
+
+
 - **Usage Semantic**: A semantic that can be used to perform additional soft validation on Input Parameters. If the semantic does not match, a warning will be emitted but the graph will still execute.
