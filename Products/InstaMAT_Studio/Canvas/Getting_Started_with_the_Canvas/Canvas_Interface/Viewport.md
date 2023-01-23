@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T19:20:32.297Z
+date: 2023-01-23T19:24:41.142Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -40,14 +40,14 @@ The following is how to navigate in the Viewport:
 
 The Viewport contains a dedicated toolbar with the following actions:
 
-- ![Translate_Icon](Images/Translate_Icon.png) **Translate (W)**: Sets the active viewport gizmo to translate the position of the selected mesh.
-- ![Rotate_Icon](Images/Rotate_Icon.png) **Rotate (E)**: Sets the active viewport gizmo to rotate the orientation of the selected mesh around its pivot point.
-- ![Scale_Icon](Images/Scale_Icon.png) **Scale (R)**: Sets the active viewport gizmo to Scale the size of the selected mesh.
-- ![Gizmo_Control_Icon](Images/Gizmo_Control_Icon.png) **Gizmo Control**: Displays a popup menu to select the active gizmo to control if there are multiple available. Additionally the **Page Up** and **Page Down** keys can be used to cycle through the available gizmos.
-- ![Export_Viewport_Scene_Icon](Images/Export_Viewport_Scene_Icon.png) **Export Viewport Scene**: Exports the scene in the viewport to disk.
-- ![Copy_Image_To_Clipboard_Icon](Images/Copy_Image_To_Clipboard_Icon.png) **Copy Image to Clipboard**: Captures the current view to the Clipboard.
-- ![Focus_Scene_Icon](Images/Focus_Scene_Icon.png) **Focus Scene**: Resets the view so that the entire scene fits within the Viewport area. Additionally the keyboard shortcut to do this is **F**.
-- ![Toggle_Vertex_Displacement_Mapping_Icon](Images/Toggle_Vertex_Displacement_Mapping_Icon.png) **Toggle Vertex Displacement Mapping**: Toggles displacement along the mesh's vertex normals. To adjust the **'Displacement Factor'**, use the <a href="Viewport_Settings.html">Viewport Settings</a> Panel under **'Render Settings'**.
+- ![Translate_Icon](/instamat_studio/canvas/translate_icon.png) **Translate (W)**: Sets the active viewport gizmo to translate the position of the selected mesh.
+- ![Rotate_Icon](/instamat_studio/canvas/rotate_icon.png) **Rotate (E)**: Sets the active viewport gizmo to rotate the orientation of the selected mesh around its pivot point.
+- ![Scale_Icon](/instamat_studio/canvas/scale_icon.png) **Scale (R)**: Sets the active viewport gizmo to Scale the size of the selected mesh.
+- ![Gizmo_Control_Icon](/instamat_studio/canvas/gizmo_control_icon.png) **Gizmo Control**: Displays a popup menu to select the active gizmo to control if there are multiple available. Additionally the **Page Up** and **Page Down** keys can be used to cycle through the available gizmos.
+- ![Export_Viewport_Scene_Icon](/instamat_studio/canvas/export_viewport_scene_icon.png) **Export Viewport Scene**: Exports the scene in the viewport to disk.
+- ![Copy_Image_To_Clipboard_Icon](/instamat_studio/canvas/copy_image_to_clipboard_icon.png) **Copy Image to Clipboard**: Captures the current view to the Clipboard.
+- ![Focus_Scene_Icon](/instamat_studio/canvas/focus_scene_icon.png) **Focus Scene**: Resets the view so that the entire scene fits within the Viewport area. Additionally the keyboard shortcut to do this is **F**.
+- ![Toggle_Vertex_Displacement_Mapping_Icon](/instamat_studio/canvas/toggle_vertex_displacement_mapping_icon.png) **Toggle Vertex Displacement Mapping**: Toggles displacement along the mesh's vertex normals. To adjust the **'Displacement Factor'**, use the <a href="Viewport_Settings.html">Viewport Settings</a> Panel under **'Render Settings'**.
 - ![Toggle_Material_Ambient_Occlusion_Icon](Images/Toggle_Material_Ambient_Occlusion_Icon.png) **Toggle Material Ambient Occlusion Intensity**: Toggles the visibility of the Ambient Occlusion channel of the material loaded into the Viewport.
 - ![UV_Scale_Icon](Images/UV_Scale_Icon.png) **Select Next Mesh UV Scale**: Cycles through UV scale increments from 1 to 5. This is a quick way to see how a material will tile when loaded on a 3D object.
 - ![Toggle_Mip_Mapping_Icon](Images/Toggle_Mip_Mapping_Icon.png) **Toggle Mip Mapping**: Toggles Mip Mapping when rendering textures. By default, Mip Mapping is disabled in <a href="">Layering</a> projects. To force enable, use the **'Allow Mip Mapping in Layering'** setting in the <a href="">Preferences</a> Panel under the **Layering** tab.
