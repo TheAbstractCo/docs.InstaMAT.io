@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-23T20:50:00.323Z
+date: 2023-01-23T20:50:34.973Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -129,10 +129,10 @@ The Raytracing Panel contains its own dedicated toolbar to provide shortcuts to 
 - ![Icon](/instamat_studio/canvas/image_filtering_icon.png) **Image Filtering**: Applies image filtering when scaling the image to fit the Raytracing Viewport
 - ![Icon](/instamat_studio/canvas/viewport_interaction_icon.png) **Viewport Interaction**: Allows the user to interact with the Raytracing Viewport to adjust the scene
 - ![Icon](/instamat_studio/canvas/paint_checkerboard_icon.png) **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency
-- ![Icon](Images/R_Icon.png) **R**: Solos the Red channel
-- ![Icon](Images/G_Icon.png) **G**: Solos the Green channel
-- ![Icon](Images/B_Icon.png) **B**: Solos the Blue channel
-- ![Icon](Images/A_Icon.png) **A**: Solos the Alpha channel
+- ![Icon](/instamat_studio/canvas/r_icon.png) **R**: Solos the Red channel
+- ![Icon](/instamat_studio/canvas/g_icon.png) **G**: Solos the Green channel
+- ![Icon](/instamat_studio/canvas/b_icon.png) **B**: Solos the Blue channel
+- ![Icon](/instamat_studio/canvas/a_icon.png) **A**: Solos the Alpha channel
 - **Viewport AOV**: (Arbitrary Output Variable) Displays the many render passes available from the raytracing engine. The following passes are available:
 	- Color
 	- Ambient Occlusion
