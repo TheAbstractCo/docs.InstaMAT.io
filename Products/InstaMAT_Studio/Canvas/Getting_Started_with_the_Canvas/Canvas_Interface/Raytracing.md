@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-23T20:50:34.973Z
+date: 2023-01-23T20:51:09.038Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -148,6 +148,7 @@ The Raytracing Panel contains its own dedicated toolbar to provide shortcuts to 
 
 ## Raytracing Settings Presets
 
-Raytracing settings can be saved and loaded as a preset. To Save or Load a settings preset, go to the main menu and choose **'Save Settings'** or **'Open Settings...'** from the **File** menu.
+Raytracing settings can be saved and loaded as a preset. To Save or Load a settings preset, go to the main menu and choose `Save Settings` or `Open Settings...` from the **File** menu.
 
 > For more information on AMD Radeon™ ProRender, please refer to the official documentation: <a href="https://radeon-pro.github.io/RadeonProRenderDocs">https://radeon-pro.github.io/RadeonProRenderDocs</a>.
+{.is-info}
