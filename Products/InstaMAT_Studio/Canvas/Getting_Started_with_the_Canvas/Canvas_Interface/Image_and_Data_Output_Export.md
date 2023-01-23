@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-23T20:31:34.301Z
+date: 2023-01-23T20:32:10.955Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -92,4 +92,4 @@ For example, to map a "Roughness" output to the Red channel of a Custom RGBA Out
 
 Clicking `More` at the bottom of the list will reveal additional options. If an output that you need is not listed, a custom option can be created by clicking the ![+](/instamat_studio/canvas/add_template_icon.png) at the top of the list. You can then choose whether it is an RGBA or Grayscale option, then InstaMAT Studio will ask for a default color or value to be chosen. This value is used if the Export Output Template is used, but a matching output from the project is not provided. To rename the option, <kbd>double click</kbd> it.
 
-<img src="Images/Template_Custom_Output_Template.gif" alt="Custom Output Template Creation" width="600"/>
+<img src="/instamat_studio/canvas/template_custom_output_template.gif" alt="Custom Output Template Creation" width="600"/>
