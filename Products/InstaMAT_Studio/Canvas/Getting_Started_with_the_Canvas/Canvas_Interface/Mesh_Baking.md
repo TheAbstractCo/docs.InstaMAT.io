@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:01:07.754Z
+date: 2023-01-23T20:02:35.742Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -27,11 +27,11 @@ There are a few ways to access the Mesh Baking Panel:
 
 - Click the ![Mesh Baking](/instamat_studio/canvas/mesh_baking_icon.png) icon in the <a href="../Canvas_Toolbar.html">Canvas Toolbar</a>
 - Go to **Window > Mesh Baking** in the main menu
-- In a <a href="">Layering</a> project, open the `Material Sections` dropdown in the <a href="">Layering Project Editor</a> panel and click the hamburger menu ![Material_Sections_Bake_Icon](Images/Material_Sections_Bake_Icon.png) button. From the popup menu, choose **'Bake Mesh Data'**
+- In a <a href="">Layering</a> project, open the `Material Sections` dropdown in the <a href="">Layering Project Editor</a> panel and click the hamburger menu ![Material_Sections_Bake_Icon](/instamat_studio/canvas/material_sections_bake_icon.png) button. From the popup menu, choose `Bake Mesh Data`.
 
 ## Interface Overview
 
-![Mesh Baking Panel UI](Images/Mesh_Baking_UI.png)
+![Mesh Baking Panel UI](/instamat_studio/canvas/mesh_baking_ui.png)
 
 The following section overviews the interface for the Mesh Baking panel.
 
