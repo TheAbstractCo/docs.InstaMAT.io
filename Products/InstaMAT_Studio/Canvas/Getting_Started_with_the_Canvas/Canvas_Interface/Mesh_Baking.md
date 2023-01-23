@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:15:49.106Z
+date: 2023-01-23T20:17:56.373Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -189,20 +189,20 @@ These suffixes can be set under the `Advanced Settings` section in the Mesh Baki
 
 ### 2. Set Up the Bake
 
-Meshes can be dragged into the <a href="../Package_Management.html">Package Management</a> Panel and imported into the project first. This will copy the mesh into the active package. Alternatively, meshes can be selected as local files and do not need to be imported into the project.
+Meshes can be dragged into the <a href="">Package Management</a> Panel and imported into the project first. This will copy the mesh into the active package. Alternatively, meshes can be selected as local files and do not need to be imported into the project.
 
 Input the `Source Mesh` and `Target Mesh` into their respective fields by clicking on the ![Folder Icon](/instamat_studio/canvas/folder_icon.png). From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package or choose `Pick Local File` to select a mesh with your system's folder structure.
 
-![Picking Source and Target meshes to bake](Images/Mesh_Baking_Pick_Meshes.gif)
+![Picking Source and Target meshes to bake](/instamat_studio/canvas/mesh_baking_pick_meshes.gif)
 
-Be sure to change the **'Targeting Mode'** to **'By Mesh Name'**.
+Be sure to change the `Targeting Mode` to `By Mesh Name`.
 
-![Setting the 'Targeting Mode' to 'By Mesh Name'](Images/Mesh_Baking_Targetting_Mode.gif)
+![Setting the 'Targeting Mode' to 'By Mesh Name'](/instamat_studio/canvas/mesh_baking_targetting_mode.gif)
 
-Make sure that the **'Target Mesh Suffix'** and **'Source Mesh Suffix'** match the hierarchy of your respective meshes.
+Make sure that the `Target Mesh Suffix` and `Source Mesh Suffix` match the hierarchy of your respective meshes.
 
 ### 3. Bake
 
-![Bake Button](Images/Bake_Button.png)
+![Bake Button](/instamat_studio/canvas/bake_button.png)
 
 The rest of the baking process is the same as the above <a href="#baking-process-overview">Baking Process Overview</a>. After your selected bakers are enabled and the rest of the baking settings are dialed in, click the **'Bake'** button to begin the bake. If **'Store Result in Package'** in the **'Mesh Baking'** section is enabled, the baked mesh maps will appear in the <a href="../Package_Management.html">Package Management</a> Panel. When baking from a <a href="">Layering</a> project, baked mesh maps for the asset will automatically populate the proper channels in the **'Material Sections'** area in the <a href="">Layering Project Editor</a>.
