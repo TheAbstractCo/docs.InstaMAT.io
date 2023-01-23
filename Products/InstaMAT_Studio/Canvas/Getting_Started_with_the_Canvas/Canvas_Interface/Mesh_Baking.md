@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:13:20.889Z
+date: 2023-01-23T20:15:06.889Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -179,13 +179,13 @@ The following illustrates how to bake by mesh name in a typical "High to Low Pol
 
 ### 1. Prepare the Meshes
 
-![Submesh hierarchy for source and target meshes](Images/Hierarchies.png)
+![Submesh hierarchy for source and target meshes](/instamat_studio/canvas/hierarchies.png)
 
-The **'Source Mesh'** that contains the high-poly information will require every submesh in the scene to have an identifiable mesh name suffix also known as the **'Source Mesh Suffix'**. By default this suffix is "_high". For example, "Metal_Attachment_high" or "Cabinet_Door_high".
+The **Source Mesh** that contains the high-poly information will require every submesh in the scene to have an identifiable mesh name suffix also known as the `Source Mesh Suffix`. By default this suffix is "_high". For example, "Metal_Attachment_high" or "Cabinet_Door_high".
 
-The **'Target Mesh'** that contains the low-poly information will require each submesh to have a matching low-poly counterpart from the **'Source Mesh'** and should be in the exact same position as the high-poly variant. These low-poly counterparts should have the same name as their high-poly counterparts with the exception of a **'Target Mesh Suffix'** at the end. By default this suffix is "_low". For example, "Metal_Attachment_low" or "Cabinet_Door_low".
+The **Target Mesh** that contains the low-poly information will require each submesh to have a matching low-poly counterpart from the **Source Mesh** and should be in the exact same position as the high-poly variant. These low-poly counterparts should have the same name as their high-poly counterparts with the exception of a `Target Mesh Suffix` at the end. By default this suffix is "_low". For example, "Metal_Attachment_low" or "Cabinet_Door_low".
 
-These suffixes can be set under the **'Advanced Settings'** section in the Mesh Baking Panel.
+These suffixes can be set under the `Advanced Settings` section in the Mesh Baking Panel.
 
 ### 2. Set Up the Bake
 
