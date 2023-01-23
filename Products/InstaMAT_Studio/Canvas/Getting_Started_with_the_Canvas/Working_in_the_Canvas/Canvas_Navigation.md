@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-01-23T21:06:22.561Z
+date: 2023-01-23T21:07:19.987Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -40,15 +40,16 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 
 ![Selecting GIF]()
 
-To select nodes or other objects in the Canvas view, **Left Click** the object. To select multiple objects, hold **Shift** and drag a rectangular selection of the objects to select.
+To select nodes or other objects in the Canvas view, <kbd>Left Click</kbd> the object. To select multiple objects, hold <kbd>Shift</kbd> and drag a rectangular selection of the objects to select.
 
 ## Moving Objects
 
 ![Moving Objects GIF]()
 
-To move an object from one place in the graph to another, select the object or objects then **Left Click** and drag to the new position.
+To move an object from one place in the graph to another, select the object or objects then <kbd>Left Click</kbd> and drag to the new position.
 
 > If you'd like to pan the Canvas view while dragging an object, drag the object to a border of the Canvas view to pan in that direction. This also works when dragging connections from a node's input or output.
+{.is-info}
 
 ## Deleting Objects
 
@@ -58,6 +59,7 @@ To move an object from one place in the graph to another, select the object or o
 
 ![Focusing GIF]()
 
-Focusing in InstaMAT Studio is a universal term meaning to frame up the contents or a selection so that it fits within the bounds of the view. To focus in the Canvas, use the **F** key. To focus on a portion of the graph, select the objects to focus on first, then hit **F**.
+Focusing in InstaMAT Studio is a universal term meaning to frame up the contents or a selection so that it fits within the bounds of the view. To focus in the Canvas, use the <kbd>F</kbd> key. To focus on a portion of the graph, select the objects to focus on first, then hit <kbd>F</kbd>.
 
-> Another way to frame up a portion of the graph so that it fits the view is to drag a rectangular selection in the <a href="../Canvas Interface/Minimap.html">Minimap</a>.
+> Another way to frame up a portion of the graph so that it fits the view is to drag a rectangular selection in the <a href="">Minimap</a>.
+{.is-info}
