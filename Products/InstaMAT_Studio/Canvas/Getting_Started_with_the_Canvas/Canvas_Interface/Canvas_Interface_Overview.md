@@ -2,7 +2,7 @@
 title: Canvas Interface Overview
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-23T15:34:33.922Z
+date: 2023-01-23T15:35:05.846Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:57:07.444Z
@@ -71,10 +71,11 @@ The **Canvas Toolbar** is divided up into multiple sections and contains shortcu
 7. **Graph Performance Tools**: Gives access to various graph performance and execution tools.
 
 >To learn more about the Canvas Toolbar and each individual section, please read our dedicated article: <a href="">Canvas Toolbar</a>. You can also view our <a href="">walkthrough video</a> on our YouTube channel.
+{.is-info}
 
 ![Tab bar with a few open projects](/instamat_studio/canvas/tab_bar.png)
 
-Below the toolbar is the **Tab Bar** filled with the projects that are currently open. Tabs can be reordered by dragging and dropping. **Right Click** a tab to bring up a contextual menu that does the following:
+Below the toolbar is the **Tab Bar** filled with the projects that are currently open. Tabs can be reordered by dragging and dropping. <kbd>Right Click</kbd> a tab to bring up a contextual menu that does the following:
 
 - Close all tabs
 - Close this tab
