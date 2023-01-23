@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:04:26.718Z
+date: 2023-01-23T20:07:06.851Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -25,7 +25,7 @@ These incredibly optimized bakers are built with the same industry-proven techno
 
 There are a few ways to access the Mesh Baking Panel:
 
-- Click the ![Mesh Baking](/instamat_studio/canvas/mesh_baking_icon.png) icon in the <a href="../Canvas_Toolbar.html">Canvas Toolbar</a>
+- Click the ![Mesh Baking](/instamat_studio/canvas/mesh_baking_icon.png) icon in the <a href="">Canvas Toolbar</a>
 - Go to **Window > Mesh Baking** in the main menu
 - In a <a href="">Layering</a> project, open the `Material Sections` dropdown in the <a href="">Layering Project Editor</a> panel and click the hamburger menu ![Material_Sections_Bake_Icon](/instamat_studio/canvas/material_sections_bake_icon.png) button. From the popup menu, choose `Bake Mesh Data`.
 
@@ -55,21 +55,22 @@ These are the main baking operation settings. They determine the input meshes, b
 {.is-info}
 
 - **Store Result in Package**: Stores the baking results in the currently active package. If disabled, an output path can be provided.
-- **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the ![Tokens Icon](Images/Tokens_Icon.png) button located to the right of the input field.
+- **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the ![Tokens Icon](/instamat_studio/canvas/tokens_icon.png) button located to the right of the input field.
 - **Image File Format Extension**: Determines the image output format for the baking results
-- **Format Preview**: Provides a preview of the naming convention used in the **'File Name Format'** setting
+- **Format Preview**: Provides a preview of the naming convention used in the `File Name Format` setting
 
 #### Advanced Settings
 
 These settings provide access to more advanced baking operations. They determine how meshes are targeted, provide options to dial in the outward and inward ray lengths, and supply further baking functionality.
 
-- **Targeting Mode**: Determines how meshes are targeted during the bake. The options are **'All Source Meshes'** and **'By Mesh Name'**.
+- **Targeting Mode**: Determines how meshes are targeted during the bake. The options are `All Source Meshes` and `By Mesh Name`.
 - **Target Mesh Suffix**: Sets the mesh name suffix used to determine if a mesh is a target
 - **Source Mesh Suffix**: Sets the mesh name suffix used to determine if a mesh is a source
 
-> Setting the **'Targeting Mode'** to **'By Mesh Name'** will selectively bake matching submeshes from the **'Source Mesh'** onto the **'Target Mesh'**. Matches are made based on the **'Source Mesh Suffix'** and **'Target Mesh Suffix'**. This prevents baking artifacts by isolating each source/target component.
+> Setting the `Targeting Mode` to `By Mesh Name` will selectively bake matching submeshes from the `Source Mesh` onto the `Target Mesh`. Matches are made based on the `Source Mesh Suffix` and `Target Mesh Suffix`. This prevents baking artifacts by isolating each source/target component.
 >
-> For example, with a **'Source Mesh Suffix'** set to "_high" and a **'Target Mesh Suffix'** set to "_low", a source mesh mesh named "Round_Part_high" will bake onto a target mesh named "Round_Part_low".
+> For example, with a `Source Mesh Suffix` set to "_high" and a `Target Mesh Suffix` set to "_low", a source mesh mesh named "Round_Part_high" will bake onto a target mesh named "Round_Part_low".
+{.is-info}
 
 - **Outwards Ray Length in %**: Sets the outward ray length by a percentage based on the bounding sphere of the **'Source Mesh'**
 - **Inwards Ray Length in %**: Sets the inward ray length by a percentage based on the bounding sphere of the **'Source Mesh'**
