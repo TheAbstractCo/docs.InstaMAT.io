@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-23T15:54:58.262Z
+date: 2023-01-23T15:58:05.036Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -30,7 +30,7 @@ The following is how to navigate in the Viewport:
 - **Zoom**: **Right Click** and drag up and down or use the **Scroll Wheel**
 - **Focus**: Press the **F** key. This fits the image into the Image Viewer's viewing area.
 
-> If neither of these options are working, check if the ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) **Scale Image Automatically** icon in the Image Viewer's toolbar is disabled.
+> If neither of these options are working, check if the ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) `Scale Image Automatically` icon in the Image Viewer's toolbar is disabled.
 {.is-info}
 
 ### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Toolbar
@@ -48,7 +48,7 @@ The Image Viewer contains a dedicated toolbar with the following actions:
 - ![Filtering_Icon](/instamat_studio/canvas/filtering_icon.png) **Image Filtering**: Enables bilinear filtering when magnifying the image
 - ![Tonemapping_Icon](/instamat_studio/canvas/tonemapping_icon.png) **Tonemapping**: Applies tonemapping to the image
 
-> By default, the Image Viewer automatically toggles Tonemapping based on the colorspace of the loaded image. To disable this, use the **'Automatic Tonemapping'** toggle in <a href="">Preferences</a> under the **'Interface'** tab in the **Image Viewer** section.
+> By default, the Image Viewer automatically toggles Tonemapping based on the colorspace of the loaded image. To disable this, use the `Automatic Tonemapping` toggle in <a href="">Preferences</a> under the **'Interface'** tab in the **Image Viewer** section.
 {.is-info}
 
 - ![R_Icon](/instamat_studio/canvas/r_icon.png) **R**: Solos the Red channel
@@ -59,7 +59,7 @@ The Image Viewer contains a dedicated toolbar with the following actions:
 
 ### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Image Viewer Status Bar
 
-<img src="Images/Image_Viewer_Status_Bar.png" alt="Image Viewer Status Bar" width="600"/>
+<img src="/instamat_studio/canvas/image_viewer_status_bar.png" alt="Image Viewer Status Bar" width="600"/>
 
 The **Image Viewer Status Bar** displays information on the image's size, current viewing scale, format, and channels.
 
@@ -67,9 +67,9 @@ The **Image Viewer Status Bar** displays information on the image's size, curren
 
 There are a few ways to load an image into the Image Viewer:
 
-- **Double Click** an image in the <a href="Package_Management.html">Package Management</a> Panel
-- **Right Click** a Node in the <a href="../../Canvas_Overview.html">Canvas</a> or Graph Output in the <a href="Graph_Object_Editor.html">Graph Object Editor</a> to bring up the contextual menu and choose **'View Image'**
-- **Single Left Click** on an image input or output connector pin on a Node in the <a href="../../Canvas_Overview.html">Canvas</a>
+- <kbd>Double Click</kbd> an image in the <a href="Package_Management.html">Package Management</a> Panel
+- <kbd>Right Click</kbd> a Node in the <a href="../../Canvas_Overview.html">Canvas</a> or Graph Output in the <a href="Graph_Object_Editor.html">Graph Object Editor</a> to bring up the contextual menu and choose `View Image`
+- <kbd>Single Left Click</kbd> on an image input or output connector pin on a Node in the <a href="../../Canvas_Overview.html">Canvas</a>
 
 ## Tabs
 
