@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:07:06.851Z
+date: 2023-01-23T20:07:58.440Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -75,15 +75,15 @@ These settings provide access to more advanced baking operations. They determine
 - **Outwards Ray Length in %**: Sets the outward ray length by a percentage based on the bounding sphere of the **'Source Mesh'**
 - **Inwards Ray Length in %**: Sets the inward ray length by a percentage based on the bounding sphere of the **'Source Mesh'**
 - **Ignore Backfaces**: When enabled, backfaces will not occlude geometry
-- **Average Normals**: Uses averaged face normals of the **'Target Mesh'** as ray directions. This only applies when not using cage mesh normals as ray directions.
+- **Average Normals**: Uses averaged face normals of the `Target Mesh` as ray directions. This only applies when not using cage mesh normals as ray directions.
 - **Dilation in Pixels**: Sets the dilation size in pixels to avoid mip map pixel bleed
 
 #### Cage Mesh
 
-These settings apply to any cage meshes in the baking process. With InstaMAT, cage meshes do not need to have the same topology as the **'Target Mesh'**.
+These settings apply to any cage meshes in the baking process. With InstaMAT, cage meshes do not need to have the same topology as the `Target Mesh`.
 
 - **Cage Mesh Suffix**: Sets the mesh name suffix used to determine if a mesh is utilized as a cage mesh
-- **Use Cage Mesh Normals**: When enabled, uses the cage mesh normals when computing ray directions instead of the **'Target Mesh'** normals
+- **Use Cage Mesh Normals**: When enabled, uses the cage mesh normals when computing ray directions instead of the `Target Mesh` normals
 
 
 ### Bakers
