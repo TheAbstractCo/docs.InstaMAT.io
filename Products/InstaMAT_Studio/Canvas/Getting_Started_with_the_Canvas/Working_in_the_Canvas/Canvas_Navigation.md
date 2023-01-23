@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-01-23T21:04:46.005Z
+date: 2023-01-23T21:06:22.561Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -18,23 +18,23 @@ The Canvas View is navigated by panning and zooming.
 
 ![Panning GIF]()
 
-To Pan, **Left Click** and drag on an empty space. If an object in the Canvas such as a node or comment is in the way of your cursor, hold the **Space Bar** to ignore any Canvas objects. 
+To Pan, <kbd>Left Click</kbd> and drag on an empty space. If an object in the Canvas such as a node or comment is in the way of your cursor, hold the <kbd>Space Bar</kbd> to ignore any Canvas objects. 
 
-Additionally, pressing the **Arrow Keys** will incrementally pan the Canvas view in the key's direction.
+Additionally, pressing the <kbd>Arrow Keys</kbd> will incrementally pan the Canvas view in the key's direction.
 
 ## Zooming
 
 ![Zooming GIF]()
 
-To Zoom, **Right Click** and drag up or down.
+To Zoom, <kbd>Right Click</kbd> and drag up or down.
 
 ## Mouse Wheel
 
-InstaMAT Studio adapts to the native mouse wheel behavior of the platform it is running on. The mouse wheel by itself will either zoom or perform a vertical scroll. Holding the **Shift** key while using the mouse wheel will swap behaviors.
+InstaMAT Studio adapts to the native mouse wheel behavior of the platform it is running on. The mouse wheel by itself will either zoom or perform a vertical scroll. Holding the <kbd>Shift</kbd> key while using the mouse wheel will swap behaviors.
 
-To change the default mouse wheel behavior, choose the behavior in the **'Canvas'** tab in the <a href="../Canvas Interface/Panels and Windows/Preferences.html">Preferences</a> panel.
+To change the default mouse wheel behavior, choose the behavior in the `Canvas` tab in the <a href="">Preferences</a> panel.
 
-<img src="instamat_studio/canvas/mouse_wheel_behavior.png" alt="Mouse Wheel Behavior in Preferences window" width="600"/>
+<img src="/instamat_studio/canvas/mouse_wheel_behavior.png" alt="Mouse Wheel Behavior in Preferences window" width="600"/>
 
 ## Selecting Objects
 
