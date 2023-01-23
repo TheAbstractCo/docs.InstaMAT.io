@@ -2,7 +2,7 @@
 title: Canvas Interface Overview
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-23T10:07:10.177Z
+date: 2023-01-23T15:34:33.922Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T16:57:07.444Z
@@ -52,9 +52,8 @@ By default, the center area contains the Canvas itself where nodes are instanced
 >To learn more about working in the Canvas check out these articles:
 >
 >- <a href="">Working in the Canvas</a>: Learn how to navigate and work within InstaMAT's Canvas to begin building procedural materials and workflows. Leverage how the Canvas UI can adapt to different use cases by swapping the position of the Viewport, Canvas, and Image Viewer to your liking. Discover how to take advantage of the many tools at your disposal to clean up your graphs with comments and reroute nodes as your projects get more complex.
->- <a href="">Node-Based Workflow Key Concepts</a>: Uncover the power of a node-based workflow by tapping into its non-linear nature. Learn about graph inheritance, how to expose input parameters and create outputs, and explore the power of changing a graph's execution resolution and seed. These key concepts drive the core of working within the Canvas. 
+> - <a href="">Node-Based Workflow Key Concepts</a>: Uncover the power of a node-based workflow by tapping into its non-linear nature. Learn about graph inheritance, how to expose input parameters and create outputs, and explore the power of changing a graph's execution resolution and seed. These key concepts drive the core of working within the Canvas.
 {.is-info}
-
 
 ## <img src="/instamat_studio/canvas/4.png" alt="4" width="30"/> Toolbar
 
