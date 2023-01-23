@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T19:34:52.840Z
+date: 2023-01-23T19:37:03.737Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -47,10 +47,10 @@ The Viewport contains a dedicated toolbar with the following actions:
 - ![Export_Viewport_Scene_Icon](/instamat_studio/canvas/export_viewport_scene_icon.png) **Export Viewport Scene**: Exports the scene in the viewport to disk.
 - ![Copy_Image_To_Clipboard_Icon](/instamat_studio/canvas/copy_image_to_clipboard_icon.png) **Copy Image to Clipboard**: Captures the current view to the Clipboard.
 - ![Focus_Scene_Icon](/instamat_studio/canvas/focus_scene_icon.png) **Focus Scene**: Resets the view so that the entire scene fits within the Viewport area. Additionally the keyboard shortcut to do this is **F**.
-- ![Toggle_Vertex_Displacement_Mapping_Icon](/instamat_studio/canvas/toggle_vertex_displacement_mapping_icon.png) **Toggle Vertex Displacement Mapping**: Toggles displacement along the mesh's vertex normals. To adjust the **'Displacement Factor'**, use the <a href="Viewport_Settings.html">Viewport Settings</a> Panel under **'Render Settings'**.
+- ![Toggle_Vertex_Displacement_Mapping_Icon](/instamat_studio/canvas/toggle_vertex_displacement_mapping_icon.png) **Toggle Vertex Displacement Mapping**: Toggles displacement along the mesh's vertex normals. To adjust the `Displacement Factor`, use the <a href="">Viewport Settings</a> Panel under `Render Settings`.
 - ![Toggle_Material_Ambient_Occlusion_Icon](/instamat_studio/canvas/toggle_material_ambient_occlusion_icon.png) **Toggle Material Ambient Occlusion Intensity**: Toggles the visibility of the Ambient Occlusion channel of the material loaded into the Viewport.
 - ![UV_Scale_Icon](/instamat_studio/canvas/uv_scale_icon.png) **Select Next Mesh UV Scale**: Cycles through UV scale increments from 1 to 5. This is a quick way to see how a material will tile when loaded on a 3D object.
-- ![Toggle_Mip_Mapping_Icon](/instamat_studio/canvas/toggle_mip_mapping_icon.png) **Toggle Mip Mapping**: Toggles Mip Mapping when rendering textures. By default, Mip Mapping is disabled in <a href="">Layering</a> projects. To force enable, use the **'Allow Mip Mapping in Layering'** setting in the <a href="">Preferences</a> Panel under the **Layering** tab.
+- ![Toggle_Mip_Mapping_Icon](/instamat_studio/canvas/toggle_mip_mapping_icon.png) **Toggle Mip Mapping**: Toggles Mip Mapping when rendering textures. By default, Mip Mapping is disabled in <a href="">Layering</a> projects. To force enable, use the `Allow Mip Mapping in Layering` setting in the <a href="">Preferences</a> Panel under the `Layering` tab.
 - ![Automatic_Exposure_Icon](/instamat_studio/canvas/automatic_exposure_icon.png) **Toggle Automatic Exposure**: Automatically adjusts the exposure of the camera based on lighting changes.
 - ![Toggle_Environment_Icon](/instamat_studio/canvas/toggle_environment_icon.png) **Toggle Environment**: Toggles the visibility of the Environment Image. When the visibility is off, the scene is still illuminated by the image but is invisible to remove distractions.
 - ![Choose_Environment_Icon](/instamat_studio/canvas/choose_environment_icon.png) **Choose Environment**: Shows a popup to choose the Environment image illuminating the scene. Additionally the **O** hotkey can be used.
