@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-01-23T16:10:28.956Z
+date: 2023-01-23T16:12:49.975Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-23T16:10:28.956Z
 
 # Package Management
 
-<img src="Images/Package_Management.png" width="300"/>
+<img src="/instamat_studio/canvas/package_management.png" width="300"/>
 
 The **Package Management** Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Package Meta Data** section containing the meta data for the active package.
 
@@ -18,13 +18,13 @@ The **Package Management** Panel contains all of the resources within the active
 
 ### Package Navigator
 
-<img src="Images/PM_Top.png" width="300"/>
+<img src="/instamat_studio/canvas/pm_top.png" width="300"/>
 
-At the top of the Package Management Panel is the name of the package. The package can be renamed by clicking the ![Pencil Icon](Images/Pencil_Icon.png) icon.
+At the top of the Package Management Panel is the name of the package. The package can be renamed by clicking the ![Pencil Icon](/instamat_studio/canvas/pencil_icon.png) icon.
 
 Below the package name is a dedicated search field used to filter through the package's contents including its resources by name.
 
-The ![Open Resource](Images/Open_Resource_Icon.png) (Open Resource) icon allows the user to quickly add a resource to the package. More can be read about importing resources <a href="#importing-resources">below</a>.
+The ![Open Resource](/instamat_studio/canvas/open_resource_icon.png) (Open Resource) icon allows the user to quickly add a resource to the package. More can be read about importing resources <a href="#importing-resources">below</a>.
 
 Projects are listed alphabetically in the main body of the Package Management Panel. All other resources such as images, meshes, and baking settings are organized under an **'Assets'** category.
 
