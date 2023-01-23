@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-01-23T16:14:16.968Z
+date: 2023-01-23T16:17:01.189Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -49,12 +49,12 @@ Hovering over an asset will bring up a tooltip containing various information an
 >
 >To regenerate the project's preview:
 >
->1. **Right click** the asset to bring up the contextual menu
->2. Choose **'Regenerate Preview'**
+>1. <kbd>Right click</kbd> the asset to bring up the contextual menu
+>2. Choose `Regenerate Preview`
 
 ### Meta Data
 
-<img src="Images/PM_Bottom.png" width="400"/>
+<img src="/instamat_studio/canvas/pm_bottom.png" width="400"/>
 
 When a project or resource is selected, the bottom of the Package Management Panel displays its meta data.
 
@@ -65,11 +65,11 @@ Below this is the **Package Meta Data** section. Here, the following can be set:
 - Package URL
 - Hide Resources
 
-If the **'Hide Resources'** toggle is enabled, packages will not show their resources when part of the <a href="Graph_Library.html">Graph Library</a>.
+If the `Hide Resources` toggle is enabled, packages will not show their resources when part of the <a href="">Graph Library</a>.
 
 ## Importing Resources
 
 Resources can be imported into a package in two ways:
 
 - Assets such as images, meshes, or point clouds can be dragged directly into the Package Management Panel and will automatically be categorized by their type.
-- Clicking the ![Open Resource Icon](Images/Open_Resource_Icon.png) (Open Resource) icon at the top of the Package Management Panel brings up a panel to quickly import a file.
+- Clicking the ![Open Resource Icon](/instamat_studio/canvas/open_resource_icon.png) (Open Resource) icon at the top of the Package Management Panel brings up a panel to quickly import a file.
