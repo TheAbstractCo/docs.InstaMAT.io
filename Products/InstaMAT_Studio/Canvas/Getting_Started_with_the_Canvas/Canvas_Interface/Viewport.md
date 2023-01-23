@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T19:52:52.891Z
+date: 2023-01-23T19:54:12.662Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -97,8 +97,9 @@ To solo and cycle through individual channels in the Viewport:
 2. Press <kbd>C</kbd>. Continuing to press <kbd>C</kbd> will cycle through the available channels.
 
 > Alternatively, the `Solo Material Channel` Render Mode can be selected under the `Environment Settings` section in the <a href="">Viewport Settings</a> Panel.
+{.is-info}
 
-To return to **'PBR'** or "Material" mode, press **M**.
+To return to `PBR` or "Material" mode, press <kbd>M</kbd>.
 
 ## Maximize Viewport
 
