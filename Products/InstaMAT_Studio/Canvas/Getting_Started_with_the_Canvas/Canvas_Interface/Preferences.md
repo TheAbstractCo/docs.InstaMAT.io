@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-23T20:39:37.473Z
+date: 2023-01-23T20:40:51.520Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -122,8 +122,8 @@ These settings apply to the <a href="../../../Canvas_Overview.html">Canvas</a> i
 - **Canvas Update Time Delay Mode**: Determines the rendering priority of the <a href="">Image Viewer</a> versus the Canvas Previews. Increasing the speed will result in faster Canvas Preview generation. A slower speed will prioritize the <a href="../Image_Viewer.html">Image Viewer</a>'s preview.
 - **Connection Rendering Mode**: Determines the style in which connections are drawn in the Canvas
 - **Mouse Wheel Behavior**: Determines how the Canvas reacts to scrolling the mouse wheel
-- **Mouse Drag Zoom Speed**: Determines the speed at which the Canvas will zoom when **Right Clicking** and dragging
-- **Double Click Behavior**: Determines the behavior when **Double Clicking** a node in the Canvas. The action can result in opening the graph or previewing its output.
+- **Mouse Drag Zoom Speed**: Determines the speed at which the Canvas will zoom when <kbd>Right Clicking</kbd> and dragging
+- **Double Click Behavior**: Determines the behavior when <kbd>Double Clicking</kbd> a node in the Canvas. The action can result in opening the graph or previewing its output.
 - **Arithmetic Font Size**: Adjusts the font size for expression elements
 - **Arithmetic Row View**: Determines which representation to use for expression elements - row or column
 - **Automatically Render Graph**: Enables the graph to automatically render if a change is made
@@ -138,7 +138,8 @@ These settings apply to the <a href="../../../Canvas_Overview.html">Canvas</a> i
 - **Auto-Scrolling**: Enables automatic scrolling when dragging a node close to a border of the Canvas graph view
 - **Show Snapshot Settings**: Shows the **Snapshot Settings** Dialog first when taking a **Canvas Snapshot**
 
-> A Canvas Snapshot is an image of the Canvas's graph layout. To take a Canvas Snapshot, go **Canvas** > **Canvas Snapshot**. 
+> A Canvas Snapshot is an image of the Canvas's graph layout. To take a Canvas Snapshot, go **Canvas** > **Canvas Snapshot**.
+{.is-info}
 
 - **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved
 - **Show Minimap**: Enables the <a href="../Minimap.html">Minimap</a>
@@ -154,6 +155,6 @@ These settings apply to the <a href="">Layering</a> interface.
 
 ### Viewport
 
-![GPU Info](Images/Preferences_GPU_Info.png)
+![GPU Info](/instamat_studio/canvas/preferences_gpu_info.png)
 
 This tab displays information on the computer's GPU.
