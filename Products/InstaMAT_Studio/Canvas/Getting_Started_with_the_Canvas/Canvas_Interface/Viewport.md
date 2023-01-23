@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T19:27:30.884Z
+date: 2023-01-23T19:30:48.881Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -69,7 +69,7 @@ The following can be done with the Axis Gizmo:
 - **Orbit the Camera**: **Left Click** and drag the sphere
 - **Snap to an Orthographic View**: hover over the gizmo and click on the dot corresponding to the orthographic view's axis.
 
-### <img src="Images/4.png" alt="4" width="22"/> Viewport Status Bar
+### <img src="/instamat_studio/canvas/4.png" alt="4" width="22"/> Viewport Status Bar
 
 The **Viewport Status Bar** displays the total polygon and drawcall count for the scene.
 
@@ -77,15 +77,15 @@ The **Viewport Status Bar** displays the total polygon and drawcall count for th
 
 Here are some methods to load meshes into the Viewport:
 
-- **Double Click** a mesh in the <a href="Package_Management.html">Package Management</a> Panel.
-- Bring up the **Pick Mesh** Panel by pressing the **V** key or by using the ![Load_Mesh_Icon](Images/Load_Mesh_Icon.png) Viewport toolbar button.
-- If mesh information is used in the <a href="../../Canvas_Overview.html">Canvas</a>, either **Left Click** the node's mesh input or output connection point, or **Right Click** the node to bring up the contextual menu and choose **'View Mesh'**.
+- **Double Click** a mesh in the <a href="">Package Management</a> Panel.
+- Bring up the **Pick Mesh** Panel by pressing the **V** key or by using the ![Load_Mesh_Icon](/instamat_studio/canvas/load_mesh_icon.png) Viewport toolbar button.
+- If mesh information is used in the <a href="">Canvas</a>, either **Left Click** the node's mesh input or output connection point, or **Right Click** the node to bring up the contextual menu and choose **'View Mesh'**.
 
 > To learn more about loading meshes into the Viewport, check out our dedicated YouTube Video <a href="">here.</a>
 
 ## Soloing Individual Channels
 
-<img src="Images/Viewport_Channels.gif" alt="GIF cycling through the different channels in the viewport" width="600"/>
+<img src="/instamat_studio/canvas/viewport_channels.gif" alt="GIF cycling through the different channels in the viewport" width="600"/>
 
 Individual texture channels can be soloed directly on the meshes in the current scene. Soloing channels makes it easy to visually understand the intensities and locations of particular material attributes such as the roughness or height displacement.
 
@@ -94,12 +94,12 @@ To solo and cycle through individual channels in the Viewport:
 1. Make sure the Viewport is selected.
 2. Press **C**. Continuing to press **C** will cycle through the available channels.
 
-> Alternatively, the **'Solo Material Channel'** Render Mode can be selected under the **Environment Settings** section in the <a href="Viewport_Settings.html">Viewport Settings</a> Panel.
+> Alternatively, the **'Solo Material Channel'** Render Mode can be selected under the **Environment Settings** section in the <a href="">Viewport Settings</a> Panel.
 
 To return to **'PBR'** or "Material" mode, press **M**.
 
 ## Maximize Viewport
 
-To maximize the real estate of the Viewport in the <a href="../../Canvas_Overview.html">Canvas</a> interface, use the ![Viewport Icon](Images/Viewport.png) button in the <a href="Canvas_Toolbar.html">Canvas Toolbar</a> to shift it so that it takes up the center section of the UI. You can then maximize it further by hiding the left and right panel sections by clicking on their respective top tab icons.
+To maximize the real estate of the Viewport in the <a href="">Canvas</a> interface, use the ![Viewport Icon](/instamat_studio/canvas/viewport.png) button in the <a href="">Canvas Toolbar</a> to shift it so that it takes up the center section of the UI. You can then maximize it further by hiding the left and right panel sections by clicking on their respective top tab icons.
 
 <img src="Images/Viewport_Maximized.gif" alt="GIF of maximizing the Viewport size" />
