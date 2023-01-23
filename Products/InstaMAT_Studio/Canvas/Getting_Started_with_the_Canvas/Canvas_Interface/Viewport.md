@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T19:37:03.737Z
+date: 2023-01-23T19:39:36.354Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -57,6 +57,7 @@ The Viewport contains a dedicated toolbar with the following actions:
 - ![Load_Mesh_Icon](/instamat_studio/canvas/load_mesh_icon.png) **Load Mesh**: Brings up the **Pick Mesh** Panel to load a mesh into the Viewport.
 
 > Click the ![Move_To_The_Left_Icon](/instamat_studio/canvas/move_to_the_left_icon.png) button above the toolbar to move the Viewport and <a href="Image_Viewer.html">Image Viewer</a> over to the left panel. This allows both the Viewport and the Image Viewer to be seen at the same time.
+{.is-info}
 
 ### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Axis Gizmo
 
@@ -78,10 +79,11 @@ The **Viewport Status Bar** displays the total polygon and drawcall count for th
 Here are some methods to load meshes into the Viewport:
 
 - **Double Click** a mesh in the <a href="">Package Management</a> Panel.
-- Bring up the **Pick Mesh** Panel by pressing the **V** key or by using the ![Load_Mesh_Icon](/instamat_studio/canvas/load_mesh_icon.png) Viewport toolbar button.
-- If mesh information is used in the <a href="">Canvas</a>, either **Left Click** the node's mesh input or output connection point, or **Right Click** the node to bring up the contextual menu and choose **'View Mesh'**.
+- Bring up the **Pick Mesh** Panel by pressing the <kbd>V</kbd> key or by using the ![Load_Mesh_Icon](/instamat_studio/canvas/load_mesh_icon.png) Viewport toolbar button.
+- If mesh information is used in the <a href="">Canvas</a>, either <kbd>Left Click</kbd> the node's mesh input or output connection point, or <kbd>Right Click</kbd> the node to bring up the contextual menu and choose `View Mesh`.
 
 > To learn more about loading meshes into the Viewport, check out our dedicated YouTube Video <a href="">here.</a>
+{.is-info}
 
 ## Soloing Individual Channels
 
@@ -92,7 +94,7 @@ Individual texture channels can be soloed directly on the meshes in the current 
 To solo and cycle through individual channels in the Viewport:
 
 1. Make sure the Viewport is selected.
-2. Press **C**. Continuing to press **C** will cycle through the available channels.
+2. Press <kbd>C</kbd>. Continuing to press <kbd>C</kbd> will cycle through the available channels.
 
 > Alternatively, the **'Solo Material Channel'** Render Mode can be selected under the **Environment Settings** section in the <a href="">Viewport Settings</a> Panel.
 
