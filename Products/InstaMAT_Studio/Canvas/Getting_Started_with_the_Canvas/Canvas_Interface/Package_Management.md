@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-01-23T16:12:49.975Z
+date: 2023-01-23T16:14:16.968Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -26,10 +26,11 @@ Below the package name is a dedicated search field used to filter through the pa
 
 The ![Open Resource](/instamat_studio/canvas/open_resource_icon.png) (Open Resource) icon allows the user to quickly add a resource to the package. More can be read about importing resources <a href="#importing-resources">below</a>.
 
-Projects are listed alphabetically in the main body of the Package Management Panel. All other resources such as images, meshes, and baking settings are organized under an **'Assets'** category.
+Projects are listed alphabetically in the main body of the Package Management Panel. All other resources such as images, meshes, and baking settings are organized under an `Assets` category.
 
 ### Asset Tooltips
-![Asset tooltip](Images/Asset_Tooltip.png)
+
+![Asset tooltip](/instamat_studio/canvas/asset_tooltip.png)
 
 Hovering over an asset will bring up a tooltip containing various information and meta data for the project or resource. The tooltip includes the asset's:
 
