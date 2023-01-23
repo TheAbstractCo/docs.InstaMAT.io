@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-23T20:42:52.095Z
+date: 2023-01-23T20:45:18.675Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-23T20:42:52.095Z
 
 # Raytracing
 
-![Raytracing_Panel](Images/Raytracing_Panel.png)
+![Raytracing_Panel](/instamat_studio/canvas/raytracing_panel.png)
 
 The **Raytracing** Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs. The automatic PBR material conversion allows for seamless usability between the real-time <a href="../Viewport.html">Viewport</a> and the AMD Radeon™ ProRender scene. The powerful post-processing stack enables final-shot compositing and product shots to be generated directly inside InstaMAT Studio.
 
@@ -20,22 +20,24 @@ The user interface for the Raytracing Panel is divided into three parts. The Set
 
 ### Settings
 
-<img src="Images/Raytracing_Settings.png" alt="Raytracing Settings" width="400"/>
+<img src="/instamat_studio/canvas/raytracing_settings.png" alt="Raytracing Settings" width="400"/>
 
 The left panel contains all of the render settings for the AMD Radeon™ ProRender engine.
 
 > The settings panel can be hidden by clicking the arrow between the settings panel and the Raytracing Viewport.
+{.is-info}
 
 #### Controls
 
-<img src="Images/Raytracing_Controls.png" alt="Raytracing Controls" width="400"/>
+<img src="/instamat_studio/canvas/raytracing_controls.png" alt="Raytracing Controls" width="400"/>
 
 These buttons control the state of the raytracing engine.
 
-- ![Play/Pause](Images/Play_Icon.png) **Play/Pause**: Starts or pauses the render
-- ![Stop](Images/Stop_Icon.png) **Stop**: Stops the render
+- ![Play/Pause](/instamat_studio/canvas/play_icon.png) **Play/Pause**: Starts or pauses the render
+- ![Stop](/instamat_studio/canvas/stop_icon.png) **Stop**: Stops the render
 
 > The rendered image size and current sample iteration are displayed along the bottom in the Raytracing Panel's status bar.
+{.is-info}
 
 #### Settings
 
