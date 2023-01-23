@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:08:59.053Z
+date: 2023-01-23T20:10:43.873Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -109,10 +109,12 @@ These bakers share their settings.
 - **Sample Count**: Sets the amount of sub rays to cast for each pixel.
 
 > Increasing the Sample Count increases both the quality of the output texture and the processing time.
+{.is-info}
 
 - **AO Blur Kernel**: If enabled by having a value greater than 0, sets the size of the Ambient Occlusion blur kernel
 
-> The Bent Normals baker output  will not be blurred.
+> The Bent Normals baker output will not be blurred.
+{.is-warning}
 
 - **Sampling Type**: Determines the sampling type used when generating ray directions.
 
@@ -139,6 +141,7 @@ These bakers share their settings.
 - **Sample Count**: Sets the amount of sub rays to cast for each pixel.
 
 > Increasing the Sample Count increases both the quality of the output texture and the processing time.
+{.is-info}
 
 - **Blur Kernel**: If enabled by having a value greater than 0, sets the size of the Thickness blur kernel
 - **Sampling Type**: Determines the sampling type used when generating ray directions.
@@ -151,14 +154,14 @@ These bakers share their settings.
 
 - **Binormal Per Fragment**: This setting depends on how your renderer/engine computes the tangent basis. Unreal Engine: On, Unity: Off.
 - **Normalize Per Fragment**: This setting depends on how your renderer/engine computes the tangent basis. Unreal Engine: Off, Unity: Off.
-- **Output Tangent Space**: Sets the output type of the automatically-computed tangent space. Can either be **'OpenGL'** or **'DirectX'**.
+- **Output Tangent Space**: Sets the output type of the automatically-computed tangent space. Can either be `OpenGL` or `DirectX`.
 
 
 ## Baking Process Overview
 
 The following is how to bake mesh maps using the Mesh Baking Panel in InstaMAT Studio:
 
-1. Select a **'Source Mesh'** and a **'Target Mesh'** by clicking the ![Folder Icon](Images/Folder_Icon.png) icon. From the popup menu, choose **'Pick Package Resource'** to select a mesh from within the currently active package. Choose **'Pick Local File'** to select a mesh with your system's folder structure.
+1. Select a `Source Mesh` and a `Target Mesh` by clicking the ![Folder Icon](Images/Folder_Icon.png) icon. From the popup menu, choose **'Pick Package Resource'** to select a mesh from within the currently active package. Choose **'Pick Local File'** to select a mesh with your system's folder structure.
 2. Choose the output **'Resolution'** for the baked images.
 3. Choose a **'Super Sampling'** value if desired. This will multiply the output **'Resolution'** by the chosen factor, then sample the image down to the original result.
 4. Enable each baker with its dedicated switch on the right. Bakers will move to their Active and Inactive positions on the panel.
