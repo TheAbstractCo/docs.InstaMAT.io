@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T17:42:51.759Z
+date: 2023-01-23T17:45:27.925Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -16,20 +16,21 @@ InstaMAT Studio's **Viewport** is a 3D view illuminated by an **Environment Imag
 
 The Viewport is more than just a viewer. Viewport Gizmos provide artistic control over the position, scale, and rotation of meshes in the scene. Gizmos can also control the position of gradients, decals, and projections in 3D space. Mesh modifiers like the <a href="">Mesh Bend</a> node can also be controlled directly in the Viewport. Most essentially, <a href="">painting</a> using InstaMAT's procedural 3D painting engine is done directly in the Viewport. Painting can be done in Layering and Canvas-based projects.
 
-> To learn more about how to adjust aspects of the Viewport such as the Camera, Environment, and Render Settings, please read our article on the <a href="Viewport_Settings.html">Viewport Settings</a> Panel. Here you will learn how to change the Environment Image, adjust the Camera's Exposure, and dial in the scene's Tessellation and Displacement settings.
+> To learn more about how to adjust aspects of the Viewport such as the Camera, Environment, and Render Settings, please read our article on the <a href="">Viewport Settings</a> Panel. Here you will learn how to change the Environment Image, adjust the Camera's Exposure, and dial in the scene's Tessellation and Displacement settings.
+{.is-info}
 
 ## Interface Overview
 
-<img src="Images/Viewport_Numbered.png" alt="Viewport Numbered" width="600"/>
+<img src="/instamat_studio/canvas/viewport_numbered.png" alt="Viewport Numbered" width="600"/>
 
 The Viewport is made up of four parts: The 3D View, the Toolbar, the Axis Gizmo, and the Viewport Status Bar.
 
-### <img src="Images/1.png" alt="1" width="22"/> 3D View
+### <img src="/instamat_studio/canvas/1.png" alt="1" width="22"/> 3D View
 
 The following is how to navigate in the Viewport:
 
-- **Orbit the camera around the scene**: hold the **Alt/Option** key, **Left Click**, and drag.
-- **Zoom or Dolly In on the mouse position**: use the **Scroll Wheel**. This locks the camera's **Orbit Pivot Point** on where the mouse was pointing on the object in the scene.
+- **Orbit the camera around the scene**: hold the <kbd>Alt/Option</kbd> key, <kbd>Left Click</kbd>, and drag.
+- **Zoom or Dolly In on the mouse position**: use the <kbd>Scroll Wheel</kbd>. This locks the camera's **Orbit Pivot Point** on where the mouse was pointing on the object in the scene.
 - **Look Around in First Person mode**: **Right Click** and drag.
 - **Focus**:  use the **F** key. This resets the view so that the entire scene fits the Viewport area and centers the **Orbit Pivot Point** to the origin.
 - **Fly Through the Scene**: use the **Arrow Keys** or **W, A, S, D**.
