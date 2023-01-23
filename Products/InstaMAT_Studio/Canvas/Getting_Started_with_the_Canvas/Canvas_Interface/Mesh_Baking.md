@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:02:35.742Z
+date: 2023-01-23T20:04:26.718Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -39,19 +39,20 @@ The Mesh Baking Panel is divided into two parts. The left contains the **Baking 
 
 ### Baking Settings
 
-<img src="Images/Baking_Settings.png" alt="Baking Settigs" width="600"/>
+<img src="/instamat_studio/canvas/baking_settings.png" alt="Baking Settigs" width="600"/>
 
 #### Mesh Baking
 
 These are the main baking operation settings. They determine the input meshes, baking engine, image output resolution, and other output settings for the resulting images.
 
-- **Target Mesh**: Sets the target mesh. Typically this is the "low-poly" counterpart in a "High to Low Poly" baking workflow. Details from the **'Source Mesh'** will be baked onto this mesh.
-- **Source Mesh**: Sets the source mesh. Typically this is the "high-poly" counterpart in a "High to Low Poly" baking workflow. Details from this mesh will be baked onto the **'Target Mesh'**.
+- **Target Mesh**: Sets the target mesh. Typically this is the "low-poly" counterpart in a "High to Low Poly" baking workflow. Details from the `Source Mesh` will be baked onto this mesh.
+- **Source Mesh**: Sets the source mesh. Typically this is the "high-poly" counterpart in a "High to Low Poly" baking workflow. Details from this mesh will be baked onto the `Target Mesh`.
 - **Baking Engine**: Determines whether to use the CPU or GPU baking engine
 - **Resolution**: Sets the resolution of the baked image
-- **Super Sampling**: When enabled, multiplies the **'Resolution'** by the chosen amount. The result is then sampled down to the original resolution.
+- **Super Sampling**: When enabled, multiplies the `Resolution` by the chosen amount. The result is then sampled down to the original resolution.
 
-> The "Super Sampled" result retains a majority of the quality from the higher resolution bake providing a higher quality output with a smaller footprint. Note that increasing the **'Super Sampling'** amount will also exponentially increase memory usage and processing time.
+> The "Super Sampled" result retains a majority of the quality from the higher resolution bake providing a higher quality output with a smaller footprint. Note that increasing the `Super Sampling` amount will also exponentially increase memory usage and processing time.
+{.is-info}
 
 - **Store Result in Package**: Stores the baking results in the currently active package. If disabled, an output path can be provided.
 - **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the ![Tokens Icon](Images/Tokens_Icon.png) button located to the right of the input field.
