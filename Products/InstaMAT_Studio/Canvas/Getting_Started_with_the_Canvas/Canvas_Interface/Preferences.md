@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-23T20:40:51.520Z
+date: 2023-01-23T20:41:23.348Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -47,7 +47,7 @@ This area allows the user to provide multiple paths for InstaMAT's <a href="../G
 - **Output Log Line Count**: The amount of lines visible in the <a href="">Output Log</a>
 - **Auto-Save**: Enables, Disables, and sets the duration for when the project and package is automatically saved
 
-> Auto-Saved packages are found in the **'AutoSave'** directory commonly found in the `~/Documents/InstaMAT` folder. If a disruption to InstaMAT Studio occurs, an Auto-Saved package can be restored upon relaunch.
+> Auto-Saved packages are found in the "AutoSave" directory commonly found in the `~/Documents/InstaMAT` folder. If a disruption to InstaMAT Studio occurs, an Auto-Saved package can be restored upon relaunch.
 {.is-info}
 
 - **Application Skin**: The skin applied to the application's interface. Choose between `Dark` and `Light` Adjustments to this setting occur after restarting the application.
