@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-01-23T21:02:54.876Z
+date: 2023-01-24T08:02:48.939Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -47,7 +47,7 @@ Both side panels can be hidden to provide maximum viewing space while the Viewpo
 
 ![Maximum Viewport Space example]()
 
-> Hovering over a panel's icon provides a tooltip displaying it's name and hotkey. Panels on the left are toggled with the number keys alone. Panels on the right are toggled with the **Shift** key modifier followed by a number key. To quickly hide a panel, press the hotkey for that panel if it is already open. Pressing the hotkey again will bring it back.
+> Hovering over a panel's icon provides a tooltip displaying it's name and hotkey. Panels on the left are toggled with the number keys alone. Panels on the right are toggled with the <kbd>Shift</kbd> key modifier followed by a number key. To quickly hide a panel, press the hotkey for that panel if it is already open. Pressing the hotkey again will bring it back.
 {.is-info}
 
 ## Moving the Viewport and Image Viewer to the Left Panel
