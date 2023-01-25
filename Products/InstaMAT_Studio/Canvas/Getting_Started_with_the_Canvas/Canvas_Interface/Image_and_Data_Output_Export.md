@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-25T21:51:59.244Z
+date: 2023-01-25T21:55:42.697Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -20,7 +20,7 @@ The UI for the Export window is divided into four parts: Output Settings, Image 
 
 <img src="/instamat_studio/canvas/export_dialog_numbered.png" alt="Export Dialog Numbered" />
 
-### <img src="/instamat_studio/canvas/1.png" alt="1" width="22"/> Output Settings
+### <i class="fa-regular fa-circle-1"></i> Output Settings
 
 This section determines where to export the outputs, the naming convention for each file, the file's format extension, and format settings.
 
@@ -34,13 +34,13 @@ Format extension dropdown menus will appear based on the type of outputs used fo
 - **Format Preview**: Provides a preview of the naming convention used in the `File Name Format` setting
 - **Format Settings**: Sets the export resolution and format of an image output. This setting is separate from the "working" resolution and format found in InstaMAT Studio's main toolbar.
 
-### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Image and Data Outputs
+### <i class="fa-regular fa-circle-2"></i>> Image and Data Outputs
 
 This section sets which outputs are exported. Outputs with their toggle enabled "inner circle to the right" will be exported. If an export template is chosen, the `Managed by Output Template` toggle will be enabled and the switches for each output will be toggled based on their usage in the chosen template.
 
 <img src="/instamat_studio/canvas/output_export_image_and_data_outputs.png" alt="Image and Data Outputs" width="500"/>
 
-### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Output Template Configuration
+### <i class="fa-regular fa-circle-3"></i> Output Template Configuration
 
 This section provides access to InstaMAT Studio's powerful template configuration system.
 
@@ -61,7 +61,7 @@ Options from the `Output Templates` and `Output Converters` lists can be dragged
 > To learn more about creating custom Output Templates, please read the <a href="#creating-output-templates">Creating Output Templates</a> section below.
 {.is-info}
 
-### <img src="/instamat_studio/canvas/4.png" alt="4" width="22"/> Export Template
+### <i class="fa-regular fa-circle-4"></i> Export Template
 
 This section shows the active Output Template used for export. Each output file is listed along with its file type expressed as a dot with a corresponding type color. Use the dropdown menu to quickly select an Output Template.
 
