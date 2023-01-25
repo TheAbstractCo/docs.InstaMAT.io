@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-25T21:40:39.034Z
+date: 2023-01-25T21:45:15.354Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -22,9 +22,11 @@ The UI for the Export window is divided into four parts: Output Settings, Image 
 
 ### <img src="/instamat_studio/canvas/1.png" alt="1" width="22"/> Output Settings
 
+This section determines where to export the outputs, the naming convention for each file, the file's format extension, and format settings.
+
 <img src="/instamat_studio/canvas/output_export_output_settings.png" alt="Output Settings" width="500"/>
 
-This section determines where to export the outputs, the naming convention for each file, the file's format extension, and format settings. Format extension dropdown menus will appear based on the type of outputs used for the project. An image output's export resolution and format is determined separately from the project's current execution settings found in the main toolbar of InstaMAT Studio's UI. This means that the export resolution can be different from the working resolution.
+Format extension dropdown menus will appear based on the type of outputs used for the project. An image output's export resolution and format is determined separately from the project's current execution settings found in the main toolbar of InstaMAT Studio's UI. This means that the export resolution can be different from the working resolution.
 
 - **Output Path**: Determines the folder location to export the outputs
 - **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the ![Tokens Icon](/instamat_studio/canvas/tokens_icon.png) button located to the right of the input field.
@@ -34,36 +36,36 @@ This section determines where to export the outputs, the naming convention for e
 
 ### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Image and Data Outputs
 
-<img src="/instamat_studio/canvas/output_export_image_and_data_outputs.png" alt="Image and Data Outputs" width="500"/>
-
 This section sets which outputs are exported. Outputs with their toggle enabled "inner circle to the right" will be exported. If an export template is chosen, the `Managed by Output Template` toggle will be enabled and the switches for each output will be toggled based on their usage in the chosen template.
+
+<img src="/instamat_studio/canvas/output_export_image_and_data_outputs.png" alt="Image and Data Outputs" width="500"/>
 
 ### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Output Template Configuration
 
+This section provides access to InstaMAT Studio's powerful template configuration system.
+
 <img src="/instamat_studio/canvas/output_export_output_template_configuration.png" alt="Output Template Configuration" width="500"/>
 
-This section provides access to InstaMAT Studio's powerful template configuration system. With the large dropdown at the top, a template can be selected. By default this says "No Template Active".
+With the large dropdown at the top, a template can be selected. By default this says "No Template Active". Add or remove a template by clicking the ![+](/instamat_studio/canvas/add_template_icon.png) or ![-](/instamat_studio/canvas/remove_template_icon.png) buttons to the right of the dropdown. To duplicate a template, make sure it is active and click the ![Duplicate](/instamat_studio/canvas/duplicate_template_icon.png) button.
 
 <img src="/instamat_studio/canvas/output_export_template_selection.png" alt="Template Selection" width="500"/>
 
-Add or remove a template by clicking the ![+](/instamat_studio/canvas/add_template_icon.png) or ![-](/instamat_studio/canvas/remove_template_icon.png) buttons to the right of the dropdown. To duplicate a template, make sure it is active and click the ![Duplicate](/instamat_studio/canvas/duplicate_template_icon.png) button.
+The Output Template table shows each **Custom Output** in a row. The first column displays the output's name. The second and third columns display how a particular project output is mapped to the channels of the Custom Output image.
 
 <img src="/instamat_studio/canvas/output_export_table.png" alt="Output Template Table" width="500"/>
 
-The Output Template table shows each **Custom Output** in a row. The first column displays the output's name. The second and third columns display how a particular project output is mapped to the channels of the Custom Output image.
+Options from the `Output Templates` and `Output Converters` lists can be dragged onto a Custom Output's channels to map or pack the information.
 
 <img src="/instamat_studio/canvas/output_export_options.png" alt="Outputs and Converters" width="500"/>
-
-  Options from the `Output Templates` and `Output Converters` lists can be dragged onto a Custom Output's channels to map or pack the information.
 
 > To learn more about creating custom Output Templates, please read the <a href="#creating-output-templates">Creating Output Templates</a> section below.
 {.is-info}
 
 ### <img src="/instamat_studio/canvas/4.png" alt="4" width="22"/> Export Template
 
-<img src="/instamat_studio/canvas/output_export_export_template.png" alt="Export Template" width="500"/>
-
 This section shows the active Output Template used for export. Each output file is listed along with its file type expressed as a dot with a corresponding type color. Use the dropdown menu to quickly select an Output Template.
+
+<img src="/instamat_studio/canvas/output_export_export_template.png" alt="Export Template" width="500"/>
 
 ## Creating Output Templates
 
