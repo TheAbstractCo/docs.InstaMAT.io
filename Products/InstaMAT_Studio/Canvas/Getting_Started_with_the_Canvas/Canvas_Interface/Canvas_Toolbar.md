@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T16:40:22.918Z
+date: 2023-01-25T16:42:49.917Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -52,11 +52,9 @@ These items determine the global resolution, format and seed for the active grap
 
 ### Global Seed
 
-![global_seed_2.png](/instamat_studio/canvas/global_seed_2.png){.align-left} The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk.
+![global_seed_2.png](/instamat_studio/canvas/global_seed_2.png){.align-left} The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk. <br style="clear:left;" />
 
-<br style="clear:left;" />
-
-**Right Clicking** the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
+<kbd>Right Clicking</kbd> the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
 
 ## <i class="fa-regular fa-circle-3"></i> Center View Selection
 
