@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-25T15:19:31.868Z
+date: 2023-01-25T15:22:43.521Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -27,26 +27,26 @@ The left panel contains the following tabs:
 
 ## <i class="fa-regular fa-circle-2"></i> Right Panel
 
-<img src="/instamat_studio/canvas/right_panel_gif.gif" width ="700" />
-
 By default, the right panel is split into two parts. The top contains the following tabs:
 
 - <i class="fa-regular fa-flux-capacitor"></i> <a href="Graph_Object_Editor.html">Graph Object Editor</a>: Provides contextual access to a selected object's properties. From here various operations such as the creation of inputs and outputs, the adjustment of a node's <a href="">exposed parameters</a>, and the assignment of various meta data to a graph can be performed. By selecting multiple nodes in the Canvas, the Graph Object Editor (GOE) displays a table of execution times making it easier to determine which nodes require more processing time.
 - <i class="fa-regular fa-lambda"></i> <a href="">Graph Variable Editor</a>: Provides specific adjustments for graph variables such as a public **Graph Input** or a private **Local Variable**.
 
-<img src="/instamat_studio/canvas/viewport_image_viewer_gif.gif" width="600"/>
+<img src="/instamat_studio/canvas/right_panel_gif.gif" width ="700" />
 
 By default, the bottom contains:
 
 - <i class="fa-regular fa-cube"></i> <a href="">Viewport</a>: A physically-based 3D viewport illuminated by an environment image. Many aspects of the viewport can be customized with the [Viewport Settings]() panel.
 - <i class="fa-regular fa-image-polaroid"></i> <a href="">Image Viewer</a>: A 2D Image Viewer that provides access to various useful features such as a tiling preview, rulers, individual channel filtering, and tabs that can simplify A/B testing.
 
-## <i class="fa-regular fa-circle-3"></i> Center Area
+<img src="/instamat_studio/canvas/viewport_image_viewer_gif.gif" width="600"/>
 
-<img src="/instamat_studio/canvas/canvas_view.png" width="700"/>
+## <i class="fa-regular fa-circle-3"></i> Center Area
 
 
 By default, the center area contains the Canvas itself where nodes are instanced and connections are made between them. Various nodes, projects, media types, and variables can be dragged into the canvas or instantiated with <a href="">Quick Search</a> to build out the graph. Connections can be made by dragging from a node's input or output.
+
+<img src="/instamat_studio/canvas/canvas_view.png" width="700"/>
 
 >### Learn the Ins and Outs of the Canvas
 >To learn more about working in the Canvas check out these articles:
