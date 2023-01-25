@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-23T15:31:58.545Z
+date: 2023-01-25T17:18:26.725Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -22,27 +22,32 @@ To use a resource from the Graph Library, drag it from the library panel into yo
 ## Interface Overview
 
 ### Category Browser
-<img src="/instamat_studio/canvas/gl_top.png" width="300"/>
 
 The top area of the Graph Library is the **Category Browser** and contains all of the categories and resources available in the library. Use the dedicated search field at the top to filter through the available resources.
 
+<img src="/instamat_studio/canvas/gl_top.png" width="300"/>
+
 ### Content Browser
+
+Once a category has been selected, the bottom half of the panel known as the **Category Browser** will display each resource based on the selected view method.
 
 <img src="/instamat_studio/canvas/gl_bottom.png" width="300"/>
 
-Once a category has been selected, the bottom half of the panel known as the **Category Browser** will display each resource based on the selected view method. The Category Browser contains a dedicated toolbar with the following actions:
+The Category Browser contains a dedicated toolbar with the following actions:
 
-- ![icon](/instamat_studio/canvas/search_in_selected_category_icon.png) **Search in the Selected Category**: When enabled, using the dedicated search field at the top of the panel will only search in the selected category
-- ![icon](/instamat_studio/canvas/context_sensitivity_icon.png) **Context Sensitivity**: When enabled, only categories relevant to the currently active project will be shown in the top half of the panel
-- ![icon](/instamat_studio/canvas/show_objects_from_subcategories_icon.png) **Show Objects from Subcategories**: When enabled, resources from subcategories of the selected category will be shown
-- ![icon](/instamat_studio/canvas/show_names_icon.png) **Show Names**: Toggles the resource name
-- ![icon](/instamat_studio/canvas/show_categories_icon.png) **Show Categories**: Toggles the resource category
-- ![icon](/instamat_studio/canvas/show_only_user_library_content_icon.png) **Show Only User Library Content**: When enabled, only resources from the **User Library** will be displayed in the Graph Library panel. Learn more about the User Library below.
-- ![icon](/instamat_studio/canvas/use_a_table_view_icon.png) **Use a Table View**: Displays resources in a table view format
+- <i class="fa-regular fa-folder"></i> **Search in the Selected Category**: When enabled, using the dedicated search field at the top of the panel will only search in the selected category
+- <i class="fa-regular fa-lightbulb-on"></i> **Context Sensitivity**: When enabled, only categories relevant to the currently active project will be shown in the top half of the panel
+- <i class="fa-regular fa-folder-tree"></i> **Show Objects from Subcategories**: When enabled, resources from subcategories of the selected category will be shown
+- <i class="fa-regular fa-text"></i> **Show Names**: Toggles the resource name
+- <i class="fa-regular fa-text-size"></i>**Show Categories**: Toggles the resource category
+- <i class="fa-regular fa-user"></i> **Show Only User Library Content**: When enabled, only resources from the **User Library** will be displayed in the Graph Library panel. Learn more about the User Library below.
+- <i class="fa-regular fa-table"></i> **Use a Table View**: Displays resources in a table view format
 - ![icon](/instamat_studio/canvas/display_small_icons_icon.png) **Display Small Icons**: Displays resources with small icons and, if enabled, positions the resource name and category to the right of each icon
-- ![icon](/instamat_studio/canvas/display_medium_icons_icon.png) **Display Medium Icons**: Displays resources with medium icons and, if enabled, positions the resource name and category underneath each icon
-- ![icon](/instamat_studio/canvas/display_large_icons_icon.png) **Display Large Icons**: Displays resources with large icons and, if enabled, positions the resource name and category underneath each icon
-- ![icon](/instamat_studio/canvas/show_library_status_bar_icon.png)  **Show Library Status Bar**: Toggles the Library Status Bar located at the bottom of the Graph Library panel
+- <i class="fa-regular fa-table-cells"></i> **Display Medium Icons**: Displays resources with medium icons and, if enabled, positions the resource name and category underneath each icon
+- <i class="fa-regular fa-table-cells-large"></i> **Display Large Icons**: Displays resources with large icons and, if enabled, positions the resource name and category underneath each icon
+- <i class="fa-regular fa-square-info"></i> **Show Library Status Bar**: Toggles the Library Status Bar located at the bottom of the Graph Library panel
+
+
 
 
 ## Favorites
