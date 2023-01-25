@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T15:29:03.058Z
+date: 2023-01-25T15:30:28.329Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -29,7 +29,7 @@ The Canvas Toolbar is organized into the following groups:
 6. **Canvas Tools and Display Functions**: Provides control over various Canvas functionality and display options.
 7. **Graph Performance Tools**: Gives access to various graph performance and execution tools.
 
-## <img src="/instamat_studio/canvas/1.png" alt="1" width="30"/> Undo History
+## <i class="fa-regular fa-circle-1"></i> Undo History
 
 ![Undo History Icon](/instamat_studio/canvas/undo_history_icon.png)
 
@@ -39,7 +39,7 @@ The **Undo History** button is divided into two sections: Undo Button, and Undo 
 
 This popup displays the undo history for the active session. The order of the items are listed where the most recent action is at the bottom. Clicking on one of the items will undo back to the historical state where that operation took place. As long as no additional changes are made, clicking on future items at the bottom will restore and "redo" the subsequent actions until reaching the latest step.
 
-## <img src="/instamat_studio/canvas/2.png" alt="2" width="30"/> Global Execution Settings and Seed
+## <i class="fa-regular fa-circle-2"></i> Global Execution Settings and Seed
 
 ![Global Res and Seed](/instamat_studio/canvas/global_res_and_seed.png)
 
@@ -59,7 +59,7 @@ The **Global Seed** value sets the seed for all randomized parameters and attrib
 
 **Right Clicking** the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
 
-## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center View Selection
+## <i class="fa-regular fa-circle-3"></i> Center View Selection
 
 These items determine which view takes up the center area of the Canvas interface. By clicking on the icon matching with the corresponding view, the interface will shift and reorganize accordingly. The icons correspond as follows:
 
@@ -75,7 +75,7 @@ Additionally, the keyboard shortcut <kbd>Option/Alt + C</kbd> cycles through eac
 > Switching the <a href="">Viewport</a> to the center view is a great way to quickly perform design reviews of your 3D assets and materials.
 {.is-info}
 
-## <img src="/instamat_studio/canvas/4.png" alt="4" width="30"/> Project Management
+## <i class="fa-regular fa-circle-4"></i> Project Management
 
 ![Project Management Icons](/instamat_studio/canvas/project_management.png)
 
@@ -85,7 +85,7 @@ These items provide shortcuts to common project management actions.
 - <i class="fa-regular fa-floppy-disk"></i> **Save Project**: Saves the active project.
 - <i class="fa-regular fa-share"></i> **Export Image and Data Outputs**: Opens the <a href="">Image and Data Output Export Dialog</a>. Use this dialog to export the graph's outputs to disk.
 
-## <img src="/instamat_studio/canvas/5.png" alt="5" width="30"/> Additional Panels
+## <i class="fa-regular fa-circle-5"></i> Additional Panels
 
 ![Additional Panels](/instamat_studio/canvas/additional_panels.png)
 
@@ -95,7 +95,7 @@ These items provide access to additional panels and features in InstaMAT Studio.
 - ![Raytracing](/instamat_studio/canvas/raytracing.png) **Raytracing**: Opens the <a href="">Raytracing Panel</a>.
 - ![Output Log](/instamat_studio/canvas/output_log.png) **Show Output Log**: Displays the Output Log at the bottom of the interface below the Canvas view.
 
-## <img src="/instamat_studio/canvas/6.png" alt="6" width="30"/> Canvas Tools and Display Functions
+## <i class="fa-regular fa-circle-6"></i> Canvas Tools and Display Functions
 
 ![Canvas Tools and Display Functions](/instamat_studio/canvas/canvas_tools.png)
 
@@ -109,7 +109,7 @@ These items provide quick access to additional Canvas tools and functions.
 - ![Minimap](/instamat_studio/canvas/minimap.png) **Minimap**: Displays the [Minimap](./Minimap#555).
 - ![Lock Comments](/instamat_studio/canvas/lock_comments.png) **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved.
 
-## <img src="/instamat_studio/canvas/7.png" alt="7" width="30"/> Graph Performance Tools
+## <i class="fa-regular fa-circle-7"></i> Graph Performance Tools
 
 ![Graph Performance Tools](/instamat_studio/canvas/graph_performance.png)
 
