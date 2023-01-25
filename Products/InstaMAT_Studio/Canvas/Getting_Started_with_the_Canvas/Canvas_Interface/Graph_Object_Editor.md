@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T20:52:57.594Z
+date: 2023-01-25T21:02:35.991Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -21,9 +21,7 @@ This article breaks down the interface of the Graph Object Editor based on the t
 
 
 ## Node
-When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
-
-<img src="/instamat_studio/canvas/goe_top_node.png" alt="Top of Graph Object Editor with a Node selected" width="500"/>
+![Top of GOE when a node is selected](/instamat_studio/canvas/goe_top_node_small.png){.align-left} When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
 
 At the top are the the following node attributes:
 
@@ -33,11 +31,13 @@ At the top are the the following node attributes:
 - Author
 - Version Number
 
+<br style="clear: left;" />
+
 ### Element Format
 
-<img src="/instamat_studio/canvas/goe_element_format.png" alt="Element Format" width="500"/>
-
 This section determines the node's format and execution size.
+
+<img src="/instamat_studio/canvas/goe_element_format.png" alt="Element Format" width="400"/>
 
 - **Format Type**: The method in which the node will be executed. The format can be set to the following options
 	- **Normalized8, Normalized16, FullRange16, FullRange32**: This will manually set the format regardless of any parent graph inheritance or connected node inputs.
@@ -57,9 +57,9 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 ### Instance Properties
 
-<img src="/instamat_studio/canvas/goe_instance_properties.png" alt="Instance Properties" width="500"/>
-
 This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
+
+<img src="/instamat_studio/canvas/goe_instance_properties.png" alt="Instance Properties" width="400"/>
 
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
 - **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a <i class="fa-regular fa-snooze"></i> icon in the top left corner next to their name in the Canvas view. Nodes that have a `Background` or `Image` input will pass that information through to the output. 
