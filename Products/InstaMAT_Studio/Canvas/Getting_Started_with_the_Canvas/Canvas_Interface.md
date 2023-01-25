@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-25T14:55:15.593Z
+date: 2023-01-25T14:56:03.289Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -25,7 +25,7 @@ The left panel contains the following tabs:
 - ![Icon](/instamat_studio/canvas/package_management_icon.png) <a href="Package_Management.html">Package Management</a>: Contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Meta Data** section containing the meta data for the active package.
 - ![Icon](/instamat_studio/canvas/viewport_settings_icon.png) <a href="Viewport_Settings.html">Viewport Settings</a>: Houses the various camera, environment, and render settings for InstaMAT Studio's 3D viewport. Some additional settings are included for the generated Canvas node previews and <a href="Image_Viewer.html">Image Viewer</a>.
 
-## <img src="/instamat_studio/canvas/2.png" alt="2" width="30"/> Right Panel
+## <i class="fa-regular fa-circle-2"></i> Right Panel
 
 <img src="/instamat_studio/canvas/right_panel_gif.gif" width ="700" />
 
@@ -41,7 +41,7 @@ By default, the bottom contains:
 - ![Icon](/instamat_studio/canvas/viewport_icon.png) <a href="">Viewport</a>: A physically-based 3D viewport illuminated by an environment image. Many aspects of the viewport can be customized with the [Viewport Settings]() panel.
 - ![Icon](/instamat_studio/canvas/image_viewer_icon.png) <a href="">Image Viewer</a>: A 2D Image Viewer that provides access to various useful features such as a tiling preview, rulers, individual channel filtering, and tabs that can simplify A/B testing.
 
-## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center Area
+## <i class="fa-regular fa-circle-3"></i> Center Area
 
 <img src="/instamat_studio/canvas/canvas_view.png" width="700"/>
 
@@ -55,7 +55,7 @@ By default, the center area contains the Canvas itself where nodes are instanced
 > - <a href="">Node-Based Workflow Key Concepts</a>: Uncover the power of a node-based workflow by tapping into its non-linear nature. Learn about graph inheritance, how to expose input parameters and create outputs, and explore the power of changing a graph's execution resolution and seed. These key concepts drive the core of working within the Canvas.
 {.is-info}
 
-## <img src="/instamat_studio/canvas/4.png" alt="4" width="30"/> Toolbar
+## <i class="fa-regular fa-circle-4"></i> Toolbar
 
 ![Canvas toolbar with sections highlighted and numbered](/instamat_studio/canvas/canvas_toolbar.png)
 
