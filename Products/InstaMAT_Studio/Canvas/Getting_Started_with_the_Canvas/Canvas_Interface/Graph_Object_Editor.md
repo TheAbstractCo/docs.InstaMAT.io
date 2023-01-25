@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:11:16.802Z
+date: 2023-01-25T21:13:45.080Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -77,16 +77,15 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 ### Inputs
 
-This section displays a node's **Graph Inputs** also known as the node's Input Parameters. Inputs have many different data types and an assortment of widgets to control them.
+![goe_inputs_nodes_small.png](/instamat_studio/canvas/goe_inputs_nodes_small.png){.align-left} This section displays a node's **Graph Inputs** also known as the node's Input Parameters. Inputs have many different data types and an assortment of widgets to control them.
 
-<img src="/instamat_studio/canvas/goe_inputs_node.png" alt="Inputs" width="400"/>
+Specific parameter values can be typed in with the keyboard either by <kbd>Double Clicking</kbd> on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
+<br style="clear: left" />
 
 > To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
 >
 >![Widgets](/instamat_studio/canvas/widgets.png)
 {.is-info}
-
-Specific parameter values can be typed in with the keyboard either by <kbd>Double Clicking</kbd> on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
 
 > #### Overriding Input Parameters
 >
