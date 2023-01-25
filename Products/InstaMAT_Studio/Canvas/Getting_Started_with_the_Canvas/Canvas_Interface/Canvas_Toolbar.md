@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T14:07:43.057Z
+date: 2023-01-25T14:11:07.720Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -106,7 +106,7 @@ These items provide quick access to additional Canvas tools and functions.
 - ![Connection Rendering Mode](/instamat_studio/canvas/connection_mode.png) **Connection Rendering Mode**: Determines the style in which connections are drawn in the Canvas. Cycle between Smooth, Angular, and straight lines.
 - ![Link Category Mode](/instamat_studio/canvas/lcm.png) **Link Category Mode**: Combines related Input and Output pins that share the same category. Useful when blending multiple materials together or working with Mesh Bake Data. Connections turn blue, and nodes in the Canvas feature a blue line on the bottom to signify that Link Category Mode is active.
 - ![Canvas Previews](/instamat_studio/canvas/canvas_previews.png) **Canvas Previews**: Toggles the Canvas Previews for nodes in the graph. Disabling can reduce a graph's memory footprint.
-- ![Minimap](/instamat_studio/canvas/minimap.png) **Minimap**: Displays the <a href="">Minimap</a>.
+- ![Minimap](/instamat_studio/canvas/minimap.png) **Minimap**: Displays the [Minimap](Minimap).
 - ![Lock Comments](/instamat_studio/canvas/lock_comments.png) **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved.
 
 ## <img src="/instamat_studio/canvas/7.png" alt="7" width="30"/> Graph Performance Tools
