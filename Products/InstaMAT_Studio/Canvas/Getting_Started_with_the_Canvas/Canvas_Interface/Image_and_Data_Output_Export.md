@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-25T21:55:42.697Z
+date: 2023-01-25T21:56:13.797Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -34,7 +34,7 @@ Format extension dropdown menus will appear based on the type of outputs used fo
 - **Format Preview**: Provides a preview of the naming convention used in the `File Name Format` setting
 - **Format Settings**: Sets the export resolution and format of an image output. This setting is separate from the "working" resolution and format found in InstaMAT Studio's main toolbar.
 
-### <i class="fa-regular fa-circle-2"></i>> Image and Data Outputs
+### <i class="fa-regular fa-circle-2"></i> Image and Data Outputs
 
 This section sets which outputs are exported. Outputs with their toggle enabled "inner circle to the right" will be exported. If an export template is chosen, the `Managed by Output Template` toggle will be enabled and the switches for each output will be toggled based on their usage in the chosen template.
 
