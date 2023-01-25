@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-25T15:22:43.521Z
+date: 2023-01-25T16:55:16.724Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -57,18 +57,19 @@ By default, the center area contains the Canvas itself where nodes are instanced
 
 ## <i class="fa-regular fa-circle-4"></i> Toolbar
 
-![Canvas toolbar with sections highlighted and numbered](/instamat_studio/canvas/canvas_toolbar.png)
+![Canvas Toolbar with sections numbered](/instamat_studio/canvas/canvas_toolbar_2.png)
 
 
 The **Canvas Toolbar** is divided up into multiple sections and contains shortcuts to many of the various tools and Canvas functionality. The toolbar is organized into the following groups:
 
 1. **Undo History**: Displays a popup of the session's undo history allowing the user to jump back to a previous point.
-2. **Global Execution Resolution and Seed**: Controls the execution resolution, format, and seed of the active graph.
-3. **Center View Selection**: Determines which view takes up the center area (Canvas, Viewport, or Image Viewer)
-4. **Project Management**: Creates a new project, saves the current project, or opens the  <a href="">Output Export Dialog</a>.
-5. **Additional Panels**: Opens the <a href="">Baking Panel</a>, <a href="">Raytracing</a>, or Output Log.
-6. **Canvas Tools and Display Functions**: Provides control over various Canvas functionality and display options.
-7. **Graph Performance Tools**: Gives access to various graph performance and execution tools.
+2. **Global Execution Resolution**: Controls the execution resolution and format for the active graph.
+3. **Global Seed**: Controls the global seed of the active graph.
+4. **Center View Selection**: Determines which view takes up the center area (Canvas, Viewport, or Image Viewer)
+5. **Project Management**: Creates a new project, saves the current project, or opens the  <a href="">Output Export Dialog</a>.
+6. **Additional Panels**: Opens the <a href="">Baking Panel</a>, <a href="">Raytracing</a>, or Output Log.
+7. **Canvas Tools and Display Functions**: Provides control over various Canvas functionality and display options.
+8. **Graph Performance Tools**: Gives access to various graph performance and execution tools.
 
 >To learn more about the Canvas Toolbar and each individual section, please read our dedicated article: <a href="">Canvas Toolbar</a>. You can also view our <a href="">walkthrough video</a> on our YouTube channel.
 {.is-info}
