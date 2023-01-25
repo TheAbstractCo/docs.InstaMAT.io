@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T14:06:50.829Z
+date: 2023-01-25T14:07:43.057Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -67,8 +67,8 @@ These items determine which view takes up the center area of the Canvas interfac
 
 
 - <i class="fa-regular fa-diagram-project"></i> Canvas
-- ![Viewport](/instamat_studio/canvas/viewport.png) Viewport
-- ![Image Viewer](/instamat_studio/canvas/image_viewer.png) Image Viewer
+- <i class="fa-regular fa-cube"></i> Viewport
+- <i class="fa-regular fa-image-polaroid"></i> Image Viewer
 
 Additionally, the keyboard shortcut <kbd>Option/Alt + C</kbd> cycles through each option.
 
