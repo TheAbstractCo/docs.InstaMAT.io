@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-25T15:03:23.521Z
+date: 2023-01-25T15:07:37.982Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -31,8 +31,8 @@ The left panel contains the following tabs:
 
 By default, the right panel is split into two parts. The top contains the following tabs:
 
-- ![Icon](/instamat_studio/canvas/graph_object_editor_icon.png) <a href="Graph_Object_Editor.html">Graph Object Editor</a>: Provides contextual access to a selected object's properties. From here various operations such as the creation of inputs and outputs, the adjustment of a node's <a href="">exposed parameters</a>, and the assignment of various meta data to a graph can be performed. By selecting multiple nodes in the Canvas, the Graph Object Editor (GOE) displays a table of execution times making it easier to determine which nodes require more processing time.
-- ![Icon](/instamat_studio/canvas/graph_variable_editor_icon.png) <a href="">Graph Variable Editor</a>: Provides specific adjustments for graph variables such as a public **Graph Input** or a private **Local Variable**.
+- <i class="fa-regular fa-flux-capacitor"></i> <a href="Graph_Object_Editor.html">Graph Object Editor</a>: Provides contextual access to a selected object's properties. From here various operations such as the creation of inputs and outputs, the adjustment of a node's <a href="">exposed parameters</a>, and the assignment of various meta data to a graph can be performed. By selecting multiple nodes in the Canvas, the Graph Object Editor (GOE) displays a table of execution times making it easier to determine which nodes require more processing time.
+- <i class="fa-regular fa-lambda"></i> <a href="">Graph Variable Editor</a>: Provides specific adjustments for graph variables such as a public **Graph Input** or a private **Local Variable**.
 
 <img src="/instamat_studio/canvas/viewport_image_viewer_gif.gif" width="600"/>
 
