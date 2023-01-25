@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-23T15:33:06.477Z
+date: 2023-01-25T13:47:02.052Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -61,9 +61,10 @@ The **Global Seed** value sets the seed for all randomized parameters and attrib
 
 ## <img src="/instamat_studio/canvas/3.png" alt="3" width="30"/> Center View Selection
 
+These items determine which view takes up the center area of the Canvas interface. By clicking on the icon matching with the corresponding view, the interface will shift and reorganize accordingly. The icons correspond as follows:
+
 ![Center View Selection Icons](/instamat_studio/canvas/center_view_selection.png)
 
-These items determine which view takes up the center area of the Canvas interface. By clicking on the icon matching with the corresponding view, the interface will shift and reorganize accordingly. The icons correspond as follows:
 
 - ![Canvas](/instamat_studio/canvas/canavs.png) Canvas
 - ![Viewport](/instamat_studio/canvas/viewport.png) Viewport
