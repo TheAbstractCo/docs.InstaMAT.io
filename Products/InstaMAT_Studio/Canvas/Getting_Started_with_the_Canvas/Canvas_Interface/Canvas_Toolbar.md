@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T16:46:45.423Z
+date: 2023-01-25T16:51:56.484Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-20T18:27:34.438Z
 
 # Canvas Toolbar
 
-![Canvas Toolbar with sections highlighted and numbered](/instamat_studio/canvas/canvas_toolbar.png)
+![Canvas Toolbar with sections numbered](/instamat_studio/canvas/canvas_toolbar_2.png)
 
 The **Canvas Toolbar** sits above the main <a href="">Canvas</a> view and provides shortcuts to many features and functions of the Canvas. Each set of items is grouped together based on their functionality. This article goes into depth on each of these groups and items. 
 
