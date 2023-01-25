@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:02:35.991Z
+date: 2023-01-25T21:11:01.466Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -35,9 +35,8 @@ At the top are the the following node attributes:
 
 ### Element Format
 
-This section determines the node's format and execution size.
-
-<img src="/instamat_studio/canvas/goe_element_format.png" alt="Element Format" width="400"/>
+![goe_element_format_small.png](/instamat_studio/canvas/goe_element_format_small.png){.align-left} This section determines the node's format and execution size.
+<br style="clear: left;" />
 
 - **Format Type**: The method in which the node will be executed. The format can be set to the following options
 	- **Normalized8, Normalized16, FullRange16, FullRange32**: This will manually set the format regardless of any parent graph inheritance or connected node inputs.
@@ -57,14 +56,13 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 ### Instance Properties
 
-This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
-
-<img src="/instamat_studio/canvas/goe_instance_properties.png" alt="Instance Properties" width="400"/>
+![goe_instance_properties_small.png](/instamat_studio/canvas/goe_instance_properties_small.png){.align-left} This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
+<br style="clear: left;" />
 
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
 - **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a <i class="fa-regular fa-snooze"></i> icon in the top left corner next to their name in the Canvas view. Nodes that have a `Background` or `Image` input will pass that information through to the output. 
 
-> A shortcut for disabling nodes is highlighting the node and pressing **H**. You can also <kbd>Right click</kbd> the node to bring up the contextual menu and choose `Enable/Disable Node`. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
+> A shortcut for disabling nodes is highlighting the node and pressing <kbd>H</kbd>. You can also <kbd>Right click</kbd> the node to bring up the contextual menu and choose `Enable/Disable Node`. To learn more about disabling nodes, check out our <a href="">dedicated video</a> on our YouTube channel.
 {.is-info}
 
 - **Grayscale**: Determines the grayscale/color permutation of the node. Enabling will output grayscale information.
@@ -81,9 +79,7 @@ This section determines the execution seed, if a node is active or disabled, and
 
 This section displays a node's **Graph Inputs** also known as the node's Input Parameters. Inputs have many different data types and an assortment of widgets to control them.
 
-<img src="/instamat_studio/canvas/goe_inputs_node.png" alt="Inputs" width="500"/>
-
-
+<img src="/instamat_studio/canvas/goe_inputs_node.png" alt="Inputs" width="400"/>
 
 > To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
 >
