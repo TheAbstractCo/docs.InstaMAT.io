@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:13:45.080Z
+date: 2023-01-25T21:14:42.953Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -91,9 +91,7 @@ Specific parameter values can be typed in with the keyboard either by <kbd>Doubl
 >
 >If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by <kbd>Right Clicking</kbd> it to bring up the contextual menu, then choosing **'Override Slider Range'**. This value can then be overridden temporarily or persisted in the graph.
 >
-><img src="/instamat_studio/canvas/override_choice_dialog.png" alt="Override Choice Dialog" width="400"/>
->
-><img src="/instamat_studio/canvas/override_dialog.png" alt="Override Slider Range Dialog" width="300"/>{.is-info}
+><img src="/instamat_studio/canvas/override_choice_dialog.png" alt="Override Choice Dialog" width="400"/> <img src="/instamat_studio/canvas/override_dialog.png" alt="Override Slider Range Dialog" width="300"/>{.is-info}
 
 #### Contextual Menu
 
