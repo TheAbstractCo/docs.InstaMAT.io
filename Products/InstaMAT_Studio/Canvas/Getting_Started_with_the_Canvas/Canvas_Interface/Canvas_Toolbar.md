@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T15:50:45.817Z
+date: 2023-01-25T16:06:21.539Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -33,23 +33,23 @@ The Canvas Toolbar is organized into the following groups:
 
 The **Undo History** button is divided into two sections: Undo Button, and Undo Popup. Clicking the left portion with the icon will perform an undo operation. Additonally the keyboard shortcut **Cmd/Ctrl + Z** can be used to undo, and **Shift + Cmd/Ctrl + Z** will redo. Clicking the downward arrow will open up the **Undo History Popup**.
 
-![Undo History Icon](/instamat_studio/canvas/undo_history_icon.png)
+![undo_history_button.png](/instamat_studio/canvas/undo_history_button.png)
 
 This popup displays the undo history for the active session. The order of the items are listed where the most recent action is at the bottom. Clicking on one of the items will undo back to the historical state where that operation took place. As long as no additional changes are made, clicking on future items at the bottom will restore and "redo" the subsequent actions until reaching the latest step.
 
-<img src="/instamat_studio/canvas/undo_history_popup.png" width="500"/>
+<img src="/instamat_studio/canvas/undo_history_popup.png" width="300"/>
 
 ## <i class="fa-regular fa-circle-2"></i> Global Execution Settings and Seed
 
 These items determine the global resolution, format and seed for the active graph.
 
-![Global Res and Seed](/instamat_studio/canvas/global_res_and_seed.png)
+<img src ="/instamat_studio/canvas/global_res_and_seed.png" width ="500" />
 
 ### Global Execution Settings
 
 The **Execution Settings Popup** controls the size and format of the active graph. Clicking the ![lock](/instamat_studio/canvas/lock_icon.png) icon will maintain the same `Width` and `Height` values so that they are always equal.
 
-<img src="/instamat_studio/canvas/global_res.png" width="600"/>
+<img src="/instamat_studio/canvas/global_res_and_seed_2.png" width="500"/>
 
 ### Global Seed
 
