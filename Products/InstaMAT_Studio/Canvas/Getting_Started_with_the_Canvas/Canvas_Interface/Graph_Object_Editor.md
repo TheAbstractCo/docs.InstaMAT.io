@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:14:42.953Z
+date: 2023-01-25T21:26:38.146Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -21,7 +21,10 @@ This article breaks down the interface of the Graph Object Editor based on the t
 
 
 ## Node
-![Top of GOE when a node is selected](/instamat_studio/canvas/goe_top_node_small.png){.align-left} When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
+
+When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
+
+<img src="/instamat_studio/canvas/goe_top_node.png" width="400" />
 
 At the top are the the following node attributes:
 
@@ -31,12 +34,11 @@ At the top are the the following node attributes:
 - Author
 - Version Number
 
-<br style="clear: left;" />
-
 ### Element Format
 
-![goe_element_format_small.png](/instamat_studio/canvas/goe_element_format_small.png){.align-left} This section determines the node's format and execution size.
-<br style="clear: left;" />
+This section determines the node's format and execution size.
+
+<img src="/instamat_studio/canvas/goe_element_format.png" width="400" />
 
 - **Format Type**: The method in which the node will be executed. The format can be set to the following options
 	- **Normalized8, Normalized16, FullRange16, FullRange32**: This will manually set the format regardless of any parent graph inheritance or connected node inputs.
@@ -56,8 +58,9 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 ### Instance Properties
 
-![goe_instance_properties_small.png](/instamat_studio/canvas/goe_instance_properties_small.png){.align-left} This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
-<br style="clear: left;" />
+This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
+
+<img src="/instamat_studio/canvas/goe_instance_properties_small.png" width="400" />
 
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
 - **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a <i class="fa-regular fa-snooze"></i> icon in the top left corner next to their name in the Canvas view. Nodes that have a `Background` or `Image` input will pass that information through to the output. 
@@ -77,9 +80,10 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 ### Inputs
 
-![goe_inputs_nodes_small.png](/instamat_studio/canvas/goe_inputs_nodes_small.png){.align-left} This section displays a node's **Graph Inputs** also known as the node's Input Parameters. Inputs have many different data types and an assortment of widgets to control them.
+This section displays a node's **Graph Inputs** also known as the node's Input Parameters. Inputs have many different data types and an assortment of widgets to control them. Specific parameter values can be typed in with the keyboard either by <kbd>Double Clicking</kbd> on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
 
-Specific parameter values can be typed in with the keyboard either by <kbd>Double Clicking</kbd> on each parameter or using the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon.
+<img src="/instamat_studio/canvas/goe_inputs_nodes.png" width="400" />
+
 <br style="clear: left" />
 
 > To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
@@ -106,10 +110,8 @@ Specific parameter values can be typed in with the keyboard either by <kbd>Doubl
 - **Override**: Overrides the default minimum and maximum values for the parameter.
 
 ### Outputs
-
-<img src="/instamat_studio/canvas/goe_node_outputs.png" alt="Outputs" width="500"/>
-
 This section displays a node's **Graph Outputs** and the category assigned to each output.
+<img src="/instamat_studio/canvas/goe_node_outputs.png" width="400" />
 
 #### Contextual Menu
 
@@ -122,9 +124,8 @@ This section displays a node's **Graph Outputs** and the category assigned to ea
 - **Expose as Output Parameter**: Exposes the node's output as a Graph Output for the parent graph. Learn more about Graph Outputs below.
 
 ## Graph
-When a graph is selected in the Canvas by **clicking in an empty space**, the following categories and interface elements appear in the GOE.
-
-<img src="/instamat_studio/canvas/goe_top_graph.png" alt="Top of Graph Object Editor with a Graph selected" width="500"/>
+![goe_node_outputs_small.png](/instamat_studio/canvas/goe_node_outputs_small.png){.align-left} When a graph is selected in the Canvas by **clicking in an empty space**, the following categories and interface elements appear in the GOE.
+<br style="clear: left;" />
 
 At the top are the following graph attributes:
 - Name
