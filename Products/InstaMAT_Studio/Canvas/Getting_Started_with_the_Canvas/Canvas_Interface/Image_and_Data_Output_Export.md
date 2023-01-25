@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-25T21:45:15.354Z
+date: 2023-01-25T21:51:59.244Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -29,7 +29,7 @@ This section determines where to export the outputs, the naming convention for e
 Format extension dropdown menus will appear based on the type of outputs used for the project. An image output's export resolution and format is determined separately from the project's current execution settings found in the main toolbar of InstaMAT Studio's UI. This means that the export resolution can be different from the working resolution.
 
 - **Output Path**: Determines the folder location to export the outputs
-- **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the ![Tokens Icon](/instamat_studio/canvas/tokens_icon.png) button located to the right of the input field.
+- **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the <i class="fa-regular fa-bars"></i> button located to the right of the input field.
 - **Image/Mesh/Point Cloud Format Extension**: Determines the format extension for the exported file of that type
 - **Format Preview**: Provides a preview of the naming convention used in the `File Name Format` setting
 - **Format Settings**: Sets the export resolution and format of an image output. This setting is separate from the "working" resolution and format found in InstaMAT Studio's main toolbar.
@@ -46,7 +46,7 @@ This section provides access to InstaMAT Studio's powerful template configuratio
 
 <img src="/instamat_studio/canvas/output_export_output_template_configuration.png" alt="Output Template Configuration" width="500"/>
 
-With the large dropdown at the top, a template can be selected. By default this says "No Template Active". Add or remove a template by clicking the ![+](/instamat_studio/canvas/add_template_icon.png) or ![-](/instamat_studio/canvas/remove_template_icon.png) buttons to the right of the dropdown. To duplicate a template, make sure it is active and click the ![Duplicate](/instamat_studio/canvas/duplicate_template_icon.png) button.
+With the large dropdown at the top, a template can be selected. By default this says "No Template Active". Add or remove a template by clicking the <i class="fa-regular fa-plus"></i> or <i class="fa-regular fa-minus"></i> buttons to the right of the dropdown. To duplicate a template, make sure it is active and click the <i class="fa-regular fa-clone"></i> button.
 
 <img src="/instamat_studio/canvas/output_export_template_selection.png" alt="Template Selection" width="500"/>
 
@@ -73,7 +73,7 @@ This section shows the active Output Template used for export. Each output file 
 
 ### 1. Create a New User Template
 
-Click the ![+](/instamat_studio/canvas/add_template_icon.png) button to create a new User Template. From the popup dialog, provide the template with a name and, if needed, a description. The template is now selected as the active template and can be found again from the large dropdown menu at the top of the window under the `User Templates` submenu.
+Click the <i class="fa-regular fa-plus"></i> button to create a new User Template. From the popup dialog, provide the template with a name and, if needed, a description. The template is now selected as the active template and can be found again from the large dropdown menu at the top of the window under the `User Templates` submenu.
 
 <img src="/instamat_studio/canvas/new_template.gif" width="600" alt="New Template GIF" />
 
@@ -92,6 +92,6 @@ For example, to map a "Roughness" output to the Red channel of a Custom RGBA Out
 
 <img src="/instamat_studio/canvas/template_configuration.gif" alt="Configuring the template" width="600"/>
 
-Clicking `More` at the bottom of the list will reveal additional options. If an output that you need is not listed, a custom option can be created by clicking the ![+](/instamat_studio/canvas/add_template_icon.png) at the top of the list. You can then choose whether it is an RGBA or Grayscale option, then InstaMAT Studio will ask for a default color or value to be chosen. This value is used if the Export Output Template is used, but a matching output from the project is not provided. To rename the option, <kbd>double click</kbd> it.
+Clicking `More` at the bottom of the list will reveal additional options. If an output that you need is not listed, a custom option can be created by clicking the <i class="fa-regular fa-plus"></i> at the top of the list. You can then choose whether it is an RGBA or Grayscale option, then InstaMAT Studio will ask for a default color or value to be chosen. This value is used if the Export Output Template is used, but a matching output from the project is not provided. To rename the option, <kbd>double click</kbd> it.
 
 <img src="/instamat_studio/canvas/template_custom_output_template.gif" alt="Custom Output Template Creation" width="600"/>
