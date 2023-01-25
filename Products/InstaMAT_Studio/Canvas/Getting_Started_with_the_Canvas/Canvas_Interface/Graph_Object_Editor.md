@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:34:16.218Z
+date: 2023-01-25T21:34:57.223Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -143,7 +143,7 @@ This section manages the creation and manipulation of a graph's Graph Inputs als
 
 To create a new Input Parameter:
 
-1. Click the ![+](/instamat_studio/canvas/add_parameter_icon.png) button in the top right corner of this section
+1. Click the <i class="fa-regular fa-octagon-plus"></i> button in the top right corner of this section
 2. Choose the data type for the new input
 3. <kbd>Double Click</kbd> the name of the parameter to rename it
 
