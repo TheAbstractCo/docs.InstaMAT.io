@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:33:02.340Z
+date: 2023-01-25T21:33:46.900Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -178,7 +178,7 @@ This section manages a graph's Graph Outputs. When building a procedural PBR mat
 
 To create a new Graph Output:
 
-1. Click the ![+](/instamat_studio/canvas/add_parameter_icon.png) button in the top right corner of this section
+1. Click the <i class="fa-regular fa-octagon-plus"></i> button in the top right corner of this section
 2. Choose the type for the new output
 3. <kbd>Double Click</kbd> the name of the output to rename it
 
