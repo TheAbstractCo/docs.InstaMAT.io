@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T16:06:21.539Z
+date: 2023-01-25T16:08:14.734Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -47,7 +47,7 @@ These items determine the global resolution, format and seed for the active grap
 
 ### Global Execution Settings
 
-The **Execution Settings Popup** controls the size and format of the active graph. Clicking the ![lock](/instamat_studio/canvas/lock_icon.png) icon will maintain the same `Width` and `Height` values so that they are always equal.
+The **Execution Settings Popup** controls the size and format of the active graph. Clicking the <i class="fa-regular fa-unlock"></i> icon will maintain the same `Width` and `Height` values so that they are always equal.
 
 <img src="/instamat_studio/canvas/global_res_and_seed_2.png" width="500"/>
 
@@ -55,7 +55,7 @@ The **Execution Settings Popup** controls the size and format of the active grap
 
 The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk.
 
-![Global Seed item](/instamat_studio/canvas/global_seed.png)
+![global_seed_2.png](/instamat_studio/canvas/global_seed_2.png)
 
 **Right Clicking** the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
 
