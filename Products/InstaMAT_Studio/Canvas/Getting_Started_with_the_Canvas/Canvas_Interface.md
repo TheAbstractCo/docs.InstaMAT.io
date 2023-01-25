@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-25T14:58:06.049Z
+date: 2023-01-25T15:00:08.238Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -21,7 +21,7 @@ InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Rig
 
 The left panel contains the following tabs:
 
-- ![Icon](/instamat_studio/canvas/graph_library_icon.png) <a href="Graph_Library.html">Graph Library</a>: Provides access to the vast node library that is built into InstaMAT Studio. Nodes are broken down into categories and are easily searchable either from the dedicated search box or by using <a href="">Quick Search</a>. The Graph Library also contains the items from your personal <a href="">User Library</a> and is sorted based on a graph's assigned category.
+- <i class="fa-regular fa-flux-capacitor"></i> <a href="Graph_Library.html">Graph Library</a>: Provides access to the vast node library that is built into InstaMAT Studio. Nodes are broken down into categories and are easily searchable either from the dedicated search box or by using <a href="">Quick Search</a>. The Graph Library also contains the items from your personal <a href="">User Library</a> and is sorted based on a graph's assigned category.
 - ![Icon](/instamat_studio/canvas/package_management_icon.png) <a href="Package_Management.html">Package Management</a>: Contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Meta Data** section containing the meta data for the active package.
 - ![Icon](/instamat_studio/canvas/viewport_settings_icon.png) <a href="Viewport_Settings.html">Viewport Settings</a>: Houses the various camera, environment, and render settings for InstaMAT Studio's 3D viewport. Some additional settings are included for the generated Canvas node previews and <a href="Image_Viewer.html">Image Viewer</a>.
 
@@ -38,8 +38,8 @@ By default, the right panel is split into two parts. The top contains the follow
 
 By default, the bottom contains:
 
-- ![Icon](/instamat_studio/canvas/viewport_icon.png) <a href="">Viewport</a>: A physically-based 3D viewport illuminated by an environment image. Many aspects of the viewport can be customized with the [Viewport Settings]() panel.
-- ![Icon](/instamat_studio/canvas/image_viewer_icon.png) <a href="">Image Viewer</a>: A 2D Image Viewer that provides access to various useful features such as a tiling preview, rulers, individual channel filtering, and tabs that can simplify A/B testing.
+- <i class="fa-regular fa-flux-capacitor"></i> <a href="">Viewport</a>: A physically-based 3D viewport illuminated by an environment image. Many aspects of the viewport can be customized with the [Viewport Settings]() panel.
+- <i class="fa-regular fa-image-polaroid"></i> <a href="">Image Viewer</a>: A 2D Image Viewer that provides access to various useful features such as a tiling preview, rulers, individual channel filtering, and tabs that can simplify A/B testing.
 
 ## <i class="fa-regular fa-circle-3"></i> Center Area
 
