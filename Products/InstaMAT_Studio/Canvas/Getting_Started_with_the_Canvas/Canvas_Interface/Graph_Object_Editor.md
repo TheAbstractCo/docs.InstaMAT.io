@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:32:45.385Z
+date: 2023-01-25T21:33:02.340Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -133,7 +133,7 @@ At the top are the following graph attributes:
 - Category
 - Description
 
-Use the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon to set the graph's name or <kbd>Double Click</kbd> on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="">Graph Library</a>.
+Use the <i class="fa-regular fa-pencil"></i> icon to set the graph's name or <kbd>Double Click</kbd> on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="">Graph Library</a>.
 
 ### Inputs
 
