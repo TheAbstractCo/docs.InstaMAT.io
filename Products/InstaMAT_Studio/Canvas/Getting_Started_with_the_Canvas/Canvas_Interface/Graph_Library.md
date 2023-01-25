@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-25T17:21:39.742Z
+date: 2023-01-25T17:25:06.929Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -29,9 +29,9 @@ To use a resource from the Graph Library, drag it from the library panel into yo
 
 ### Content Browser
 
-Once a category has been selected, the bottom half of the panel known as the **Category Browser** will display each resource based on the selected view method.
+![gl_bottom_small.png](/instamat_studio/canvas/gl_bottom_small.png){.align-left} Once a category has been selected, the bottom half of the panel known as the **Category Browser** will display each resource based on the selected view method.
 
-<img src="/instamat_studio/canvas/gl_bottom.png" width="300"/>
+<br style="clear: left;" />
 
 The Category Browser contains a dedicated toolbar with the following actions:
 
@@ -51,7 +51,7 @@ The Category Browser contains a dedicated toolbar with the following actions:
 
 
 ## Favorites
-InstaMAT Studio allows the user to add library items to their **Favorites**. These favorites can be located in the dedicated ![Icon](/instamat_studio/canvas/favorites_icon.png) `Favorites` category in the **Category Browser** of the Graph Library panel and the <a href="">Resource Picker</a> panel.
+InstaMAT Studio allows the user to add library items to their **Favorites**. These favorites can be located in the dedicated <i class="fa-regular fa-heart"></i> `Favorites` category in the **Category Browser** of the Graph Library panel and the <a href="">Resource Picker</a> panel.
 
 To add or remove an item as a Favorite:
 
