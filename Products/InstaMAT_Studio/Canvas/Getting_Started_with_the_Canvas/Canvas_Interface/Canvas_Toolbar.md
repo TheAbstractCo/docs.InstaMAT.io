@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T15:30:28.329Z
+date: 2023-01-25T15:34:01.181Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -31,40 +31,37 @@ The Canvas Toolbar is organized into the following groups:
 
 ## <i class="fa-regular fa-circle-1"></i> Undo History
 
-![Undo History Icon](/instamat_studio/canvas/undo_history_icon.png)
-
 The **Undo History** button is divided into two sections: Undo Button, and Undo Popup. Clicking the left portion with the icon will perform an undo operation. Additonally the keyboard shortcut **Cmd/Ctrl + Z** can be used to undo, and **Shift + Cmd/Ctrl + Z** will redo. Clicking the downward arrow will open up the **Undo History Popup**.
 
-<img src="/instamat_studio/canvas/undo_history_popup.png" width="500"/>
+![Undo History Icon](/instamat_studio/canvas/undo_history_icon.png)
 
 This popup displays the undo history for the active session. The order of the items are listed where the most recent action is at the bottom. Clicking on one of the items will undo back to the historical state where that operation took place. As long as no additional changes are made, clicking on future items at the bottom will restore and "redo" the subsequent actions until reaching the latest step.
 
-## <i class="fa-regular fa-circle-2"></i> Global Execution Settings and Seed
+<img src="/instamat_studio/canvas/undo_history_popup.png" width="500"/>
 
-![Global Res and Seed](/instamat_studio/canvas/global_res_and_seed.png)
+## <i class="fa-regular fa-circle-2"></i> Global Execution Settings and Seed
 
 These items determine the global resolution, format and seed for the active graph.
 
-### Global Execution Settings
+![Global Res and Seed](/instamat_studio/canvas/global_res_and_seed.png)
 
-<img src="/instamat_studio/canvas/global_res.png" width="600"/>
+### Global Execution Settings
 
 The **Execution Settings Popup** controls the size and format of the active graph. Clicking the ![lock](/instamat_studio/canvas/lock_icon.png) icon will maintain the same `Width` and `Height` values so that they are always equal.
 
+<img src="/instamat_studio/canvas/global_res.png" width="600"/>
+
 ### Global Seed
 
-![Global Seed item](/instamat_studio/canvas/global_seed.png)
-
 The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk.
+
+![Global Seed item](/instamat_studio/canvas/global_seed.png)
 
 **Right Clicking** the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
 
 ## <i class="fa-regular fa-circle-3"></i> Center View Selection
 
 These items determine which view takes up the center area of the Canvas interface. By clicking on the icon matching with the corresponding view, the interface will shift and reorganize accordingly. The icons correspond as follows:
-
-![Center View Selection Icons](/instamat_studio/canvas/center_view_selection.png)
-
 
 - <i class="fa-regular fa-diagram-project"></i> Canvas
 - <i class="fa-regular fa-cube"></i> Viewport
@@ -77,8 +74,6 @@ Additionally, the keyboard shortcut <kbd>Option/Alt + C</kbd> cycles through eac
 
 ## <i class="fa-regular fa-circle-4"></i> Project Management
 
-![Project Management Icons](/instamat_studio/canvas/project_management.png)
-
 These items provide shortcuts to common project management actions.
 
 - <i class="fa-regular fa-octagon-plus"></i> **New Project**: Opens the New Project screen.
@@ -87,8 +82,6 @@ These items provide shortcuts to common project management actions.
 
 ## <i class="fa-regular fa-circle-5"></i> Additional Panels
 
-![Additional Panels](/instamat_studio/canvas/additional_panels.png)
-
 These items provide access to additional panels and features in InstaMAT Studio.
 
 - ![Mesh Baking](/instamat_studio/canvas/mesh_bake.png) **Mesh Baking**: Opens the <a href="">Mesh Baking Panel</a>. Baked mesh maps will be added to the active package and found in the <a href="Package_Management.html">Package Management Panel</a>.
@@ -96,8 +89,6 @@ These items provide access to additional panels and features in InstaMAT Studio.
 - ![Output Log](/instamat_studio/canvas/output_log.png) **Show Output Log**: Displays the Output Log at the bottom of the interface below the Canvas view.
 
 ## <i class="fa-regular fa-circle-6"></i> Canvas Tools and Display Functions
-
-![Canvas Tools and Display Functions](/instamat_studio/canvas/canvas_tools.png)
 
 These items provide quick access to additional Canvas tools and functions.
 
@@ -110,8 +101,6 @@ These items provide quick access to additional Canvas tools and functions.
 - ![Lock Comments](/instamat_studio/canvas/lock_comments.png) **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved.
 
 ## <i class="fa-regular fa-circle-7"></i> Graph Performance Tools
-
-![Graph Performance Tools](/instamat_studio/canvas/graph_performance.png)
 
 These items assist in diagnosing the performance and execution of the active graph.
 
