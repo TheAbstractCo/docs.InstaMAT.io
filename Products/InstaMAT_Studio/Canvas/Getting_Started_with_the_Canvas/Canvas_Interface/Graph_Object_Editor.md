@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:28:23.964Z
+date: 2023-01-25T21:31:43.705Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -126,7 +126,7 @@ This section displays a node's **Graph Outputs** and the category assigned to ea
 ## Graph
 When a graph is selected in the Canvas by <kbd>clicking</kbd> in an empty space, the following categories and interface elements appear in the GOE.
 
-<img src="/instamat_studio/canvas/goe_node_outputs.png" width="400" />
+<img src="/instamat_studio/canvas/goe_top_graph.png" width="400" />
 
 At the top are the following graph attributes:
 - Name
@@ -137,9 +137,9 @@ Use the ![Pencil](/instamat_studio/canvas/pencil_icon.png) icon to set the graph
 
 ### Inputs
 
-<img src="/instamat_studio/canvas/goe_inputs_graph.png" alt="GOE Inputs with Graph Selected" width="500"/>
-
 This section manages the creation and manipulation of a graph's Graph Inputs also known as Input Parameters or Exposed Parameters. These inputs are public and can be adjusted from within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, and through our <a href="">Integrated Plugins</a>.
+
+<img src="/instamat_studio/canvas/goe_inputs_graph.png" alt="GOE Inputs with Graph Selected" width="400"/>
 
 To create a new Input Parameter:
 
@@ -172,10 +172,9 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 - **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
 
 ### Outputs
+This section manages a graph's Graph Outputs. When building a procedural PBR material with the <a href="">Element Graph</a>, these outputs are the maps that generate a material's fundamental channels such as *Base Color*, *Normal*, and *Roughness.*
 
 <img src="/instamat_studio/canvas/goe_outputs_graph.png" alt="GOE Outputs with Graph Selected" width="500"/>
-
-This section manages a graph's Graph Outputs. When building a procedural PBR material with the <a href="">Element Graph</a>, these outputs are the maps that generate a material's fundamental channels such as *Base Color*, *Normal*, and *Roughness.*
 
 To create a new Graph Output:
 
@@ -210,9 +209,9 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 
 ### Local Variables
 
-<img src="/instamat_studio/canvas/goe_local_variables.png" alt="GOE Local Variables" width="500"/>
-
 This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information.
+
+<img src="/instamat_studio/canvas/goe_local_variables.png" alt="GOE Local Variables" width="400"/>
 
 > #### Did You Know?
 > Multiple instances of the same variable can be dragged into a graph regardless if it's a public Graph Input or private Local Variable. Each instance will update if the variable's value changes.
@@ -242,9 +241,9 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 ### Meta Data
 
-<img src="/instamat_studio/canvas/goe_meta_data.png" alt="GOE Meta Data Section with Graph Selected" width="500"/>
-
 This section allows the user to input attributes for the graph that are used across various parts of InstaMAT.
+
+<img src="/instamat_studio/canvas/goe_meta_data.png" alt="GOE Meta Data Section with Graph Selected" width="400"/>
 
 - **Author**: Sets the author of the graph.
 - **Tags**: Assigns various tags to the graph. These tags are searchable throughout InstaMAT Studio.
