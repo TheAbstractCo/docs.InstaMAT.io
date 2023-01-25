@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T16:42:49.917Z
+date: 2023-01-25T16:46:45.423Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -39,24 +39,21 @@ Additonally the keyboard shortcut <kbd>Cmd/Ctrl + Z</kbd> can be used to undo, a
 
 <br style="clear:left;"/>
 
-## <i class="fa-regular fa-circle-2"></i> Global Execution Settings and Seed
+## <i class="fa-regular fa-circle-2"></i> Global Execution Settings
 
-These items determine the global resolution, format and seed for the active graph.
+This dropdown determines the global resolution and format for the active graph.
 
-<img src ="/instamat_studio/canvas/global_res_and_seed.png" width ="400" />
-
-### Global Execution Settings
 ![Global Execution Resolution](/instamat_studio/canvas/global_res_and_seed_2.png){.align-left} The **Execution Settings Popup** controls the size and format of the active graph. Clicking the <i class="fa-regular fa-unlock"></i> icon will maintain the same `Width` and `Height` values so that they are always equal.
 
 <br style="clear:left;" />
 
-### Global Seed
+## <i class="fa-regular fa-circle-3"></i>  Global Seed
 
 ![global_seed_2.png](/instamat_studio/canvas/global_seed_2.png){.align-left} The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk. <br style="clear:left;" />
 
 <kbd>Right Clicking</kbd> the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
 
-## <i class="fa-regular fa-circle-3"></i> Center View Selection
+## <i class="fa-regular fa-circle-4"></i> Center View Selection
 
 These items determine which view takes up the center area of the Canvas interface. By clicking on the icon matching with the corresponding view, the interface will shift and reorganize accordingly. The icons correspond as follows:
 
@@ -69,7 +66,7 @@ Additionally, the keyboard shortcut <kbd>Option/Alt + C</kbd> cycles through eac
 > Switching the <a href="">Viewport</a> to the center view is a great way to quickly perform design reviews of your 3D assets and materials.
 {.is-info}
 
-## <i class="fa-regular fa-circle-4"></i> Project Management
+## <i class="fa-regular fa-circle-5"></i> Project Management
 
 These items provide shortcuts to common project management actions.
 
@@ -77,7 +74,7 @@ These items provide shortcuts to common project management actions.
 - <i class="fa-regular fa-floppy-disk"></i> **Save Project**: Saves the active project.
 - <i class="fa-regular fa-share"></i> **Export Image and Data Outputs**: Opens the <a href="">Image and Data Output Export Dialog</a>. Use this dialog to export the graph's outputs to disk.
 
-## <i class="fa-regular fa-circle-5"></i> Additional Panels
+## <i class="fa-regular fa-circle-6"></i> Additional Panels
 
 These items provide access to additional panels and features in InstaMAT Studio.
 
@@ -85,7 +82,7 @@ These items provide access to additional panels and features in InstaMAT Studio.
 - ![Raytracing](/instamat_studio/canvas/raytracing.png) **Raytracing**: Opens the <a href="">Raytracing Panel</a>.
 - <i class="fa-regular fa-square-terminal"></i> **Show Output Log**: Displays the Output Log at the bottom of the interface below the Canvas view.
 
-## <i class="fa-regular fa-circle-6"></i> Canvas Tools and Display Functions
+## <i class="fa-regular fa-circle-7"></i> Canvas Tools and Display Functions
 
 These items provide quick access to additional Canvas tools and functions.
 
@@ -97,7 +94,7 @@ These items provide quick access to additional Canvas tools and functions.
 - <i class="fa-regular fa-globe"></i> **Minimap**: Displays the [Minimap](./Minimap#555).
 - <i class="fa-regular fa-square-a-lock"></i> **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved.
 
-## <i class="fa-regular fa-circle-7"></i> Graph Performance Tools
+## <i class="fa-regular fa-circle-8"></i> Graph Performance Tools
 
 These items assist in diagnosing the performance and execution of the active graph.
 
