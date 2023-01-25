@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-25T14:15:30.627Z
+date: 2023-01-25T15:29:03.058Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -81,9 +81,9 @@ Additionally, the keyboard shortcut <kbd>Option/Alt + C</kbd> cycles through eac
 
 These items provide shortcuts to common project management actions.
 
-- ![New Project](/instamat_studio/canvas/new_project.png) **New Project**: Opens the New Project screen.
-- ![Save Project](/instamat_studio/canvas/save_project.png) **Save Project**: Saves the active project.
-- ![Export Image and Data Outputs](/instamat_studio/canvas/export.png) **Export Image and Data Outputs**: Opens the <a href="">Image and Data Output Export Dialog</a>. Use this dialog to export the graph's outputs to disk.
+- <i class="fa-regular fa-octagon-plus"></i> **New Project**: Opens the New Project screen.
+- <i class="fa-regular fa-floppy-disk"></i> **Save Project**: Saves the active project.
+- <i class="fa-regular fa-share"></i> **Export Image and Data Outputs**: Opens the <a href="">Image and Data Output Export Dialog</a>. Use this dialog to export the graph's outputs to disk.
 
 ## <img src="/instamat_studio/canvas/5.png" alt="5" width="30"/> Additional Panels
 
