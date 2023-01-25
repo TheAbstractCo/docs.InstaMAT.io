@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-25T14:56:03.289Z
+date: 2023-01-25T14:57:25.230Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -15,7 +15,7 @@ dateCreated: 2023-01-24T08:07:42.220Z
 
 InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Right Panel, Center Area, and the Toolbar.
 
-## <i class="fa-regular fa-circle-1"></i> Left Panel
+## <i class="fa-solid fa-circle-1"></i> Left Panel
 
 <img src="/instamat_studio/canvas/left_panel_gif.gif" width="500"/>
 
