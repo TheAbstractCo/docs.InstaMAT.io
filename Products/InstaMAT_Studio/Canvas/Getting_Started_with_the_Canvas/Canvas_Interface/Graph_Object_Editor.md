@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-26T17:39:30.684Z
+date: 2023-01-26T17:45:26.884Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -237,9 +237,8 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 - **Search for**: Automatically populates the name of the Graph Output into the Canvas's search bar and searches for any instances of it in the graph.
 - **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
 
-### Local Variables
 
-#### Local Variables
+### Local Variables
 
 This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information.
 
@@ -266,7 +265,6 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 ### Versioning
 
-#### Versioning
 
 ![Versioning]()
 
@@ -275,7 +273,6 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 ### Meta Data
 
-#### Meta Data
 
 This section allows the user to input attributes for the graph that are used across various parts of InstaMAT.
 
