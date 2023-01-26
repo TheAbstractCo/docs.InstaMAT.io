@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-26T17:50:00.615Z
+date: 2023-01-26T17:51:25.925Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -213,19 +213,16 @@ To create a new Graph Output:
 2. Choose the type for the new output
 3. <kbd>Double Click</kbd> the name of the output to rename it
 
-> When giving an ElementImage or ElementImageGray Graph Output a common PBR Material map name such as "Base Color", "Roughness", or "Ambient Occlusion", InstaMAT will automatically connect these outputs to their proper channel for viewing in the <a href="">Viewport</a>.
+> When giving an ElementImage or ElementImageGray Graph Output a common PBR Material map name such as "Base Color", "Roughness", or "Ambient Occlusion", InstaMAT will automatically connect these outputs to their proper channel for viewing in the <a href="">Viewport</a>.{.is-info}
 
 Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a href="">Output Export Dialog</a>.
 
->### A Note about Categories and Link Category Mode
+>#### A Note about Categories and Link Category Mode
 > Graph Inputs and Outputs can be assigned a **Category** in the <a href="Graph_Variable_Editor.html">Graph Variable Editor</a>. If multiple Graph Inputs and Outputs share the same category, they can be combined and connected together with <a href="">Link Category Mode</a>. This mode visually combines connections that share the same category making it easy to connect multiple pieces of information together. Once combined, a single connection can be dragged from the outputs of one node to the inputs of a corresponding node that shares the same category.
 >
 > ![GIF of using LC mode](/instamat_studio/canvas/lc_mode.gif)
 {.is-info}
 
-### Pickles
-
-This section contains information about pickles. This is a test.
 
 #### Contextual Menu
 
@@ -241,3 +238,7 @@ This section contains information about pickles. This is a test.
 - **Change UI Control Type to**: Quickly changes the Graph Output's UI control widget.
 - **Search for**: Automatically populates the name of the Graph Output into the Canvas's search bar and searches for any instances of it in the graph.
 - **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
+
+### Pickles
+
+This section contains information about pickles. This is a test.
