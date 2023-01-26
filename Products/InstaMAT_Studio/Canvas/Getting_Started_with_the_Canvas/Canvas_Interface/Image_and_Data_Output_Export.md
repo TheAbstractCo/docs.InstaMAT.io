@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-26T17:26:16.939Z
+date: 2023-01-26T17:28:15.576Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -69,7 +69,7 @@ Format extension dropdown menus will appear based on the type of outputs used fo
 
 Click the <i class="fa-regular fa-plus"></i> button to create a new User Template. From the popup dialog, provide the template with a name and, if needed, a description. The template is now selected as the active template and can be found again from the large dropdown menu at the top of the window under the `User Templates` submenu.
 
-![New Template GIF](/instamat_studio/canvas/new_template.gif =80%x){.align-center}
+![New Template GIF](/instamat_studio/canvas/new_template.gif =600x){.align-center}
 
 > Templates are stored in InstaMAT's home directory. This is typically found here: `~/Documents/InstaMAT/Output Templates`.
 {.is-info}
@@ -84,8 +84,8 @@ InstaMAT Studio ships with many common Output Template options. These options ar
 
 For example, to map a "Roughness" output to the Red channel of a Custom RGBA Output called "RoughMetalAO", <kbd>drag</kbd> the `Roughness` option in the Output Templates area onto the `Red` column of the Custom Output. Additionally the "Metalness" and "AmbientOcclusion" Output Template options can be dragged into the Green and Blue channels to pack the information into one Custom Output image.
 
-![Configuring the template](/instamat_studio/canvas/template_configuration.gif =80%x){.align-center}
+![Configuring the template](/instamat_studio/canvas/template_configuration.gif =600x){.align-center}
 
 Clicking `More` at the bottom of the list will reveal additional options. If an output that you need is not listed, a custom option can be created by clicking the <i class="fa-regular fa-plus"></i> at the top of the list. You can then choose whether it is an RGBA or Grayscale option, then InstaMAT Studio will ask for a default color or value to be chosen. This value is used if the Export Output Template is used, but a matching output from the project is not provided. To rename the option, <kbd>double click</kbd> it.
 
-![Custom Output Template Creation](/instamat_studio/canvas/template_custom_output_template.gif =80%x){.align-center}
+![Custom Output Template Creation](/instamat_studio/canvas/template_custom_output_template.gif =600x){.align-center}
