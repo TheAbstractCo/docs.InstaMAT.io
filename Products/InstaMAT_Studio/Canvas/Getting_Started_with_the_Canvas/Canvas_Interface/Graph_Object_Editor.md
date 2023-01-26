@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-26T17:35:52.179Z
+date: 2023-01-26T17:39:30.684Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -28,6 +28,8 @@ When a node is selected, the Graph Object Editor displays the following informat
 ## Node {.tabset}
 
 ### Information
+
+#### Information
 When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
 
 <img src="/instamat_studio/canvas/goe_top_node.png" width="400" />
@@ -41,6 +43,8 @@ At the top are the the following node attributes:
 - Version Number
 
 ### Element Format
+
+#### Element Format
 
 This section determines the node's format and execution size.
 
@@ -64,6 +68,8 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 ### Instance Properties
 
+#### Instance Properties
+
 This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
 
 <img src="/instamat_studio/canvas/goe_instance_properties_small.png" width="400" />
@@ -85,6 +91,8 @@ This section determines the execution seed, if a node is active or disabled, and
 {.is-info}
 
 ### Inputs
+
+#### Inputs
 
 This section displays a node's **Graph Inputs** also known as the node's Input Parameters. Inputs have many different data types and an assortment of widgets to control them. Specific parameter values can be typed in with the keyboard either by <kbd>Double Clicking</kbd> on each parameter or using the <i class="fa-regular fa-pencil"></i> icon.
 
@@ -116,6 +124,9 @@ This section displays a node's **Graph Inputs** also known as the node's Input P
 - **Override**: Overrides the default minimum and maximum values for the parameter.
 
 ### Outputs
+
+#### Outputs
+
 This section displays a node's **Graph Outputs** and the category assigned to each output.
 <img src="/instamat_studio/canvas/goe_node_outputs.png" width="400" />
 
@@ -135,6 +146,9 @@ When a graph is selected, the Graph Object Editor displays the following informa
 ## Graph {.tabset}
 
 ### Information
+
+#### Information
+
 When a graph is selected in the Canvas by <kbd>clicking</kbd> in an empty space, the following categories and interface elements appear in the GOE.
 
 <img src="/instamat_studio/canvas/goe_top_graph.png" width="400" />
@@ -147,6 +161,8 @@ At the top are the following graph attributes:
 Use the <i class="fa-regular fa-pencil"></i> icon to set the graph's name or <kbd>Double Click</kbd> on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="">Graph Library</a>.
 
 ### Inputs
+
+#### Inputs
 
 This section manages the creation and manipulation of a graph's Graph Inputs also known as Input Parameters or Exposed Parameters. These inputs are public and can be adjusted from within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, and through our <a href="">Integrated Plugins</a>.
 
@@ -183,6 +199,9 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 - **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
 
 ### Outputs
+
+#### Outputs
+
 This section manages a graph's Graph Outputs. When building a procedural PBR material with the <a href="">Element Graph</a>, these outputs are the maps that generate a material's fundamental channels such as *Base Color*, *Normal*, and *Roughness.*
 
 <img src="/instamat_studio/canvas/goe_outputs_graph.png" alt="GOE Outputs with Graph Selected" width="500"/>
@@ -220,6 +239,8 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 
 ### Local Variables
 
+#### Local Variables
+
 This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information.
 
 <img src="/instamat_studio/canvas/goe_local_variables.png" alt="GOE Local Variables" width="400"/>
@@ -245,12 +266,16 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 ### Versioning
 
+#### Versioning
+
 ![Versioning]()
 
 > Information coming soon.
 {.is-warning}
 
 ### Meta Data
+
+#### Meta Data
 
 This section allows the user to input attributes for the graph that are used across various parts of InstaMAT.
 
