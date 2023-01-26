@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-26T17:48:08.940Z
+date: 2023-01-26T17:49:18.176Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -198,6 +198,10 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 - **Search for**: Automatically populates the name of the Graph Input into the Canvas's search bar and searches for any instances of it in the graph.
 - **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
 
+### Pickles
+
+This section contains information about pickles. This is a test.
+
 ### Outputs
 
 #### Outputs
@@ -236,7 +240,3 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 - **Change UI Control Type to**: Quickly changes the Graph Output's UI control widget.
 - **Search for**: Automatically populates the name of the Graph Output into the Canvas's search bar and searches for any instances of it in the graph.
 - **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
-
-### Pickles
-
-This section contains information about pickles. This is a test.
