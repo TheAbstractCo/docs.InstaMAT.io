@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-26T17:51:25.925Z
+date: 2023-01-26T17:52:29.924Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -239,6 +239,62 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 - **Search for**: Automatically populates the name of the Graph Output into the Canvas's search bar and searches for any instances of it in the graph.
 - **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
 
-### Pickles
 
-This section contains information about pickles. This is a test.
+### Local Variables
+
+#### Local Variables
+
+This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information.
+
+<img src="/instamat_studio/canvas/goe_local_variables.png" alt="GOE Local Variables" width="400"/>
+
+> #### Did You Know?
+> Multiple instances of the same variable can be dragged into a graph regardless if it's a public Graph Input or private Local Variable. Each instance will update if the variable's value changes.
+{.is-info}
+
+#### Contextual Menu
+
+<img src="/instamat_studio/canvas/goe_local_variables_context1.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
+<img src="/instamat_studio/canvas/goe_local_variables_context2.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
+
+<kbd>Right Clicking</kbd> on a Local Variable brings up a contextual menu with the following options:
+
+- **Show in Variable Editor**: Shows the currently selected Local Variable in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
+- **Load Image from Local File**: If the Local Variable is an *ElementImage* or *ElementImageGray* type, a local file from the user's machine can quickly be imported and assigned.
+- **Promote to Input Parameter**: Promotes the selected private Local Variable to a public Graph Input.
+- **Change Variable Type to**: Quickly changes the Local Variable's data type.
+- **Change UI Control Type to**: Quickly changes the Local Variable's UI control widget.
+- **Search for**: Automatically populates the name of the Local Variable into the Canvas's search bar and searches for any instances of it in the graph.
+- **Add Keyframe to Dope Sheet**: Creates a keyframe in the <a href="">Dope Sheet</a> at the playhead's current frame index.
+
+### Versioning
+
+#### Versioning
+
+![Versioning]()
+
+> Information coming soon.
+{.is-warning}
+
+### Meta Data
+
+#### Meta Data
+
+This section allows the user to input attributes for the graph that are used across various parts of InstaMAT.
+
+<img src="/instamat_studio/canvas/goe_meta_data.png" alt="GOE Meta Data Section with Graph Selected" width="400"/>
+
+- **Author**: Sets the author of the graph.
+- **Tags**: Assigns various tags to the graph. These tags are searchable throughout InstaMAT Studio.
+- **Version**: Sets the graph's version number.
+- **Use Physical Size**: When enabled, the entered physical size in centimeters is assigned to the graph.
+- **Private**: When enabled, private graphs are not displayed in the <a href="">Graph Library</a>. This is useful when building out a project into subgraphs or "helper graphs" that should be concealed from the library.
+- **Deprecation**: Sets the message to display when the graph is deprecated. All graphs that instance this graph will display this deprecation message when the graph loaded.
+- **Default Image**: Sets the default image for the graph's image parameters.
+- **Preview Mesh**: Assigns a mesh used when previewing the graph outputs in 3D.
+- **Expose Seed**: When enabled, exposes the graph's seed so the user can configure the randomization from the outside.
+- **Layering Compatibility**: Determines if and how the graph can be used with <a href="">Layering</a> projects. Setting the compatibility to `Auto` allows InstaMAT to choose the right compatibility based on the graph's category and parameter configuration.
+- **Grayscale Permutable**: When enabled, allows the graph to automatically change between outputting grayscale and color information.
+
+>Grayscale permutable Atoms and Elements can automatically change their color inputs to grayscale inputs. Most of the heavy lifting is done by InstaMAT and most Atoms will just work. However, conditional behavior can be implemented by branching on the "is Grayscale Permutation" value.
+{.is-info}
