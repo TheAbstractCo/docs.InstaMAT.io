@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-26T17:11:25.634Z
+date: 2023-01-26T17:20:50.746Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -26,6 +26,7 @@ The UI for the Export window is divided into four parts: Output Settings, Image 
 
 
 Format extension dropdown menus will appear based on the type of outputs used for the project. An image output's export resolution and format is determined separately from the project's current execution settings found in the main toolbar of InstaMAT Studio's UI. This means that the export resolution can be different from the working resolution.
+<br style="clear: left;"/>
 
 - **Output Path**: Determines the folder location to export the outputs
 - **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the <i class="fa-regular fa-bars"></i> button located to the right of the input field.
@@ -40,30 +41,25 @@ Format extension dropdown menus will appear based on the type of outputs used fo
 
 ### <i class="fa-regular fa-circle-3"></i> Output Template Configuration
 
-This section provides access to InstaMAT Studio's powerful template configuration system.
+![Output Template Configuration](/instamat_studio/canvas/output_export_output_template_configuration.png =500x){.align-left} This section provides access to InstaMAT Studio's powerful template configuration system.
+<br style="clear: left"/>
 
-<img src="/instamat_studio/canvas/output_export_output_template_configuration.png" alt="Output Template Configuration" width="500"/>
+![Template Selection](/instamat_studio/canvas/output_export_template_selection.png =500x){.align-left} With the large dropdown at the top, a template can be selected. By default this says "No Template Active". Add or remove a template by clicking the <i class="fa-regular fa-plus"></i> or <i class="fa-regular fa-minus"></i> buttons to the right of the dropdown. To duplicate a template, make sure it is active and click the <i class="fa-regular fa-clone"></i> button.
+<br style="clear: left"/>
 
-With the large dropdown at the top, a template can be selected. By default this says "No Template Active". Add or remove a template by clicking the <i class="fa-regular fa-plus"></i> or <i class="fa-regular fa-minus"></i> buttons to the right of the dropdown. To duplicate a template, make sure it is active and click the <i class="fa-regular fa-clone"></i> button.
+![Output Template Table](/instamat_studio/canvas/output_export_table.png =500x){.align-left} The Output Template table shows each **Custom Output** in a row. The first column displays the output's name. The second and third columns display how a particular project output is mapped to the channels of the Custom Output image.
+<br style="clear: left"/>
 
-<img src="/instamat_studio/canvas/output_export_template_selection.png" alt="Template Selection" width="500"/>
-
-The Output Template table shows each **Custom Output** in a row. The first column displays the output's name. The second and third columns display how a particular project output is mapped to the channels of the Custom Output image.
-
-<img src="/instamat_studio/canvas/output_export_table.png" alt="Output Template Table" width="500"/>
-
-Options from the `Output Templates` and `Output Converters` lists can be dragged onto a Custom Output's channels to map or pack the information.
-
-<img src="/instamat_studio/canvas/output_export_options.png" alt="Outputs and Converters" width="500"/>
+![Outputs and Converters](/instamat_studio/canvas/output_export_options.png =500x){.align-left}Options from the `Output Templates` and `Output Converters` lists can be dragged onto a Custom Output's channels to map or pack the information.
+<br style="clear: left"/>
 
 > To learn more about creating custom Output Templates, please read the <a href="#creating-output-templates">Creating Output Templates</a> section below.
 {.is-info}
 
 ### <i class="fa-regular fa-circle-4"></i> Export Template
 
-This section shows the active Output Template used for export. Each output file is listed along with its file type expressed as a dot with a corresponding type color. Use the dropdown menu to quickly select an Output Template.
-
-<img src="/instamat_studio/canvas/output_export_export_template.png" alt="Export Template" width="500"/>
+![Export Template](/instamat_studio/canvas/output_export_export_template.png =500x){.align-left} This section shows the active Output Template used for export. Each output file is listed along with its file type expressed as a dot with a corresponding type color. Use the dropdown menu to quickly select an Output Template.
+<br style="clear: left"/>
 
 ## Creating Output Templates
 
