@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-25T21:34:57.223Z
+date: 2023-01-26T17:30:03.442Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -20,7 +20,7 @@ This article breaks down the interface of the Graph Object Editor based on the t
 
 
 
-## Node
+## Node {.tabset}
 
 When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
 
