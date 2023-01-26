@@ -2,7 +2,7 @@
 title: Getting Started with InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-01-26T15:37:25.368Z
+date: 2023-01-26T15:38:25.976Z
 tags: unrealengine, integrations, instamat-for-ue
 editor: markdown
 dateCreated: 2023-01-26T15:25:46.866Z
@@ -90,4 +90,8 @@ All instances generate an accompanying material. The materials are highly config
 <a name="exporting-assets"></a>
 ## Exporting Assets
 
-Assets can be directly exported from within the instance. Textures can be exported in the desired file formats. InstaMAT for Unreal Engine allows exporting textures to the following file types: PNG (8 bit, 16 bit), TGA (8 bit, 16 bit), TIFF (8 bit, 16 bit), EXR (16 bit, 32 bit).
+Assets can be directly exported from within the instance. Textures can be exported in the desired file formats. InstaMAT for Unreal Engine allows exporting textures to the following file types: 
+  * PNG (8 bit, 16 bit) 
+  * TGA (8 bit, 16 bit)
+  * TIFF (8 bit, 16 bit)
+  * EXR (16 bit, 32 bit).
