@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-26T17:52:29.924Z
+date: 2023-01-26T17:57:42.707Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -30,11 +30,11 @@ When a node is selected, the Graph Object Editor displays the following informat
 ### Information
 
 #### Information
-When a node is selected in the Canvas, the following categories and interface elements appear in the GOE.
+This section displays the common node information.
 
 <img src="/instamat_studio/canvas/goe_top_node.png" width="400" />
 
-At the top are the the following node attributes:
+The following node attributes are listed:
 
 - Name
 - Category
@@ -141,7 +141,7 @@ This section displays a node's **Graph Outputs** and the category assigned to ea
 - **Expose as Output Parameter**: Exposes the node's output as a Graph Output for the parent graph. Learn more about Graph Outputs below.
 
 ## Graph
-When a graph is selected, the Graph Object Editor displays the following information.
+When a graph is selected, the Graph Object Editor displays the following information. To select a graph <kbd>Left Click</kbd> on an empty space.
 
 ## Graph {.tabset}
 
@@ -149,11 +149,11 @@ When a graph is selected, the Graph Object Editor displays the following informa
 
 #### Information
 
-When a graph is selected in the Canvas by <kbd>clicking</kbd> in an empty space, the following categories and interface elements appear in the GOE.
+This section displays common graph information.
 
 <img src="/instamat_studio/canvas/goe_top_graph.png" width="400" />
 
-At the top are the following graph attributes:
+The following graph attributes are listed:
 - Name
 - Category
 - Description
