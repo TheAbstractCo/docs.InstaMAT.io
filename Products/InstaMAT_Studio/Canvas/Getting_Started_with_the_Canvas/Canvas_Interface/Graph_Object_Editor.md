@@ -2,14 +2,14 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-26T17:34:15.538Z
+date: 2023-01-26T17:35:52.179Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
 ---
 
 # Graph Object Editor
-> This page is currently under development.
+> This page is currently under development. :construction:
 {.is-warning}
 
 
@@ -23,6 +23,8 @@ This article breaks down the interface of the Graph Object Editor based on the t
 
 
 ## Node
+When a node is selected, the Graph Object Editor displays the following information.
+
 ## Node {.tabset}
 
 ### Information
@@ -126,6 +128,9 @@ This section displays a node's **Graph Outputs** and the category assigned to ea
 - **View Image**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a>.
 - **View Image in New Tab**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a> in a new tab.
 - **Expose as Output Parameter**: Exposes the node's output as a Graph Output for the parent graph. Learn more about Graph Outputs below.
+
+## Graph
+When a graph is selected, the Graph Object Editor displays the following information.
 
 ## Graph {.tabset}
 
