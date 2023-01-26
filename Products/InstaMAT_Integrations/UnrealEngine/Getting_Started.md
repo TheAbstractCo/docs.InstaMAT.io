@@ -2,7 +2,7 @@
 title: Getting Started with InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-01-26T17:03:12.755Z
+date: 2023-01-26T17:03:46.175Z
 tags: unrealengine, integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-01-26T15:25:46.866Z
