@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T16:56:08.732Z
+date: 2023-01-27T17:00:30.342Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -79,7 +79,7 @@ There are two methods to determine a node's execution size: Relative and Absolut
 >
 > For example: spawning a node that outputs grayscale information from a color image input pin will result in a converter node inserting between the two.
 >
-> ![GIF of both scenarios: QS and Converter](/instamat_studio/canvas/canvas_permutations.gif)
+> ![GIF of both scenarios: QS and Converter](/instamat_studio/canvas/canvas_permutations.gif){.align-center}
 {.is-info}
 
 ### Inputs
@@ -92,14 +92,15 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 > To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
 >
->![Widgets](/instamat_studio/canvas/widgets.png)
+>![Widgets](/instamat_studio/canvas/widgets.png){.align-center}
 {.is-info}
 
 > #### Overriding Input Parameters
 >
 >If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by <kbd>Right Clicking</kbd> it to bring up the contextual menu, then choosing `Override Slider Range` This value can then be overridden temporarily or persisted in the graph.
 >
-><img src="/instamat_studio/canvas/override_choice_dialog.png" alt="Override Choice Dialog" width="400"/> <img src="/instamat_studio/canvas/override_dialog.png" alt="Override Slider Range Dialog" width="300"/>{.is-info}
+>![Override Choice Dialog](/instamat_studio/canvas/override_choice_dialog.png =400x){.align-center} ![Override Choice Dialog](/instamat_studio/canvas/override_dialog.png =300x){.align-center}
+{.is-info}
 
 #### Contextual Menu
 ![Instance Properties](/instamat_studio/canvas/goe_input_context1.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
