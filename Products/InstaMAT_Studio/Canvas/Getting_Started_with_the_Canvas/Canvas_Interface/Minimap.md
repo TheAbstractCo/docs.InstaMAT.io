@@ -2,7 +2,7 @@
 title: Minimap
 description: The Minimap is a small representation of the Canvas used to quickly navigate and visualize the nodes in the graph.
 published: true
-date: 2023-01-27T18:49:48.941Z
+date: 2023-01-27T18:50:29.743Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:06:02.798Z
@@ -38,4 +38,4 @@ The Minimap's settings can be found in <a href="">Preferences</a> under the `Can
 - **Minimap Position**: Determines the location corner of the Minimap in the Canvas UI
 - **Minimap Opacity**: Sets the opacity of the Minimap
 
-![Minimap Settings](/instamat_studio/canvas/minimap_settings.png){.align-center}
+![Minimap Settings](/instamat_studio/canvas/minimap_settings.png =700x){.align-center}
