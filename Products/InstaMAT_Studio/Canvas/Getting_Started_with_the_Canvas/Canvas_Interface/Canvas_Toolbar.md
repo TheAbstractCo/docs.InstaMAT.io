@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-26T18:02:06.363Z
+date: 2023-01-27T17:50:37.864Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -31,27 +31,27 @@ The Canvas Toolbar is organized into the following groups:
 
 ## <i class="fa-regular fa-circle-1"></i> Undo History
 
-![undo_history_button.png](/instamat_studio/canvas/undo_history_button.png){.align-left} The **Undo History** button is divided into two sections: Undo Button, and Undo Popup. Clicking the left portion with the icon will perform an undo operation.
+![undo_history_button.png](/instamat_studio/canvas/undo_history_button.png){.align-right} The **Undo History** button is divided into two sections: Undo Button, and Undo Popup. Clicking the left portion with the icon will perform an undo operation.
 
 > Additonally the keyboard shortcut <kbd>Cmd/Ctrl + Z</kbd> can be used to undo, and <kbd>Shift + Cmd/Ctrl + Z</kbd> will redo.{.is-info}
 
-![Undo History Popup](/instamat_studio/canvas/undo_history_popup_2.png){.align-left} Clicking the downward arrow will open up the **Undo History Popup**.
+![Undo History Popup](/instamat_studio/canvas/undo_history_popup_2.png){.align-right} Clicking the downward arrow will open up the **Undo History Popup**.
   
 This popup displays the undo history for the active session. The order of the items are listed where the most recent action is at the bottom. Clicking on one of the items will undo back to the historical state where that operation took place. As long as no additional changes are made, clicking on future items at the bottom will restore and "redo" the subsequent actions until reaching the latest step.
 
-<br style="clear:left;"/>
+<br style="clear:right;"/>
 
 ## <i class="fa-regular fa-circle-2"></i> Global Execution Settings
 
-This dropdown determines the global resolution and format for the active graph.
+![Global Execution Resolution](/instamat_studio/canvas/global_res_and_seed_2.png){.align-right}This dropdown determines the global resolution and format for the active graph.
 
-![Global Execution Resolution](/instamat_studio/canvas/global_res_and_seed_2.png){.align-left} The **Execution Settings Popup** controls the size and format of the active graph. Clicking the <i class="fa-regular fa-unlock"></i> icon will maintain the same `Width` and `Height` values so that they are always equal.
+The **Execution Settings Popup** controls the size and format of the active graph. Clicking the <i class="fa-regular fa-unlock"></i> icon will maintain the same `Width` and `Height` values so that they are always equal.
 
-<br style="clear:left;" />
+<br style="clear:right;" />
 
 ## <i class="fa-regular fa-circle-3"></i>  Global Seed
 
-![global_seed_2.png](/instamat_studio/canvas/global_seed_2.png){.align-left} The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk. <br style="clear:left;" />
+![global_seed_2.png](/instamat_studio/canvas/global_seed_2.png){.align-right} The **Global Seed** value sets the seed for all randomized parameters and attributes in the active graph. This is useful to quickly preview variations of the same material in an <a href="">Element Graph</a>. This seed value is also used when exporting graph outputs to disk. <br style="clear:right;" />
 
 <kbd>Right Clicking</kbd> the seed provides a contextual menu allowing to reset the number to InstaMAT's default seed value.
 
