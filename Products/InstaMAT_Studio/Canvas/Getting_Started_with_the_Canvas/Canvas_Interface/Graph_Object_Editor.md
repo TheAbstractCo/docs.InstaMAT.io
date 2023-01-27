@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T16:32:48.677Z
+date: 2023-01-27T16:36:51.581Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -43,7 +43,7 @@ The following node attributes are listed:
 #### Element Format
 
 ![Element Format](/instamat_studio/canvas/goe_element_format.png =400x){.align-right} This section determines the node's format and execution size.
-<br style="clear: right"/>
+
 - **Format Type**: The method in which the node will be executed. The format can be set to the following options
 	- **Normalized8, Normalized16, FullRange16, FullRange32**: This will manually set the format regardless of any parent graph inheritance or connected node inputs.
 	- **Inherit**: The format will be inherited from the parent graph.
@@ -65,7 +65,7 @@ There are two methods to determine a node's execution size: Relative and Absolut
 #### Instance Properties
 
 ![Instance Properties](/instamat_studio/canvas/goe_instance_properties.png =400x){.align-right} This section determines the execution seed, if a node is active or disabled, and toggles the node's grayscale/color permutation resulting in the node outputting grayscale or color data.
-<br style="clear: right"/>
+
 - **Seed**: The execution seed for the node. All parameters and internal nodes that supply variation derive their random attributes from this seed. For example: If the selected node is a material, changing the seed will result in a new variation of that material. If the node is a noise, changing the seed will result in a variation of that noise.
 - **Active**: Sets whether the node is "Active" or "Disabled". Disabled nodes display a <i class="fa-regular fa-snooze"></i> icon in the top left corner next to their name in the Canvas view. Nodes that have a `Background` or `Image` input will pass that information through to the output. 
 
@@ -113,14 +113,12 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 #### Outputs
 
-This section displays a node's **Graph Outputs** and the category assigned to each output.
-<img src="/instamat_studio/canvas/goe_node_outputs.png" width="400" />
+![GOE Node Outputs](/instamat_studio/canvas/goe_node_outputs.png =400x){.align-right} This section displays a node's **Graph Outputs** and the category assigned to each output.
+<br style="clear:right"/>
 
 #### Contextual Menu
 
-<img src="/instamat_studio/canvas/goe_outputs_context.png" alt="GOE Outputs Contextual Menu" width="300"/>
-
-<kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
+![GOE Node Outputs Context Menu](/instamat_studio/canvas/goe_outputs_context.png =300x){.align-right} <kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
 
 - **View Image**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a>.
 - **View Image in New Tab**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a> in a new tab.
