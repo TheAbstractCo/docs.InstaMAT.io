@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-25T16:55:16.724Z
+date: 2023-01-27T15:55:45.726Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -19,9 +19,9 @@ InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Rig
 
 The left panel contains the following tabs:
 
-- <i class="fa-regular fa-flux-capacitor"></i> <a href="Graph_Library.html">Graph Library</a>: Provides access to the vast node library that is built into InstaMAT Studio. Nodes are broken down into categories and are easily searchable either from the dedicated search box or by using <a href="">Quick Search</a>. The Graph Library also contains the items from your personal <a href="">User Library</a> and is sorted based on a graph's assigned category.
-- <i class="fa-regular fa-box-open"></i> <a href="Package_Management.html">Package Management</a>: Contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Meta Data** section containing the meta data for the active package.
-- <i class="fa-regular fa-gear"></i> <a href="Viewport_Settings.html">Viewport Settings</a>: Houses the various camera, environment, and render settings for InstaMAT Studio's 3D viewport. Some additional settings are included for the generated Canvas node previews and <a href="Image_Viewer.html">Image Viewer</a>.
+- <i class="fa-regular fa-flux-capacitor"></i> [Graph Library](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Graph_Library): Provides access to the vast node library that is built into InstaMAT Studio. Nodes are broken down into categories and are easily searchable either from the dedicated search box or by using <a href="">Quick Search</a>. The Graph Library also contains the items from your personal <a href="">User Library</a> and is sorted based on a graph's assigned category.
+- <i class="fa-regular fa-box-open"></i> [Package Management](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Package_Management): Contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Meta Data** section containing the meta data for the active package.
+- <i class="fa-regular fa-gear"></i> [Viewport Settings](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Viewport_Settings): Houses the various camera, environment, and render settings for InstaMAT Studio's 3D viewport. Some additional settings are included for the generated Canvas node previews and <a href="">Image Viewer</a>.
 
 <img src="/instamat_studio/canvas/left_panel_gif.gif" width="400" />{.align-right}
 
