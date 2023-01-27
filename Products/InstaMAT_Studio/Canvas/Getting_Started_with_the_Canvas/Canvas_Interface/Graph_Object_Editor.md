@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T16:50:22.712Z
+date: 2023-01-27T16:55:14.098Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -200,11 +200,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 
 
 #### Contextual Menu
-
-<img src="/instamat_studio/canvas/goe_output_graph_context.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
-<img src="/instamat_studio/canvas/goe_output_graph_context2.png" alt="GOE Output Context Menu when Graph Selected" width="300"/>
-
-<kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
+![GOE Output Context Menu when Graph Selected](/instamat_studio/canvas/goe_output_graph_context.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
 
 - **View Image**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the <a href="">Image Viewer</a>.
 - **View Image in New Tab**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the <a href="">Image Viewer</a> in a new tab.
