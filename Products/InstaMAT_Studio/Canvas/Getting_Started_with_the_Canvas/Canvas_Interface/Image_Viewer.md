@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:12:46.327Z
+date: 2023-01-27T18:13:54.730Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -51,10 +51,10 @@ The Image Viewer contains a dedicated toolbar with the following actions:
 > By default, the Image Viewer automatically toggles Tonemapping based on the colorspace of the loaded image. To disable this, use the `Automatic Tonemapping` toggle in <a href="">Preferences</a> under the **'Interface'** tab in the **Image Viewer** section.
 {.is-info}
 
-- <i class="fa-regular fa-r"></i> **R**: Solos the Red channel
-- <i class="fa-regular fa-g"></i> **G**: Solos the Green channel
-- <i class="fa-regular fa-b"></i> **B**: Solos the Blue channel
-- <i class="fa-regular fa-b"></i> **A**: Solos the Alpha channel
+- <i class="fa-regular fa-r"></i> **Red Filter**: Solos the Red channel
+- <i class="fa-regular fa-g"></i> **Green Filter**: Solos the Green channel
+- <i class="fa-regular fa-b"></i> **Blue Filter**: Solos the Blue channel
+- <i class="fa-regular fa-b"></i> **Alpah Filter**: Solos the Alpha channel
 - <i class="fa-regular fa-ruler-horizontal"></i> **Show Rulers**: Toggles the Image Viewer rulers
 
 ### <i class="fa-regular fa-circle-3"></i> Image Viewer Status Bar
