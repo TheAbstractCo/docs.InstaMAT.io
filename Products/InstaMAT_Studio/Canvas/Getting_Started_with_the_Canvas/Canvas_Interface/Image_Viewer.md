@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:21:30.576Z
+date: 2023-01-27T18:22:56.696Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-23T15:47:21.820Z
 
 # Image Viewer
 
-<img src="/instamat_studio/canvas/image_viewer_hero.png" alt="Image Viewer" width="600" />
+![Image Viewer](/instamat_studio/canvas/image_viewer_hero.png =600x){.align-center}
 
 The **Image Viewer** is InstaMAT Studio's interface for viewing 2D image information. The Image Viewer can be found in all of InstaMAT's project types. When creating materials in the <a href="">Canvas</a>, the Image Viewer provides a closer look while building out each material map such as the Height, Roughness, and Base Color information. In <a href="">Layering</a>, the Image Viewer provides a look at an asset's texture maps applied to the mesh's UV layout. In a <a href="">Materialize Image</a> project, the Image Viewer displays essential information for the construction and extraction of each material channel from the image.
 
