@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-23T20:18:35.263Z
+date: 2023-01-27T18:29:41.987Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -10,13 +10,13 @@ dateCreated: 2023-01-23T19:56:47.226Z
 
 # Mesh Baking
 
-<img src="/instamat_studio/canvas/mesh_baking_panel.png" alt="Mesh Baking Panel" />
+![Mesh Baking Panel](/instamat_studio/canvas/mesh_baking_panel.png){.align-center}
 
 The **Mesh Baking** Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry. Specialized maps such as Ambient Occlusion, Position, Curvature, and Thickness can provide useful information on the physical characteristics of the mesh allowing for bespoke texturing and effects. 
 
 Mesh Baking is an integral part of the texturing process and is built into many parts of InstaMAT. There is even a <a href="">Mesh Bake</a> node that can be instanced in the <a href="">Canvas</a> unlocking <a href="">scalable texturing workflows</a> where a mesh is imported, texture maps are baked, and materials are applied with one <a href="">Element Graph</a>.
 
-These incredibly optimized bakers are built with the same industry-proven technology from <a href="https://instalod.com">InstaLOD</a> meaning that they are fully scalable in terms of both output texture dimensions and polygon counts. Meshes can be targeted by name and custom baking cages can have different topology from the target mesh. With **Super Sampling**, texture maps can be baked at 2-16x their resolution and then sampled down to retain their quality with a lighter footprint. Depending on your workstation, both CPU and GPU bakers are available.
+These incredibly optimized bakers are built with the same industry-proven technology from <a href="https://InstaLOD.com">InstaLOD</a> meaning that they are fully scalable in terms of both output texture dimensions and polygon counts. Meshes can be targeted by name and custom baking cages can have different topology from the target mesh. With **Super Sampling**, texture maps can be baked at 2-16x their resolution and then sampled down to retain their quality with a lighter footprint. Depending on your workstation, both CPU and GPU bakers are available.
 
 > InstaMAT also includes powerful automatic UV unwrapping features making it possible to construct an entire mesh creation and processing pipeline from start to finish. To learn more, please read our dedicated article: <a href="">Automatic UV Unwrapping</a>.
 {.is-info}
@@ -25,9 +25,9 @@ These incredibly optimized bakers are built with the same industry-proven techno
 
 There are a few ways to access the Mesh Baking Panel:
 
-- Click the ![Mesh Baking](/instamat_studio/canvas/mesh_baking_icon.png) icon in the <a href="">Canvas Toolbar</a>
+- Click the <i class="fa-regular fa-oven"></i> icon in the <a href="">Canvas Toolbar</a>
 - Go to **Window > Mesh Baking** in the main menu
-- In a <a href="">Layering</a> project, open the `Material Sections` dropdown in the <a href="">Layering Project Editor</a> panel and click the hamburger menu ![Material_Sections_Bake_Icon](/instamat_studio/canvas/material_sections_bake_icon.png) button. From the popup menu, choose `Bake Mesh Data`.
+- In a <a href="">Layering</a> project, open the `Material Sections` dropdown in the <a href="">Layering Project Editor</a> panel and click the hamburger menu <i class="fa-regular fa-bars"></i> button. From the popup menu, choose `Bake Mesh Data`.
 
 ## Interface Overview
 
