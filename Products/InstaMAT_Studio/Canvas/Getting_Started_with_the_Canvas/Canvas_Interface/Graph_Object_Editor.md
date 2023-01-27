@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T16:36:51.581Z
+date: 2023-01-27T16:41:52.686Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -102,7 +102,7 @@ There are two methods to determine a node's execution size: Relative and Absolut
 ><img src="/instamat_studio/canvas/override_choice_dialog.png" alt="Override Choice Dialog" width="400"/> <img src="/instamat_studio/canvas/override_dialog.png" alt="Override Slider Range Dialog" width="300"/>{.is-info}
 
 #### Contextual Menu
-![Instance Properties](/instamat_studio/canvas/goe_input_context1.png =300x){.align-right} ![Instance Properties](/instamat_studio/canvas/goe_input_context2.png =300x){.align-right}<kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
+![Instance Properties](/instamat_studio/canvas/goe_input_context1.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
 
 - **Load Image from Local File**: If the Graph Input is an ElementImage or ElementImageGray type, a local file from the user's machine can quickly be imported and assigned.
 - **Reset to Default Value**: Resets the Graph Input to the default value.
