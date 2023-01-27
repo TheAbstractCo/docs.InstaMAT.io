@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T17:10:41.193Z
+date: 2023-01-27T17:40:17.149Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -217,9 +217,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 
 #### Local Variables
 
-This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information.
-
-<img src="/instamat_studio/canvas/goe_local_variables.png" alt="GOE Local Variables" width="400"/>
+![GOE Local Variables](/instamat_studio/canvas/goe_local_variables.png =400x){.align-right} This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information. 
 
 > #### Did You Know?
 > Multiple instances of the same variable can be dragged into a graph regardless if it's a public Graph Input or private Local Variable. Each instance will update if the variable's value changes.
@@ -227,10 +225,7 @@ This section displays a graph's **Local Variables**. Local Variables are private
 
 #### Contextual Menu
 
-<img src="/instamat_studio/canvas/goe_local_variables_context1.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
-<img src="/instamat_studio/canvas/goe_local_variables_context2.png" alt="GOE Local Variables Context Menu when Graph Selected" width="300"/>
-
-<kbd>Right Clicking</kbd> on a Local Variable brings up a contextual menu with the following options:
+![GOE Local Variables Context Menu when Graph Selected](/instamat_studio/canvas/goe_local_variables_context1.png =300x){.align-right} <kbd>Right Clicking</kbd> on a Local Variable brings up a contextual menu with the following options:
 
 - **Show in Variable Editor**: Shows the currently selected Local Variable in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Local Variable is an *ElementImage* or *ElementImageGray* type, a local file from the user's machine can quickly be imported and assigned.
