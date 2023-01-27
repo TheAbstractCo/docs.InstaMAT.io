@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T17:40:17.149Z
+date: 2023-01-27T17:41:01.021Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -218,7 +218,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 #### Local Variables
 
 ![GOE Local Variables](/instamat_studio/canvas/goe_local_variables.png =400x){.align-right} This section displays a graph's **Local Variables**. Local Variables are private and can only be accessed within the graph itself. These variables are useful when multiple parts of a graph need to privately share the same source of information. 
-
+<br style="clear:right;"/>
 > #### Did You Know?
 > Multiple instances of the same variable can be dragged into a graph regardless if it's a public Graph Input or private Local Variable. Each instance will update if the variable's value changes.
 {.is-info}
