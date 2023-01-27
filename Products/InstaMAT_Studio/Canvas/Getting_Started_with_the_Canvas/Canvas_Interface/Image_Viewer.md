@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T17:57:03.241Z
+date: 2023-01-27T17:58:58.333Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -22,7 +22,7 @@ The Image Viewer is divided up into three parts: The Image View, the Toolbar, an
 
 ![Image Viewer Numbered](/instamat_studio/canvas/image_viewer_numbered.png =600x)
 
-### <img src="/instamat_studio/canvas/1.png" alt="1" width="22"/> Image View
+### <i class="fa-regular fa-circle-1"></i> Image View
 
 The following is how to navigate in the Viewport:
 
@@ -33,7 +33,7 @@ The following is how to navigate in the Viewport:
 > If neither of these options are working, check if the ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) `Scale Image Automatically` icon in the Image Viewer's toolbar is disabled.
 {.is-info}
 
-### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Toolbar
+### <i class="fa-regular fa-circle-2"></i> Toolbar
 
 The Image Viewer contains a dedicated toolbar with the following actions:
 
@@ -57,7 +57,7 @@ The Image Viewer contains a dedicated toolbar with the following actions:
 - ![A_Icon](/instamat_studio/canvas/a_icon.png) **A**: Solos the Alpha channel
 - ![Rulers_Icon](/instamat_studio/canvas/rulers_icon.png) **Show Rulers**: Toggles the Image Viewer rulers
 
-### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Image Viewer Status Bar
+### <i class="fa-regular fa-circle-3"></i> Image Viewer Status Bar
 
 <img src="/instamat_studio/canvas/image_viewer_status_bar.png" alt="Image Viewer Status Bar" width="600"/>
 
