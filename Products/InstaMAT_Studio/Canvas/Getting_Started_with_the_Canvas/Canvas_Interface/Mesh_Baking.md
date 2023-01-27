@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-27T18:45:51.069Z
+date: 2023-01-27T18:47:13.045Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -73,8 +73,8 @@ These settings provide access to more advanced baking operations. They determine
 > For example, with a `Source Mesh Suffix` set to "_high" and a `Target Mesh Suffix` set to "_low", a source mesh mesh named "Round_Part_high" will bake onto a target mesh named "Round_Part_low".
 {.is-info}
 
-- **Outwards Ray Length in %**: Sets the outward ray length by a percentage based on the bounding sphere of the **'Source Mesh'**
-- **Inwards Ray Length in %**: Sets the inward ray length by a percentage based on the bounding sphere of the **'Source Mesh'**
+- **Outwards Ray Length in %**: Sets the outward ray length by a percentage based on the bounding sphere of the `Source Mesh`
+- **Inwards Ray Length in %**: Sets the inward ray length by a percentage based on the bounding sphere of the `Source Mesh`
 - **Ignore Backfaces**: When enabled, backfaces will not occlude geometry
 - **Average Normals**: Uses averaged face normals of the `Target Mesh` as ray directions. This only applies when not using cage mesh normals as ray directions.
 - **Dilation in Pixels**: Sets the dilation size in pixels to avoid mip map pixel bleed
