@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T17:41:01.021Z
+date: 2023-01-27T17:42:01.236Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -248,9 +248,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 
 #### Meta Data
 
-This section allows the user to input attributes for the graph that are used across various parts of InstaMAT.
-
-<img src="/instamat_studio/canvas/goe_meta_data.png" alt="GOE Meta Data Section with Graph Selected" width="400"/>
+![GOE Meta Data Section with Graph Selected](/instamat_studio/canvas/goe_meta_data.png =400x){.align-right} This section allows the user to input attributes for the graph that are used across various parts of InstaMAT.
 
 - **Author**: Sets the author of the graph.
 - **Tags**: Assigns various tags to the graph. These tags are searchable throughout InstaMAT Studio.
