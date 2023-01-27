@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-27T16:02:22.021Z
+date: 2023-01-27T16:10:30.541Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -46,7 +46,7 @@ InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Rig
 
 By default, the center area contains the Canvas itself where nodes are instanced and connections are made between them. Various nodes, projects, media types, and variables can be dragged into the canvas or instantiated with <a href="">Quick Search</a> to build out the graph. Connections can be made by dragging from a node's input or output.
 
-<img src="/instamat_studio/canvas/canvas_view.png" width="700"/>
+![canvas_center_view.gif](/instamat_studio/canvas/canvas_center_view.gif =700x){.align-center}
 
 >### Learn the Ins and Outs of the Canvas
 >To learn more about working in the Canvas check out these articles:
