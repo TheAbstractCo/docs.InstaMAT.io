@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-27T15:56:34.165Z
+date: 2023-01-27T16:00:09.970Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
@@ -17,22 +17,19 @@ InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Rig
 
 ## <i class="fa-regular fa-circle-1"></i> Left Panel
 
-The left panel contains the following tabs:
+![Left Panel](/instamat_studio/canvas/left_panel_gif.gif =400x){.align-right}The left panel contains the following tabs:
 
 - <i class="fa-regular fa-flux-capacitor"></i> [Graph Library](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Graph_Library): Provides access to the vast node library that is built into InstaMAT Studio. Nodes are broken down into categories and are easily searchable either from the dedicated search box or by using <a href="">Quick Search</a>. The Graph Library also contains the items from your personal <a href="">User Library</a> and is sorted based on a graph's assigned category.
 - <i class="fa-regular fa-box-open"></i> [Package Management](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Package_Management): Contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Meta Data** section containing the meta data for the active package.
 - <i class="fa-regular fa-gear"></i> [Viewport Settings](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Viewport_Settings): Houses the various camera, environment, and render settings for InstaMAT Studio's 3D viewport. Some additional settings are included for the generated Canvas node previews and <a href="">Image Viewer</a>.
-
-<img src="/instamat_studio/canvas/left_panel_gif.gif" width="400" />{.align-right}
+<br style="clear: right;"/>
 
 ## <i class="fa-regular fa-circle-2"></i> Right Panel
 
-By default, the right panel is split into two parts. The top contains the following tabs:
+![Right Panel](/instamat_studio/canvas/right_panel_gif.gif =500x){.align-right} By default, the right panel is split into two parts. The top contains the following tabs:
 
 - <i class="fa-regular fa-flux-capacitor"></i> [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Graph_Object_Editor): Provides contextual access to a selected object's properties. From here various operations such as the creation of inputs and outputs, the adjustment of a node's <a href="">exposed parameters</a>, and the assignment of various meta data to a graph can be performed. By selecting multiple nodes in the Canvas, the Graph Object Editor (GOE) displays a table of execution times making it easier to determine which nodes require more processing time.
 - <i class="fa-regular fa-lambda"></i> [Graph Variable Editor](/Products/InstaMAT_Studio/Canvas/Getting_Started_with_the_Canvas/Canvas_Interface/Graph_Variable_Editor): Provides specific adjustments for graph variables such as a public **Graph Input** or a private **Local Variable**.
-
-<img src="/instamat_studio/canvas/right_panel_gif.gif" width ="700" />
 
 By default, the bottom contains:
 
