@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T16:43:54.829Z
+date: 2023-01-27T16:48:39.604Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -155,7 +155,7 @@ To create a new Input Parameter:
 3. <kbd>Double Click</kbd> the name of the parameter to rename it
 
 The parameter's value set in this section will be its default value when the graph is instantiated. Parameters can be re-arranged by **dragging and dropping** them into the desired order. To customize them further, use the <a href="">Graph Variable Editor</a> to do things like organizing them into categories, setting the minimum and maximum ranges, changing the graphical UI widget best used to manipulate the data, and more.
-
+<br style="clear: right;"/>
 To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly into the Canvas view where it will become a node. It can then either be connected to a matching input type, or converted using one of the many conversion nodes built into InstaMAT Studio's node library. Conversion nodes can easily be created using <a href="">Quick Search</a>.
 
 ![GIF of dragging an input into the Canvas, then using Quick Search to convert to another type.](/instamat_studio/canvas/param_convert.gif)
@@ -165,10 +165,7 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 
 #### Contextual Menu
 
-<img src="/instamat_studio/canvas/goe_input_context3.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
-<img src="/instamat_studio/canvas/goe_input_context4.png" alt="GOE Input Contextual Menu with Graph Selected" width="300"/>
-
-<kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu with the following options:
+![GOE Input Contextual Menu with Graph Selected](/instamat_studio/canvas/goe_input_context3.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu with the following options:
 
 - **Show in Variable Editor**: Shows the currently selected Graph Inputs in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Graph Input is an ElementImage or ElementImageGray type, a local file from the user's machine can quickly be imported and assigned.
