@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-27T18:37:27.888Z
+date: 2023-01-27T18:44:06.308Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -162,7 +162,7 @@ These bakers share their settings.
 
 The following is how to bake mesh maps using the Mesh Baking Panel in InstaMAT Studio:
 
-1. Select a `Source Mesh` and a `Target Mesh` by clicking the ![Folder Icon](/instamat_studio/canvas/folder_icon.png) icon. From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package. Choose `Pick Local File` to select a mesh with your system's folder structure.
+1. Select a `Source Mesh` and a `Target Mesh` by clicking the <i class="fa-regular fa-folder-open"></i> icon. From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package. Choose `Pick Local File` to select a mesh with your system's folder structure.
 2. Choose the output `Resolution` for the baked images.
 3. Choose a `Super Sampling` value if desired. This will multiply the output `Resolution` by the chosen factor, then sample the image down to the original result.
 4. Enable each baker with its dedicated switch on the right. Bakers will move to their Active and Inactive positions on the panel.
@@ -180,7 +180,7 @@ The following illustrates how to bake by mesh name in a typical "High to Low Pol
 
 ### 1. Prepare the Meshes
 
-![Submesh hierarchy for source and target meshes](/instamat_studio/canvas/hierarchies.png)
+![Submesh hierarchy for source and target meshes](/instamat_studio/canvas/hierarchies.png){.align-center}
 
 The **Source Mesh** that contains the high-poly information will require every submesh in the scene to have an identifiable mesh name suffix also known as the `Source Mesh Suffix`. By default this suffix is "_high". For example, "Metal_Attachment_high" or "Cabinet_Door_high".
 
@@ -192,7 +192,7 @@ These suffixes can be set under the `Advanced Settings` section in the Mesh Baki
 
 Meshes can be dragged into the <a href="">Package Management</a> Panel and imported into the project first. This will copy the mesh into the active package. Alternatively, meshes can be selected as local files and do not need to be imported into the project.
 
-Input the `Source Mesh` and `Target Mesh` into their respective fields by clicking on the ![Folder Icon](/instamat_studio/canvas/folder_icon.png). From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package or choose `Pick Local File` to select a mesh with your system's folder structure.
+Input the `Source Mesh` and `Target Mesh` into their respective fields by clicking on the <i class="fa-regular fa-folder-open"></i>. From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package or choose `Pick Local File` to select a mesh with your system's folder structure.
 
 ![Picking Source and Target meshes to bake](/instamat_studio/canvas/mesh_baking_pick_meshes.gif)
 
@@ -204,6 +204,4 @@ Make sure that the `Target Mesh Suffix` and `Source Mesh Suffix` match the hiera
 
 ### 3. Bake
 
-![Bake Button](/instamat_studio/canvas/bake_button.png)
-
-The rest of the baking process is the same as the above <a href="#baking-process-overview">Baking Process Overview</a>. After your selected bakers are enabled and the rest of the baking settings are dialed in, click the `Bake` button to begin the bake. If `Store Result in Package` in the `Mesh Baking` section is enabled, the baked mesh maps will appear in the <a href="">Package Management</a> Panel. When baking from a <a href="">Layering</a> project, baked mesh maps for the asset will automatically populate the proper channels in the `Material Sections` area in the <a href="">Layering Project Editor</a>.
+![Bake Button](/instamat_studio/canvas/bake_button.png){.align-right} The rest of the baking process is the same as the above <a href="#baking-process-overview">Baking Process Overview</a>. After your selected bakers are enabled and the rest of the baking settings are dialed in, click the `Bake` button to begin the bake. If `Store Result in Package` in the `Mesh Baking` section is enabled, the baked mesh maps will appear in the <a href="">Package Management</a> Panel. When baking from a <a href="">Layering</a> project, baked mesh maps for the asset will automatically populate the proper channels in the `Material Sections` area in the <a href="">Layering Project Editor</a>.
