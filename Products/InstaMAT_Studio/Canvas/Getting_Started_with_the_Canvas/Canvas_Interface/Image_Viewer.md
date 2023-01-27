@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:09:59.952Z
+date: 2023-01-27T18:11:19.461Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -92,9 +92,9 @@ Tabs can be reorderd by dragging and dropping them into their new position. To c
 
 ## Previewing Image Tiling
 
-The Image Viewer provides built-in features to preview how an image tiles. To preview the tiling of an image, click the ![Icon](/instamat_studio/canvas/tiling_preview_mode_icon.png) (Tiling Preview Mode) icon in the Image Viewer's toolbar. The tiling can be displayed in a grid or a cross layout. To identify the seams of the image, click the ![Icon](/instamat_studio/canvas/highlight_tile_border_icon.png) (Highlight Central Tile Border) icon.
+The Image Viewer provides built-in features to preview how an image tiles. To preview the tiling of an image, click the <i class="fa-regular fa-square"></i> (Tiling Preview Mode) icon in the Image Viewer's toolbar. The tiling can be displayed in a grid or a cross layout. To identify the seams of the image, click the <i class="fa-regular fa-highlighter-line"></i> (Highlight Central Tile Border) icon.
 
-To disable the tiling preview, click the Tiling Preview Mode icon again and choose the ![Icon](/instamat_studio/canvas/tiling_preview_mode_icon.png) (No Tiling) option.
+To disable the tiling preview, click the Tiling Preview Mode icon again and choose the !<i class="fa-regular fa-square"></i> (No Tiling) option.
 
 ## Channel Soloing
 
