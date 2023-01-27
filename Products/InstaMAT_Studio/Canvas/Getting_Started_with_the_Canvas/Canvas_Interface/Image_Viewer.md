@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:06:17.324Z
+date: 2023-01-27T18:09:32.210Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -73,9 +73,7 @@ There are a few ways to load an image into the Image Viewer:
 
 ## Tabs
 
-<img src="/instamat_studio/canvas/image_viewer_tabs.gif" alt="Image Viewer switching through tabs" width="600"/>
-
-Images can be loaded into multiple tabs. Tabs are displayed across the top of the Image Viewer.
+![Image Viewer switching through tabs](/instamat_studio/canvas/image_viewer_tabs.gif =500x){.align-right} Images can be loaded into multiple tabs. Tabs are displayed across the top of the Image Viewer.
 
 To load an image into a new tab:
 
@@ -83,12 +81,14 @@ To load an image into a new tab:
 2. Choose `View Image in New Tab`
 
 Tabs can be reorderd by dragging and dropping them into their new position. To close a tab, hover over it and click the (**X**) located in the right portion of the tab.
+<br style="clear: right;"/>
 
 > ### A/B Testing
 >
 > Using tabs is a great way to perform A/B testing in the Canvas. Duplicate an effect with alternative settings for its attributes and open the output in a new tab. Switch between the two tabs to compare the results.
 >
-> <img src="/instamat_studio/canvas/image_viewer_ab.gif" alt="Image Viewer A/B Testing with Tabs" width="600"/>{.is-info}
+> ![Image Viewer A/B Testing with Tabs](/instamat_studio/canvas/image_viewer_ab.gif =600x){.align-center}
+{.is-info}
 
 ## Previewing Image Tiling
 
