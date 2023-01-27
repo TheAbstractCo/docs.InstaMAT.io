@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-01-27T18:57:41.514Z
+date: 2023-01-27T18:58:56.159Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -30,9 +30,7 @@ Projects are listed alphabetically in the main body of the Package Management Pa
 
 ### Asset Tooltips
 
-Hovering over an asset will bring up a tooltip containing various information and meta data for the project or resource.
-
-![Asset tooltip](/instamat_studio/canvas/asset_tooltip.png =600x){.align-center}
+![Asset tooltip](/instamat_studio/canvas/asset_tooltip.png =500x){.align-right} Hovering over an asset will bring up a tooltip containing various information and meta data for the project or resource.
 
 The tooltip includes the asset's:
 
@@ -57,9 +55,7 @@ The tooltip includes the asset's:
 
 ### Meta Data
 
-![Package Management Meta Data](/instamat_studio/canvas/pm_bottom.png =400x){.align-right}
-
-When a project or resource is selected, the bottom of the Package Management Panel displays its meta data.
+![Package Management Meta Data](/instamat_studio/canvas/pm_bottom.png =400x){.align-right} When a project or resource is selected, the bottom of the Package Management Panel displays its meta data.
 
 Below this is the **Package Meta Data** section. Here, the following can be set:
 
