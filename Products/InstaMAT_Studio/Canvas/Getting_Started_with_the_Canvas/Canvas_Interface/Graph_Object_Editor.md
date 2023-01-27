@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T16:41:52.686Z
+date: 2023-01-27T16:43:54.829Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -133,9 +133,7 @@ When a graph is selected, the Graph Object Editor displays the following informa
 
 #### Information
 
-This section displays common graph information.
-
-<img src="/instamat_studio/canvas/goe_top_graph.png" width="400" />
+![GOE Node Information](/instamat_studio/canvas/goe_top_graph.png =400x){.align-right} This section displays common graph information.
 
 The following graph attributes are listed:
 - Name
@@ -148,9 +146,7 @@ Use the <i class="fa-regular fa-pencil"></i> icon to set the graph's name or <kb
 
 #### Inputs
 
-This section manages the creation and manipulation of a graph's Graph Inputs also known as Input Parameters or Exposed Parameters. These inputs are public and can be adjusted from within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, and through our <a href="">Integrated Plugins</a>.
-
-<img src="/instamat_studio/canvas/goe_inputs_graph.png" alt="GOE Inputs with Graph Selected" width="400"/>
+![GOE Inputs with Graph Selected](/instamat_studio/canvas/goe_inputs_graph.png =400x){.align-right} This section manages the creation and manipulation of a graph's Graph Inputs also known as Input Parameters or Exposed Parameters. These inputs are public and can be adjusted from within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, and through our <a href="">Integrated Plugins</a>.
 
 To create a new Input Parameter:
 
