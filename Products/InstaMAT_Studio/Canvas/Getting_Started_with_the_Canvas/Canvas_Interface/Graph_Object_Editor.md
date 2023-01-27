@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T17:42:01.236Z
+date: 2023-01-27T17:43:00.841Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -197,7 +197,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 >#### A Note about Categories and Link Category Mode
 > Graph Inputs and Outputs can be assigned a **Category** in the <a href="Graph_Variable_Editor.html">Graph Variable Editor</a>. If multiple Graph Inputs and Outputs share the same category, they can be combined and connected together with <a href="">Link Category Mode</a>. This mode visually combines connections that share the same category making it easy to connect multiple pieces of information together. Once combined, a single connection can be dragged from the outputs of one node to the inputs of a corresponding node that shares the same category.
 >
-> ![GIF of using LC mode](/instamat_studio/canvas/lc_mode.gif)
+> ![GIF of using LC mode](/instamat_studio/canvas/lc_mode.gif){.align-center}
 {.is-info}
 
 
