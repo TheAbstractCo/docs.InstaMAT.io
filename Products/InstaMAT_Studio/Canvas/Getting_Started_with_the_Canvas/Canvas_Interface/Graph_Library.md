@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-27T17:48:38.648Z
+date: 2023-01-27T18:26:16.568Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-20T18:58:18.667Z
 
 # Graph Library
 
-<img src="/instamat_studio/canvas/graph_library.png" width="300"/>
+![Graph Library Panel](/instamat_studio/canvas/graph_library.png =300x){.align-center}
 
 The **Graph Library** panel provides access to the vast node library built into InstaMAT Studio. Each set of nodes and resources is broken down into categories and can be searched with the dedicated search field at the top of the panel.
 
