@@ -2,7 +2,7 @@
 title: Minimap
 description: The Minimap is a small representation of the Canvas used to quickly navigate and visualize the nodes in the graph.
 published: true
-date: 2023-01-27T18:49:34.934Z
+date: 2023-01-27T18:49:48.941Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:06:02.798Z
@@ -25,7 +25,7 @@ There are a few ways to navigate the Canvas with the Minimap:
 - <kbd>Left Click</kbd> and drag the highlighted square to pan the Canvas's working area at the current zoom level
 - <kbd>Left Click</kbd> and drag a box over a section of the Minimap to frame up that area in the Canvas's bounds
 
-> At any time, use the **F** key to **Focus** the Canvas so that the entire graph fits the working area.
+> At any time, use the <kbd>F</kbd> key to **Focus** the Canvas so that the entire graph fits the working area.
 {.is-info}
 
 ![Minimap Navigation GIF](/instamat_studio/canvas/minimap_navigation.gif){.align-center}
