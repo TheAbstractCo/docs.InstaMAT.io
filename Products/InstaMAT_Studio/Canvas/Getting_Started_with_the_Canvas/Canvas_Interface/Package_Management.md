@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-01-27T18:56:05.097Z
+date: 2023-01-27T18:57:41.514Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -18,11 +18,11 @@ The **Package Management** Panel contains all of the resources within the active
 
 ### Package Navigator
 
-![Package Manager Package Navigator](/instamat_studio/canvas/pm_top.png =300x){.align-right} At the top of the Package Management Panel is the name of the package. The package can be renamed by clicking the ![Pencil Icon](/instamat_studio/canvas/pencil_icon.png) icon.
+![Package Manager Package Navigator](/instamat_studio/canvas/pm_top.png =300x){.align-right} At the top of the Package Management Panel is the name of the package. The package can be renamed by clicking the <i class="fa-regular fa-pencil"></i> icon.
 
 Below the package name is a dedicated search field used to filter through the package's contents including its resources by name.
 
-The ![Open Resource](/instamat_studio/canvas/open_resource_icon.png) (Open Resource) icon allows the user to quickly add a resource to the package. More can be read about importing resources <a href="#importing-resources">below</a>.
+The <i class="fa-regular fa-file-import"></i> (Open Resource) icon allows the user to quickly add a resource to the package. More can be read about importing resources <a href="#importing-resources">below</a>.
 
 Projects are listed alphabetically in the main body of the Package Management Panel. All other resources such as images, meshes, and baking settings are organized under an `Assets` category.
 
@@ -57,7 +57,7 @@ The tooltip includes the asset's:
 
 ### Meta Data
 
-<img src="/instamat_studio/canvas/pm_bottom.png" width="400"/>
+![Package Management Meta Data](/instamat_studio/canvas/pm_bottom.png =400x){.align-right}
 
 When a project or resource is selected, the bottom of the Package Management Panel displays its meta data.
 
@@ -70,9 +70,11 @@ Below this is the **Package Meta Data** section. Here, the following can be set:
 
 If the `Hide Resources` toggle is enabled, packages will not show their resources when part of the <a href="">Graph Library</a>.
 
+<br style="clear: right;"/>
+
 ## Importing Resources
 
 Resources can be imported into a package in two ways:
 
 - Assets such as images, meshes, or point clouds can be dragged directly into the Package Management Panel and will automatically be categorized by their type.
-- Clicking the ![Open Resource Icon](/instamat_studio/canvas/open_resource_icon.png) (Open Resource) icon at the top of the Package Management Panel brings up a panel to quickly import a file.
+- Clicking the<i class="fa-regular fa-file-import"></i> (Open Resource) icon at the top of the Package Management Panel brings up a panel to quickly import a file.
