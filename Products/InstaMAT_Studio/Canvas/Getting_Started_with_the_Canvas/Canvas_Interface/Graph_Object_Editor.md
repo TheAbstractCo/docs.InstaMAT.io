@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T17:01:31.654Z
+date: 2023-01-27T17:06:37.621Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -92,14 +92,14 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 > To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
 >
->![Widgets](/instamat_studio/canvas/widgets.png){.align-center}
+>![Widgets](/instamat_studio/canvas/widgets.png =700x){.align-center}
 {.is-info}
 
 > #### Overriding Input Parameters
 >
 >If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by <kbd>Right Clicking</kbd> it to bring up the contextual menu, then choosing `Override Slider Range` This value can then be overridden temporarily or persisted in the graph.
 >
->![Override Choice Dialog](/instamat_studio/canvas/override_choice_dialog.png =400x)![Override Choice Dialog](/instamat_studio/canvas/override_dialog.png =300x)
+>![Override Choice Dialog](/instamat_studio/canvas/override_choice_dialog.png =700x){.align-center}
 {.is-info}
 
 #### Contextual Menu
