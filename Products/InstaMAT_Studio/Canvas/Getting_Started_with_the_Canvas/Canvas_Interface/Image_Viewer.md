@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:20:45.880Z
+date: 2023-01-27T18:21:30.576Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -18,10 +18,8 @@ The Image Viewer has many useful built-in features such as rulers, tiling previe
 
 ## Interface Overview
 
-![Image Viewer Numbered](/instamat_studio/canvas/image_viewer_numbered.png =600x){.align-right} The Image Viewer is divided up into three parts: The Image View, the Toolbar, and the Image Viewer Status Bar.
-
-
-<br style="clear: right;"/>
+The Image Viewer is divided up into three parts: The Image View, the Toolbar, and the Image Viewer Status Bar.
+![Image Viewer Numbered](/instamat_studio/canvas/image_viewer_numbered.png =600x){.align-center}
 
 ### <i class="fa-regular fa-circle-1"></i> Image View
 
