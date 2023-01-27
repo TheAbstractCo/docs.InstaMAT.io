@@ -2,7 +2,7 @@
 title: Getting Started with InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-01-26T17:03:46.175Z
+date: 2023-01-27T08:39:53.758Z
 tags: unrealengine, integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-01-26T15:25:46.866Z
@@ -15,8 +15,6 @@ This page will help you to get up to speed with InstaMAT for Unreal Engine in mi
 ## About this Document
 
 InstaMAT for Unreal Engine enables you to create and tweak procedural assets, such as textures and meshes within Unreal Engine.
-
-![instamat_intro.png](/instamat_integrations/unrealengine/instamat_ue_intro.png){.align-center}
 
 ## Table of Contents
 
