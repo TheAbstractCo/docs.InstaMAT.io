@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:09:32.210Z
+date: 2023-01-27T18:09:59.952Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -80,7 +80,7 @@ To load an image into a new tab:
 1. <kbd>Right Click</kbd> a Node or Graph Output to bring up the contextual menu
 2. Choose `View Image in New Tab`
 
-Tabs can be reorderd by dragging and dropping them into their new position. To close a tab, hover over it and click the (**X**) located in the right portion of the tab.
+Tabs can be reorderd by dragging and dropping them into their new position. To close a tab, hover over it and click the <i class="fa-regular fa-xmark"></i> located in the right portion of the tab.
 <br style="clear: right;"/>
 
 > ### A/B Testing
