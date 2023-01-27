@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T17:58:58.333Z
+date: 2023-01-27T18:05:30.935Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -26,9 +26,9 @@ The Image Viewer is divided up into three parts: The Image View, the Toolbar, an
 
 The following is how to navigate in the Viewport:
 
-- **Pan**: **Left Click** and drag
-- **Zoom**: **Right Click** and drag up and down or use the **Scroll Wheel**
-- **Focus**: Press the **F** key. This fits the image into the Image Viewer's viewing area.
+- **Pan**: <kbd>Left Click</kbd> and drag
+- **Zoom**: **Right Click** and drag up and down or use the <kbd>Scroll Wheel</kbd>
+- **Focus**: Press the <kbd>F</kbd> key. This fits the image into the Image Viewer's viewing area.
 
 > If neither of these options are working, check if the ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) `Scale Image Automatically` icon in the Image Viewer's toolbar is disabled.
 {.is-info}
@@ -37,16 +37,16 @@ The following is how to navigate in the Viewport:
 
 The Image Viewer contains a dedicated toolbar with the following actions:
 
-- ![Save Image_Icon](/instamat_studio/canvas/save_project.png) **Save Image**: Saves the current image to disk
-- ![Copy_Image_To_Clipboard_Icon](/instamat_studio/canvas/copy_image_to_clipboard_icon.png) **Copy Image to Clipboard**: Copies the current image to the Clipboard
-- ![Focus_Scene_Icon](/instamat_studio/canvas/focus_scene_icon.png) **Focus**: Fits the image into the Image Viewer's viewing area
+- <i class="fa-regular fa-floppy-disk"></i> **Save Image**: Saves the current image to disk
+- <i class="fa-regular fa-clipboard"></i> **Copy Image to Clipboard**: Copies the current image to the Clipboard
+- <i class="fa-regular fa-crosshairs"></i> **Focus**: Fits the image into the Image Viewer's viewing area
 - ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) **Scale Image Automatically**: Automatically scales the image loaded into the Image Viewer so that it fits the viewing area
-- ![Tiling_Preview_Mode_Icon](/instamat_studio/canvas/tiling_preview_mode_icon.png) **Tiling Preview Mode**: Previews how the loaded image tiles either in a grid or cross layout
-- ![Highlight_Tile_Border_Icon](/instamat_studio/canvas/highlight_tile_border_icon.png) **Highlight Central Tile Border**: Highlights the border of the central tile when using one of the Tiling Preview modes
+- <i class="fa-regular fa-square"></i> **Tiling Preview Mode**: Previews how the loaded image tiles either in a grid or cross layout
+- <i class="fa-regular fa-highlighter-line"></i> **Highlight Central Tile Border**: Highlights the border of the central tile when using one of the Tiling Preview modes
 - ![Paint_Checker_Icon](/instamat_studio/canvas/paint_checker_icon.png) **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency in the Alpha channel
-- ![Pixel_Grid_Icon](/instamat_studio/canvas/pixel_grid_icon.png) **Show Pixel Grid**: Displays a pixel grid when zoomed in to a level where pixels can be distinguished
-- ![Filtering_Icon](/instamat_studio/canvas/filtering_icon.png) **Image Filtering**: Enables bilinear filtering when magnifying the image
-- ![Tonemapping_Icon](/instamat_studio/canvas/tonemapping_icon.png) **Tonemapping**: Applies tonemapping to the image
+- <i class="fa-regular fa-table-cells-large"></i> **Show Pixel Grid**: Displays a pixel grid when zoomed in to a level where pixels can be distinguished
+- <i class="fa-regular fa-filter"></i> **Image Filtering**: Enables bilinear filtering when magnifying the image
+- <i class="fa-regular fa-lightbulb-on"></i> **Tonemapping**: Applies tonemapping to the image
 
 > By default, the Image Viewer automatically toggles Tonemapping based on the colorspace of the loaded image. To disable this, use the `Automatic Tonemapping` toggle in <a href="">Preferences</a> under the **'Interface'** tab in the **Image Viewer** section.
 {.is-info}
