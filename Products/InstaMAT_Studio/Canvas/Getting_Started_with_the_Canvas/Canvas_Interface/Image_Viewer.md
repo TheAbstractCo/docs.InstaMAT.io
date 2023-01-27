@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:11:19.461Z
+date: 2023-01-27T18:12:46.327Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -98,9 +98,7 @@ To disable the tiling preview, click the Tiling Preview Mode icon again and choo
 
 ## Channel Soloing
 
-<img src="/instamat_studio/canvas/image_viewer_channels.gif" alt="GIF soloing each channel of a packed image output" width="600"/>
-
-Many pipelines support "Channel Packing" or the packing of multiple pieces of information into one image output to optimize resources and performance. InstaMAT Studio's library contains nodes to extract and pack values into the Red, Green, and Blue channels of an image such as <a href="">Channel Compose</a> or <a href="">Channel Split</a>.
+![GIF Soloing each channel of a packed image output](/instamat_studio/canvas/image_viewer_channels.gif =500x){.align-right} Many pipelines support "Channel Packing" or the packing of multiple pieces of information into one image output to optimize resources and performance. InstaMAT Studio's library contains nodes to extract and pack values into the Red, Green, and Blue channels of an image such as <a href="">Channel Compose</a> or <a href="">Channel Split</a>.
 
 For example, a material's Roughness, Metalness, and Ambient Occlusion channels could be packed into one output like the following:
 
@@ -111,6 +109,8 @@ For example, a material's Roughness, Metalness, and Ambient Occlusion channels c
 | Blue  | Ambient Occlusion |
 
 The Image Viewer makes it easy to solo each individual color channel of the active image by utilizing the `R`, `G`, `B`, and `A` buttons in the Image Viewer's toolbar.
+
+<br style="clear: right;"/>
 
 > Another way to pack outputs into particular color channels of a single image output is with InstaMAT Studio's Image and Data Output Export Dialog. To learn more, please read our dedicated article <a href="">here</a>.
 {.is-info}
