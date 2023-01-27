@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:17:47.724Z
+date: 2023-01-27T18:18:17.446Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -98,7 +98,9 @@ To disable the tiling preview, click the Tiling Preview Mode icon again and choo
 
 ## Channel Soloing
 
-![GIF Soloing each channel of a packed image output](/instamat_studio/canvas/image_viewer_channels.gif =500x){.align-right} Many pipelines support "Channel Packing" or the packing of multiple pieces of information into one image output to optimize resources and performance. InstaMAT Studio's library contains nodes to extract and pack values into the Red, Green, and Blue channels of an image such as <a href="">Channel Compose</a> or <a href="">Channel Split</a>.
+Many pipelines support "Channel Packing" or the packing of multiple pieces of information into one image output to optimize resources and performance. InstaMAT Studio's library contains nodes to extract and pack values into the Red, Green, and Blue channels of an image such as <a href="">Channel Compose</a> or <a href="">Channel Split</a>.
+
+![GIF Soloing each channel of a packed image output](/instamat_studio/canvas/image_viewer_channels.gif =500x){.align-center}
 
 For example, a material's Roughness, Metalness, and Ambient Occlusion channels could be packed into one output like the following:
 
