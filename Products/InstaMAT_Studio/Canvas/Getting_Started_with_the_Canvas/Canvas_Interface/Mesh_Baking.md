@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-27T18:44:06.308Z
+date: 2023-01-27T18:45:51.069Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -194,11 +194,11 @@ Meshes can be dragged into the <a href="">Package Management</a> Panel and impor
 
 Input the `Source Mesh` and `Target Mesh` into their respective fields by clicking on the <i class="fa-regular fa-folder-open"></i>. From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package or choose `Pick Local File` to select a mesh with your system's folder structure.
 
-![Picking Source and Target meshes to bake](/instamat_studio/canvas/mesh_baking_pick_meshes.gif)
+![Picking Source and Target meshes to bake](/instamat_studio/canvas/mesh_baking_pick_meshes.gif){.align-center}
 
 Be sure to change the `Targeting Mode` to `By Mesh Name`.
 
-![Setting the 'Targeting Mode' to 'By Mesh Name'](/instamat_studio/canvas/mesh_baking_targetting_mode.gif)
+![Setting the 'Targeting Mode' to 'By Mesh Name'](/instamat_studio/canvas/mesh_baking_targetting_mode.gif){.align-center}
 
 Make sure that the `Target Mesh Suffix` and `Source Mesh Suffix` match the hierarchy of your respective meshes.
 
