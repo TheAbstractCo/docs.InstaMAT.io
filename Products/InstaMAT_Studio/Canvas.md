@@ -2,7 +2,7 @@
 title: Canvas
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and powerful workflows with immense flexibility.
 published: true
-date: 2023-01-24T08:04:55.732Z
+date: 2023-01-27T15:53:11.218Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:04:55.732Z
@@ -28,7 +28,7 @@ Learn how to begin working in InstaMAT's flexible and powerful node-based interf
 > ### Did you know?
 > The Canvas is one of many ways to approach texture and material creation. With <a href="">Layering</a>, artists can create scalable workflows using a familiar layer-based approach to build up an asset from scratch. <a href="">Material Layering</a> is a powerful project type making it easy to combine materials together to form a more complex result. What's more is that these layer-based projects can be extended by <a href="">exposing adjustable parameters</a> and <a href="">instancing them</a> in an <a href="">Element Graph</a>. The sky's the limit on how to approach your projects!
 
-## Atom Graph!
+## Atom Graph
 
 ![atom_rounded_preview.jpeg](/instamat_studio/canvas/atom_rounded_preview.jpeg)
 
