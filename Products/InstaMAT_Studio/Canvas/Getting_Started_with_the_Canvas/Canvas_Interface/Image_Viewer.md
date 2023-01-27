@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T18:13:54.730Z
+date: 2023-01-27T18:15:58.535Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -59,9 +59,9 @@ The Image Viewer contains a dedicated toolbar with the following actions:
 
 ### <i class="fa-regular fa-circle-3"></i> Image Viewer Status Bar
 
-<img src="/instamat_studio/canvas/image_viewer_status_bar.png" alt="Image Viewer Status Bar" width="600"/>
-
 The **Image Viewer Status Bar** displays information on the image's size, current viewing scale, format, and channels.
+
+<img src="/instamat_studio/canvas/image_viewer_status_bar.png" alt="Image Viewer Status Bar" width="600"/>
 
 ## Loading Images into the Image Viewer
 
@@ -107,6 +107,7 @@ For example, a material's Roughness, Metalness, and Ambient Occlusion channels c
 | Red | Roughness |
 | Green | Metalness |
 | Blue  | Ambient Occlusion |
+{.dense}
 
 The Image Viewer makes it easy to solo each individual color channel of the active image by utilizing the `R`, `G`, `B`, and `A` buttons in the Image Viewer's toolbar.
 
