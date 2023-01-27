@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T16:48:39.604Z
+date: 2023-01-27T16:50:22.712Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -180,9 +180,7 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 
 #### Outputs
 
-This section manages a graph's Graph Outputs. When building a procedural PBR material with the <a href="">Element Graph</a>, these outputs are the maps that generate a material's fundamental channels such as *Base Color*, *Normal*, and *Roughness.*
-
-<img src="/instamat_studio/canvas/goe_outputs_graph.png" alt="GOE Outputs with Graph Selected" width="500"/>
+![GOE Outputs with Graph Selected](/instamat_studio/canvas/goe_outputs_graph.png =400x){.align-right} This section manages a graph's Graph Outputs. When building a procedural PBR material with the <a href="">Element Graph</a>, these outputs are the maps that generate a material's fundamental channels such as *Base Color*, *Normal*, and *Roughness.*
 
 To create a new Graph Output:
 
