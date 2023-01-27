@@ -2,7 +2,7 @@
 title: Getting Started with InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-01-27T08:39:53.758Z
+date: 2023-01-27T08:41:51.204Z
 tags: unrealengine, integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-01-26T15:25:46.866Z
@@ -55,7 +55,7 @@ To deauthorize your workstation before uninstalling InstaMAT for Unreal Engine, 
 <a name="setting-up-instamat-for-unreal-engine"></a>
 ## Setting up InstaMAT for Unreal Engine
 
-Before InstaMAT for Unreal Engine can be used, the plugin needs to be configured. Go to the plugin settings inside the `Path Settings` panel specify the `InstaMAT Studio Installation` directory and your User path. InstaMAT for Unreal Engine requires both directories to load the InstaMAT library. The default user directory can be found on Windows usually at <some directory> and on macOS at <some other directory>.
+Before InstaMAT for Unreal Engine can be used, the plugin needs to be configured. Go to the plugin settings inside the `Path Settings` panel specify the `InstaMAT Studio Installation` directory and your User path. InstaMAT for Unreal Engine requires both directories to load the InstaMAT library. The default user directory can be found on Windows usually at `C:\Users\<username>\Documents\InstaMAT` and on macOS at <some other directory>.
 
 ![instamat_settings_environment.png](/instamat_integrations/instamat_settings_environment.png){.align-center}
   
