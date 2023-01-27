@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-27T18:29:41.987Z
+date: 2023-01-27T18:37:27.888Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -30,16 +30,17 @@ There are a few ways to access the Mesh Baking Panel:
 - In a <a href="">Layering</a> project, open the `Material Sections` dropdown in the <a href="">Layering Project Editor</a> panel and click the hamburger menu <i class="fa-regular fa-bars"></i> button. From the popup menu, choose `Bake Mesh Data`.
 
 ## Interface Overview
-
-![Mesh Baking Panel UI](/instamat_studio/canvas/mesh_baking_ui.png)
-
 The following section overviews the interface for the Mesh Baking panel.
 
 The Mesh Baking Panel is divided into two parts. The left contains the **Baking Settings**. The right is where **Bakers** can be toggled on and off. Some bakers have additional options that can be configured if needed. Hovering over a setting provides additional helpful information at the bottom of the panel in its status bar.
 
+![Mesh Baking Panel UI](/instamat_studio/canvas/mesh_baking_ui.png){.align-center}
+
 ### Baking Settings
 
-<img src="/instamat_studio/canvas/baking_settings.png" alt="Baking Settigs" width="600"/>
+This section sets up all of the necessary information to perform the baking operation.
+
+![Baking Settings](/instamat_studio/canvas/baking_settings.png =600x){.align-center}
 
 #### Mesh Baking
 
@@ -55,7 +56,7 @@ These are the main baking operation settings. They determine the input meshes, b
 {.is-info}
 
 - **Store Result in Package**: Stores the baking results in the currently active package. If disabled, an output path can be provided.
-- **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the ![Tokens Icon](/instamat_studio/canvas/tokens_icon.png) button located to the right of the input field.
+- **File Name Format**: Provides a format using variables for the file name of each baking result. Tokens can be selected using the <i class="fa-regular fa-bars"></i> button located to the right of the input field.
 - **Image File Format Extension**: Determines the image output format for the baking results
 - **Format Preview**: Provides a preview of the naming convention used in the `File Name Format` setting
 
@@ -88,9 +89,9 @@ These settings apply to any cage meshes in the baking process. With InstaMAT, ca
 
 ### Bakers
 
-<img src="Images/Bakers.png" alt="Bakers" width="400"/>
+To enable a baker, toggle its switch on the right. The baker will move to its Active or Inactive position in the panel. To access a baker's options, use the <i class="fa-regular fa-greater-than"></i> to the left of the baker's name.
 
-To enable a baker, toggle its switch on the right. The baker will move to its Active or Inactive position in the panel. To access a baker's options, use the (**>**) to the left of the baker's name.
+![Bakers](/instamat_studio/canvas/bakers.png =400x){.align-center}
 
 The following bakers have additional options:
 
