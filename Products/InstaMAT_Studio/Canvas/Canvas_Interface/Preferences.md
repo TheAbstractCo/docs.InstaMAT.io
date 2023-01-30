@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-30T13:23:17.516Z
+date: 2023-01-30T13:55:45.715Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -24,6 +24,7 @@ The Preferences Panel can be accessed from the appropriate menu based on the com
 | ---| ---|
 | macOS | InstaMAT > Preferences |
 | Windows | Edit > Preferences |
+{.dense}
 
 Additionally, the panel can be opened with the keyboard shortcut <kbd>Cmd/Ctrl + ,</kbd> (comma).
 
