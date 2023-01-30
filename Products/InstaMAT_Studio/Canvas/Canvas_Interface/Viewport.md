@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-30T14:42:27.140Z
+date: 2023-01-30T14:43:24.105Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -26,7 +26,7 @@ The Viewport is made up of four parts: The 3D View, the Toolbar, the Axis Gizmo,
 
 ![Viewport Numbered](/instamat_studio/canvas/viewport_numbered.png =800x){.align-center}
 
-### <img src="/instamat_studio/canvas/1.png" alt="1" width="22"/> 3D View
+### <i class="fa-regular fa-circle-1"></i> 3D View
 
 The following is how to navigate in the Viewport:
 
@@ -37,7 +37,7 @@ The following is how to navigate in the Viewport:
 - **Fly Through the Scene**: use the **Arrow Keys** or **W, A, S, D**.
 - **Rotate the Environment Image**: hold the **Alt/Option** key, **Right Click** and drag.
 
-### <img src="/instamat_studio/canvas/2.png" alt="2" width="22"/> Toolbar
+### <i class="fa-regular fa-circle-2"></i> Toolbar
 
 The Viewport contains a dedicated toolbar with the following actions:
 
@@ -60,7 +60,7 @@ The Viewport contains a dedicated toolbar with the following actions:
 > Click the <i class="fa-regular fa-square-arrow-left"></i> button above the toolbar to move the Viewport and <a href="Image_Viewer.html">Image Viewer</a> over to the left panel. This allows both the Viewport and the Image Viewer to be seen at the same time.
 {.is-info}
 
-### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Axis Gizmo
+### <i class="fa-regular fa-circle-3"></i> Axis Gizmo
 
 ![Axis Gizmo](/instamat_studio/canvas/viewport_gizmo.png){.align-right} The **Axis Gizmo** shows the world space orientation of the scene. Additionally, the sphere reflects the current Environment Image lighting position in the highlights. 
 
@@ -70,7 +70,7 @@ The following can be done with the Axis Gizmo:
 - **Snap to an Orthographic View**: hover over the gizmo and click on the dot corresponding to the orthographic view's axis.
 <br style="clear: right;"/>
 
-### <img src="/instamat_studio/canvas/4.png" alt="4" width="22"/> Viewport Status Bar
+### <i class="fa-regular fa-circle-4"></i> Viewport Status Bar
 
 The **Viewport Status Bar** displays the total polygon and drawcall count for the scene.
 
@@ -103,7 +103,7 @@ To return to `PBR` or "Material" mode, press <kbd>M</kbd>.
 
 ## Maximize Viewport
 
-To maximize the real estate of the Viewport in the <a href="">Canvas</a> interface, use the ![Viewport Icon](/instamat_studio/canvas/viewport.png) button in the <a href="">Canvas Toolbar</a> to shift it so that it takes up the center section of the UI. You can then maximize it further by hiding the left and right panel sections by clicking on their respective top tab icons.
+To maximize the real estate of the Viewport in the <a href="">Canvas</a> interface, use the <i class="fa-regular fa-cube"></i> button in the <a href="">Canvas Toolbar</a> to shift it so that it takes up the center section of the UI. You can then maximize it further by hiding the left and right panel sections by clicking on their respective top tab icons.
 
 <img src="/instamat_studio/canvas/viewport_maximized.jpg" alt="GIF of maximizing the Viewport size" />
 
