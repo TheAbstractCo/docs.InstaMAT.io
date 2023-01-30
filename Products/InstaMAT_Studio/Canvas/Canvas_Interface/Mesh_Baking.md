@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-27T18:48:10.522Z
+date: 2023-01-30T14:48:13.826Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -89,7 +89,7 @@ These settings apply to any cage meshes in the baking process. With InstaMAT, ca
 
 ### Bakers
 
-To enable a baker, toggle its switch on the right. The baker will move to its Active or Inactive position in the panel. To access a baker's options, use the <i class="fa-regular fa-greater-than"></i> to the left of the baker's name.
+To enable a baker, toggle its switch on the right. The baker will move to its Active or Inactive position in the panel. To access a baker's options, use the <i class="fa-regular fa-chevron-right"></i> to the left of the baker's name.
 
 ![Bakers](/instamat_studio/canvas/bakers.png =400x){.align-center}
 
