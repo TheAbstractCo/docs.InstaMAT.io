@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-23T19:54:12.662Z
+date: 2023-01-30T14:21:29.627Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-23T17:32:24.266Z
 
 # Viewport
 
-<img src="/instamat_studio/canvas/viewport_communicator.png" alt="Viewport" width="600"/>
+![Viewport](/instamat_studio/canvas/viewport_communicator.png =800x){.align-center}
 
 InstaMAT Studio's **Viewport** is a 3D view illuminated by an **Environment Image**. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections. The Viewport is utilized in many different project types within InstaMAT Studio such as in the <a href="">Element Graph</a>, <a href="">Layering</a>, and <a href="">Materialize Image</a>.
 
@@ -21,9 +21,9 @@ The Viewport is more than just a viewer. Viewport Gizmos provide artistic contro
 
 ## Interface Overview
 
-<img src="/instamat_studio/canvas/viewport_numbered.png" alt="Viewport Numbered" width="600"/>
-
 The Viewport is made up of four parts: The 3D View, the Toolbar, the Axis Gizmo, and the Viewport Status Bar.
+
+![Viewport Numbered](/instamat_studio/canvas/viewport_numbered.png =800x){.align-center}
 
 ### <img src="/instamat_studio/canvas/1.png" alt="1" width="22"/> 3D View
 
@@ -40,9 +40,9 @@ The following is how to navigate in the Viewport:
 
 The Viewport contains a dedicated toolbar with the following actions:
 
-- ![Translate_Icon](/instamat_studio/canvas/translate_icon.png) **Translate (W)**: Sets the active viewport gizmo to translate the position of the selected mesh.
-- ![Rotate_Icon](/instamat_studio/canvas/rotate_icon.png) **Rotate (E)**: Sets the active viewport gizmo to rotate the orientation of the selected mesh around its pivot point.
-- ![Scale_Icon](/instamat_studio/canvas/scale_icon.png) **Scale (R)**: Sets the active viewport gizmo to Scale the size of the selected mesh.
+- <i class="fa-regular fa-arrows-up-down-left-right"></i> **Translate**: Sets the active viewport gizmo to translate the position of the selected mesh. Keyboard Shortcut: <kbd>W</kbd>
+- <i class="fa-regular fa-rotate"></i> **Rotate**: Sets the active viewport gizmo to rotate the orientation of the selected mesh around its pivot point. Keyboard Shortcut: <kbd>E</kbd>
+- <i class="fa-regular fa-maximize"></i> **Scale**: Sets the active viewport gizmo to Scale the size of the selected mesh. Keyboard Shortcut: <kbd>R</kbd>
 - ![Gizmo_Control_Icon](/instamat_studio/canvas/gizmo_control_icon.png) **Gizmo Control**: Displays a popup menu to select the active gizmo to control if there are multiple available. Additionally the **Page Up** and **Page Down** keys can be used to cycle through the available gizmos.
 - ![Export_Viewport_Scene_Icon](/instamat_studio/canvas/export_viewport_scene_icon.png) **Export Viewport Scene**: Exports the scene in the viewport to disk.
 - ![Copy_Image_To_Clipboard_Icon](/instamat_studio/canvas/copy_image_to_clipboard_icon.png) **Copy Image to Clipboard**: Captures the current view to the Clipboard.
