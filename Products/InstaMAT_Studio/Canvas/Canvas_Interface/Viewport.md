@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-30T14:21:29.627Z
+date: 2023-01-30T14:24:05.249Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -43,12 +43,12 @@ The Viewport contains a dedicated toolbar with the following actions:
 - <i class="fa-regular fa-arrows-up-down-left-right"></i> **Translate**: Sets the active viewport gizmo to translate the position of the selected mesh. Keyboard Shortcut: <kbd>W</kbd>
 - <i class="fa-regular fa-rotate"></i> **Rotate**: Sets the active viewport gizmo to rotate the orientation of the selected mesh around its pivot point. Keyboard Shortcut: <kbd>E</kbd>
 - <i class="fa-regular fa-maximize"></i> **Scale**: Sets the active viewport gizmo to Scale the size of the selected mesh. Keyboard Shortcut: <kbd>R</kbd>
-- ![Gizmo_Control_Icon](/instamat_studio/canvas/gizmo_control_icon.png) **Gizmo Control**: Displays a popup menu to select the active gizmo to control if there are multiple available. Additionally the **Page Up** and **Page Down** keys can be used to cycle through the available gizmos.
-- ![Export_Viewport_Scene_Icon](/instamat_studio/canvas/export_viewport_scene_icon.png) **Export Viewport Scene**: Exports the scene in the viewport to disk.
-- ![Copy_Image_To_Clipboard_Icon](/instamat_studio/canvas/copy_image_to_clipboard_icon.png) **Copy Image to Clipboard**: Captures the current view to the Clipboard.
-- ![Focus_Scene_Icon](/instamat_studio/canvas/focus_scene_icon.png) **Focus Scene**: Resets the view so that the entire scene fits within the Viewport area. Additionally the keyboard shortcut to do this is **F**.
-- ![Toggle_Vertex_Displacement_Mapping_Icon](/instamat_studio/canvas/toggle_vertex_displacement_mapping_icon.png) **Toggle Vertex Displacement Mapping**: Toggles displacement along the mesh's vertex normals. To adjust the `Displacement Factor`, use the <a href="">Viewport Settings</a> Panel under `Render Settings`.
-- ![Toggle_Material_Ambient_Occlusion_Icon](/instamat_studio/canvas/toggle_material_ambient_occlusion_icon.png) **Toggle Material Ambient Occlusion Intensity**: Toggles the visibility of the Ambient Occlusion channel of the material loaded into the Viewport.
+- <i class="fa-regular fa-solar-system"></i> **Gizmo Control**: Displays a popup menu to select the active gizmo to control if there are multiple available. Additionally the <kbd>Page Up</kbd> and <kbd>Page Down</kbd> keys can be used to cycle through the available gizmos.
+- <i class="fa-regular fa-floppy-disk"></i> **Export Viewport Scene**: Exports the scene in the viewport to disk.
+- <i class="fa-regular fa-clipboard"></i> **Copy Image to Clipboard**: Captures the current view to the Clipboard.
+- <i class="fa-regular fa-crosshairs"></i> **Focus Scene**: Resets the view so that the entire scene fits within the Viewport area. Additionally the keyboard shortcut to do this is **F**.
+- <i class="fa-regular fa-water-arrow-up"></i> **Toggle Vertex Displacement Mapping**: Toggles displacement along the mesh's vertex normals. To adjust the `Displacement Factor`, use the <a href="">Viewport Settings</a> Panel under `Render Settings`.
+- <i class="fa-regular fa-eclipse"></i> **Toggle Material Ambient Occlusion Intensity**: Toggles the visibility of the Ambient Occlusion channel of the material loaded into the Viewport.
 - ![UV_Scale_Icon](/instamat_studio/canvas/uv_scale_icon.png) **Select Next Mesh UV Scale**: Cycles through UV scale increments from 1 to 5. This is a quick way to see how a material will tile when loaded on a 3D object.
 - ![Toggle_Mip_Mapping_Icon](/instamat_studio/canvas/toggle_mip_mapping_icon.png) **Toggle Mip Mapping**: Toggles Mip Mapping when rendering textures. By default, Mip Mapping is disabled in <a href="">Layering</a> projects. To force enable, use the `Allow Mip Mapping in Layering` setting in the <a href="">Preferences</a> Panel under the `Layering` tab.
 - ![Automatic_Exposure_Icon](/instamat_studio/canvas/automatic_exposure_icon.png) **Toggle Automatic Exposure**: Automatically adjusts the exposure of the camera based on lighting changes.
