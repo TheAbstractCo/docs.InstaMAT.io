@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-01-27T18:58:56.159Z
+date: 2023-01-30T11:48:10.467Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -73,4 +73,4 @@ If the `Hide Resources` toggle is enabled, packages will not show their resource
 Resources can be imported into a package in two ways:
 
 - Assets such as images, meshes, or point clouds can be dragged directly into the Package Management Panel and will automatically be categorized by their type.
-- Clicking the<i class="fa-regular fa-file-import"></i> (Open Resource) icon at the top of the Package Management Panel brings up a panel to quickly import a file.
+- Clicking the <i class="fa-regular fa-file-import"></i> (Open Resource) icon at the top of the Package Management Panel brings up a panel to quickly import a file.
