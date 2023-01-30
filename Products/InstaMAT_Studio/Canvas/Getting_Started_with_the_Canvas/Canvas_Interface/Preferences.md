@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-23T20:41:23.348Z
+date: 2023-01-30T13:21:05.169Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -10,11 +10,11 @@ dateCreated: 2023-01-23T20:33:20.852Z
 
 # Preferences
 
-![Preferences](/instamat_studio/canvas/preferences.png)
+![Preferences](/instamat_studio/canvas/preferences.png){.align-center}
 
 The **Preferences** Panel provides access to all of InstaMAT Studio's settings. The panel is divided into tabs for different areas of the application and project types. Additionally, <a href="#shortcuts">Keyboard Shortcuts</a> can be referenced and assigned for application operations, <a href="">Favorites</a>, and node **Quick Actions** in this panel. It is recommended to overview each of these settings to better understand how InstaMAT Studio operates and how it can be tailored to your workflow.
 
-To reset any of the settings to their defaults, click the ![Arrow Icon](/instamat_studio/canvas/arrow_icon.png) icon next to the respective setting.
+To reset any of the settings to their defaults, click the <i class="fa-regular fa-reply"></i> icon next to the respective setting.
 
 ## Accessing the Preferences Panel
 
@@ -37,9 +37,9 @@ These settings apply to the general application.
 
 #### User Paths
 
-<img src="/instamat_studio/canvas/preferences_user_paths.png" alt="User Paths section in Preferences" />
-
 This area allows the user to provide multiple paths for InstaMAT's <a href="../Graph_Library.html/#user-library">User Library</a>. Directories listed here will be organized with InstaMAT's folder structure. Packages placed in the "Library" subdirectory will be accessible within InstaMAT Studio through the <a href="">Graph Library</a>, <a href="">Quick Search</a>, and the <a href="">Asset Picker</a> Panel.
+
+![User Paths](/instamat_studio/canvas/preferences_user_paths.png){.align-center}
 
 
 #### Application
@@ -60,7 +60,7 @@ These settings apply to the application's interface.
 
 - **Maximum Graph Execution Size**: Sets the maximum execution size for a graph. Limiting this size can prevent accidentally selecting a large resolution that would result in issues with the GPU.
 - **Wheel Scrolling Mode**: Determines the behavior of some UI elements and widgets when interacting with the scroll wheel
-- **Reset Button Policy**: Determines the behavior of the ![Rest Button Icon](/instamat_studio/canvas/arrow_icon.png) button in the <a href="">Graph Object Editor</a> when resetting a parameter back to its default value. The button can be set to `Always Show` when a change has been made, or `Show When Hovered`.
+- **Reset Button Policy**: Determines the behavior of the <i class="fa-regular fa-reply"></i> button in the <a href="">Graph Object Editor</a> when resetting a parameter back to its default value. The button can be set to `Always Show` when a change has been made, or `Show When Hovered`.
 - **Show Welcome Screen**: Toggles, showing the <a href="">Welcome Screen</a> upon application startup
 - **Show Contextual Help**: Toggles displaying extra help and information on how certain controls can be used. This information is displayed in the status bar along the bottom of the application.
 - **Reset Preferences and Settings**: Resets the application preferences and settings. This action occurs after restarting the application.
@@ -73,9 +73,9 @@ These settings apply to the application's interface.
 
 ### Shortcuts
 
-<img src="/instamat_studio/canvas/preferences_shortcuts.png" alt="Shortcuts tab in Preferences" />
-
 This tab is where all of InstaMAT Studio's shortcut hotkeys can be referenced and set. Shortcuts can be filtered using the dedicated search bar at the top of the tab.
+
+![Shortcuts tab](/instamat_studio/canvas/preferences_shortcuts.png){.align-center}
 
 To set a shortcut: 
 
@@ -83,7 +83,7 @@ To set a shortcut:
 2. Click the entry field next to the shortcut's name
 3. Enter the desired key combination
 
-A dialog will appear if a key combination is already in use. To reset a shortcut to its default, click the ![Reset Icon](/instamat_studio/canvas/arrow_icon.png) icon. Once a shortcut is assigned or adjusted, the application will need to restart in order for it to come into effect.
+A dialog will appear if a key combination is already in use. To reset a shortcut to its default, click the <i class="fa-regular fa-reply"></i> icon. Once a shortcut is assigned or adjusted, the application will need to restart in order for it to come into effect.
 
 Shortcuts are broken down into categories for the general application, <a href="">Canvas</a> and <a href="">Layering</a> interfaces, <a href="">Viewport</a>, <a href="">Favorites</a> and Quick Actions.
 
@@ -95,7 +95,7 @@ Assigning a hotkey to a favorited node automatically instances it in the Canvas.
 
 Some nodes such as the <a href="">Blend</a> node have Quick Actions. These are useful actions associated with that particular node. In the case of the Blend node, a Quick Action can be performed to swap the `Foreground` and `Background` input connections.
 
-<img src="/instamat_studio/canvas/swap_input_parameters.gif" alt="Swapping Input Parameters on a Blend node" />
+![Swapping Input Parameters on a Blend node with Quick Actions](/instamat_studio/canvas/swap_input_parameters.gif){.align-center}
 
 To assign a shortcut to a Quick Action:
 
@@ -112,7 +112,7 @@ These settings are for advanced features and functions.
 - **Allow GPU Use for Neural Nodes**: Determines if AI-based nodes can use the GPU or if they are executed on the CPU only
 - **Execute Rendering on Idle Mouse**: Executes rendering only if the mouse is idling
 - **Show Advanced Features**: Shows advanced features in InstaMAT Studio's UI
-	- **Library Objects**: Shows advanced nodes in the <a href="">Graph Library</a>. These nodes appear with a ![Advanced icon](/instamat_studio/canvas/advanced_icon.png) in the top left corner when instanced in a graph.
+	- **Library Objects**: Shows advanced nodes in the <a href="">Graph Library</a>. These nodes appear with a <i class="fa-regular fa-screwdriver-wrench"></i> in the top left corner when instanced in a graph.
 	- **Parameters**: Shows advanced parameters in the <a href="../Graph_Object_Editor.html">Graph Object Editor</a> and <a href="../Graph_Variable_Editor.html">Graph Variable Editor</a>
 
 ### Canvas
@@ -155,6 +155,6 @@ These settings apply to the <a href="">Layering</a> interface.
 
 ### Viewport
 
-![GPU Info](/instamat_studio/canvas/preferences_gpu_info.png)
-
 This tab displays information on the computer's GPU.
+
+![GPU Info](/instamat_studio/canvas/preferences_gpu_info.png)
