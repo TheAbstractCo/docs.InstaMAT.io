@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-30T14:38:13.309Z
+date: 2023-01-30T14:42:27.140Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -62,14 +62,13 @@ The Viewport contains a dedicated toolbar with the following actions:
 
 ### <img src="/instamat_studio/canvas/3.png" alt="3" width="22"/> Axis Gizmo
 
-![Axis Gizmo](/instamat_studio/canvas/viewport_gizmo.png)
-
-The **Axis Gizmo** shows the world space orientation of the scene. Additionally, the sphere reflects the current Environment Image lighting position in the highlights. 
+![Axis Gizmo](/instamat_studio/canvas/viewport_gizmo.png){.align-right} The **Axis Gizmo** shows the world space orientation of the scene. Additionally, the sphere reflects the current Environment Image lighting position in the highlights. 
 
 The following can be done with the Axis Gizmo:
 
 - **Orbit the Camera**: **Left Click** and drag the sphere
 - **Snap to an Orthographic View**: hover over the gizmo and click on the dot corresponding to the orthographic view's axis.
+<br style="clear: right;"/>
 
 ### <img src="/instamat_studio/canvas/4.png" alt="4" width="22"/> Viewport Status Bar
 
@@ -79,16 +78,14 @@ The **Viewport Status Bar** displays the total polygon and drawcall count for th
 
 Here are some methods to load meshes into the Viewport:
 
-- **Double Click** a mesh in the <a href="">Package Management</a> Panel.
-- Bring up the **Pick Mesh** Panel by pressing the <kbd>V</kbd> key or by using the ![Load_Mesh_Icon](/instamat_studio/canvas/load_mesh_icon.png) Viewport toolbar button.
+- <kbd>Double Click</kbd> a mesh in the <a href="">Package Management</a> Panel.
+- Bring up the **Pick Mesh** Panel by pressing the <kbd>V</kbd> key or by using the <i class="fa-regular fa-cube"></i> Viewport toolbar button.
 - If mesh information is used in the <a href="">Canvas</a>, either <kbd>Left Click</kbd> the node's mesh input or output connection point, or <kbd>Right Click</kbd> the node to bring up the contextual menu and choose `View Mesh`.
 
 > To learn more about loading meshes into the Viewport, check out our dedicated YouTube Video <a href="">here.</a>
 {.is-info}
 
 ## Soloing Individual Channels
-
-<img src="/instamat_studio/canvas/viewport_channels.gif" alt="GIF cycling through the different channels in the viewport" width="600"/>
 
 Individual texture channels can be soloed directly on the meshes in the current scene. Soloing channels makes it easy to visually understand the intensities and locations of particular material attributes such as the roughness or height displacement.
 
@@ -97,10 +94,12 @@ To solo and cycle through individual channels in the Viewport:
 1. Make sure the Viewport is selected.
 2. Press <kbd>C</kbd>. Continuing to press <kbd>C</kbd> will cycle through the available channels.
 
+To return to `PBR` or "Material" mode, press <kbd>M</kbd>.
+
 > Alternatively, the `Solo Material Channel` Render Mode can be selected under the `Environment Settings` section in the <a href="">Viewport Settings</a> Panel.
 {.is-info}
 
-To return to `PBR` or "Material" mode, press <kbd>M</kbd>.
+![GIF cycling through the different channels in the viewport](/instamat_studio/canvas/viewport_channels.gif =600x){.align-center}
 
 ## Maximize Viewport
 
