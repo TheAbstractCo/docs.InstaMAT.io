@@ -2,7 +2,7 @@
 title: Canvas Toolbar
 description: The Canvas Toolbar sits above the main Canvas view and provides shortcuts to many features and functions of the Canvas.
 published: true
-date: 2023-01-27T17:50:37.864Z
+date: 2023-01-30T14:24:48.492Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-20T18:27:34.438Z
@@ -81,7 +81,7 @@ These items provide shortcuts to common project management actions.
 These items provide access to additional panels and features in InstaMAT Studio.
 
 - <i class="fa-regular fa-oven"></i> **Mesh Baking**: Opens the <a href="">Mesh Baking Panel</a>. Baked mesh maps will be added to the active package and found in the <a href="Package_Management.html">Package Management Panel</a>.
-- ![Raytracing](/instamat_studio/canvas/raytracing.png) **Raytracing**: Opens the <a href="">Raytracing Panel</a>.
+- <i class="fa-regular fa-sunrise"></i> **Raytracing**: Opens the <a href="">Raytracing Panel</a>.
 - <i class="fa-regular fa-square-terminal"></i> **Show Output Log**: Displays the Output Log at the bottom of the interface below the Canvas view.
 
 ## <i class="fa-regular fa-circle-7"></i> Canvas Tools and Display Functions
