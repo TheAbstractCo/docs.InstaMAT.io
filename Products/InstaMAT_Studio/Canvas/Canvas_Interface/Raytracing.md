@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-30T14:00:54.313Z
+date: 2023-01-30T14:06:03.650Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -32,8 +32,8 @@ The user interface for the Raytracing Panel is divided into three parts. The Set
 
 ![Raytracing Controls](/instamat_studio/canvas/raytracing_controls.png =400x){.align-right} These buttons control the state of the raytracing engine.
  
-- ![Play/Pause](/instamat_studio/canvas/play_icon.png) **Play/Pause**: Starts or pauses the render
-- ![Stop](/instamat_studio/canvas/stop_icon.png) **Stop**: Stops the render
+- <i class="fa-regular fa-circle-play"></i> **Play/Pause**: Starts or pauses the render
+- <i class="fa-regular fa-circle-stop"></i> **Stop**: Stops the render
 
 > The rendered image size and current sample iteration are displayed along the bottom in the Raytracing Panel's status bar.
 {.is-info}
@@ -118,20 +118,20 @@ The Post-processing stack includes various filters and effects to complete entir
 
 ### Toolbar
 
-<img src="/instamat_studio/canvas/raytracing_toolbar.png" alt="Raytracing Toolbar" />
-
 The Raytracing Panel contains its own dedicated toolbar to provide shortcuts to further functionality.
 
-- ![Icon](/instamat_studio/canvas/save_current_icon.png) **Save Current**: Saves the currently active channel to disk
-- ![Icon](/instamat_studio/canvas/save_all_channels_icon.png) **Save all channels**: Saves all channels to disk
+![Raytracing Toolbar](/instamat_studio/canvas/raytracing_toolbar.png){.align-center}
+
+- <i class="fa-regular fa-share"></i> **Save Current**: Saves the currently active channel to disk
+- <i class="fa-regular fa-share-all"></i> **Save all channels**: Saves all channels to disk
 - ![Icon](/instamat_studio/canvas/scale_image_icon.png) **Scale Image**: Automatically scales the rendered image in the Raytracing Viewport so that it fits the viewing area
-- ![Icon](/instamat_studio/canvas/image_filtering_icon.png) **Image Filtering**: Applies image filtering when scaling the image to fit the Raytracing Viewport
-- ![Icon](/instamat_studio/canvas/viewport_interaction_icon.png) **Viewport Interaction**: Allows the user to interact with the Raytracing Viewport to adjust the scene
+- <i class="fa-regular fa-filter"></i> **Image Filtering**: Applies image filtering when scaling the image to fit the Raytracing Viewport
+- <i class="fa-regular fa-hand-back-fist"></i> **Viewport Interaction**: Allows the user to interact with the Raytracing Viewport to adjust the scene
 - ![Icon](/instamat_studio/canvas/paint_checkerboard_icon.png) **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency
-- ![Icon](/instamat_studio/canvas/r_icon.png) **R**: Solos the Red channel
-- ![Icon](/instamat_studio/canvas/g_icon.png) **G**: Solos the Green channel
-- ![Icon](/instamat_studio/canvas/b_icon.png) **B**: Solos the Blue channel
-- ![Icon](/instamat_studio/canvas/a_icon.png) **A**: Solos the Alpha channel
+- <i class="fa-regular fa-r"></i> **Red Filter**: Solos the Red channel
+- <i class="fa-regular fa-g"></i> **Green Filter**: Solos the Green channel
+- <i class="fa-regular fa-b"></i> **Blue Filter**: Solos the Blue channel
+- <i class="fa-regular fa-a"></i> **Alpha Filter**: Solos the Alpha channel
 - **Viewport AOV**: (Arbitrary Output Variable) Displays the many render passes available from the raytracing engine. The following passes are available:
 	- Color
 	- Ambient Occlusion
