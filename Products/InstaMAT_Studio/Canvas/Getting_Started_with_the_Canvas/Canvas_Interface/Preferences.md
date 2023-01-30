@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-01-30T13:21:15.613Z
+date: 2023-01-30T13:23:17.516Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -39,7 +39,7 @@ These settings apply to the general application.
 
 This area allows the user to provide multiple paths for InstaMAT's <a href="../Graph_Library.html/#user-library">User Library</a>. Directories listed here will be organized with InstaMAT's folder structure. Packages placed in the "Library" subdirectory will be accessible within InstaMAT Studio through the <a href="">Graph Library</a>, <a href="">Quick Search</a>, and the <a href="">Asset Picker</a> Panel.
 
-![User Paths](/instamat_studio/canvas/preferences_user_paths.png){.align-center}
+![User Paths](/instamat_studio/canvas/preferences_user_paths.png =700x){.align-center}
 
 
 #### Application
@@ -69,13 +69,13 @@ These settings apply to the application's interface.
 
 #### Image Viewer
 
-- **Automatic Tonemapping**: Toggles automatically turning on Tonemapping in the <a href="../Image_Viewer.html">Image Viewer</a>. This is determined based on the color space of the previewed output.
+- **Automatic Tonemapping**: Toggles automatically turning on Tonemapping in the <a href="">Image Viewer</a>. This is determined based on the color space of the previewed output.
 
 ### Shortcuts
 
 This tab is where all of InstaMAT Studio's shortcut hotkeys can be referenced and set. Shortcuts can be filtered using the dedicated search bar at the top of the tab.
 
-![Shortcuts tab](/instamat_studio/canvas/preferences_shortcuts.png){.align-center}
+![Shortcuts tab](/instamat_studio/canvas/preferences_shortcuts.png =800x){.align-center}
 
 To set a shortcut: 
 
@@ -117,9 +117,9 @@ These settings are for advanced features and functions.
 
 ### Canvas
 
-These settings apply to the <a href="../../../Canvas_Overview.html">Canvas</a> interface. Many of these settings also have <a href="../Canvas_Toolbar.html">Canvas Toolbar</a> button counterparts.
+These settings apply to the <a href="">Canvas</a> interface. Many of these settings also have <a href="">Canvas Toolbar</a> button counterparts.
 
-- **Canvas Update Time Delay Mode**: Determines the rendering priority of the <a href="">Image Viewer</a> versus the Canvas Previews. Increasing the speed will result in faster Canvas Preview generation. A slower speed will prioritize the <a href="../Image_Viewer.html">Image Viewer</a>'s preview.
+- **Canvas Update Time Delay Mode**: Determines the rendering priority of the <a href="">Image Viewer</a> versus the Canvas Previews. Increasing the speed will result in faster Canvas Preview generation. A slower speed will prioritize the <a href="">Image Viewer</a>'s preview.
 - **Connection Rendering Mode**: Determines the style in which connections are drawn in the Canvas
 - **Mouse Wheel Behavior**: Determines how the Canvas reacts to scrolling the mouse wheel
 - **Mouse Drag Zoom Speed**: Determines the speed at which the Canvas will zoom when <kbd>Right Clicking</kbd> and dragging
@@ -142,9 +142,9 @@ These settings apply to the <a href="../../../Canvas_Overview.html">Canvas</a> i
 {.is-info}
 
 - **Lock Comments**: When enabled, comments are locked and cannot be accidentally selected or moved
-- **Show Minimap**: Enables the <a href="../Minimap.html">Minimap</a>
-- **Minimap Position**: Determines which corner of the Canvas the <a href="../Minimap.html">Minimap</a> will appear
-- **Minimap Opacity**: Sets the visual opacity of the <a href="../Minimap.html">Minimap</a>
+- **Show Minimap**: Enables the <a href="">Minimap</a>
+- **Minimap Position**: Determines which corner of the Canvas the <a href="">Minimap</a> will appear
+- **Minimap Opacity**: Sets the visual opacity of the <a href="">Minimap</a>
 
 ### Layering
 
@@ -157,4 +157,4 @@ These settings apply to the <a href="">Layering</a> interface.
 
 This tab displays information on the computer's GPU.
 
-![GPU Info](/instamat_studio/canvas/preferences_gpu_info.png){.align-center}
+![GPU Info](/instamat_studio/canvas/preferences_gpu_info.png =800x){.align-center}
