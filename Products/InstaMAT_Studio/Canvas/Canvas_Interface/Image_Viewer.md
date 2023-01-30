@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-27T19:05:56.397Z
+date: 2023-01-30T14:48:58.180Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -42,7 +42,7 @@ The Image Viewer contains a dedicated toolbar with the following actions:
 - ![Scale_Image_Auto_Icon](/instamat_studio/canvas/scale_image_auto_icon.png) **Scale Image Automatically**: Automatically scales the image loaded into the Image Viewer so that it fits the viewing area
 - <i class="fa-regular fa-square"></i> **Tiling Preview Mode**: Previews how the loaded image tiles either in a grid or cross layout
 - <i class="fa-regular fa-highlighter-line"></i> **Highlight Central Tile Border**: Highlights the border of the central tile when using one of the Tiling Preview modes
-- ![Paint_Checker_Icon](/instamat_studio/canvas/paint_checker_icon.png) **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency in the Alpha channel
+- <i class="fa-regular fa-chess-board"></i> **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency in the Alpha channel
 - <i class="fa-regular fa-table-cells-large"></i> **Show Pixel Grid**: Displays a pixel grid when zoomed in to a level where pixels can be distinguished
 - <i class="fa-regular fa-filter"></i> **Image Filtering**: Enables bilinear filtering when magnifying the image
 - <i class="fa-regular fa-lightbulb-on"></i> **Tonemapping**: Applies tonemapping to the image
