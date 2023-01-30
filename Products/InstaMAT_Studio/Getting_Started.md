@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: true
-date: 2023-01-30T17:29:10.316Z
+date: 2023-01-30T17:29:25.740Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:38:57.724Z
@@ -20,7 +20,7 @@ This documentation is designed to help you get started and learn how to quickly 
 
 The following articles offer a quick starting point to begin using InstaMAT Studio.
 
-[System Requirements](/Products/InstaMAT_Studio/System_Requirements): The minimum and recommended hardware and software requirements to run InstaMAT Studio.
+- [System Requirements](/Products/InstaMAT_Studio/System_Requirements): The minimum and recommended hardware and software requirements to run InstaMAT Studio.
 - <a href="">Activation and Licenses</a>: Information on activating and managing licenses for InstaMAT Studio.
 - <a href="">Overview</a>: An overview of InstaMAT Studio, the types of projects you can create, how packages are organized, and keyboard shortcuts to make using InstaMAT Studio a breeze.
 - <a href="">Learning Resources</a>: Videos, tutorials, and other engaging learning materials.
