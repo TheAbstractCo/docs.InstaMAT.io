@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-27T18:26:16.568Z
+date: 2023-01-30T14:47:18.059Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -40,7 +40,7 @@ The Category Browser contains a dedicated toolbar with the following actions:
 - <i class="fa-regular fa-text-size"></i> **Show Categories**: Toggles the resource category
 - <i class="fa-regular fa-user"></i> **Show Only User Library Content**: When enabled, only resources from the **User Library** will be displayed in the Graph Library panel. Learn more about the User Library [below](#user-library).
 - <i class="fa-regular fa-table"></i> **Use a Table View**: Displays resources in a table view format
-- ![icon](/instamat_studio/canvas/display_small_icons_icon.png) **Display Small Icons**: Displays resources with small icons and, if enabled, positions the resource name and category to the right of each icon
+- <i class="fa-regular fa-chess-board"></i> **Display Small Icons**: Displays resources with small icons and, if enabled, positions the resource name and category to the right of each icon
 - <i class="fa-regular fa-table-cells"></i> **Display Medium Icons**: Displays resources with medium icons and, if enabled, positions the resource name and category underneath each icon
 - <i class="fa-regular fa-table-cells-large"></i> **Display Large Icons**: Displays resources with large icons and, if enabled, positions the resource name and category underneath each icon
 - <i class="fa-regular fa-square-info"></i> **Show Library Status Bar**: Toggles the Library Status Bar located at the bottom of the Graph Library panel
