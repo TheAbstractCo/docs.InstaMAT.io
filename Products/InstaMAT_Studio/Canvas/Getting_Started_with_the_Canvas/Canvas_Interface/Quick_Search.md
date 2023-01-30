@@ -2,7 +2,7 @@
 title: Quick Search
 description: Quick Search is a context-sensitive search box used to perform various functions in the Canvas such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active package or Graph Library.
 published: true
-date: 2023-01-23T17:19:12.014Z
+date: 2023-01-30T13:27:46.800Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:12:11.722Z
@@ -11,6 +11,8 @@ dateCreated: 2023-01-23T17:12:11.722Z
 # Quick Search
 
 <img src="/instamat_studio/canvas/qs_options.gif" alt="Quick Search showing multiple searching examples" />
+
+![Quick Search showing multiple search examples](/instamat_studio/canvas/qs_options.gif){.align-center}
 
 **Quick Search** is a context-sensitive search box used to perform various functions in the <a href="">Canvas</a> such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active <a href="">package</a> or <a href="">Graph Library</a>.
 
@@ -25,22 +27,23 @@ There are a few ways to bring up Quick Search:
 ## Context Sensitivity
 Quick Search will automatically display suggestions based on the type of information it is working with. For example, dragging a connection off of an input expecting Mesh information will result in Quick Search showing nodes that provide meshes as outputs such as the <a href="">Mesh From Height</a> node or the <a href="">Mesh Shape Generator</a>. It will continue to filter out the results as you type to show any further compatible nodes.
 
-![Quick Search context sensitivity examples with meshes](/instamat_studio/canvas/qs_mesh.gif)
+![Quick Search context sensitivity examples with meshes](/instamat_studio/canvas/qs_mesh.gif){.align-center}
 
 Nodes that are Grayscale/Color permutable will automatically switch to work in the proper permutation. For example, dragging a connection off of the output of a <a href="">Perlin Noise</a> node, which outputs grayscale information, then using Quick Search to bring in a <a href="">Blend</a> node, will set the Blend to work in grayscale to match the output of the Perlin Noise.
 
-![Quick Search context sensitivity examples with node permutations](/instamat_studio/canvas/qs_permutations.gif)
+![Quick Search context sensitivity examples with node permutations](/instamat_studio/canvas/qs_permutations.gif){.align-center}
 
 ## Creating Graph Inputs, Outputs, and Local Variables
 The quickest way to create Graph Inputs, Graph Outputs, and Local Variables is with Quick Search.
 
 ### Creating Graph Inputs
 
-<img src="/instamat_studio/canvas/qs_expose_input.png" alt="Action Category in Quick Search" width="600"/>
-
 1. Drag a connection off of a node's Input and let go to invoke Quick Search
 2. (Optional) Type the name you would like the Graph Input to receive. Otherwise, it will inherit the name of the origin node's input.
 3. Choose `Expose as graph input` from the `Action` category
+
+![Action Category in Quick Search](/instamat_studio/canvas/qs_expose_input.png =600x){.align-center}
+
 
 The Graph Input will be created and can be adjusted in the <a href="">Graph Object Editor</a> or <a href="">Graph Variable Editor</a>.
 
@@ -52,7 +55,7 @@ The Graph Input will be created and can be adjusted in the <a href="">Graph Obje
 
 > Some nodes such as the <a href="">Height to Normal</a> node already have the name "Normal" as an output. This makes it quicker to expose a material's Normal map output because the name is already assigned. Outputs that have common PBR Material Map names are automatically assigned to the proper channels in InstaMAT Studio's <a href="">Viewport</a>.
 >
-> ![GIF of Normal Map output example](/instamat_studio/canvas/qs_output.gif)
+> ![GIF of Normal Map output example](/instamat_studio/canvas/qs_output.gif){.align-center}
 {.is-info}
 
 ### Creating Local Variables
