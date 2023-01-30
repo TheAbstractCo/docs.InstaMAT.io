@@ -2,7 +2,7 @@
 title: Viewport
 description: InstaMAT Studio's Viewport is a 3D view illuminated by an Environment Image. Use the Viewport to view your assets and materials in 3D with physically-based lighting and reflections.
 published: true
-date: 2023-01-30T14:44:26.553Z
+date: 2023-01-30T14:45:42.517Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T17:32:24.266Z
@@ -105,6 +105,6 @@ To return to `PBR` or "Material" mode, press <kbd>M</kbd>.
 
 To maximize the real estate of the Viewport in the <a href="">Canvas</a> interface, use the <i class="fa-regular fa-cube"></i> button in the <a href="">Canvas Toolbar</a> to shift it so that it takes up the center section of the UI. You can then maximize it further by hiding the left and right panel sections by clicking on their respective top tab icons.
 
-<img src="/instamat_studio/canvas/viewport_maximized.jpg" alt="GIF of maximizing the Viewport size" />
+![GIF of maximizing the Viewport size](/instamat_studio/canvas/viewport_maximized.jpg){.align.center}
 
-<!-- Originally had a GIF here but it was 10MB and wouldn't upload even after the change by Rogiel -->
+<!-- JS: Originally had a GIF here but it was 10MB and wouldn't upload even after the change by Rogiel to increase the upload size limit to 1GB. -->
