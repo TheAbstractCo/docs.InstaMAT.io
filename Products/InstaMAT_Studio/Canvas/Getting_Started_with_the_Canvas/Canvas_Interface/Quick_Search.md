@@ -2,7 +2,7 @@
 title: Quick Search
 description: Quick Search is a context-sensitive search box used to perform various functions in the Canvas such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active package or Graph Library.
 published: true
-date: 2023-01-30T13:30:06.931Z
+date: 2023-01-30T13:31:09.864Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:12:11.722Z
@@ -12,7 +12,7 @@ dateCreated: 2023-01-23T17:12:11.722Z
 
 ![Quick Search showing multiple search examples](/instamat_studio/canvas/qs_options.gif){.align-center}
 
-**Quick Search** is a context-sensitive search box used to perform various functions in the <a href="">Canvas</a> such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active <a href="">package</a> or <a href="">Graph Library</a>.
+**Quick Search** is a context-sensitive search box used to perform various functions in the <a href="">Canvas</a> such as instancing nodes, creating **Graph Inputs** and **Outputs**, and accessing the contents of the active <a href="">package</a> or <a href="">Graph Library</a>.
 
 ## Accessing Quick Search
 
