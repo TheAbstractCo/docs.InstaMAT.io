@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-23T20:51:19.897Z
+date: 2023-01-30T14:00:54.313Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -20,19 +20,18 @@ The user interface for the Raytracing Panel is divided into three parts. The Set
 
 ### Settings
 
-<img src="/instamat_studio/canvas/raytracing_settings.png" alt="Raytracing Settings" width="400"/>
+![Raytracing Settings](/instamat_studio/canvas/raytracing_settings.png =400x){.align-right} The left panel contains all of the render settings for the AMD Radeon™ ProRender engine.
 
-The left panel contains all of the render settings for the AMD Radeon™ ProRender engine.
+<br style="clear: right;"/>
 
-> The settings panel can be hidden by clicking the arrow between the settings panel and the Raytracing Viewport.
+> The Settings Panel can be hidden by clicking the arrow between the Settings Panel and the Raytracing Viewport.
 {.is-info}
+
 
 #### Controls
 
-<img src="/instamat_studio/canvas/raytracing_controls.png" alt="Raytracing Controls" width="400"/>
-
-These buttons control the state of the raytracing engine.
-
+![Raytracing Controls](/instamat_studio/canvas/raytracing_controls.png =400x){.align-right} These buttons control the state of the raytracing engine.
+ 
 - ![Play/Pause](/instamat_studio/canvas/play_icon.png) **Play/Pause**: Starts or pauses the render
 - ![Stop](/instamat_studio/canvas/stop_icon.png) **Stop**: Stops the render
 
