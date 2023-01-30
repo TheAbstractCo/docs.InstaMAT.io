@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-01-30T14:06:03.650Z
+date: 2023-01-30T14:49:45.102Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -127,7 +127,7 @@ The Raytracing Panel contains its own dedicated toolbar to provide shortcuts to 
 - ![Icon](/instamat_studio/canvas/scale_image_icon.png) **Scale Image**: Automatically scales the rendered image in the Raytracing Viewport so that it fits the viewing area
 - <i class="fa-regular fa-filter"></i> **Image Filtering**: Applies image filtering when scaling the image to fit the Raytracing Viewport
 - <i class="fa-regular fa-hand-back-fist"></i> **Viewport Interaction**: Allows the user to interact with the Raytracing Viewport to adjust the scene
-- ![Icon](/instamat_studio/canvas/paint_checkerboard_icon.png) **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency
+- <i class="fa-regular fa-chess-board"></i> **Paint Checkerboard**: Shows a checkerboard background in areas of the image that have transparency
 - <i class="fa-regular fa-r"></i> **Red Filter**: Solos the Red channel
 - <i class="fa-regular fa-g"></i> **Green Filter**: Solos the Green channel
 - <i class="fa-regular fa-b"></i> **Blue Filter**: Solos the Blue channel
