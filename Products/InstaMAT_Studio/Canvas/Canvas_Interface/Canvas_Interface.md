@@ -1,8 +1,8 @@
 ---
-title: Canvas Interface
+title: Canvas Interface 2
 description: InstaMAT Studio's Canvas UI provides a flexible working environment to focus on the task at hand.
 published: true
-date: 2023-01-27T16:17:29.321Z
+date: 2023-01-30T13:45:37.100Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:07:42.220Z
