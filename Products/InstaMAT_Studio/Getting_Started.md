@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: true
-date: 2023-01-30T17:31:49.482Z
+date: 2023-01-30T17:32:32.340Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:38:57.724Z
@@ -34,7 +34,7 @@ The following articles offer a quick starting point to begin using InstaMAT Stud
 
 The Canvas is InstaMAT's node-based interface used to build powerful workflows with immense flexibility. With an assortment of graph types, easy drag-and-drop integration with other InstaMAT projects, and the ability to combine images, meshes, and point clouds, the canvas becomes a dynamic playground for building exhilarating assets and procedural pipelines.
 
-[Canvas](/Products/InstaMAT_Studio/Canvas)
+[Click here to learn more about the Canvas](/Products/InstaMAT_Studio/Canvas)
 
-> More sections to be added soon... :construction:
+> This section is unfinished. :construction:
 {.is-warning}
