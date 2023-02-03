@@ -2,7 +2,7 @@
 title: Getting Started with InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-01-27T08:41:51.204Z
+date: 2023-02-03T14:29:17.157Z
 tags: unrealengine, integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-01-26T15:25:46.866Z
@@ -32,7 +32,7 @@ InstaMAT for Unreal Engine enables you to create and tweak procedural assets, su
 <a name="prerequesites"></a>
 ## Prerequesites
 
-InstaMAT for Unreal always supports the latest Unreal Engine version on both Windows and macOS on the market. Support for the latest Unreal Engine version is typically added shortly after the official release. The plugin is maintained to be fully compatible with the newest version only.
+InstaMAT for Unreal Engine always supports the latest Unreal Engine version on both Windows and macOS on the market. Support for the latest Unreal Engine version is typically added shortly after the official release. The plugin is maintained to be fully compatible with the newest version only.
 
 <a name="installing-instamat-for-unreal-engine"></a>
 ## Installing InstaMAT for Unreal Engine
