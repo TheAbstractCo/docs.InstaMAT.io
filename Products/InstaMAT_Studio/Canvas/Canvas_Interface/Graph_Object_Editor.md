@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-02-06T09:17:50.435Z
+date: 2023-02-06T09:18:55.655Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -92,11 +92,6 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 <br style="clear: right" />
 
->To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
->
-> ![Widgets](/instamat_studio/canvas/widgets.png =700x){.align-center}
-{.is-info}
-
 #### Overriding Input Parameters
 
 If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden. There are two ways to override the value range of a parameter:
@@ -122,6 +117,12 @@ This will input the result of `15` into the input field.
 - **Reset to Default Value**: Resets the Graph Input to the default value.
 - **Expose as Input Parameter**: Exposes the parameter as a Graph Input for the parent graph.
 - **Override**: Overrides the default minimum and maximum values for the parameter.
+
+>To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
+>
+> ![Widgets](/instamat_studio/canvas/widgets.png =700x){.align-center}
+{.is-info}
+
 
 ### Outputs
 
