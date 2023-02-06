@@ -2,7 +2,7 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-02-06T09:59:53.567Z
+date: 2023-02-06T10:01:05.857Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
@@ -12,7 +12,7 @@ dateCreated: 2023-01-23T20:42:52.095Z
 
 ![Raytracing_Panel](/instamat_studio/canvas/raytracing_panel.png)
 
-The **Raytracing** Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs. The automatic PBR material conversion allows for seamless usability between the real-time <a href="../Viewport.html">Viewport</a> and the AMD Radeon™ ProRender scene. The powerful post-processing stack enables final-shot compositing and product shots to be generated directly inside InstaMAT Studio.
+The **Raytracing** Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs. The automatic PBR material conversion allows for seamless usability between the real-time [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport) and the AMD Radeon™ ProRender scene. The powerful post-processing stack enables final-shot compositing and product shots to be generated directly inside InstaMAT Studio.
 
 ## Interface Overview
 
@@ -149,5 +149,5 @@ The Raytracing Panel contains its own dedicated toolbar to provide shortcuts to 
 
 Raytracing settings can be saved and loaded as a preset. To Save or Load a settings preset, go to the main menu and choose `Save Settings` or `Open Settings...` from the `File` menu.
 
-> For more information on AMD Radeon™ ProRender, please refer to the official documentation: <a href="https://radeon-pro.github.io/RadeonProRenderDocs">https://radeon-pro.github.io/RadeonProRenderDocs</a>.
+> For more information on AMD Radeon™ ProRender, please refer to the official documentation [here](https://radeon-pro.github.io/RadeonProRenderDocs).
 {.is-info}
