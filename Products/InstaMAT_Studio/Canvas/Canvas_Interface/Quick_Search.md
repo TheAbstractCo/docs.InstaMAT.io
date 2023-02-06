@@ -2,7 +2,7 @@
 title: Quick Search
 description: Quick Search is a context-sensitive search box used to perform various functions in the Canvas such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active package or Graph Library.
 published: true
-date: 2023-02-06T09:53:29.951Z
+date: 2023-02-06T09:54:29.114Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:12:11.722Z
@@ -75,9 +75,9 @@ For example, to extract the "X" property from a Vector3 data type:
 2. Type `.x` into Quick Search
 3. Press <kbd>Enter</kbd>
 
-![GIF of extraction process](/instamat_studio/canvas/qs_extract.gif)
+![GIF of extraction process](/instamat_studio/canvas/qs_extract.gif){.align-center}
 
 ## Favorites
 Quick Search has access to your Graph Library's **Favorites** list. Branching off a connection from a node's Input or Output will automatically show a list containing compatible nodes in your Favorites list. To learn more about Favorites, please read our dedicated section in the <a href="">Graph Library</a> article.
 
-![GIF showing Favorites](/instamat_studio/canvas/qs_favorites.gif)
+![GIF showing Favorites](/instamat_studio/canvas/qs_favorites.gif){.align-center}
