@@ -2,12 +2,13 @@
 title: Getting Started
 description: 
 published: true
-date: 2023-01-30T17:32:32.340Z
+date: 2023-02-06T12:23:23.611Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:38:57.724Z
 ---
 
+> Currently under construction :construction: {.is-warning}
 # Getting Started with InstaMAT Studio
 
 ![instamat_studio_canvas_full_window.png](/instant_studio/general/instamat_studio_canvas_full_window.png)
