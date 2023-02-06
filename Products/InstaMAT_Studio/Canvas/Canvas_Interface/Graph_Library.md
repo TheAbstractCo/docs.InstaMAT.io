@@ -2,7 +2,7 @@
 title: Graph Library
 description: The Graph Library panel provides access to the vast node library built into InstaMAT Studio.
 published: true
-date: 2023-01-30T14:47:18.059Z
+date: 2023-02-06T10:18:16.264Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T18:58:18.667Z
@@ -16,7 +16,7 @@ The **Graph Library** panel provides access to the vast node library built into 
 
 To use a resource from the Graph Library, drag it from the library panel into your project.
 
->In addition to the Graph Library, a faster way to use a node from InstaMAT's library is by using **Quick Search** — A context sensitive search box with extensive functionality built right into the Canvas. To learn more, read our article on Quick Search <a href="">here</a>.
+>In addition to the Graph Library, a faster way to use a node from InstaMAT's library is by using **Quick Search** — A context sensitive search box with extensive functionality built right into the Canvas. To learn more, read our article on Quick Search [here](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search).
 {.is-info}
 
 ## Interface Overview
@@ -49,7 +49,7 @@ The Category Browser contains a dedicated toolbar with the following actions:
 
 
 ## Favorites
-InstaMAT Studio allows the user to add library items to their **Favorites**. These favorites can be located in the dedicated <i class="fa-regular fa-heart"></i> `Favorites` category in the **Category Browser** of the Graph Library panel and the <a href="">Resource Picker</a> panel.
+InstaMAT Studio allows the user to add library items to their **Favorites**. These favorites can be located in the dedicated <i class="fa-regular fa-heart"></i> `Favorites` category in the **Category Browser** of the Graph Library panel and the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel.
 
 To add or remove an item as a Favorite:
 
@@ -58,7 +58,7 @@ To add or remove an item as a Favorite:
 
 
 ## User Library
-The User Library is a custom machine-dependent library integrated into InstaMAT Studio. Projects added to the User Library are accessible throughout the InstaMAT Studio interface and can be located in the Graph Library panel, in <a href="Quick_Search.html">Quick Search</a>, and also with the <a href="">Resource Picker</a> panel.
+The User Library is a custom machine-dependent library integrated into InstaMAT Studio. Projects added to the User Library are accessible throughout the InstaMAT Studio interface and can be located in the Graph Library panel, in [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search), and also with the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel.
 
 To add a project to the User Library:
 
