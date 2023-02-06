@@ -2,11 +2,13 @@
 title: Canvas
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and powerful workflows with immense flexibility.
 published: true
-date: 2023-02-06T12:10:32.991Z
+date: 2023-02-06T12:13:38.819Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:04:55.732Z
 ---
+
+> Currently under construction :construction:{.is-warning}
 
 # Canvas Overview
 
