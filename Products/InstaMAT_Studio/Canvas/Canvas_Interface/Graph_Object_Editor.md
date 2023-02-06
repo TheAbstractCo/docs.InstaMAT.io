@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-02-06T09:34:09.963Z
+date: 2023-02-06T10:24:03.992Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -77,7 +77,7 @@ There are two methods to determine a node's execution size: Relative and Absolut
 - **Grayscale**: Determines the grayscale/color permutation of the node. Enabling will output grayscale information.
 
 > #### Grayscale and Color Information
-> Nodes in InstaMAT can choose to output either grayscale or color information. When adding a node with <a href="Quick_Search.html">Quick Search</a>, the compatible permutation will automatically be enabled. When connecting a node already in the Canvas with the opposing permutation enabled, a converter node will be inserted between the two nodes.
+> Nodes in InstaMAT can choose to output either grayscale or color information. When adding a node with [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search), the compatible permutation will automatically be enabled. When connecting a node already in the Canvas with the opposing permutation enabled, a converter node will be inserted between the two nodes.
 >
 > For example: spawning a node that outputs grayscale information from a color image input pin will result in a converter node inserting between the two.
 >
@@ -137,8 +137,8 @@ Additionally, equasions like `sin(1.6)` are also possible.
 
 ![GOE Node Outputs Context Menu](/instamat_studio/canvas/goe_outputs_context.png =300x){.align-right} <kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
 
-- **View Image**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a>.
-- **View Image in New Tab**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the <a href="">Image Viewer</a> in a new tab.
+- **View Image**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the [Image Viewer](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Image_Viewer).
+- **View Image in New Tab**: If the Graph Output is an ElementImage or ElementImageGray type, the image is loaded into the [Image Viewer](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Image_Viewer) in a new tab.
 - **Expose as Output Parameter**: Exposes the node's output as a Graph Output for the parent graph. Learn more about Graph Outputs below.
 
 ## Graph
@@ -157,7 +157,7 @@ The following graph attributes are listed:
 - Category
 - Description
 
-Use the <i class="fa-regular fa-pencil"></i> icon to set the graph's name or <kbd>Double Click</kbd> on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the <a href="">Graph Library</a>.
+Use the <i class="fa-regular fa-pencil"></i> icon to set the graph's name or <kbd>Double Click</kbd> on any of the information to begin editing. Adjusting the category of the graph will determine where it appears in the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library).
 
 ### Inputs
 
@@ -171,9 +171,9 @@ To create a new Input Parameter:
 2. Choose the data type for the new input
 3. <kbd>Double Click</kbd> the name of the parameter to rename it
 
-The parameter's value set in this section will be its default value when the graph is instantiated. Parameters can be re-arranged by **dragging and dropping** them into the desired order. To customize them further, use the <a href="">Graph Variable Editor</a> to do things like organizing them into categories, setting the minimum and maximum ranges, changing the graphical UI widget best used to manipulate the data, and more.
+The parameter's value set in this section will be its default value when the graph is instantiated. Parameters can be re-arranged by **dragging and dropping** them into the desired order. To customize them further, use the [Graph Variable Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Variable_Editor) to do things like organizing them into categories, setting the minimum and maximum ranges, changing the graphical UI widget best used to manipulate the data, and more.
 <br style="clear: right;"/>
-To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly into the Canvas view where it will become a node. It can then either be connected to a matching input type, or converted using one of the many conversion nodes built into InstaMAT Studio's node library. Conversion nodes can easily be created using <a href="">Quick Search</a>.
+To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly into the Canvas view where it will become a node. It can then either be connected to a matching input type, or converted using one of the many conversion nodes built into InstaMAT Studio's node library. Conversion nodes can easily be created using [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search).
 
 ![GIF of dragging an input into the Canvas, then using Quick Search to convert to another type.](/instamat_studio/canvas/param_convert.gif){.align-center}
 
@@ -184,7 +184,7 @@ To work with a parameter in the Canvas, <kbd>drag and drop</kbd> it directly int
 
 ![GOE Input Contextual Menu with Graph Selected](/instamat_studio/canvas/goe_input_context3.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu with the following options:
 
-- **Show in Variable Editor**: Shows the currently selected Graph Inputs in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
+- **Show in Variable Editor**: Shows the currently selected Graph Inputs in the [Graph Variable Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Variable_Editor). Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Graph Input is an ElementImage or ElementImageGray type, a local file from the user's machine can quickly be imported and assigned.
 - **Demote to Local Variable**: Demotes the selected public Graph Input to a private Local Variable. Learn more about Local Variables below.
 - **Change Variable Type to**: Quickly changes the Graph Input's data type.
@@ -205,12 +205,12 @@ To create a new Graph Output:
 2. Choose the type for the new output
 3. <kbd>Double Click</kbd> the name of the output to rename it
 
-> When giving an ElementImage or ElementImageGray Graph Output a common PBR Material map name such as "Base Color", "Roughness", or "Ambient Occlusion", InstaMAT will automatically connect these outputs to their proper channel for viewing in the <a href="">Viewport</a>.{.is-info}
+> When giving an ElementImage or ElementImageGray Graph Output a common PBR Material map name such as "Base Color", "Roughness", or "Ambient Occlusion", InstaMAT will automatically connect these outputs to their proper channel for viewing in the [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport).{.is-info}
 
 Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a href="">Output Export Dialog</a>.
 
 >#### A Note about Categories and Link Category Mode
-> Graph Inputs and Outputs can be assigned a **Category** in the <a href="Graph_Variable_Editor.html">Graph Variable Editor</a>. If multiple Graph Inputs and Outputs share the same category, they can be combined and connected together with <a href="">Link Category Mode</a>. This mode visually combines connections that share the same category making it easy to connect multiple pieces of information together. Once combined, a single connection can be dragged from the outputs of one node to the inputs of a corresponding node that shares the same category.
+> Graph Inputs and Outputs can be assigned a **Category** in the [Graph Variable Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Variable_Editor). If multiple Graph Inputs and Outputs share the same category, they can be combined and connected together with <a href="">Link Category Mode</a>. This mode visually combines connections that share the same category making it easy to connect multiple pieces of information together. Once combined, a single connection can be dragged from the outputs of one node to the inputs of a corresponding node that shares the same category.
 >
 > ![GIF of using LC mode](/instamat_studio/canvas/lc_mode.gif){.align-center}
 {.is-info}
@@ -219,9 +219,9 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 #### Contextual Menu
 ![GOE Output Context Menu when Graph Selected](/instamat_studio/canvas/goe_output_graph_context.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Output brings up a contextual menu with the following options:
 
-- **View Image**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the <a href="">Image Viewer</a>.
-- **View Image in New Tab**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the <a href="">Image Viewer</a> in a new tab.
-- **Show in Variable Editor**: Shows the currently selected Graph Outputs in the <a href="Graph_Variable_Editor.html">Graph Variable Editor.</a> Multiple outputs can be selected to assign the same information.
+- **View Image**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the [Image Viewer](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Image_Viewer).
+- **View Image in New Tab**: If the Graph Output is an *ElementImage* or *ElementImageGray* type, the image is loaded into the [Image Viewer](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Image_Viewer) in a new tab.
+- **Show in Variable Editor**: Shows the currently selected Graph Outputs in the [Graph Variable Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Variable_Editor). Multiple outputs can be selected to assign the same information.
 - **Change Variable Type to**: Quickly changes the Graph Output's data type.
 - **Change UI Control Type to**: Quickly changes the Graph Output's UI control widget.
 - **Search for**: Automatically populates the name of the Graph Output into the Canvas's search bar and searches for any instances of it in the graph.
@@ -242,7 +242,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 
 ![GOE Local Variables Context Menu when Graph Selected](/instamat_studio/canvas/goe_local_variables_context1.png =300x){.align-right} <kbd>Right Clicking</kbd> on a Local Variable brings up a contextual menu with the following options:
 
-- **Show in Variable Editor**: Shows the currently selected Local Variable in the <a href="">Graph Variable Editor.</a> Multiple inputs can be selected to assign the same information.
+- **Show in Variable Editor**: Shows the currently selected Local Variable in the [Graph Variable Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Variable_Editor). Multiple inputs can be selected to assign the same information.
 - **Load Image from Local File**: If the Local Variable is an *ElementImage* or *ElementImageGray* type, a local file from the user's machine can quickly be imported and assigned.
 - **Promote to Input Parameter**: Promotes the selected private Local Variable to a public Graph Input.
 - **Change Variable Type to**: Quickly changes the Local Variable's data type.
@@ -269,7 +269,7 @@ Outputs that export Image, Mesh, or Point Cloud data will be utilized in the <a 
 - **Tags**: Assigns various tags to the graph. These tags are searchable throughout InstaMAT Studio.
 - **Version**: Sets the graph's version number.
 - **Use Physical Size**: When enabled, the entered physical size in centimeters is assigned to the graph.
-- **Private**: When enabled, private graphs are not displayed in the <a href="">Graph Library</a>. This is useful when building out a project into subgraphs or "helper graphs" that should be concealed from the library.
+- **Private**: When enabled, private graphs are not displayed in the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library). This is useful when building out a project into subgraphs or "helper graphs" that should be concealed from the library.
 - **Deprecation**: Sets the message to display when the graph is deprecated. All graphs that instance this graph will display this deprecation message when the graph loaded.
 - **Default Image**: Sets the default image for the graph's image parameters.
 - **Preview Mesh**: Assigns a mesh used when previewing the graph outputs in 3D.
