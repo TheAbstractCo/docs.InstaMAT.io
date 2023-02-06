@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-02-06T10:35:50.075Z
+date: 2023-02-06T10:36:29.460Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -65,7 +65,7 @@ Below this is the `Package Meta Data` section. Here, the following can be set:
 - Package URL
 - Hide Resources
 
-If the `Hide Resources` toggle is enabled, packages will not show their resources when part of the <a href="">Graph Library</a>.
+If the `Hide Resources` toggle is enabled, packages will not show their resources when part of the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library).
 
 <br style="clear: right;"/>
 
