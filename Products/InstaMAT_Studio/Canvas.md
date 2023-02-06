@@ -2,7 +2,7 @@
 title: Canvas
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and powerful workflows with immense flexibility.
 published: true
-date: 2023-02-06T11:26:25.968Z
+date: 2023-02-06T11:26:49.936Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:04:55.732Z
@@ -44,3 +44,4 @@ Check out the topics below to dive in.
 ## Function Graph
 
 ![function_rounded_preview.jpeg](/instamat_studio/canvas/function_rounded_preview.jpeg =400x){.align-right} The **Function Graph** is a small function node that can be reused inside <a href="">Atom Graphs</a>. While this is similar to the Atom Graph, the difference is that a Function Graph can have non-image output parameters.
+<br style="clear: right;"/>
