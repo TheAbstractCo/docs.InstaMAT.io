@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-01-27T18:25:09.533Z
+date: 2023-02-06T09:11:28.076Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -92,17 +92,26 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 <br style="clear: right" />
 
-> To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
+>To learn more about how to use InstaMAT's powerful set of widgets, please read our dedicated article: <a href="">A Guide to InstaMAT's Widgets</a>.
 >
->![Widgets](/instamat_studio/canvas/widgets.png =700x){.align-center}
+> ![Widgets](/instamat_studio/canvas/widgets.png =700x){.align-center}
 {.is-info}
 
-> #### Overriding Input Parameters
->
->If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by <kbd>Right Clicking</kbd> it to bring up the contextual menu, then choosing `Override Slider Range` This value can then be overridden temporarily or persisted in the graph.
->
->![Override Choice Dialog](/instamat_studio/canvas/override_choice_dialog.png =700x){.align-center}
-{.is-info}
+#### Overriding Input Parameters
+
+If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden by <kbd>Right Clicking</kbd> it to bring up the contextual menu, then choosing `Override Slider Range` This value can then be overridden temporarily or persisted in the graph.
+
+![Override Choice Dialog](/instamat_studio/canvas/override_choice_dialog.png =700x){.align-center}
+
+
+#### Formulas in Fields
+Mathematical formulas can be entered into input fields to perform quick calculations. To enter a formula, begin by typing `=` followed by the mathetmatical expression. For example:
+
+>=5*3
+
+This will input the result of `15` into the input field.
+
+![formulas_in_fields.gif](/instamat_studio/canvas/formulas_in_fields.gif =600x){.align-center}
 
 #### Contextual Menu
 ![Instance Properties](/instamat_studio/canvas/goe_input_context1.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
