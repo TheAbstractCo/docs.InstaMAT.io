@@ -2,7 +2,7 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-01-30T14:48:13.826Z
+date: 2023-02-06T10:32:02.903Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
@@ -14,9 +14,9 @@ dateCreated: 2023-01-23T19:56:47.226Z
 
 The **Mesh Baking** Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry. Specialized maps such as Ambient Occlusion, Position, Curvature, and Thickness can provide useful information on the physical characteristics of the mesh allowing for bespoke texturing and effects. 
 
-Mesh Baking is an integral part of the texturing process and is built into many parts of InstaMAT. There is even a <a href="">Mesh Bake</a> node that can be instanced in the <a href="">Canvas</a> unlocking <a href="">scalable texturing workflows</a> where a mesh is imported, texture maps are baked, and materials are applied with one <a href="">Element Graph</a>.
+Mesh Baking is an integral part of the texturing process and is built into many parts of InstaMAT. There is even a `Mesh Bake` node that can be instanced in the [Canvas](/Products/InstaMAT_Studio/Canvas) unlocking <a href="">scalable texturing workflows</a> where a mesh is imported, texture maps are baked, and materials are applied with one <a href="">Element Graph</a>.
 
-These incredibly optimized bakers are built with the same industry-proven technology from <a href="https://InstaLOD.com">InstaLOD</a> meaning that they are fully scalable in terms of both output texture dimensions and polygon counts. Meshes can be targeted by name and custom baking cages can have different topology from the target mesh. With **Super Sampling**, texture maps can be baked at 2-16x their resolution and then sampled down to retain their quality with a lighter footprint. Depending on your workstation, both CPU and GPU bakers are available.
+These incredibly optimized bakers are built with the same industry-proven technology from [InstaLOD](https://InstaLOD.com) meaning that they are fully scalable in terms of both output texture dimensions and polygon counts. Meshes can be targeted by name and custom baking cages can have different topology from the target mesh. With **Super Sampling**, texture maps can be baked at 2-16x their resolution and then sampled down to retain their quality with a lighter footprint. Depending on your workstation, both CPU and GPU bakers are available.
 
 > InstaMAT also includes powerful automatic UV unwrapping features making it possible to construct an entire mesh creation and processing pipeline from start to finish. To learn more, please read our dedicated article: <a href="">Automatic UV Unwrapping</a>.
 {.is-info}
@@ -25,7 +25,7 @@ These incredibly optimized bakers are built with the same industry-proven techno
 
 There are a few ways to access the Mesh Baking Panel:
 
-- Click the <i class="fa-regular fa-oven"></i> icon in the <a href="">Canvas Toolbar</a>
+- Click the <i class="fa-regular fa-oven"></i> icon in the [Canvas Toolbar](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Canvas_Toolbar)
 - Go to **Window > Mesh Baking** in the main menu
 - In a <a href="">Layering</a> project, open the `Material Sections` dropdown in the <a href="">Layering Project Editor</a> panel and click the hamburger menu <i class="fa-regular fa-bars"></i> button. From the popup menu, choose `Bake Mesh Data`.
 
@@ -190,7 +190,7 @@ These suffixes can be set under the `Advanced Settings` section in the Mesh Baki
 
 ### 2. Set Up the Bake
 
-Meshes can be dragged into the <a href="">Package Management</a> Panel and imported into the project first. This will copy the mesh into the active package. Alternatively, meshes can be selected as local files and do not need to be imported into the project.
+Meshes can be dragged into the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel and imported into the project first. This will copy the mesh into the active package. Alternatively, meshes can be selected as local files and do not need to be imported into the project.
 
 Input the `Source Mesh` and `Target Mesh` into their respective fields by clicking on the <i class="fa-regular fa-folder-open"></i>. From the popup menu, choose `Pick Package Resource` to select a mesh from within the currently active package or choose `Pick Local File` to select a mesh with your system's folder structure.
 
@@ -204,4 +204,4 @@ Make sure that the `Target Mesh Suffix` and `Source Mesh Suffix` match the hiera
 
 ### 3. Bake
 
-![Bake Button](/instamat_studio/canvas/bake_button.png =200x){.align-right} The rest of the baking process is the same as the above <a href="#baking-process-overview">Baking Process Overview</a>. After your selected bakers are enabled and the rest of the baking settings are dialed in, click the `Bake` button to begin the bake. If `Store Result in Package` in the `Mesh Baking` section is enabled, the baked mesh maps will appear in the <a href="">Package Management</a> Panel. When baking from a <a href="">Layering</a> project, baked mesh maps for the asset will automatically populate the proper channels in the `Material Sections` area in the <a href="">Layering Project Editor</a>.
+![Bake Button](/instamat_studio/canvas/bake_button.png =200x){.align-right} The rest of the baking process is the same as the above <a href="#baking-process-overview">Baking Process Overview</a>. After your selected bakers are enabled and the rest of the baking settings are dialed in, click the `Bake` button to begin the bake. If `Store Result in Package` in the `Mesh Baking` section is enabled, the baked mesh maps will appear in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel. When baking from a <a href="">Layering</a> project, baked mesh maps for the asset will automatically populate the proper channels in the `Material Sections` area in the <a href="">Layering Project Editor</a>.
