@@ -2,7 +2,7 @@
 title: Quick Search
 description: Quick Search is a context-sensitive search box used to perform various functions in the Canvas such as instancing nodes, creating Graph Inputs and Outputs, and accessing the contents of the active package or Graph Library.
 published: true
-date: 2023-01-30T13:31:09.864Z
+date: 2023-02-06T09:53:29.951Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:12:11.722Z
@@ -72,7 +72,7 @@ Quick Search can easily extract pieces of data from data types that contain mult
 For example, to extract the "X" property from a Vector3 data type:
 
 1. Drag a connection off of the Vector3 Output
-2. Type **".x"** into Quick Search
+2. Type `.x` into Quick Search
 3. Press <kbd>Enter</kbd>
 
 ![GIF of extraction process](/instamat_studio/canvas/qs_extract.gif)
