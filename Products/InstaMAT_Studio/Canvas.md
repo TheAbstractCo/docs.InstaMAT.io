@@ -2,7 +2,7 @@
 title: Canvas
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and powerful workflows with immense flexibility.
 published: true
-date: 2023-02-06T11:28:52.782Z
+date: 2023-02-06T11:35:36.438Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:04:55.732Z
@@ -28,7 +28,7 @@ Check out the topics below to dive in.
 
 ## Atom Graph
 
-![atom_rounded_preview.jpeg](/instamat_studio/canvas/atom_rounded_preview.jpeg =400x){.align-right} An **Atom** is an image-processing program that runs on the GPU. With the intuitive <a href="">Control Flow</a> connection system, traditional programing operations such as branching and looping are possible determining the order in which the graph is executed.
+![atom_preview.png](/instamat_studio/canvas/atom_preview.png =400x){.align-right} An **Atom** is an image-processing program that runs on the GPU. With the intuitive <a href="">Control Flow</a> connection system, traditional programing operations such as branching and looping are possible determining the order in which the graph is executed.
 <br style="clear: right;"/>
 
 ## Element Graph
