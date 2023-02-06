@@ -2,7 +2,7 @@
 title: Image Viewer
 description: The Image Viewer is InstaMAT Studio's interface for viewing 2D image information.
 published: true
-date: 2023-01-30T14:48:58.180Z
+date: 2023-02-06T10:29:14.589Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:47:21.820Z
@@ -12,7 +12,7 @@ dateCreated: 2023-01-23T15:47:21.820Z
 
 ![Image Viewer](/instamat_studio/canvas/image_viewer_hero.png =600x){.align-center}
 
-The **Image Viewer** is InstaMAT Studio's interface for viewing 2D image information. The Image Viewer can be found in all of InstaMAT's project types. When creating materials in the <a href="">Canvas</a>, the Image Viewer provides a closer look while building out each material map such as the Height, Roughness, and Base Color information. In <a href="">Layering</a>, the Image Viewer provides a look at an asset's texture maps applied to the mesh's UV layout. In a <a href="">Materialize Image</a> project, the Image Viewer displays essential information for the construction and extraction of each material channel from the image.
+The **Image Viewer** is InstaMAT Studio's interface for viewing 2D image information. The Image Viewer can be found in all of InstaMAT's project types. When creating materials in the [Canvas](/Products/InstaMAT_Studio/Canvas), the Image Viewer provides a closer look while building out each material map such as the Height, Roughness, and Base Color information. In <a href="">Layering</a>, the Image Viewer provides a look at an asset's texture maps applied to the mesh's UV layout. In a <a href="">Materialize Image</a> project, the Image Viewer displays essential information for the construction and extraction of each material channel from the image.
 
 The Image Viewer has many useful built-in features such as rulers, tiling preview options, and individual channel soloing. The following article overviews the UI and some useful workflows.
 
@@ -66,9 +66,9 @@ The **Image Viewer Status Bar** displays information on the image's size, curren
 
 There are a few ways to load an image into the Image Viewer:
 
-- <kbd>Double Click</kbd> an image in the <a href="">Package Management</a> Panel
-- <kbd>Right Click</kbd> a Node in the <a href="">Canvas</a> or Graph Output in the <a href="">Graph Object Editor</a> to bring up the contextual menu and choose `View Image`
-- <kbd>Single Left Click</kbd> on an image input or output connector pin on a Node in the <a href="">Canvas</a>
+- <kbd>Double Click</kbd> an image in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) Panel
+- <kbd>Right Click</kbd> a Node in the [Canvas](/Products/InstaMAT_Studio/Canvas) or Graph Output in the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) to bring up the contextual menu and choose `View Image`
+- <kbd>Single Left Click</kbd> on an image input or output connector pin on a Node in the [Canvas](/Products/InstaMAT_Studio/Canvas)
 
 ## Tabs
 
@@ -97,7 +97,7 @@ To disable the tiling preview, click the `Tiling Preview Mode` icon again and ch
 
 ## Channel Soloing
 
-Many pipelines support "Channel Packing" or the packing of multiple pieces of information into one image output to optimize resources and performance. InstaMAT Studio's library contains nodes to extract and pack values into the Red, Green, and Blue channels of an image such as <a href="">Channel Compose</a> or <a href="">Channel Split</a>.
+Many pipelines support "Channel Packing" or the packing of multiple pieces of information into one image output to optimize resources and performance. InstaMAT Studio's [library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library) contains nodes to extract and pack values into the Red, Green, and Blue channels of an image such as `Channel Compose` or `Channel Split`.
 
 ![GIF Soloing each channel of a packed image output](/instamat_studio/canvas/image_viewer_channels.gif =500x){.align-center}
 
@@ -114,5 +114,5 @@ For example, a material's Roughness, Metalness, and Ambient Occlusion channels c
 
 The Image Viewer makes it easy to solo each individual color channel of the active image by utilizing the `R`, `G`, `B`, and `A` buttons in the Image Viewer's toolbar.
 
-> Another way to pack outputs into particular color channels of a single image output is with InstaMAT Studio's Image and Data Output Export Dialog. To learn more, please read our dedicated article <a href="">here</a>.
+> Another way to pack outputs into particular color channels of a single image output is with InstaMAT Studio's `Image and Data Output Export` dialog. To learn more, please read our dedicated article [here](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Image_and_Data_Output_Export).
 {.is-info}
