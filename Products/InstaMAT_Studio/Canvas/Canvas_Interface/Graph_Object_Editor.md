@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-02-06T09:18:55.655Z
+date: 2023-02-06T09:33:50.551Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -109,6 +109,8 @@ Mathematical formulas can be entered into input fields to perform quick calculat
 This will input the result of `15` into the input field.
 
 ![formulas_in_fields.gif](/instamat_studio/canvas/formulas_in_fields.gif =600x){.align-center}
+
+Additionally, expressions like `sin(1.6)` are also possible.
 
 #### Contextual Menu
 ![Instance Properties](/instamat_studio/canvas/goe_input_context1.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
