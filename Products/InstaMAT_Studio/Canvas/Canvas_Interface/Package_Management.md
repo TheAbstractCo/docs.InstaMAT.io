@@ -2,7 +2,7 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-01-30T11:58:25.635Z
+date: 2023-02-06T10:35:50.075Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
@@ -12,19 +12,19 @@ dateCreated: 2023-01-23T16:10:28.956Z
 
 ![Package Management Panel](/instamat_studio/canvas/package_management.png =300x){.align-center}
 
-The **Package Management** Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the **Package Meta Data** section containing the meta data for the active package.
+The **Package Management** panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings. At the bottom of the panel is the `Package Meta Data` section containing the meta data for the active package.
 
 ## Interface Overview
 
 ### Package Navigator
 
-![Package Manager Package Navigator](/instamat_studio/canvas/pm_top.png =300x){.align-right} At the top of the Package Management Panel is the name of the package. The package can be renamed by clicking the <i class="fa-regular fa-pencil"></i> icon.
+![Package Manager Package Navigator](/instamat_studio/canvas/pm_top.png =300x){.align-right} At the top of the Package Management panel is the name of the package. The package can be renamed by clicking the <i class="fa-regular fa-pencil"></i> icon.
 
 Below the package name is a dedicated search field used to filter through the package's contents including its resources by name.
 
 The <i class="fa-regular fa-file-import"></i> (Open Resource) icon allows the user to quickly add a resource to the package. More can be read about importing resources <a href="#importing-resources">below</a>.
 
-Projects are listed alphabetically in the main body of the Package Management Panel. All other resources such as images, meshes, and baking settings are organized under an `Assets` category.
+Projects are listed alphabetically in the main body of the Package Management panel. All other resources such as images, meshes, and baking settings are organized under an `Assets` category.
 
 <br style="clear: right;"/>
 
@@ -56,9 +56,9 @@ The tooltip includes the asset's:
 
 ### Meta Data
 
-![Package Management Meta Data](/instamat_studio/canvas/pm_bottom.png =400x){.align-right} When a project or resource is selected, the bottom of the Package Management Panel displays its meta data.
+![Package Management Meta Data](/instamat_studio/canvas/pm_bottom.png =400x){.align-right} When a project or resource is selected, the bottom of the Package Management panel displays its meta data.
 
-Below this is the **Package Meta Data** section. Here, the following can be set:
+Below this is the `Package Meta Data` section. Here, the following can be set:
 
 - Package Author
 - Package Application
@@ -73,5 +73,5 @@ If the `Hide Resources` toggle is enabled, packages will not show their resource
 
 Resources can be imported into a package in two ways:
 
-- Assets such as images, meshes, or point clouds can be dragged directly into the Package Management Panel and will automatically be categorized by their type.
-- Clicking the <i class="fa-regular fa-file-import"></i> (Open Resource) icon at the top of the Package Management Panel brings up a panel to quickly import a file.
+- Assets such as images, meshes, or point clouds can be dragged directly into the Package Management panel and will automatically be categorized by their type.
+- Clicking the <i class="fa-regular fa-file-import"></i> (Open Resource) icon at the top of the Package Management panel brings up a panel to quickly import a file.
