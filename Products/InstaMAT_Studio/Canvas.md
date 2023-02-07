@@ -2,7 +2,7 @@
 title: Canvas
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and powerful workflows with immense flexibility.
 published: true
-date: 2023-02-06T15:44:01.739Z
+date: 2023-02-07T15:50:05.811Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:04:55.732Z
@@ -49,7 +49,7 @@ Learn about the different project types that can be built using the Canvas.
 
 ### nPass Element Graph
 
-![npass_preview.png](/instamat_studio/canvas/npass_preview.png =400x){.align-right} The **nPass Element Graph** unlocks the power of iteration by persisting data across multiple passes. This makes complex processes like simulations and scatters a streamlined and straightforward process. There is no limit to the type of data that can be iterated upon such as mesh data, strings, and image buffers. Many nodes within InstaMAT's node library were created with the nPass graph such as <a href="">Mesh Drop On Topology</a> and the <a href="">Mesh Array</a> node.
+![npass_preview.png](/instamat_studio/canvas/npass_preview.png =400x){.align-right} The **nPass Element Graph** unlocks the power of iteration by persisting data across multiple passes. This makes complex processes like simulations and scatters a streamlined and straightforward process. There is no limit to the type of data that can be iterated upon such as mesh data, strings, and image buffers. Many nodes within InstaMAT's node library were created with the nPass graph such as `Mesh Drop On Topology` and the `Mesh Array` node.
 
 [Click here to learn more about the nPass Element Graph]()
 <br style="clear: right;"/>
