@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Right Panel, Center Area, and the Toolbar.
 published: true
-date: 2023-02-06T10:08:40.169Z
+date: 2023-02-09T19:58:06.546Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-30T13:47:04.460Z
@@ -44,7 +44,7 @@ InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Rig
 ## <i class="fa-regular fa-circle-3"></i> Center Area
 
 
-By default, the center area contains the Canvas itself where nodes are instanced and connections are made between them. Various nodes, projects, media types, and variables can be dragged into the canvas or instantiated with [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) to build out the graph. Connections can be made by dragging from a node's input or output.
+By default, the center area contains the Canvas itself where nodes are instanced and connections are made between them. Various nodes, projects, media types, and variables can be dragged into the Canvas or instantiated with [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) to build out the graph. Connections can be made by dragging from a node's input or output.
 
 ![canvas_center_view.gif](/instamat_studio/canvas/canvas_center_view.gif =700x){.align-center}
 
