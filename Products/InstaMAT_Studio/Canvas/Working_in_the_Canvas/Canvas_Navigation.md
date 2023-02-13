@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T16:03:36.534Z
+date: 2023-02-13T16:04:53.448Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -38,7 +38,7 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 
 ## Selecting Objects
 
-![Selecting oobjects](/instamat_studio/canvas/select_canvas.gif =400x){.align-right} To select nodes or other objects in the Canvas view, <kbd>Left Click</kbd> the object. To select multiple objects, hold <kbd>Shift</kbd> and drag a rectangular selection of the objects to select.
+![Selecting oobjects](/instamat_studio/canvas/select_canvas.gif =400x){.align-right} To select an object in the Canvas view, <kbd>Left Click</kbd> the object. To select multiple objects, hold <kbd>Shift</kbd> and drag a rectangular selection of the objects to select.
 
 <br style="clear: right;"/>
 
