@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T16:04:53.448Z
+date: 2023-02-13T16:11:26.247Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -53,9 +53,13 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 
 ## Deleting Objects
 
-To delete an object from the Canvas, [select it](#selecting-objects), then press the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key. Additionally nodes can be deleted by <kbd>Right Clicking</kbd> them to bring up the context menu, then choosing `Delete`.
+To delete an object from the Canvas view, select it, then press the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key. Additionally nodes can be deleted by <kbd>Right Clicking</kbd> them to bring up the context menu, then choosing `Delete`.
+
+> **Connections:** Connections can be selected and deleted separately from the nodes that they are attached to. To delete a connection or set of connections, select them and use the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key.{.is-info}
 
 ## Duplicating Objects
+
+To duplicate an object in the Canvas view, select it, then <kbd>Option/Alt</kbd> + <kbd>Click and Drag</kbd> the duplicate into position. Additionally, nodes can be copied and pasted with the standard <kbd>Cmd/Ctrl</kbd> + <kbd>C</kbd> and <kbd>Cmd/Ctrl</kbd> + <kbd>V</kbd> keyboard shortcuts.
 
 ## Focusing
 
