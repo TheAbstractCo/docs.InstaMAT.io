@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T16:17:30.559Z
+date: 2023-02-13T16:29:03.861Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -38,7 +38,9 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 
 ## Selecting Objects
 
-![Selecting oobjects](/instamat_studio/canvas/select_canvas.gif =400x){.align-right} To select an object in the Canvas view, <kbd>Left Click</kbd> the object. To select multiple objects, hold <kbd>Shift</kbd> and drag a rectangular selection of the objects to select.
+![Selecting oobjects](/instamat_studio/canvas/select_canvas.gif =400x){.align-right} To select an object in the Canvas view, <kbd>Left Click</kbd> the object.
+
+To select multiple objects, hold <kbd>Shift</kbd> and drag a rectangular selection of the objects to select.
 
 <br style="clear: right;"/>
 
@@ -53,7 +55,9 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 
 ## Deleting Objects
 
-![delete_canvas.gif](/instamat_studio/canvas/delete_canvas.gif =400x){.align-right}To delete an object from the Canvas view, select it, then press the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key. Additionally objects can be deleted by <kbd>Right Clicking</kbd> them to bring up the context menu, then choosing `Delete`.
+![delete_canvas.gif](/instamat_studio/canvas/delete_canvas.gif =400x){.align-right}To delete an object from the Canvas view, select it, then press the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key. 
+
+Additionally objects can be deleted by <kbd>Right Clicking</kbd> them to bring up the context menu, then choosing `Delete`.
 
 <br style="clear: right;"/>
 
@@ -63,13 +67,17 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 
 ## Duplicating Objects
 
-To duplicate an object in the Canvas view, select it, then <kbd>Option/Alt</kbd> + <kbd>Click and Drag</kbd> the duplicate into position. Additionally, nodes can be copied and pasted with the standard <kbd>Cmd/Ctrl</kbd> + <kbd>C</kbd> and <kbd>Cmd/Ctrl</kbd> + <kbd>V</kbd> keyboard shortcuts.
+![duplicate_canvas.gif](/instamat_studio/canvas/duplicate_canvas.gif =400x){.align-right}To duplicate an object in the Canvas view, select it, then <kbd>Option/Alt</kbd> + <kbd>Click and Drag</kbd> the duplicate into position.
+
+Additionally, nodes can be copied and pasted with the standard <kbd>Cmd/Ctrl</kbd> + <kbd>C</kbd> and <kbd>Cmd/Ctrl</kbd> + <kbd>V</kbd> keyboard shortcuts.
+
+<br style="clear: right;"/>
 
 ## Focusing
 
-![Focusing GIF]()
-
 Focusing in InstaMAT Studio is a universal term meaning to frame up the contents or a selection so that it fits within the bounds of the view. To focus in the Canvas, use the <kbd>F</kbd> key. To focus on a portion of the graph, select the objects to focus on first, then hit <kbd>F</kbd>.
+
+![focus_canvas.gif](/instamat_studio/canvas/focus_canvas.gif){.align-center}
 
 > Another way to frame up a portion of the graph so that it fits the view is to drag a rectangular selection in the <a href="">Minimap</a>.
 {.is-info}
