@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-13T14:39:20.683Z
+date: 2023-02-13T14:45:53.575Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -40,7 +40,7 @@ Clicking on a side panel's icon hides the panel. This provides even more space f
 
 For example, hiding the left panel while working in the Canvas view provides more space to work in the graph while adjusting parameters and using the Viewport.
 
-![Hiding left panel example]()
+![hide_left_panel.gif](/instamat_studio/canvas/hide_left_panel.gif){.align-center}
 
 Another example: Both side panels can be hidden to provide maximum viewing space while the Viewport is the center view.
 
