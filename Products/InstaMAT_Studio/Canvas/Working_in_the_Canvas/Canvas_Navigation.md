@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T15:53:14.986Z
+date: 2023-02-13T15:55:52.515Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -14,7 +14,7 @@ The Canvas View is navigated by panning and zooming.
 
 ## Panning
 
-![pan_canvas.gif](/instamat_studio/canvas/pan_canvas.gif =400x){.align-right} To Pan, <kbd>Left Click</kbd> and drag on an empty space. If an object in the Canvas such as a node or comment is in the way of your cursor, hold the <kbd>Space Bar</kbd> to ignore any Canvas objects. 
+![Panning](/instamat_studio/canvas/pan_canvas.gif =400x){.align-right} To Pan, <kbd>Left Click</kbd> and drag on an empty space. If an object in the Canvas such as a node or comment is in the way of your cursor, hold the <kbd>Space Bar</kbd> to ignore any Canvas objects. 
 
 Additionally, pressing the <kbd>Arrow Keys</kbd> will incrementally pan the Canvas view in the key's direction.
 
@@ -22,7 +22,7 @@ Additionally, pressing the <kbd>Arrow Keys</kbd> will incrementally pan the Canv
 
 ## Zooming
 
-![zoom_canvas.gif](/instamat_studio/canvas/zoom_canvas.gif =400x){.align-right} To Zoom, <kbd>Right Click</kbd> and drag up or down.
+![Zooming](/instamat_studio/canvas/zoom_canvas.gif =400x){.align-right} To Zoom, <kbd>Right Click</kbd> and drag up or down.
 
 <br style="clear: right;"/>
 
@@ -32,19 +32,21 @@ InstaMAT Studio adapts to the native mouse wheel behavior of the platform it is 
 
 To change the default mouse wheel behavior, choose the behavior in the `Canvas` tab in the <a href="">Preferences</a> panel.
 
-![Mouse Wheel Behavior in Preferences window](/instamat_studio/canvas/mouse_wheel_behavior.png =600x){.align-center}
+![Mouse Wheel Behavior in Preferences Window](/instamat_studio/canvas/mouse_wheel_behavior.png =600x){.align-center}
 
 <!-- Image to be updated once translation keys are removed from current build. -->
 
 ## Selecting Objects
 
-![zoom_canvas.gif](/instamat_studio/canvas/select_canvas.gif =400x){.align-right} To select nodes or other objects in the Canvas view, <kbd>Left Click</kbd> the object. To select multiple objects, hold <kbd>Shift</kbd> and drag a rectangular selection of the objects to select.
+![Selecting oobjects](/instamat_studio/canvas/select_canvas.gif =400x){.align-right} To select nodes or other objects in the Canvas view, <kbd>Left Click</kbd> the object. To select multiple objects, hold <kbd>Shift</kbd> and drag a rectangular selection of the objects to select.
 
 <br style="clear: right;"/>
 
 ## Moving Objects
 
-![Moving Objects GIF]()
+![Moving Objects](/instamat_studio/canvas/move_canvas.gif =400x){.align-right}
+
+<br style="clear: right;"/>
 
 To move an object from one place in the graph to another, select the object or objects then <kbd>Left Click</kbd> and drag to the new position.
 
