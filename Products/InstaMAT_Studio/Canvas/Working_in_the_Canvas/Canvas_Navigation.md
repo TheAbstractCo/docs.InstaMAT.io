@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T15:55:52.515Z
+date: 2023-02-13T15:56:47.622Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -44,11 +44,9 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 
 ## Moving Objects
 
-![Moving Objects](/instamat_studio/canvas/move_canvas.gif =400x){.align-right}
+![Moving Objects](/instamat_studio/canvas/move_canvas.gif =400x){.align-right} To move an object from one place in the graph to another, select the object or objects then <kbd>Left Click</kbd> and drag to the new position.
 
 <br style="clear: right;"/>
-
-To move an object from one place in the graph to another, select the object or objects then <kbd>Left Click</kbd> and drag to the new position.
 
 > If you'd like to pan the Canvas view while dragging an object, drag the object to a border of the Canvas view to pan in that direction. This also works when dragging connections from a node's input or output.
 {.is-info}
