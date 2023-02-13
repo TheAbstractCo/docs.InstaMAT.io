@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-02-06T10:24:03.992Z
+date: 2023-02-13T13:33:49.305Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -92,6 +92,13 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 <br style="clear: right" />
 
+#### Image and Color Input Widgets
+![color_widget.png](/instamat_studio/canvas/color_widget.png =300x){.align-right} Image inputs in InstaMAT can provide both an image or a solid color. Clicking the <i class="fa-regular fa-pencil"></i> icon brings up the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel to input an image. If an image is already utilized, clicking the <i class="fa-regular fa-xmark"></i> will clear out the image and allow for a solid color to be chosen.
+
+![color_picker.png](/instamat_studio/canvas/color_picker.png =300x){.align-right} A dedicated color picker panel can be invoked by clicking on the square that represents the chosen color. Additionaly, the color picker can be invoked by <kbd>Right Clicking</kbd> on the widget. This color panel provides 
+
+<br style="clear: right;"/>
+
 #### Overriding Input Parameters
 
 If the UI widget such as a slider does not reach the minimum or maximum value you require, the parameter can be overridden. There are two ways to override the value range of a parameter:
@@ -102,15 +109,12 @@ If the UI widget such as a slider does not reach the minimum or maximum value yo
 ![Override Choice Dialog](/instamat_studio/canvas/override_choice_dialog.png =700x){.align-center}
 
 #### Formulas in Fields
-Mathematical formulas can be entered into input fields to perform quick calculations. To enter a formula, begin by typing `=` followed by the mathetmatical expression. For example:
+Mathematical formulas can be entered into input fields to perform quick calculations. To enter a formula, begin by typing `=` followed by the mathetmatical expression. For example: `=5*3`
 
->=5*3
-
-This will input the result of `15` into the input field.
+This will input the result of `15` into the input field. Additionally, equasions like `sin(1.6)` are also possible.
 
 ![formulas_in_fields.gif](/instamat_studio/canvas/formulas_in_fields.gif =600x){.align-center}
 
-Additionally, equasions like `sin(1.6)` are also possible.
 
 #### Contextual Menu
 ![Instance Properties](/instamat_studio/canvas/goe_input_context1.png =250x){.align-right} <kbd>Right Clicking</kbd> on a Graph Input brings up a contextual menu. The listed items will vary depending on the type of input clicked. The menu contains the following possible options:
