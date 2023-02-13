@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-13T14:06:57.000Z
+date: 2023-02-13T14:09:59.410Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -43,7 +43,7 @@ For example, hiding the left panel while working in the Canvas view provides mor
 
 ![Hiding left panel example]()
 
-Both side panels can be hidden to provide maximum viewing space while the Viewport is the center view.
+Another example: Both side panels can be hidden to provide maximum viewing space while the Viewport is the center view.
 
 ![Maximum Viewport Space example]()
 
@@ -52,4 +52,4 @@ Both side panels can be hidden to provide maximum viewing space while the Viewpo
 
 ## Moving the Viewport and Image Viewer to the Left Panel
 
-The Viewport and Image Viewer can move to the left panel providing even more flexibility when working in InstaMAT Studio. To move them over, click the ![Move to the Left Icon]() icon in the top left corner of the Viewport or Image Viewer. This allows both views to be seen at the same time which is an ideal workspace when building materials with the <a href="">Element Graph</a>.
+The Viewport and Image Viewer can move to the left panel providing even more flexibility when working in InstaMAT Studio. To move them over, click the !<i class="fa-regular fa-square-arrow-left"></i> icon in the top left corner of the Viewport or Image Viewer. This allows both views to be seen at the same time which is an ideal workspace when building materials with the [Element Graph]().
