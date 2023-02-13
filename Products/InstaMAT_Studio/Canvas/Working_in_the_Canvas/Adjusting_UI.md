@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-13T14:56:22.226Z
+date: 2023-02-13T16:41:39.886Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -10,13 +10,14 @@ dateCreated: 2023-01-23T21:02:54.876Z
 
 # Adjusting the Canvas UI
 
+![switching_center_view.gif](/instamat_studio/canvas/switching_center_view.gif){.align-center}
+
+
 InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand. The center area of the main window can be adjusted allowing the other panels and views to shift in turn.  Additionally, the [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport) and [Image Viewer](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Image_Viewer) can be moved to the left panel in the main window to provide additional flexibility. To provide more space when needed, many [widgets]() can pop out of their panels into a dedicated window. 
 
 ## Cycling the Center View
 
-From the [Canvas Toolbar](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Canvas_Toolbar), the Canvas, Viewport, and Image viewer can be chosen as the UI's center view. Choosing which view takes up the center area provides more visual real estate making it easy to do design reviews or concentrate on small details. When a view is chosen, the other views fill in to their respective slots. The screen space of each view is determined by the size of the panel space it resides in.
-
-![switching_center_view.gif](/instamat_studio/canvas/switching_center_view.gif){.align-center}
+![center_view_icons.png](/instamat_studio/canvas/center_view_icons.png){.align-right}From the [Canvas Toolbar](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Canvas_Toolbar), the Canvas, Viewport, and Image viewer can be chosen as the UI's center view. Choosing which view takes up the center area provides more visual real estate making it easy to do design reviews or concentrate on small details. When a view is chosen, the other views fill in to their respective slots. The screen space of each view is determined by the size of the panel space it resides in.
 
 For example, selecting the <i class="fa-regular fa-cube"></i> Viewport as the center view provides a larger stage to evaluate the project in a physically lit 3D environment.
 
