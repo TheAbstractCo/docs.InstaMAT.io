@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-13T14:09:59.410Z
+date: 2023-02-13T14:24:57.052Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -16,13 +16,13 @@ InstaMAT Studio's Canvas UI provides many flexible orientations for its panels a
 
 ## Cycling the Center View
 
-![GIF cycling the center view]()
+![switching_center_view.gif](/instamat_studio/canvas/switching_center_view.gif){.align-center}
 
 From the [Canvas Toolbar](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Canvas_Toolbar), the Canvas, Viewport, and Image viewer can be chosen as the UI's center view. Choosing which view takes up the center area provides more visual real estate making it easy to do design reviews or concentrate on small details. When a view is chosen, the other views fill in to their respective slots. The screen space of each view is determined by the size of the panel space it resides in.
 
 For example, selecting the <i class="fa-regular fa-cube"></i> Viewport as the center view provides a larger stage to evaluate the project in a physically lit 3D environment.
 
-![Viewport example]()
+![full_screen_viewport.gif](/instamat_studio/canvas/full_screen_viewport.gif){.align-center}
 
 Choosing the <i class="fa-regular fa-image"></i> Image Viewer is a quick way of observing intricate details on image maps and compositions.
 
