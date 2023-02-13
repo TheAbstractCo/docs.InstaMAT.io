@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T16:29:03.861Z
+date: 2023-02-13T16:30:19.363Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -30,7 +30,7 @@ Additionally, pressing the <kbd>Arrow Keys</kbd> will incrementally pan the Canv
 
 InstaMAT Studio adapts to the native mouse wheel behavior of the platform it is running on. The mouse wheel by itself will either zoom or perform a vertical scroll. Holding the <kbd>Shift</kbd> key while using the mouse wheel will swap behaviors.
 
-To change the default mouse wheel behavior, choose the behavior in the `Canvas` tab in the <a href="">Preferences</a> panel.
+To change the default mouse wheel behavior, choose the behavior in the `Canvas` tab in the [Preferences](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Preferences) panel.
 
 ![Mouse Wheel Behavior in Preferences Window](/instamat_studio/canvas/mouse_wheel_behavior.png =600x){.align-center}
 
@@ -79,5 +79,5 @@ Focusing in InstaMAT Studio is a universal term meaning to frame up the contents
 
 ![focus_canvas.gif](/instamat_studio/canvas/focus_canvas.gif){.align-center}
 
-> Another way to frame up a portion of the graph so that it fits the view is to drag a rectangular selection in the <a href="">Minimap</a>.
+> Another way to frame up a portion of the graph so that it fits the view is to drag a rectangular selection in the [Minimap](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Minimap).
 {.is-info}
