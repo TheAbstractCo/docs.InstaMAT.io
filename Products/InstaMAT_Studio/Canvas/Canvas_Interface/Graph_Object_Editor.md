@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-02-13T13:51:27.976Z
+date: 2023-02-13T13:57:51.962Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -100,7 +100,7 @@ There are two methods to determine a node's execution size: Relative and Absolut
 
 <br style="clear: right;"/>
 
-![color_picker.png](/instamat_studio/canvas/color_picker.png =300x){.align-right} A dedicated color picker panel can be invoked by clicking on the square that represents the chosen color. Additionaly, the color picker can be invoked by <kbd>Right Clicking</kbd> on the widget. This color panel provides access to multuple color input formats such as RGB and HSV. If desired, the HSV ranges can be expanded. An eye dropper <i class="fa-regular fa-eye-dropper"></i> is available to pick colors on the screen.
+![color_picker.png](/instamat_studio/canvas/color_picker.png =300x){.align-right} A dedicated color picker panel can be invoked by clicking on the square that represents the chosen color. Additionaly, the color picker can be invoked by <kbd>Right Clicking</kbd> on the widget. This color panel provides access to multuple color input formats such as RGB and HSV. If desired, the HSV ranges can be expanded. An eye dropper <i class="fa-regular fa-eye-dropper"></i> is available to pick colors on the screen and color swatches can be saved by dragging the selected color into one of the provided color wells.
 
 <br style="clear: right;"/>
 
