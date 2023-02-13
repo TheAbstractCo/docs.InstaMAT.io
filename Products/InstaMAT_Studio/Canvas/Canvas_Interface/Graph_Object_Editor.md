@@ -2,7 +2,7 @@
 title: Graph Object Editor
 description: The Graph Object Editor (GOE) panel provides contextual access to a selected object's properties.
 published: true
-date: 2023-02-13T13:33:49.305Z
+date: 2023-02-13T13:45:23.268Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T19:07:34.713Z
@@ -93,7 +93,8 @@ There are two methods to determine a node's execution size: Relative and Absolut
 <br style="clear: right" />
 
 #### Image and Color Input Widgets
-![color_widget.png](/instamat_studio/canvas/color_widget.png =300x){.align-right} Image inputs in InstaMAT can provide both an image or a solid color. Clicking the <i class="fa-regular fa-pencil"></i> icon brings up the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel to input an image. If an image is already utilized, clicking the <i class="fa-regular fa-xmark"></i> will clear out the image and allow for a solid color to be chosen.
+![image_input.gif](/instamat_studio/canvas/image_input.gif =300x){.align-right} Image inputs in InstaMAT can provide both an image or a solid color. Clicking the <i class="fa-regular fa-pencil"></i> icon brings up the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel to input an image. If an image is already utilized, clicking the <i class="fa-regular fa-xmark"></i> will clear out the image and allow for a solid color to be chosen.
+<br style="clear: right;"/>
 
 ![color_picker.png](/instamat_studio/canvas/color_picker.png =300x){.align-right} A dedicated color picker panel can be invoked by clicking on the square that represents the chosen color. Additionaly, the color picker can be invoked by <kbd>Right Clicking</kbd> on the widget. This color panel provides 
 
