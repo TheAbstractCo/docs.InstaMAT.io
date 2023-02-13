@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T15:56:47.622Z
+date: 2023-02-13T16:03:36.534Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
@@ -52,6 +52,8 @@ To change the default mouse wheel behavior, choose the behavior in the `Canvas` 
 {.is-info}
 
 ## Deleting Objects
+
+To delete an object from the Canvas, [select it](#selecting-objects), then press the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key. Additionally nodes can be deleted by <kbd>Right Clicking</kbd> them to bring up the context menu, then choosing `Delete`.
 
 ## Duplicating Objects
 
