@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: true
-date: 2023-02-06T12:23:23.611Z
+date: 2023-02-18T16:32:18.876Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:38:57.724Z
@@ -26,7 +26,6 @@ The following articles offer a quick starting point to begin using InstaMAT Stud
 - <a href="">Overview</a>: An overview of InstaMAT Studio, the types of projects you can create, how packages are organized, and keyboard shortcuts to make using InstaMAT Studio a breeze.
 - <a href="">Learning Resources</a>: Videos, tutorials, and other engaging learning materials.
 
-> ### Further Resources
 >If you have any further questions and can't find the answers in this documentation, try searching in our <a href="https://community.theabstract.co">Knowledge Base</a>. Here, you'll find answers to more technical problems, FAQs, and our Abstract Community website to engage with the InstaMAT community.
 {.is-info}
 
