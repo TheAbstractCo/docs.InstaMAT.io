@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-20T17:14:20.516Z
+date: 2023-02-20T17:14:41.808Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -14,10 +14,6 @@ dateCreated: 2023-01-23T21:02:54.876Z
 
 
 InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand. The center area of the main window can be adjusted allowing the other panels and views to shift in turn.  Additionally, the [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport) and [Image Viewer](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Image_Viewer) can be moved to the left panel in the main window to provide additional flexibility. To provide more space when needed, many [widgets]() can pop out of their panels into a dedicated window. 
-
-
-*[HTML]: Hyper Text Markup Language
-The HTML specification is maintained by the W3C.
 
 ## Cycling the Center View
 
