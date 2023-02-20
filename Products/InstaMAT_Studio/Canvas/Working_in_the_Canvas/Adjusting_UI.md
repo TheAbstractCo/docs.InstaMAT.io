@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-20T17:21:35.590Z
+date: 2023-02-20T17:23:19.205Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -24,6 +24,12 @@ InstaMAT Studio's Canvas UI provides many flexible orientations for its panels a
 
 ## Cycling the Center View {.tabset}
 
+### <i class="fa-sharp fa-regular fa-diagram-project"></i>  Canvas
+
+Selecting the <i class="fa-sharp fa-regular fa-diagram-project"></i> Canvas view fills the UI with the graph and supplies the extra room needed to stay in context as graphs continue to grow and get more complex.
+
+![canvas_center_view.png](/instamat_studio/canvas/canvas_center_view.png =800x){.align-center}
+
 ### <i class="fa-regular fa-cube"></i> Viewport
 
 Selecting the <i class="fa-regular fa-cube"></i> Viewport as the center view provides a larger stage to evaluate the project in a physically lit 3D environment.
@@ -35,12 +41,6 @@ Selecting the <i class="fa-regular fa-cube"></i> Viewport as the center view pro
 Selecting the <i class="fa-regular fa-image"></i> Image Viewer is a quick way of observing intricate details on image maps and compositions.
 
 ![Image Viewer as Center View](/instamat_studio/canvas/image_viewer_center_view.png =800x){.align-center}
-
-### <i class="fa-sharp fa-regular fa-diagram-project"></i>  Canvas
-
-Selecting the <i class="fa-sharp fa-regular fa-diagram-project"></i> Canvas view fills the UI with the graph and supplies the extra room needed to stay in context as graphs continue to grow and get more complex.
-
-![canvas_center_view.png](/instamat_studio/canvas/canvas_center_view.png =800x){.align-center}
 
 ## Hiding Panels
 
