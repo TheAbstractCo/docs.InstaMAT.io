@@ -2,7 +2,7 @@
 title: Adjusting the Canvas UI
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-20T17:18:57.343Z
+date: 2023-02-20T17:21:35.590Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
@@ -18,28 +18,29 @@ InstaMAT Studio's Canvas UI provides many flexible orientations for its panels a
 ## Cycling the Center View
 ![center_view_icons.png](/instamat_studio/canvas/center_view_icons.png){.align-right}From the [Canvas Toolbar](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Canvas_Toolbar), the Canvas, Viewport, and Image viewer can be chosen as the UI's center view. Choosing which view takes up the center area provides more visual real estate making it easy to do design reviews or concentrate on small details. When a view is chosen, the other views fill in to their respective slots. The screen space of each view is determined by the size of the panel space it resides in.
 
+> A fast way to cycle through each of the three combinations is by pressing <kbd>Option/Alt + C</kbd>. Quickly, it becomes muscle memory on how many times to press this keyboard shortcut to get the desired orientation. {.is-info}
+
+
 
 ## Cycling the Center View {.tabset}
 
 ### <i class="fa-regular fa-cube"></i> Viewport
 
-For example, selecting the <i class="fa-regular fa-cube"></i> Viewport as the center view provides a larger stage to evaluate the project in a physically lit 3D environment.
+Selecting the <i class="fa-regular fa-cube"></i> Viewport as the center view provides a larger stage to evaluate the project in a physically lit 3D environment.
 
 ![Viewport as Center View](/instamat_studio/canvas/viewport_center_view.png =800x){.align-center}
 
 ### <i class="fa-regular fa-image"></i> Image Viewer
 
-Choosing the <i class="fa-regular fa-image"></i> Image Viewer is a quick way of observing intricate details on image maps and compositions.
+Selecting the <i class="fa-regular fa-image"></i> Image Viewer is a quick way of observing intricate details on image maps and compositions.
 
 ![Image Viewer as Center View](/instamat_studio/canvas/image_viewer_center_view.png =800x){.align-center}
 
 ### <i class="fa-sharp fa-regular fa-diagram-project"></i>  Canvas
 
-Furthermore, picking the <i class="fa-sharp fa-regular fa-diagram-project"></i> Canvas view fills the UI with the graph and supplies the extra room needed to stay in context as graphs continue to grow and get more complex.
+Selecting the <i class="fa-sharp fa-regular fa-diagram-project"></i> Canvas view fills the UI with the graph and supplies the extra room needed to stay in context as graphs continue to grow and get more complex.
 
 ![canvas_center_view.png](/instamat_studio/canvas/canvas_center_view.png =800x){.align-center}
-
-A fast way to cycle through each of the three combinations is by pressing <kbd>Option/Alt + C</kbd>. Quickly, it becomes muscle memory on how many times to press this keyboard shortcut to get the desired orientation.
 
 ## Hiding Panels
 
