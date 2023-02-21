@@ -2,7 +2,7 @@
 title: Viewport Settings
 description: The Viewport Settings Panel provides access to all of the adjustments and parameters needed to control InstaMAT Studio's 3D Viewport.
 published: true
-date: 2023-02-06T11:01:01.158Z
+date: 2023-02-21T14:54:21.712Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:21:17.648Z
@@ -48,7 +48,7 @@ These settings determine the <a href="">Render Mode</a> for the Viewport and con
 - **Environment**: Sets the Environment Image used as a background and illuminates the scene.
 - **Opacity**: Sets the opacity of the Environment Image. Setting to `0` will remove the appearance of the environment while still generating lighting and reflections.
 - **Blur**: Sets the blur amount for the background Environment Image.
-- **Rotation**: Sets the rotation of the Environment Image. In addition to this setting, the keyboard shortcut <kbd>Alt/Option + Right Click</kbd> and dragging left and right on the Viewport will rotate the environment.
+- **Rotation**: Sets the rotation of the Environment Image. In addition to this setting, the keyboard shortcut <kbd>Shift + Right Click</kbd> and dragging left and right on the Viewport will rotate the environment.
 - **Continuous Rotation**: Enabling this will continuously rotate the Environment Image.
 - **Orbit Camera**: Enabling this will continuously orbit the camera around the scene effectively creating a "turntable" for quick design reviews.
 
