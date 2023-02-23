@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-23T19:37:19.301Z
+date: 2023-02-23T19:39:23.369Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -20,7 +20,7 @@ What makes this different from a linear process is that any node can be modified
 
 ## Instancing Graphs
 
-Nodes are graphs that have at least one input and output. Every time a node is brought into the Canvas, the result is a graph that is being instanced. An instance is a copy of a previously-made graph.
+A node is a graph packaged up into a singular form. Every time a node is brought into the Canvas, the result is a graph that is being instanced. Any graph can be turned into a node. In InstaMAT Studio, entire projects can be dragged into the Canvas and used as a singular node.
 
 ## Creating and Exposing Graph Inputs (Custom Parameters)
 
