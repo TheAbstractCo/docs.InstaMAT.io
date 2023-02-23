@@ -2,7 +2,7 @@
 title: Graph Organization
 description: InstaMAT Studio features several ways to keep graphs organized and readable.
 published: true
-date: 2023-02-23T13:12:49.425Z
+date: 2023-02-23T13:13:55.316Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T13:08:05.737Z
@@ -14,13 +14,13 @@ The Canvas in InstaMAT Studio contains several features and utilities that help 
 
 
 ## Reroute Node
-![reroute2.gif](/instamat_studio/canvas/reroute2.gif =500x){.align-right}A Reroute node is permanent until deleted and is based on the type of information being carried through the connection. The quickest way to create a Reroute node is by **right clicking** on a connection to bring up Quick Search, then begin typing *"reroute"*.
+A Reroute node is permanent until deleted and is based on the type of information being carried through the connection. The quickest way to create a Reroute node is by **right clicking** on a connection to bring up Quick Search, then begin typing *"reroute"*.
 
 Because Quick Search is context sensitive, the correct Reroute node will be selected. Pressing **Enter** will insert the Reroute node into the connection line where it was right clicked.
 
 Another option is to drag a connection off of a node's input or output and letting go to invoke Quick Search this way. Beginning to type *"reroute"* and pressing enter will insert the Reroute node at the end of the connection.
 
-![Adding a Reroute node using Quick Search](/Images/Reroute2.gif)
+![reroute2.gif](/instamat_studio/canvas/reroute2.gif =500x){.align-center}
 
 Reroute nodes allow for multiple connections to be spawned from its output. This allows different parts of the graph to share the same source.
 
