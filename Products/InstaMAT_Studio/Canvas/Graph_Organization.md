@@ -2,7 +2,7 @@
 title: Graph Organization
 description: InstaMAT Studio features several ways to keep graphs organized and readable.
 published: true
-date: 2023-02-23T14:02:17.408Z
+date: 2023-02-23T19:04:18.848Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T13:08:05.737Z
@@ -61,6 +61,8 @@ To create a comment:
 > Additionally, comments can be made by pressing the keyboard shortcut <kbd>Shift + C</kbd>. {.is-info}
 
 The comment will wrap around the selection. Moving the comment wil result in moving the nodes it contains. Comments can be deleted by selecting them and pressing the <kbd>Delete</kbd> or <kbd>Backspace</kbd> keys. If only the comment is selected, the contained nodes will not be deleted.
+
+> It is possible to lock comments from being moved or selected by toggling the <i class="fa-regular fa-square-a-lock"></i> button in the [Canvas Toolbar](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Canvas_Toolbar).
 
 ### Comment Shortcut Hotkeys
 
