@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-23T19:24:05.672Z
+date: 2023-02-23T19:28:44.528Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -14,7 +14,9 @@ This article overviews the important key concepts needed to understand while wor
 
 ## Non-linear Node Concepts
 
-Working in the Canvas is like building a recipe. Instead of performing each step manually, the **instructions** themselves are created in the form of `nodes`. These nodes pass information from left to right via node `connections` which then get processed until they reach a `graph output`.
+Working in the Canvas is like building a recipe. Instead of performing each step manually, the **instructions** themselves are created in the form of `nodes`. These nodes pass information from left to right via node `connections` which then get processed until they reach a `graph output`. This graph output could be an image, mesh, value, point cloud... with the Canvas the possibilities are endless.
+
+What makes this different from a linear process is that any node can be modified, removed, or replaced at any time which results in a non-linear workflow.
 
 ## Instancing Graphs
 
