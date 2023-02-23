@@ -2,7 +2,7 @@
 title: Canvas Navigation
 description: The Canvas View is navigated by panning and zooming.
 published: true
-date: 2023-02-13T16:30:19.363Z
+date: 2023-02-23T11:23:39.098Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T21:04:46.005Z
