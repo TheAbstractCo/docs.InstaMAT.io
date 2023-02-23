@@ -2,13 +2,12 @@
 title: InstaMAT Studio
 description: 
 published: true
-date: 2023-02-20T17:03:56.655Z
+date: 2023-02-23T12:02:48.635Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
 ---
 
-> Currently under construction :construction: {.is-warning}
 # Getting Started with InstaMAT Studio
 
 ![instamat_studio_canvas_full_window.png](/instant_studio/general/instamat_studio_canvas_full_window.png)
@@ -36,5 +35,14 @@ The Canvas is InstaMAT's node-based interface used to build powerful workflows w
 
 [Click here to learn more about the Canvas](/Products/InstaMAT_Studio/Canvas)
 
-> This section is unfinished. :construction:
-{.is-warning}
+## Layering
+
+## Material Layering
+
+## Materialize Image
+
+## Integrated Plugins
+
+## InstaMAT Pipeline
+
+## InstaMAT SDK
