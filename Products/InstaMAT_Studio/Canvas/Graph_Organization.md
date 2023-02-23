@@ -2,7 +2,7 @@
 title: Graph Organization
 description: InstaMAT Studio features several ways to keep graphs organized and readable.
 published: true
-date: 2023-02-23T13:38:54.140Z
+date: 2023-02-23T13:40:56.513Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T13:08:05.737Z
@@ -38,7 +38,7 @@ Another option is to drag a connection off of a node's input or output and letti
 
 Temporary Reroute Points can be merged together to form a Reroute node. Drag and drop one temporary reroute point onto another coming from the same source to quickly convert it.
 
-![reroute5.gif](/instamat_studio/canvas/reroute5.gif =800x) {.align-center}
+![reroute5.gif](/instamat_studio/canvas/reroute5.gif =800x){.align-center}
 
 ## Cleaning Up Unused Reroute Nodes
 
