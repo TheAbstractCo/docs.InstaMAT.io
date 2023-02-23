@@ -2,7 +2,7 @@
 title: Graph Organization
 description: InstaMAT Studio features several ways to keep graphs organized and readable.
 published: true
-date: 2023-02-23T13:42:42.108Z
+date: 2023-02-23T13:44:37.206Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T13:08:05.737Z
@@ -47,3 +47,9 @@ Another option is to drag a connection off of a node's input or output and letti
 <br style="clear: right;"/>
 
 ## Comments
+
+Comments can be used to visually group a collection of nodes in a graph. Co create a comment:
+
+1. Select a group of nodes
+2. <kbd>Right Click</kbd> on one of the selected nodes to bring up the contextual menu
+3. 
