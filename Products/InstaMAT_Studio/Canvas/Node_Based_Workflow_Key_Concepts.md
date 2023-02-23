@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-23T19:52:35.289Z
+date: 2023-02-23T20:01:24.160Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -24,11 +24,13 @@ A node is a graph packaged up into a singular form. Every time a node is brought
 
 > In InstaMAT Studio, entire projects such as a Layering project or Materialize Image project can be dragged into the Canvas and used as a singular node.{.is-info}
 
-You can think of nodes as "sub-graphs". Being able to compartmentalize graphs into sub-graphs is one of the benefits of a node-based workflow. If you find yourself performing the same set of actions multiple times, extracting a set of nodes into a sub-graph will allow you to reuse that functionality as many times as you'd like.
+You can think of nodes as "sub-graphs". Being able to compartmentalize graphs into sub-graphs is one of the benefits of a node-based workflow. If you find yourself performing the same set of actions multiple times, packaging up a set of nodes into a sub-graph will allow you to reuse that functionality as many times as you'd like.
 
 > Most nodes in InstaMAT Studio are made with the same tools and project types available to you. For example, the `Blend` node is an Atom Graph. The `Mesh Scatter on Topology` node is an nPass Element Graph. Even the Mesh Render node, which is an entire PBR renderer, was created within InstaMAT Studio. To learn more about how they were constructed, <kbd>Double Click</kbd> on a node to dive into its contents. {.is-info}
 
 ## Creating and Exposing Graph Inputs (Custom Parameters)
+
+InstaMAT Studio lets you pick and choose properties from the nodes within a graph and combine those settings together into one location for easy tweaking. This process is called exposing graph inputs. Once exposed, these properties can be controlled from outside of the graph, whether it has been instanced in another graph, used in another project like in Layering, or controlled with one of our Integrated Plugins.
 
 ## Global/Local Execution Resolution and Seed
 
