@@ -2,7 +2,7 @@
 title: InstaMAT Studio
 description: InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner.
 published: true
-date: 2023-02-23T19:00:04.808Z
+date: 2023-02-23T19:00:19.451Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
@@ -43,7 +43,6 @@ Layering is also a great companion to InstaMAT Studio's procedural painting engi
 ## Material Layering
 
 Material Layering is an innovative way to build stunningly complex materials by combining them together one layer at a time.
-
 
 ## Materialize Image
 
