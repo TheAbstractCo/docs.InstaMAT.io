@@ -1,8 +1,8 @@
 ---
-title: Adjusting the Canvas UI
+title: Adjusting the Canvas UI Layout
 description: InstaMAT Studio's Canvas UI provides many flexible orientations for its panels and views making it easy to focus on the task at hand.
 published: true
-date: 2023-02-23T11:53:31.657Z
+date: 2023-02-23T11:53:54.829Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T21:02:54.876Z
