@@ -2,7 +2,7 @@
 title: InstaMAT Studio
 description: InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner.
 published: true
-date: 2023-02-23T17:45:08.749Z
+date: 2023-02-23T19:00:04.808Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
@@ -36,11 +36,13 @@ The Canvas is InstaMAT's node-based interface used to build powerful workflows w
 
 ## Layering
 
-Layering brings a familiar artist-friendly experience to a procedural, non-destructive workflow. Each layer is like a layer of paint that can be composited on top of one another with PBR material characteristics such as color, roughness, and metalness. Because everything is procedural, layering projects are adaptive to the mesh that is being textured. Baked mesh maps can be utilized with Smart Prefab Layer Materials making complex effects a drag and drop away. When the mesh changes, the layer stack adapts.
+Layering brings a familiar artist-friendly experience to a procedural, non-destructive workflow. Each layer is like a layer of paint that can be composited on top of one another with physical characteristics such as color, roughness, and metalness. Because everything is procedural, layering projects are adaptive to the mesh that is being textured. Baked mesh maps can be utilized with Smart Prefab Layer Materials making complex effects a drag and drop away. When the mesh changes, the layer stack adapts.
 
 Layering is also a great companion to InstaMAT Studio's procedural painting engine. Paint multiple channels of information at the same time without being tied to the mesh's UV coordinates. Each paint stroke is applied procedurally to the mesh providing the expected flexibility of a procedural system where properties like the texture resolution can be changed on the fly.
 
 ## Material Layering
+
+Material Layering is an innovative way to build stunningly complex materials by combining them together one layer at a time.
 
 
 ## Materialize Image
@@ -49,6 +51,12 @@ Materialize Image lets you create procedural PBR materials from a single image o
 
 ## Integrated Plugins
 
+With plugins for Maya, 3ds Max, Blender, Unity, and Unreal Engine, InstaMAT makes it easy to integrate beautiful materials and your InstaMAT projects into your production's pipeline.
+
 ## InstaMAT Pipeline
 
+Easily perform a wide range of tasks from rendering materials, to executing Element Graphs or performing unit-tests on your material library. All without having to use a graphical user interface. InstaMAT Pipeline makes it trivial to super-charge your asset pipeline.
+
 ## InstaMAT SDK
+
+The 64-bit C++ SDK enables developers with custom tools and technology to integrate our technology seamlessly into their software. Leveraging the InstaMAT SDK for your in-house application development is easy and painless.
