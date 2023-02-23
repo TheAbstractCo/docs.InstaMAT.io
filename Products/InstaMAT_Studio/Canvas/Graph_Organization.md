@@ -2,7 +2,7 @@
 title: Graph Organization
 description: InstaMAT Studio features several ways to keep graphs organized and readable.
 published: true
-date: 2023-02-23T13:44:37.206Z
+date: 2023-02-23T14:02:17.408Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T13:08:05.737Z
@@ -48,8 +48,20 @@ Another option is to drag a connection off of a node's input or output and letti
 
 ## Comments
 
-Comments can be used to visually group a collection of nodes in a graph. Co create a comment:
+Comments can be used to visually group a collection of nodes in a graph. Comments have an assortment of customizable properties such as a Name, Description, and Background Color. In addition to keeping a graph tidy in the Canvas view, comments are also visible on the [Minimap](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Minimap).
+
+![comments_in_the_canvas.png](/instamat_studio/canvas/comments_in_the_canvas.png =800x){.align-center}
+
+To create a comment:
 
 1. Select a group of nodes
 2. <kbd>Right Click</kbd> on one of the selected nodes to bring up the contextual menu
-3. 
+3. Choose `Comment`
+
+> Additionally, comments can be made by pressing the keyboard shortcut <kbd>Shift + C</kbd>. {.is-info}
+
+The comment will wrap around the selection. Moving the comment wil result in moving the nodes it contains. Comments can be deleted by selecting them and pressing the <kbd>Delete</kbd> or <kbd>Backspace</kbd> keys. If only the comment is selected, the contained nodes will not be deleted.
+
+### Comment Shortcut Hotkeys
+
+Comments can have an assigned hotkey that focus the Canavs view when invoked. This makes it easy to jump around to various portions of the graph as it gets more complex. To assign a shortcut hotkey to a comment, select the comment and open the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor). A number 0 - 9 can then be assigned to the comment. To use the hotkey, press <kbd>Option/Alt + (shortcut hotkey)</kbd>.
