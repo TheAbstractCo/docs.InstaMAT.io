@@ -2,7 +2,7 @@
 title: InstaMAT Studio
 description: InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner.
 published: true
-date: 2023-02-23T12:04:50.373Z
+date: 2023-02-23T12:06:22.968Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
@@ -24,7 +24,7 @@ The following articles offer a quick starting point to begin using InstaMAT Stud
 - <a href="">Activation and Licenses</a>: Information on activating and managing licenses for InstaMAT Studio.
 - <a href="">Learning Resources</a>: Videos, tutorials, and other engaging learning materials.
 
->If you have any further questions and can't find the answers in this documentation, try searching in our <a href="https://community.theabstract.co">Knowledge Base</a>. Here, you'll find answers to more technical problems, FAQs, and our Abstract Community website to engage with the InstaMAT community.
+>If you have any further questions and can't find the answers in this documentation, try searching in our <a href="https://community.theabstract.co">Knowledge Base</a>. There, you'll find answers to more technical problems and FAQs.
 {.is-info}
 
 
