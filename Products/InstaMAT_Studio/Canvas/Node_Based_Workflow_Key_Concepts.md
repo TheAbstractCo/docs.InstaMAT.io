@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T11:01:50.737Z
+date: 2023-02-24T11:08:59.769Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -68,11 +68,13 @@ Inheritance can be applied by setting the node's `Format Type` to any of the fol
 
 ## Templates
 
-`Templates` are a special type of graph instance. Templates appear as a resource in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel and in the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library). They allow for a node's parameters to be saved as a preset which can then be reused in other graphs. They then can then be added to a machine's [User Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library#user-library). 
+`Templates` are a special type of graph instance. Templates appear as a resource in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel and in the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library). They allow for a node's parameters to be saved as a preset which can then be reused in other graphs. They then can then be added to a machine's [User Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library#user-library) for use in other `Packages`. 
 
-Templates appear as "first-class citizens" meaning that when searching for them with [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) or in the Graph Library they will appear the same as an item made directly from a graph.
+Templates appear as "first-class citizens" meaning that when searching for them with [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) or in the `Graph Library` they will appear the same as an item made directly from a graph.
 
-For example, when creating a PBR material using the `Element Graph`, templates can be made for often-used variations. These templates can be assigned to a category in the library and easily accessed with Quick Search.
+For example, when creating a PBR material using the `Element Graph`, templates can be made for often-used variations. These templates can be assigned to a category in the library and easily accessed with `Quick Search`.
+
+> Many of the materials that ship with InstaMAT Studio are created using the Template system. To discover how these materials were created, <kbd>Double Click</kbd> them in the `Graph Library`. If a material is a template, a special graph will be shown in the Canvas view. <kbd>Double Clicking</kbd> the node in this graph will reveal the original Element that the template was made from. {.is-info}
 
 
 To create a template:
