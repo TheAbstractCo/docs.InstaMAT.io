@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T09:27:28.576Z
+date: 2023-02-24T10:33:35.259Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -10,7 +10,7 @@ dateCreated: 2023-02-23T19:16:50.444Z
 
 # Node-Based Workflow Key Concepts
 
-This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
+This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's [Canvas](/Products/InstaMAT_Studio/Canvas) interface.
 
 ## Non-linear Node Concepts
 
@@ -20,7 +20,7 @@ What makes this different from a linear process is that a node can be modified, 
 
 ## Instancing Graphs
 
-A node is a graph packaged up into a singular form. Every time a node is brought into the Canvas, the result is a graph that is being instanced. Any graph can be turned into a node by dragging it from the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel into another graph in the Canvas.
+A node is a graph packaged up into a singular form. Every time a node is brought into the Canvas, the result is a graph that is being instanced. This means that any change to the parameters or properties of this node are specific to this instance and do not change the defaults of the original graph. Any graph can be turned into a node by dragging it from the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel into another graph in the Canvas.
 
 > In InstaMAT Studio, entire projects such as a Layering project or Materialize Image project can be dragged into the Canvas and used as a singular node.{.is-info}
 
@@ -46,6 +46,19 @@ The `Local Seed` belongs to a singular node. Changing this value will only reshu
 
 The `Local Seed` can be found at the top of the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) under the `Instance Properties` section after selecting a node in the Canvas.
 
-## Graph Inheritance
+## Inheritance
+
+In the Canvas, nodes are able to pick up particular attributes from their inputs. In other words, nodes can *inherit* traits from the nodes that provide them with data.
+
+The traits that can be inherited are:
+
+- Format Type
+- Width
+- Height
+
+This means that a node can determine its size and format based on the size and format of the node providing its input information.
+
+These properties can be located at the top of the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) panel under the  `Element Format` section after selecting a node in the Canvas.
+
 
 ## Templates
