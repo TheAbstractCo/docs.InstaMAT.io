@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T10:45:00.107Z
+date: 2023-02-24T10:50:36.144Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -68,4 +68,10 @@ Inheritance can be applied by setting the node's `Format Type` to any of the fol
 
 ## Templates
 
-`Templates` are 
+`Templates` are a special type of graph instance. Templates appear as a resource in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel. They allow for a node's parameters to be saved as a preset which can then be reused in other graphs.
+
+To create a template:
+
+1. Select a single node instance in the Canvas
+2. Go to `Canvas` > `Create Template From Instance` or use the keyboard shortcut <kbd>Cmd/Ctrl</kbd> + <kbd>T</kbd>
+3. In the provided dialog, give the template a Name, Category, and Description and click `Okay`
