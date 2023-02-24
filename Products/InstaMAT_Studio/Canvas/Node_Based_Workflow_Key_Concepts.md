@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T10:56:45.918Z
+date: 2023-02-24T10:58:56.415Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -68,7 +68,9 @@ Inheritance can be applied by setting the node's `Format Type` to any of the fol
 
 ## Templates
 
-`Templates` are a special type of graph instance. Templates appear as a resource in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel and in the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library). They allow for a node's parameters to be saved as a preset which can then be reused in other graphs. Then can then be added to a machine's [User Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library#user-library). Templates appear as "first-class citizens" meaning from the outside
+`Templates` are a special type of graph instance. Templates appear as a resource in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel and in the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library). They allow for a node's parameters to be saved as a preset which can then be reused in other graphs. They then can then be added to a machine's [User Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library#user-library). 
+
+Templates appear as "first-class citizens" meaning that when searching for them with [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) or in the Graph Library they will appear the same as an item made directly from a graph.
 
 
 To create a template:
