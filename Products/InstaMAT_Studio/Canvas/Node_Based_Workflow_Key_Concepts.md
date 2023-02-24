@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T10:41:51.393Z
+date: 2023-02-24T10:45:00.107Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -67,3 +67,5 @@ Inheritance can be applied by setting the node's `Format Type` to any of the fol
 - **InheritFormatDeriveSizeFromFirstAvailableImageInput**: The format will be inherited from the parent graph and the size will be set based on the node connected to the first available 'Image' type graph input.
 
 ## Templates
+
+`Templates` are 
