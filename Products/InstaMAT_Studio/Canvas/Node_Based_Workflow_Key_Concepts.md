@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T10:37:33.686Z
+date: 2023-02-24T10:41:51.393Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -60,5 +60,10 @@ This means that a node can determine its size and format based on the size and f
 
 These properties can be located at the top of the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) panel under the  `Element Format` section after selecting a node in the Canvas.
 
+Inheritance can be applied by setting the node's `Format Type` to any of the following:
+
+- **Inherit**: The format will be inherited from the parent graph.
+- **DeriveFromFirstAvailableImageInput**: The format will be set based on the node connected to the first available 'Image' type graph input.
+- **InheritFormatDeriveSizeFromFirstAvailableImageInput**: The format will be inherited from the parent graph and the size will be set based on the node connected to the first available 'Image' type graph input.
 
 ## Templates
