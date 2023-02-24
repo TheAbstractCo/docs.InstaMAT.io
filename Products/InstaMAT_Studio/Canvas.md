@@ -2,7 +2,7 @@
 title: Canvas
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and powerful workflows with immense flexibility.
 published: true
-date: 2023-02-24T11:16:05.513Z
+date: 2023-02-24T11:18:33.550Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:04:55.732Z
@@ -25,7 +25,7 @@ Check out the topics below to dive in.
 - [Node-Based Workflow Key Concepts](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts): Uncover the power of a node-based workflow by tapping into its non-linear nature. Learn about graph inheritance, making connections, exposing inputs and outputs, and how to create infinite variations by changing a graph's execution seed.
 - <a href="">InstaMAT Project Integration</a>: Learn how to extend the functionality of InstaMAT's many project types by integrating them into an Element Graph. Blend a Materialize Image project with a few of the many stunning materials within InstaMAT's built-in [library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library). Expand upon a Layering project by supplying it with all of the Canvas's nodes and features. 
 
-> The Canvas is one of many ways to approach texture and material creation. With `Layering`, artists can create scalable workflows using a familiar layer-based approach to build up an asset from scratch. `Material Layering` is a powerful project type making it easy to combine materials together to form a more complex result. What's more is that these layer-based projects can be extended by [exposing adjustable parameters](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts#globallocal-execution-resolution-and-seed) and [instancing them](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts#instancing-graphs) in an `Element Graph`. The sky's the limit on how to approach your projects!
+> The Canvas is one of many ways to approach texture and material creation. With `Layering`, artists can create scalable workflows using a familiar layer-based approach to build up an asset from scratch. `Material Layering` is a powerful project type making it easy to combine materials together to form a more complex result. What's more is that these layer-based projects can be extended by [exposing adjustable parameters](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts#creating-and-exposing-graph-inputs-custom-parameters) and [instancing them](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts#instancing-graphs) in an `Element Graph`. The sky's the limit on how to approach your projects!
 {.is-info}
 
 ## Canvas Project Types
@@ -34,14 +34,14 @@ Learn about the different project types that can be built using the Canvas.
 
 ### Atom Graph
 
-![atom_preview.png](/instamat_studio/canvas/atom_preview.png =400x){.align-right} An **Atom** is an image-processing program that runs on the GPU. With the intuitive <a href="">Control Flow</a> connection system, traditional programing operations such as branching and looping are possible determining the order in which the graph is executed.
+![atom_preview.png](/instamat_studio/canvas/atom_preview.png =400x){.align-right} An **Atom** is an image-processing program that runs on the GPU. With the intuitive `Control Flow` connection system, traditional programing operations such as branching and looping are possible determining the order in which the graph is executed.
 
 [Click here to learn more about the Atom Graph]()
 <br style="clear: right;"/>
 
 ### Element Graph
 
-![element_preview.png](/instamat_studio/canvas/element_preview.png =400x){.align-right} The **Element Graph** is the Swiss Army knife of project types in InstaMAT. Create stunning materials, build powerful mesh-processing pipelines, and combine different mediums such as images, meshes, and point clouds. Expressions and arithmetic can also be integrated directly into the same graph along side your materials to customize and direct <a href="">exposed parameters</a>. These parameters can be adjusted within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, or in our <a href="">Integrated Plugins</a>.
+![element_preview.png](/instamat_studio/canvas/element_preview.png =400x){.align-right} The **Element Graph** is the Swiss Army knife of project types in InstaMAT. Create stunning materials, build powerful mesh-processing pipelines, and combine different mediums such as images, meshes, and point clouds. Expressions and arithmetic can also be integrated directly into the same graph along side your materials to customize and direct [exposed parameters](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts#creating-and-exposing-graph-inputs-custom-parameters). These parameters can be adjusted within InstaMAT Studio, <a href="">InstaMAT Pipeline</a>, or in our <a href="">Integrated Plugins</a>.
 
 
 [Click here to learn more about the Element Graph]()
