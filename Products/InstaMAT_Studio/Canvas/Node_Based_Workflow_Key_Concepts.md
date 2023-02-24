@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T10:58:56.415Z
+date: 2023-02-24T11:01:50.737Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -22,15 +22,15 @@ What makes this different from a linear process is that a node can be modified, 
 
 A node is a graph packaged up into a singular form. Every time a node is brought into the Canvas, the result is a graph that is being instanced. This means that any change to the parameters or properties of this node are specific to this instance and do not change the defaults of the original graph. Any graph can be turned into a node by dragging it from the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel into another graph in the Canvas.
 
-> In InstaMAT Studio, entire projects such as a Layering project or Materialize Image project can be dragged into the Canvas and used as a singular node.{.is-info}
+> In InstaMAT Studio, entire projects such as a `Layering` project or Materialize Image project can be dragged into the Canvas and used as a singular node.{.is-info}
 
 You can think of nodes as "sub-graphs". Being able to compartmentalize graphs into sub-graphs is one of the benefits of a node-based workflow. If you find yourself performing the same set of actions multiple times, packaging up a set of nodes into a sub-graph will allow you to reuse that functionality as many times as you'd like.
 
-> Most nodes in InstaMAT Studio are made with the same tools and project types available to you. For example, the `Blend` node is an Atom Graph. The `Mesh Scatter on Topology` node is an nPass Element Graph. Even the Mesh Render node, which is an entire PBR renderer, was created within InstaMAT Studio. To learn more about how they were constructed, <kbd>Double Click</kbd> on a node to dive into its contents. {.is-info}
+> Most nodes in InstaMAT Studio are made with the same tools and project types available to you. For example, the `Blend` node is an `Atom Graph`. The `Mesh Scatter on Topology` node is an `nPass Element Graph`. Even the Mesh Render node, which is an entire PBR renderer, was created within InstaMAT Studio. To learn more about how they were constructed, <kbd>Double Click</kbd> on a node to dive into its contents. {.is-info}
 
 ## Creating and Exposing Graph Inputs (Custom Parameters)
 
-InstaMAT Studio lets you pick and choose properties from the nodes within a graph and combine those settings together into one location for easy tweaking. This process is called exposing graph inputs. Once exposed, these properties can be controlled from outside of the graph, whether it has been instanced in another graph, used in another project like in Layering, or controlled with one of our Integrated Plugins.
+InstaMAT Studio lets you pick and choose properties from the nodes within a graph and combine those settings together into one location for easy tweaking. This process is called exposing graph inputs. Once exposed, these properties can be controlled from outside of the graph, whether it has been instanced in another graph, used in another project like in `Layering`, or controlled with one of our Integrated Plugins.
 
 With exposed graph inputs, InstaMAT materials become infinately more reusable. For example, a forest ground material with options to change the amount of grass, twigs, and scattered leaves now has the ability to be used in any future project where there is a forest ground. The material only needs to be created once, then an artist can adjust the physical characteristics at will.
 
@@ -40,7 +40,7 @@ Each graph has a `Global Seed` number. This can be found in the [Canvas Toolbar]
 
 For example, the `Tile Scatter` node which randomly distributes images across the texture square has an `Offset Varaince` parameter. When increased, the tiles will have randomized positions. Once changed, the `Global Seed` will reshuffle all nodes that have randomized attributes like this one.
 
-When building a procedural material in the Element Graph, adjusting the `Global Seed` value will result in a new material that follows the same recipe but with varried results. This makes it easy to provide an infinite amount of variations of the same material.
+When building a procedural material in the `Element Graph`, adjusting the `Global Seed` value will result in a new material that follows the same recipe but with varried results. This makes it easy to provide an infinite amount of variations of the same material.
 
 The `Local Seed` belongs to a singular node. Changing this value will only reshuffle the randomized properties of the node it belongs to. This is useful if you'd like to find an alternative result without changing the outcome of every other node in the graph.
 
@@ -71,6 +71,8 @@ Inheritance can be applied by setting the node's `Format Type` to any of the fol
 `Templates` are a special type of graph instance. Templates appear as a resource in the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel and in the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library). They allow for a node's parameters to be saved as a preset which can then be reused in other graphs. They then can then be added to a machine's [User Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library#user-library). 
 
 Templates appear as "first-class citizens" meaning that when searching for them with [Quick Search](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) or in the Graph Library they will appear the same as an item made directly from a graph.
+
+For example, when creating a PBR material using the `Element Graph`, templates can be made for often-used variations. These templates can be assigned to a category in the library and easily accessed with Quick Search.
 
 
 To create a template:
