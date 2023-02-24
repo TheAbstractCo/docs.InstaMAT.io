@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T10:33:35.259Z
+date: 2023-02-24T10:37:33.686Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -48,7 +48,7 @@ The `Local Seed` can be found at the top of the [Graph Object Editor](/Products/
 
 ## Inheritance
 
-In the Canvas, nodes are able to pick up particular attributes from their inputs. In other words, nodes can *inherit* traits from the nodes that provide them with data.
+In the Canvas, nodes are able to pick up particular attributes from either their parent graph or the node providing it input information. In other words, nodes can *inherit* traits.
 
 The traits that can be inherited are:
 
@@ -56,7 +56,7 @@ The traits that can be inherited are:
 - Width
 - Height
 
-This means that a node can determine its size and format based on the size and format of the node providing its input information.
+This means that a node can determine its size and format based on the size and format of the node providing its input information or the graph that it resides in. Therefore, if the parent's traits change, these adjustments cary through to any nodes that inherit that information.
 
 These properties can be located at the top of the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) panel under the  `Element Format` section after selecting a node in the Canvas.
 
