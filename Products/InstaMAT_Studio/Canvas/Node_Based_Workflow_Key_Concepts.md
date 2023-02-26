@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-26T18:15:31.261Z
+date: 2023-02-26T18:16:54.123Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -22,7 +22,7 @@ What makes this different from a linear process is that a node can be modified, 
 
 A node is a graph packaged up into a singular form. Every time a node is brought into the Canvas, the result is a graph that is being instanced. This means that any change to the parameters or properties of this node are specific to this instance and do not change the defaults of the original graph. Any graph can be turned into a node by dragging it from the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel into another graph in the Canvas.
 
-> In InstaMAT Studio, entire projects such as a `Layering` project or Materialize Image project can be dragged into the Canvas and used as a singular node.{.is-info}
+> In InstaMAT Studio, entire projects such as a `Layering` project or `Materialize Image` project can be dragged into the Canvas and used as a singular node.{.is-info}
 
 You can think of nodes as "sub-graphs". Being able to compartmentalize graphs into sub-graphs is one of the benefits of a node-based workflow. If you find yourself performing the same set of actions multiple times, packaging up a set of nodes into a sub-graph will allow you to reuse that functionality as many times as you'd like.
 
