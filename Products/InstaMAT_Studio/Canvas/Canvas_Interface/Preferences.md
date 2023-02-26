@@ -2,7 +2,7 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-02-07T15:47:46.274Z
+date: 2023-02-26T19:14:13.570Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
@@ -86,7 +86,7 @@ To set a shortcut:
 
 A dialog will appear if a key combination is already in use. To reset a shortcut to its default, click the <i class="fa-regular fa-reply"></i> icon. Once a shortcut is assigned or adjusted, the application will need to restart in order for it to come into effect.
 
-Shortcuts are broken down into categories for the general application, [Canvas](/Products/InstaMAT_Studio/Canvas) and <a href="">Layering</a> interfaces, [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport), [Favorites](Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library#favorites)</a> and [Quick Actions](#quick-actions).
+Shortcuts are broken down into categories for the general application, [Canvas](/Products/InstaMAT_Studio/Canvas) and <a href="">Layering</a> interfaces, [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport), [Favorites](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Library#favorites)</a> and [Quick Actions](#quick-actions).
 
 #### Favorites
 
