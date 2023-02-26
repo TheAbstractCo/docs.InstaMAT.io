@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-26T18:16:54.123Z
+date: 2023-02-26T18:18:01.247Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -26,7 +26,7 @@ A node is a graph packaged up into a singular form. Every time a node is brought
 
 You can think of nodes as "sub-graphs". Being able to compartmentalize graphs into sub-graphs is one of the benefits of a node-based workflow. If you find yourself performing the same set of actions multiple times, packaging up a set of nodes into a sub-graph will allow you to reuse that functionality as many times as you'd like.
 
-> Most nodes in InstaMAT Studio are made with the same tools and project types available to you. For example, the `Blend` node is an `Atom Graph`. The `Mesh Scatter on Topology` node is an `nPass Element Graph`. Even the Mesh Render node, which is an entire PBR renderer, was created within InstaMAT Studio. To learn more about how they were constructed, <kbd>Double Click</kbd> on a node to dive into its contents. {.is-info}
+> Most nodes in InstaMAT Studio are made with the same tools and project types available to you. For example, the `Blend` node is an `Atom Graph`. The `Mesh Scatter on Topology` node is an `nPass Element Graph`. Even the `Mesh Render` node, which is an entire PBR renderer, was created within InstaMAT Studio. To learn more about how they were constructed, <kbd>Double Click</kbd> on a node to dive into its contents. {.is-info}
 
 ## Creating and Exposing Graph Inputs (Custom Parameters)
 
