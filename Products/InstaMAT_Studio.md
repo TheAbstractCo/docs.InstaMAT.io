@@ -2,7 +2,7 @@
 title: InstaMAT Studio
 description: InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner.
 published: true
-date: 2023-02-23T19:10:44.404Z
+date: 2023-02-26T19:09:19.821Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
@@ -40,7 +40,7 @@ The following articles offer a quick starting point to begin using InstaMAT Stud
 
 ![filler_400.png](/instamat_studio/canvas/filler_400.png =300x){.align-right} Layering brings a familiar artist-friendly experience to a procedural, non-destructive workflow. Each layer is like a layer of paint that can be composited on top of one another with physical characteristics such as color, roughness, and metalness. Because everything is procedural, layering projects are adaptive to the mesh that is being textured. Baked mesh maps can be utilized with Smart Prefab Layer Materials making complex effects a drag and drop away. When the mesh changes, the layer stack adapts.
 
-Layering is also a great companion to InstaMAT Studio's procedural painting engine. Paint multiple channels of information at the same time without being tied to the mesh's UV coordinates. Each paint stroke is applied procedurally to the mesh providing the expected flexibility of a procedural system where properties like the texture resolution can be changed on the fly.
+Layering is also a great companion to InstaMAT Studio's procedural painting engine. Paint multiple channels of information at the same time without being tied to the mesh's UV coordinates. Each paint stroke is applied procedurally to the mesh providing enhanced flexibility when changing dynamic properties like the texture resolution on the fly.
 
 <br style="clear: right;"/>
 
