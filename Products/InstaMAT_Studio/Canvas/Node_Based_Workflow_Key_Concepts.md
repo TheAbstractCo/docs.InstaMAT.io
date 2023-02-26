@@ -2,7 +2,7 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-24T11:08:59.769Z
+date: 2023-02-26T18:15:31.261Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
@@ -48,7 +48,7 @@ The `Local Seed` can be found at the top of the [Graph Object Editor](/Products/
 
 ## Inheritance
 
-In the Canvas, nodes are able to pick up particular attributes from either their parent graph or the node providing it input information. In other words, nodes can *inherit* traits.
+In the Canvas, nodes are able to pick up particular attributes from either their parent graph or the node providing them input information. In other words, nodes can *inherit* traits.
 
 The traits that can be inherited are:
 
