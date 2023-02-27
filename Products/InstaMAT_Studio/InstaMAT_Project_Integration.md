@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:51:30.405Z
+date: 2023-02-27T14:55:39.768Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -10,13 +10,13 @@ dateCreated: 2023-02-27T13:58:03.026Z
 
 # InstaMAT Project Integration
 
-InstaMAT's project types are designed to integrate seamlessly together. `Layering` projects can be used within `Element Graphs` to extend their procedural functionality. Inversly, materials that are created with an `Element Graph` can be used directly as a layer in `Layering`. Materials that were generated from a photo using `Materialize Image` can be added directly to a `Material Layering` project to add more visual complexity. Integrating projects in this manner frees up and expands the many angles from which to approach a project, giving the artist more opportunities to work the way they think.
+InstaMAT's project types are designed to integrate seamlessly together. `Layering` projects can be used within `Element Graphs` to extend their procedural functionality. Inversly, materials that are created with an Element Graph can be used directly as a layer in Layering. Materials that were generated from a photo using `Materialize Image` can be added directly to a `Material Layering` project to add more visual complexity. Integrating projects in this manner frees up and expands the many angles from which to approach a project, giving the artist more opportunities to work the way they think.
 
 ## Layering to Element Project Integration
 
 The [Canvas](/Products/InstaMAT_Studio/Canvas) makes `Layering` project integration as easy as a drag and drop. To bring a Layering project into an `Element Graph`, drag it from the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel directly into the Canvas. The layering project will become a node and provide all of the necessary graph input and outputs.
 
-To begin visualizing the `Layering` project on a mesh, select the new node in the Canvas, navigate to the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) and pick one using the `Mesh` input and the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel. Additionally, a mesh can be dragged into the Canvas as well. This mesh will also become a node and can be connected to the `Layering` project's `Mesh` input.
+To begin visualizing the `Layering` project on a mesh, select the new node in the Canvas, navigate to the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) and pick one using the `Mesh` input and the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel. Additionally, a mesh can be dragged into the Canvas as well. This mesh will also become a node and can be connected to the Layering project's `Mesh` input.
 
 If the `Layering` project relies on any baked mesh maps and smart prefab materials, these can be generated using a `Mesh Bake` node.
 
