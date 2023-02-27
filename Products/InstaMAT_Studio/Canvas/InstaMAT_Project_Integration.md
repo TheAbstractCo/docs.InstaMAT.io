@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:24:53.104Z
+date: 2023-02-27T14:32:08.622Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -15,6 +15,12 @@ InstaMAT's project types are designed to integrate seamlessly together. `Layerin
 ## Layering to Element Project Integration
 
 The [Canvas](/Products/InstaMAT_Studio/Canvas) makes `Layering` project integration as easy as a drag and drop. To bring a Layering project into an `Element Graph`, drag it from the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel directly into the Canvas. The layering project will become a node and provide all of the necessary graph input and outputs.
+
+To begin visualizing the `Layering` project on a mesh, select the new node in the Canvas, navigate to the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) and pick one using the `Mesh` input and the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel. Additionally, a mesh can be dragged into the Canvas as well. This mesh will also become a node and can be connected to the `Layering` project's `Mesh` input.
+
+If the `Layering` project relies on any baked mesh maps and smart prefab materials, these can be generated using a `Mesh Bake` node.
+
+To preview the outputs of a layering project on the mesh, first view the mesh in the [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport) by either clicking on the mesh node's output pin the Canvas, or by <kbd>Right-Clicking</kbd> the mesh node and choosing `View Mesh`. Then <kbd>Right-Click</kbd> on the `Layering` project node and choose `Preview as 3D Material`.
 
 ## Element to Layering Project Integration
 
