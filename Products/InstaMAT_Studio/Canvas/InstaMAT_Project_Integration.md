@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:03:28.753Z
+date: 2023-02-27T14:15:09.347Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -18,9 +18,13 @@ The [Canvas](/Products/InstaMAT_Studio/Canvas) makes project integration as easy
 
 ## Element to Layering Project Integration
 
-`Elements` created from an `Element Graph` can be used in many different parts of `Layering`.
+`Elements` created from an `Element Graph` can be used in many different facets of `Layering`. A PBR material can be used as an `Element Layer` or `Element Brush`. In fact, any channel from a PBR material created in InstaMAT Studio can be utilized in a `Multi-Channel Layer`. The Roughness channel can be taken from a "Dirty Iron" material while the BaseColor channel can be taken from an "Aged Wood".
 
-applied as layers in the layer stack.
+There are many ways to bring in an `Element` into a `Layering` project:
+
+- Drag a material from either the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) or the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel onto a mesh in the viewport. This will apply the material to the specific mesh or sub-mesh and mask off others.
+- Drag a material into the layer stack. This will fill the entire project with a newly-created `Element Layer`.
+- Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack. Choose `New Element Layer` and pick the element from the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel.
 
 ## Materialize Image Project Integration
 
