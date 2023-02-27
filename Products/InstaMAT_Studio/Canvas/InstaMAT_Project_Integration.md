@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:50:22.936Z
+date: 2023-02-27T14:51:30.405Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
