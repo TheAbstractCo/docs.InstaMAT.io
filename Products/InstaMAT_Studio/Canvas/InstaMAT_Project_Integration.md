@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:01:18.619Z
+date: 2023-02-27T14:02:32.559Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -18,6 +18,8 @@ The [Canvas](/Products/InstaMAT_Studio/Canvas) makes project integration as easy
 
 ## Element to Layering Project Integration
 
-Elements can be applied as layers in the layer stack.
+`Elements` created from an `Element Graph` can be applied as layers in the layer stack.
 
 ## Materialize Image Project Integration
+
+Materials generated from a photo using the `Materilize Image` project type can be treated just like any other material in InstaMAT Studio.
