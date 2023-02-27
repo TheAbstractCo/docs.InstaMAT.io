@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:39:15.681Z
+date: 2023-02-27T14:49:50.915Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -39,4 +39,6 @@ There are many ways to bring in an `Element` into a `Layering` project:
 
 ## Materialize Image Project Integration
 
-Materials generated from a photo using the `Materilize Image` project type can be treated just like any other material in InstaMAT Studio. Once created, a Materilized photo can be imported into a `Layering` project with a drag and drop or with the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button and by choosing `Element Layer`.
+Materials generated from a photo using the `Materilize Image` project type can be treated just like any other material in InstaMAT Studio. Once created, a Materialized photo can be imported into a `Layering` project by either dragging and dropping it or by clicking the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button and selecting `Element Layer`.
+
+These materials can be blended together in an `Element Graph` by dragging them into the [Canvas](/Products/InstaMAT_Studio/Canvas) where it will become a node or used in a `Material Layering` project as a layer. Additionally, properties of the `Materialize Image` process can be exposed for use later on. This can be done by <kbd>Right-Clicking</kbd> a property in the [Graph Object Editor](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Graph_Object_Editor) when creating the material and choosing `Expose as Input Parameter`. The exposed parameter will be available for tweaking once the node or layer is selected.
