@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:20:46.269Z
+date: 2023-02-27T14:24:53.104Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -14,11 +14,11 @@ InstaMAT's project types are designed to integrate seamlessly together. `Layerin
 
 ## Layering to Element Project Integration
 
-The [Canvas](/Products/InstaMAT_Studio/Canvas) makes project integration as easy as a drag and drop.
+The [Canvas](/Products/InstaMAT_Studio/Canvas) makes `Layering` project integration as easy as a drag and drop. To bring a Layering project into an `Element Graph`, drag it from the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel directly into the Canvas. The layering project will become a node and provide all of the necessary graph input and outputs.
 
 ## Element to Layering Project Integration
 
-`Elements` created from an `Element Graph` can be used in many different facets of `Layering`. A PBR material can be used as an `Element Layer` or `Element Brush`. In fact, any channel from a PBR material created in InstaMAT Studio can be utilized in a `Multi-Channel Layer`. The Roughness channel can be taken from a "Dirty Iron" material while the BaseColor channel can be taken from an "Aged Wood".
+`Elements` created from an `Element Graph` can be used in many different facets of `Layering`. A PBR material can be used as an `Element Layer` or `Element Brush`. In fact, any channel from a PBR material created in InstaMAT Studio can be utilized in a `Multi-Channel Layer`. The Roughness channel can be taken from a "Dirty Iron" material while the BaseColor channel can be taken from an "Aged Wood". Element/Layering integration is as flexible as it is powerful.
 
 There are many ways to bring in an `Element` into a `Layering` project:
 
@@ -26,6 +26,8 @@ There are many ways to bring in an `Element` into a `Layering` project:
 - Drag a material into the layer stack. This will fill the entire project with a newly-created `Element Layer`.
 - Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack and hoose `Element Layer`. Pick the element from the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel.
 - Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack and choose `Multi-Channel Layer`. Open the <i class="fa-regular fa-layer-group"></i> (Layer Channels) tab. Next to any channel, choose the <i class="fa-regular fa-flux-capacitor"></i> (Graph Resource) icon to choose an Element and utilize a matching output (for example the BaseColor output of the chosen material used as the BaseColor channel for the Multi-Channel Layer).
+
+This is only the beginning. Masks, Brushes, Stencils, Decals, Filters, Generators, and Effects can all be created using the `Element Graph`.
 
 ## Materialize Image Project Integration
 
