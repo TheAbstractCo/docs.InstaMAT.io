@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:32:08.622Z
+date: 2023-02-27T14:39:15.681Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -22,6 +22,8 @@ If the `Layering` project relies on any baked mesh maps and smart prefab materia
 
 To preview the outputs of a layering project on the mesh, first view the mesh in the [Viewport](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Viewport) by either clicking on the mesh node's output pin the Canvas, or by <kbd>Right-Clicking</kbd> the mesh node and choosing `View Mesh`. Then <kbd>Right-Click</kbd> on the `Layering` project node and choose `Preview as 3D Material`.
 
+> Integrating `Layering` projects into `Elements` enhances them with all of the Canvas's procedural functionality and flexibility. You can apply masks, effects, and mesh modifier nodes while also exposing additional graph inputs to easily adjust settings using sliders. {.is-info}
+
 ## Element to Layering Project Integration
 
 `Elements` created from an `Element Graph` can be used in many different facets of `Layering`. A PBR material can be used as an `Element Layer` or `Element Brush`. In fact, any channel from a PBR material created in InstaMAT Studio can be utilized in a `Multi-Channel Layer`. The Roughness channel can be taken from a "Dirty Iron" material while the BaseColor channel can be taken from an "Aged Wood". Element/Layering integration is as flexible as it is powerful.
@@ -33,8 +35,8 @@ There are many ways to bring in an `Element` into a `Layering` project:
 - Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack and hoose `Element Layer`. Pick the element from the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel.
 - Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack and choose `Multi-Channel Layer`. Open the <i class="fa-regular fa-layer-group"></i> (Layer Channels) tab. Next to any channel, choose the <i class="fa-regular fa-flux-capacitor"></i> (Graph Resource) icon to choose an Element and utilize a matching output (for example the BaseColor output of the chosen material used as the BaseColor channel for the Multi-Channel Layer).
 
-This is only the beginning. Masks, Brushes, Stencils, Decals, Filters, Generators, and Effects can all be created using the `Element Graph`.
+> This is only the beginning. Masks, Brushes, Stencils, Decals, Filters, Generators, and Effects can all be created using the `Element Graph`. {.is-info}
 
 ## Materialize Image Project Integration
 
-Materials generated from a photo using the `Materilize Image` project type can be treated just like any other material in InstaMAT Studio.
+Materials generated from a photo using the `Materilize Image` project type can be treated just like any other material in InstaMAT Studio. Once created, a Materilized photo can be imported into a `Layering` project with a drag and drop or with the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button and by choosing `Element Layer`.
