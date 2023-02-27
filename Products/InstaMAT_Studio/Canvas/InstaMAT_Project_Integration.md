@@ -2,7 +2,7 @@
 title: InstaMAT Project Integration
 description: InstaMAT's project types are designed to integrate together seamlessly. In this article we go through a couple of examples on how to integrate various projects together.
 published: true
-date: 2023-02-27T14:19:38.682Z
+date: 2023-02-27T14:20:46.269Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-27T13:58:03.026Z
@@ -25,7 +25,7 @@ There are many ways to bring in an `Element` into a `Layering` project:
 - Drag a material from either the [Graph Library](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Quick_Search) or the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel onto a mesh in the viewport. This will apply the material to the specific mesh or sub-mesh and mask off others.
 - Drag a material into the layer stack. This will fill the entire project with a newly-created `Element Layer`.
 - Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack and hoose `Element Layer`. Pick the element from the [Resource Picker](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Resource_Picker) panel.
-- Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack and choose `Multi-Channel Layer`. Open the <i class="fa-regular fa-layer-group"></i> (Layer Channels) tab. Next to any channel, choose the <i class="fa-regular fa-flux-capacitor"></i> (Graph Resource) icon to choose an Element and utilize a matching output.
+- Click the <i class="fa-regular fa-layer-plus"></i> (Add New Layer) button below the layer stack and choose `Multi-Channel Layer`. Open the <i class="fa-regular fa-layer-group"></i> (Layer Channels) tab. Next to any channel, choose the <i class="fa-regular fa-flux-capacitor"></i> (Graph Resource) icon to choose an Element and utilize a matching output (for example the BaseColor output of the chosen material used as the BaseColor channel for the Multi-Channel Layer).
 
 ## Materialize Image Project Integration
 
