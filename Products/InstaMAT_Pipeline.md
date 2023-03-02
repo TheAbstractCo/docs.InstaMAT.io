@@ -2,7 +2,7 @@
 title: InstaMAT Pipeline
 description: InstaMAT Pipeline is a cross-platform console application that enables you to render your Element library without having to use a graphical user interface.
 published: true
-date: 2023-03-02T17:21:26.254Z
+date: 2023-03-02T17:25:58.523Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:25:35.553Z
@@ -47,9 +47,11 @@ Your workstation is now authorized for use with InstaMAT. Make sure to deauthori
 
 To deauthorize your workstation prior to uninstalling InstaMAT Pipeline, use the `-deauthorize` argument:
 
+```
 	InstaMATPipeline -deauthorize <Email> <LicenseKey>
+```
 
-> Deauthorization takes up to 24 hours to complete. Until the deauthorization cycle is fully complete, the seat/node will remain locked and cannot be used to activate another machine.
+> Deauthorization takes up to 24 hours to complete. Until the deauthorization cycle is fully complete, the seat/node will remain locked and cannot be used to activate another machine.{.is-info}
 
 <a name="offline-authorization-enterprise"></a>
 ### Offline Authorization (Enterprise)
@@ -58,17 +60,23 @@ Enterprise licensees can make use of offline authorization in situations where a
 
 First, it is necessary to acquire the machine key of the target machine by specifying the `-machineKey` argument:
 
+```
     InstaMATPipeline -machineKey
+```
 
 InstaMAT Pipeline will now output the machine key to the console. Copy and paste the key to the machine that will fulfill the authorization request and specify the machine key together with the `authorizeKey` argument:
 
+```
     InstaMATPipeline -authorizeKey <Key> <Filename> <Email> <LicenseKey>
+```
 
 InstaMAT Pipeline will now request a license file for the specified `<Key>` and write it to the specified `<Filename>`.
 
 Copy the generated license file to the target machine and ingest it into the InstaMAT licensing system by specifying the `-ingestLicense` argument:
 
+```
     InstaMATPipeline -ingestLicense <Filename>
+```
 
 The target machine will now be fully activated and ready for use with any of the tools that are part of the InstaMAT SDK.
 
@@ -78,20 +86,26 @@ The target machine will now be fully activated and ready for use with any of the
 
 InstaMAT Pipeline allows executing Atom and Element Graphs from the command-line. To execute a graph, the `Execute` application mode needs to be specified through the `-mode` argument, optionally followed by the filename of the package that contains the Graph:
 
+```
     InstaMATPipeline -mode Execute <Filename>
+```
 
 After setting the application mode, an additional set of program arguments becomes available that allows configuring the graph execution. The argument `-graph` specifies the graph that is executed, its output size, and the format of the output texture files:
 
+```
     -graph <Name> <OutputWidth> <OutputHeight> <OutputFormat> <OutputPathFormat>
+```
 
-> InstaMAT Pipeline ships with a bundle of demo graphs that you can execute if you haven't created any graphs yet.
+> InstaMAT Pipeline ships with a bundle of demo graphs that you can execute if you haven't created any graphs yet.{.is-info}
 
 <a name="executing-a-graph"></a>
 ### Executing a Graph
 
 The following example executes the graph `Arc Pavement` that is shipped with InstaMAT Pipeline:
 
+```
     InstaMATPipeline -mode Execute -graph "ArcPavement" 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.tiff"
+```
 
 The argument `-mode Execute` enables the graph execution mode. No package filepath needs to be specified here because the graph is part of the InstaMAT Graph Library. The `-graph` argument is followed by:
     
@@ -108,11 +122,14 @@ An overview of supported output formats can be found in the section [Configuring
 
 The following example executes the graph `Aged Gold Icon` from an external package under the relative filepath `Environment/Packages/Materials/AgedGoldenInstaMAT.MAT`:
 
+```
     InstaMATPipeline -mode Execute "Environment/Packages/Materials/AgedGoldenInstaMAT.MAT" -graph "Aged Golden Icon" 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.tiff"
-
+```
 As packages typically contain only a few graphs, the full graph name does not need to be specified. Instead, a file pattern that consists of the word beginning followed by an asterisk can be used:
 
+```
     InstaMATPipeline -mode Execute "Environment/Packages/Materials/AgedGoldenInstaMAT.MAT" -graph "Aged*" 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.tiff"
+```
 
 <a name="configuring-the-execution-format"></a>
 ### Configuring the Execution Format
@@ -126,18 +143,24 @@ InstaMAT Pipeline can execute graphs at an arbitrary resolution and supports mul
 
 The following example executes the graph `Moisture` from the InstaMAT library at a resolution of 2048x2048 and outputs a 32-bit texture:
 
+```
     InstaMATPipeline -mode Execute "Environment/Packages/grunge/Moisture.MAT" -graph "Moisture" 2048 2048 FullRange32 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.tiff"
+```
 
 To execute the same graph at a 512x512 resolution and output a normalized 16-bit texture, the following command can be used:
 
+```
     InstaMATPipeline -mode Execute "Environment/Packages/grunge/Moisture.MAT" -graph "Moisture" 512 512 Normalized16 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.tiff"
+```
 
 <a name="configuring-parameters"></a>
 ### Configuring Parameters
 
 When executing a graph through InstaMAT Pipeline, its input parameters can be modified through command-line arguments. With the following pattern, any number of graph parameters can be set at once:
 
+```
     -parameter <Name> <ParameterValue>
+```
 
 The `ParameterValue` must be JSON-formatted. Scalar values don't need to be put in quotes:
   
@@ -152,57 +175,73 @@ Vector values are passed as JSON arrays:
 
 String values must be passed a native JSON string with escaped quotes. The string `"\"InstaMAT\nis\namazing"\""` represents a string with the value:
 
+```
     InstaMAT
     is
     amazing
+```
 
->To change the execution seed value, use the `<Name>` "Seed" with an integer value in the range [0...100000] 
+>To change the execution seed value, use the `<Name>` "Seed" with an integer value in the range [0...100000]. {.is-info}
  
  The following command executes the graph `Text` with customized `Seed`, `Rotate`, `Scale`, `HorizontalAlignment` and `Text` parameters:
-  
+
+```
     InstaMATPipeline -mode Execute -graph Text 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.png" -parameter Seed 1005 -parameter Rotate 45.0 -parameter Scale "[ 0.66, 0.66]" -parameter HorizontalAlignment 0 -parameter Text "\"InstaMAT\nis\namazing"\""
+```
 
 Enumeration values for parameters such as the `HorizontalAlignment` must be passed as an integer that represents their enumeration index. Here, `0` corresponds to `Left`.
 
 In addition to the modification of graph input parameters, a composition node such as `Levels` can be automatically generated to modify the graph output. This is enabled through the `compositionParameter` argument:
 
+```
     -compositonParameter <CompositionNodeName> <OutputParameter> <InputParameter> <ParameterValue>
+```
 
 The command connects the `OutputParameter` of the executed graph into the image input parameter of the graph with the name `CompositionNodeName`. It then sets the `InputParameter` of the composition graph to `<ParameterValue>`. The previous example can be extended as follows to adjust the levels of the output:
 
+```
     InstaMATPipeline -mode Execute -graph Text 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.png" -parameter Rotate 45.0 -parameter Scale "[ 0.66, 0.66]" -parameter HorizontalAlignment 0 -parameter Text "\"InstaMAT\nis\namazing"\"" -compositionParameter Levels Output "Luminance In" "[ 0.0 0.6 0.8 ]"
+```
 
 <a name="executing-a-graph-as-grayscale"></a>
 ### Executing a Graph as Grayscale
 
 Certain graphs can be executed as colored or as a grayscale version and are called permutable. By default, InstaMAT Pipeline executes the colored version of a graph. To execute, the grayscale version, the argument `-grayscale` can be used. If the argument is specified for a graph that is not grayscale permutable, the graph is executed normally. The following command executes the grayscale permutation of the graph `Blue Noise`:
 
+```
     InstaMATPipeline -mode Execute "Environment/Packages/noise/BlueNoise.MAT" -graph "Blue Noise" 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.png" -grayscale
+```
 
 <a name="filesystem-images-and-resources"></a>
 ### Filesystem Images and Resources
 
 When executing a graph, resources can be loaded from disk and used as input parameters. Below, the previous example is further extended by loading a `Font` and a `Background` image from the `C:/` drive. Filepaths must be prefixed with the `file://` identifier so that InstaMAT can locate them on the local file system.
 
+```
     InstaMATPipeline -mode Execute -graph Text 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.png" -parameter Rotate 45.0 -parameter Scale "[ 0.66, 0.66]" -parameter HorizontalAlignment 0 -parameter Text "\"InstaMAT\nis\namazing\"" -compositionParameter Levels Output "Luminance In" "[ 0.0 0.6 0.8 ]" -parameter Background "file://C:/Image.png" -parameter Font "file://C:/Font.ttf"
+```
 
 <a name="filtering-outputs"></a>
 ### Filtering Outputs
 
 To avoid generating all graph outputs when only a few are required, output filtering can be used during graph execution. This can be done by appending the `-outputFilter <FilterPattern>` argument with the file pattern. Multiple filters can be separated by a semicolon. The command below loads a high poly mesh from the path `C:/SM_Game_MilitaryCrate_1mio.fbx` and bakes it onto the low poly mesh under the path `C:/SM_Game_MilitaryCrate_Target.fbx`.
 
+```
     InstaMATPipeline -mode Execute -graph Bake 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.png" -parameter "Source Mesh" "file://C:/SM_Game_MilitaryCrate_1mio.fbx" -parameter "Target Mesh" "file://C:/SM_Game_MilitaryCrate_Target.fbx" -outputFilter "Tangent*;Ambient*"
+```
 
 The filter pattern instructs InstaMATPipeline to generate outputs that start with `Tangent` or `Ambient`. Only the `Tangent Space Normal` and `Ambient Occlusion` maps are generated while all outputs that do not match any of the filters are ignored.
 
-> The output filter is applied to all graph outputs including both image and mesh outputs.
+> The output filter is applied to all graph outputs including both image and mesh outputs.{.is-info}
 
 <a name="outputting-meshes"></a>
 ### Outputting Meshes
 
 When executing Element Graphs that have an Element Mesh output, InstaMAT Pipeline can output mesh files. By default, the application outputs FBX files, but the file format can also be configured with the `-outputMeshFormat ` parameter followed by a file extension. Currently supported formats are FBX, OBJ and ILME (InstaLOD Mesh). The following command executes the UV Unwrap Graph and outputs the resulting mesh as an OBJ file.
 
+```
     InstaMATPipeline -mode Execute -graph "Mesh UV Unwrap" 1024 1024 Normalized8 "Export/{GRAPH.NAME}_{OUTPUT.TYPE}_{OUTPUT.NAME}.png" -parameter Mesh "file://C:/SM_Game_MilitaryCrate_Target.fbx" -outputMeshFormat .obj
+```
 
 <a name="format-strings-with-InstaMAT-script-variables"></a>
 ### Configuring Outputs with InstaMAT Variables
@@ -211,21 +250,29 @@ Format strings can be formatted using built-in InstaMAT Variables to configure t
 
 Both relative and absolute file paths are supported. The following example executes the graph `Gradient Radial` which has a single output only and writes it to an absolute path:
 
+```
     InstaMATPipeline -mode Execute -graph "Gradient Radial" 1024 1024 Normalized8 "C:/Textures/Radial Gradient.png"
+```
 
 The next example uses a relative path to write the texture into the directory `Export/`. If the directory does not exist, InstaMAT Pipeline creates it.
 
+```
     InstaMATPipeline -mode Execute -graph "Gradient Radial" 1024 1024 Normalized8 "Export/Radial Gradient.png"
+```
 
 For graphs that have multiple outputs, a format string can be used to ensure a proper naming scheme. The following command executes the graph `Voronoi Fractal Sum`:
 
+```
     InstaMATPipeline -mode Execute -graph "Voronoi Fractal Sum" 2048 2048 Normalized8 "Export/{YEAR}{MONTH}{DAY}{GRAPH.NAME}_{OUTPUT.NAME}_{FORMAT.WIDTH}x{FORMAT.HEIGHT}.png"
+```
 
 The format string used here instructs InstaMAT Pipeline to write the current date, the name of the graph, the name of the output, and the resolution of the output into the filename.
 
 Instead of adding information to the filename, a folder structure can also be automatically created with a format string:
 
+```
     InstaMATPipeline -mode Execute -graph "Voronoi Fractal Sum" 2048 2048 Normalized8 "Export/{GRAPH.CATEGORY}/{GRAPH.NAME}/{YEAR}{MONTH}{DAY}{OUTPUT.NAME}_{FORMAT.WIDTH}x{FORMAT.HEIGHT}.png"
+```
 
 <a name="InstaMAT-variables"></a>
 #### InstaMAT Variables
@@ -252,7 +299,7 @@ The following InstaMAT Variables are available.
 
 The availability and contents of built-in variables are context-sensitive. Output related variables are typically available when exporting outputs. 
 
-> Besides supporting InstaMAT Script variables, format strings can also evaluate platform-specific environment variables. To include an environment variable in a format string, reference the variable by name using the following syntax on all platforms: `${VARIABLE}`. Whenever the string is evaluated by InstaMAT, all environment variables are evaluated as well.
+> Besides supporting InstaMAT Script variables, format strings can also evaluate platform-specific environment variables. To include an environment variable in a format string, reference the variable by name using the following syntax on all platforms: `${VARIABLE}`. Whenever the string is evaluated by InstaMAT, all environment variables are evaluated as well. {.is-info}
 
 <a name="displaying-graph-object-information"></a>
 ## Displaying Graph Object Information
