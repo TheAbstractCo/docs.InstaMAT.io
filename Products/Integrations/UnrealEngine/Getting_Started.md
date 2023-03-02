@@ -2,7 +2,7 @@
 title: Getting Started with InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-03-02T17:18:29.967Z
+date: 2023-03-02T17:19:51.607Z
 tags: unrealengine, integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-01-26T15:25:46.866Z
@@ -19,8 +19,11 @@ InstaMAT for Unreal Engine always supports the latest Unreal Engine version on b
 ## Installing InstaMAT for Unreal Engine
 
 To get started, copy the `InstaMAT` folder to your project’s Plugins folder.
-If you cannot find the Plugins folder in the root of your Unreal Engine project, simply create it using either Windows Explorer or macOS Finder.
-Finally, right-click your project file projectname.uproject, and depending on your operating system, select either Generate Xcode project (macOS) or Generate Visual Studio project files (Windows).
+
+> If you cannot find the Plugins folder in the root of your Unreal Engine project, simply create it using either Windows Explorer or macOS Finder.{.is-info}
+
+Finally, <kbd>right-click</kbd> your project file `projectname.uproject`, and depending on your operating system, select either Generate Xcode project (macOS) or Generate Visual Studio project files (Windows).
+
 The next time you open the Unreal Engine project, the InstaMAT plugin will be compiled.
 
 <a name="machine-authorization"></a>
