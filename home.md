@@ -2,13 +2,12 @@
 title: InstaMAT Documentation
 description: Documentation for InstaMAT products.
 published: true
-date: 2023-01-20T15:29:43.860Z
+date: 2023-03-02T17:36:08.399Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T16:44:13.838Z
 ---
 
-# Welcome to InstaMAT
 Discover new ways to create materials with limitless variations and leverage fully scalable automation that will reshape your content creation pipeline.
 
 InstaMAT includes hundreds of different image processing algorithms: from automatically computing an ambient occlusion map from an input height map to baking meshes directly in an Element graph. It's unprecedented! The *InstaMAT Library Reference* will assist you on your path to master InstaMAT and help you establish a workflow that elevates your team's creativity.
