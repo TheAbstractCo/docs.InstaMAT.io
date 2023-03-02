@@ -2,13 +2,12 @@
 title: InstaMAT Pipeline
 description: InstaMAT Pipeline is a cross-platform console application that enables you to render your Element library without having to use a graphical user interface.
 published: true
-date: 2023-01-20T15:25:35.553Z
+date: 2023-03-02T17:21:10.856Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:25:35.553Z
 ---
 
-# InstaMAT Pipeline
 InstaMAT Pipeline is a cross-platform console application that enables you to render your Element library without having to use a graphical user interface. Complex pipeline tools such as highly custom mesh bakers or unit tests can be set up within minutes.
 
 ![pipelinepreviewcompressed.jpg](/instamat_pipeline/pipelinepreviewcompressed.jpg)
