@@ -2,7 +2,7 @@
 title: InstaMAT Documentation
 description: Documentation for InstaMAT products.
 published: true
-date: 2023-03-02T17:37:24.303Z
+date: 2023-03-02T17:47:49.459Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-18T16:44:13.838Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-18T16:44:13.838Z
 
 Discover new ways to create materials with limitless variations and leverage fully scalable automation that will reshape your content creation pipeline.
 
-InstaMAT includes hundreds of different image processing algorithms: from automatically computing an ambient occlusion map from an input height map to baking meshes directly in an Element graph. It's unprecedented! The *InstaMAT Library Reference* will assist you on your path to master InstaMAT and help you establish a workflow that elevates your team's creativity.
+InstaMAT includes hundreds of different image processing algorithms: from automatically computing an ambient occlusion map from an input height map to baking meshes directly in an Element graph. It's unprecedented! The `InstaMAT Library Reference` will assist you on your path to master InstaMAT and help you establish a workflow that elevates your team's creativity.
 
 
 If you are new to InstaMAT taking a quick look at the *InstaMAT Library Reference* can help you understand what's at your dispoal. However, a better way to get started is by revising the [InstaMAT documentation](https://www.InstaMaterial.com/GettingStarted). The InstaMAT documentation will provide you with advice on how the application works and covers everything you need to know on the app level: from navigating the user-interface to understanding how you can build both Atom and Element Graphs.
