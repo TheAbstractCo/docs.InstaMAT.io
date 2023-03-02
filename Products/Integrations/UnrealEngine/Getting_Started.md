@@ -2,7 +2,7 @@
 title: Getting Started with InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-03-02T17:19:51.607Z
+date: 2023-03-02T17:20:17.794Z
 tags: unrealengine, integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-01-26T15:25:46.866Z
@@ -29,7 +29,9 @@ The next time you open the Unreal Engine project, the InstaMAT plugin will be co
 <a name="machine-authorization"></a>
 ## Machine Authorization
 
-A workstation needs to be authorized before InstaMAT for Unreal Engine can be used. If you haven’t authorized InstaMAT on your workstation before, you will be asked to do so when starting the Unreal Engine project. Enter your license information and press Authorize to request a license for your workstation. Your workstation is now authorized for use with InstaMAT. Make sure to deauthorize your workstation before uninstalling InstaMAT.
+A workstation needs to be authorized before InstaMAT for Unreal Engine can be used. If you haven’t authorized InstaMAT on your workstation before, you will be asked to do so when starting the Unreal Engine project. Enter your license information and press Authorize to request a license for your workstation. Your workstation is now authorized for use with InstaMAT. 
+
+> Make sure to deauthorize your workstation before uninstalling InstaMAT.{.is-warning}
 
 <a name="machine-deauthorization"></a>
 ## Machine Deauthorization
