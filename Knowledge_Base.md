@@ -1,8 +1,8 @@
 ---
 title: Knowledge Base
-description: 
+description: Welcome to the InstaMAT Knowledge Base. Here you can find many articles to answer your questions.
 published: true
-date: 2023-03-02T17:43:43.734Z
+date: 2023-03-02T17:44:03.251Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-02T17:41:20.328Z
