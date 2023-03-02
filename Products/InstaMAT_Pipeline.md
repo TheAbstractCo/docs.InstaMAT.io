@@ -2,7 +2,7 @@
 title: InstaMAT Pipeline
 description: InstaMAT Pipeline is a cross-platform console application that enables you to render your Element library without having to use a graphical user interface.
 published: true
-date: 2023-03-02T17:25:58.523Z
+date: 2023-03-02T17:28:49.405Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:25:35.553Z
@@ -306,7 +306,9 @@ The availability and contents of built-in variables are context-sensitive. Outpu
 
 Information about a Graph Object can be displayed with InstaMAT Pipeline using the `-mode Info` argument followed by `-graphInfo <Name>`. This can be used to view graphs from the Library or any InstaMAT package. The graph `Text` from the InstaMAT library can be output with the command:
 
+```
     InstaMATPipeline -mode Info -graphInfo Text
+```
 
 The output has a readable format that could be easily parsed by a web server or another application that integrates InstaMAT.
 
@@ -317,15 +319,21 @@ The `Search` mode allows querying information from the library or a package. The
 
 The command below searches the library for graphs matching the name `Ambient Occlusion`. The quotes are used because the graph name contains whitespace.
 
+```
     InstaMATPipeline -mode Search -graphSearch "Ambient Occlusion"
+```
 
 A search for all graphs matching "Blend" in the "Image" category can be performed with the following command:
 
+```
     InstaMATPipeline -mode Search -graphSearch Blend Image
+```
 
 To query all graphs in the package `Noise`, the following command can be used:
 
+```
     InstaMATPipeline -mode Search "Environment/Packages/noise/Noise.MAT" -graphSearch *
+```
 
 The search results are output in the the JSON format.
 
@@ -339,14 +347,18 @@ Package assemblies bundle InstaMAT Atom and Element graphs, resources and meta d
 
 To generate a package, InstaMAT Pipeline needs to be executed in the `Package` mode followed by the package path argument. If a package exists at the specified path, it is loaded. The following example generates a package with the name `TestPackage.MAT` in the directory `C:\Packages`:
 
+```
     InstaMATPipeline -mode Package "/Packages/TestPackage.MAT"
+```
 
 <a name="adding-resources"></a>
 ### Adding Resources
 
 Packages can contain a variety of resources such as models, images or fonts that can be used in the execution of InstaMAT Atom and Element graphs.
 
+```
     InstaMATPipeline -mode Package "/Packages/TestPackage.MAT" -package Resource Add "/Models/CarHood.fbx"
+```
 
 The command above adds the `CarHood.fbx` file to the package `TestPackage.MAT`. Resources can be added, updated and deleted by providing `-package Resource` parameters with the specified modifiers:
 
@@ -356,14 +368,18 @@ The command above adds the `CarHood.fbx` file to the package `TestPackage.MAT`. 
 
 To delete a resource from the package, the `Delete` modifier needs to be applied to the resource:
 
+```
     InstaMATPipeline -mode Package "/Packages/TestPackage.MAT" -package Resource Delete "/Models/CarHood.fbx"
+```
 
 <a name="modiyfying-package-meta-data"></a>
 ### Modifying Package Meta Data
 
 Meta data can provide additional information in a package. It follows the `key` - `value` format with a value of any type being storable under a unique key. This command adds two meta data entries:
 
+```
     InstaMATPipeline -mode Package "/Packages/TestPackage.MAT" -package MetaData Update "Author:InstaMaterial GmbH" -package MetaData Update "BuildDate:%DATE%"
+```
 
  First, the `Author` is set to `InstaMaterial GmbH` and then the `BuildDate` meta data key is set to the current date of execution. The `%DATE%` variable used here is a Windows-specific system variable that retrieves the current date.
 
@@ -375,7 +391,9 @@ Meta data can be added, updated and deleted through the `-package MetaData` argu
 
 To delete the `Author` meta data, the modifier needs to be changed to `Delete`: 
 
+```
     InstaMATPipeline -mode Package "/Packages/TestPackage.MAT" -package MetaData Delete "Author:InstaMaterial GmbH"
+```
 
 <a name="unit-testing"></a>
 ## Unit Testing
@@ -384,16 +402,20 @@ InstaMATPipeline can create fully visualized unit-tests for Element graphs to di
 
 The Unit test functionalities are executed in the `UnitTest` application mode:
 
+```
     InstaMATPipeline -mode UnitTest
+```
 
 <a name="reference-generation"></a>
 ### Reference Generation
 
->References are the baseline that all resulting images are tested against. All graphs must produce the intended results before generating the reference images.
+>References are the baseline that all resulting images are tested against. All graphs must produce the intended results before generating the reference images. {.is-info}
 
 The command below generates reference images for all packages in the InstaMAT Pipeline folder:
 
+```
     InstaMATPipeline -mode UnitTest -env "Environment/" -outputFolder "Reference/"
+```
 
 It is important to specify the environment with `-env <path>` of the packages to be sure that all dependencies are met and the graph execution proceeds without failure. The output images are generated in the Reference folder specified with `-outputFolder <path>`.
 
@@ -402,7 +424,9 @@ It is important to specify the environment with `-env <path>` of the packages to
 
 InstaMAT Pipeline compares on each execution all generated textures with their reference counterparts. The pixel by pixel comparison generates an error value if differences in the compared pixels are present. A test fails if the previously specified amount of pixels contains an error.
 
+```
     InstaMATPipeline -env "Environment/" -mode UnitTest
+```
 
 The above command executes the test for all packages in the InstaMAT Pipeline folder and environment. Detailed statistics and descriptions of the unit test are logged to the console. 
 
@@ -413,11 +437,15 @@ The results of the unit test can be directly written into an HTML file. InstaMAT
 
 The command below creates a unit test output in the `UnitTestOutput/` directory:
 
+```
     InstaMATPipeline -env "Environment/" -mode UnitTest -HTMLOutput "UnitTestOutput/"
+```
 
 Additionally, an HTML template can be provided that is used as the basis for the generated page for customized results:
 
+```
     InstaMATPipeline -env "Environment/" -mode UnitTest -HTMLOutput "UnitTestOutput/" -HTMLTemplate "Template/InstaMAT.html"
+```
 
 <a name="automatic-documentation-generation"></a>
 ## Automatic Documentation Generation
@@ -431,7 +459,9 @@ InstaMAT Pipeline can automatically generate documentation for all packages. The
 
 To generate the documentation, execute the following command: 
 
+```
     InstaMATPipeline -mode GenerateDocumentation -env "Environment/" -outputFolder "Documentation/"
+```
 
 It's important to provide to load the library packages with `-env "<path>"` to make sure that all dependencies are loaded correctly. The optional `-outputFolder "<path>"` is used to specify a custom folder where the documentation is generated.
 
@@ -446,6 +476,7 @@ To view the markdown pages from the web browser, tools such as [MkDocs](https://
 ## Program Arguments
 The following arguments can be specified when starting InstaMAT Pipeline.
 
+```
     -env <Path>
     Loads all packages from <Path> and subdirectories.
     By default, InstaMAT Pipeline will load all packages from the current working directory.
@@ -578,6 +609,7 @@ The following arguments can be specified when starting InstaMAT Pipeline.
 
     -licenseInfo
     Displays licensing information.
+```
 
 <a name="available-importexport-file-formats"></a>
 ## Available import/export image file formats
