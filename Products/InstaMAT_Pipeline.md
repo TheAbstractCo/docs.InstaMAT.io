@@ -2,7 +2,7 @@
 title: InstaMAT Pipeline
 description: InstaMAT Pipeline is a cross-platform console application that enables you to render your Element library without having to use a graphical user interface.
 published: true
-date: 2023-03-02T17:28:49.405Z
+date: 2023-03-02T17:29:29.333Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:25:35.553Z
@@ -38,9 +38,9 @@ Before InstaMAT Pipeline can be used, your workstation needs to be authorized. T
 
 Your workstation is now authorized for use with InstaMAT. Make sure to deauthorize your workstation before uninstalling InstaMAT or you will not be able to authorize another workstation.
 
-> Machine authorization for InstaMAT is system-wide. If you've already been using InstaMAT on your computer, there is no need to authorize your machine for InstaMAT Pipeline.
-> 
-> Make sure to deauthorize your workstation prior to uninstalling InstaMAT, or the seat/node will remain locked.
+> Machine authorization for InstaMAT is system-wide. If you've already been using InstaMAT on your computer, there is no need to authorize your machine for InstaMAT Pipeline. {.is-info}
+
+> Make sure to deauthorize your workstation prior to uninstalling InstaMAT, or the seat/node will remain locked.{.is-warning}
 
 <a name="machine-deauthorization"></a>
 ### Machine Deauthorization
