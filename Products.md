@@ -2,7 +2,7 @@
 title: Products
 description: An overview of the InstaMAT product line.
 published: true
-date: 2023-03-03T09:16:24.949Z
+date: 2023-03-03T09:28:17.000Z
 tags: instamat studio, integrations, instamat pipeline, sdk
 editor: markdown
 dateCreated: 2023-03-03T09:15:28.520Z
@@ -17,7 +17,7 @@ This page overviews the InstaLOD product line. InstaMAT revolutionizes your mate
 <br style="clear: right;"/>
 
 ## InstaMAT Pipeline
-Easily perform a wide range of tasks from rendering materials, to executing Element Graphs or performing unit-tests on your material library. All without having to use a graphical user interface. InstaMAT Pipeline makes it trivial to super-charge your asset pipeline.
+![pipeline_540p.jpg.webp](/instamat_pipeline/pipeline_540p.jpg.webp =400x){.align-right} Easily perform a wide range of tasks from rendering materials, to executing Element Graphs or performing unit-tests on your material library. All without having to use a graphical user interface. InstaMAT Pipeline makes it trivial to super-charge your asset pipeline.
 
 
 
