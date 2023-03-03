@@ -2,7 +2,7 @@
 title: Integrations
 description: InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possbile.
 published: true
-date: 2023-03-03T10:10:44.924Z
+date: 2023-03-03T10:12:20.637Z
 tags: integrations
 editor: markdown
 dateCreated: 2023-03-02T17:38:48.183Z
@@ -40,3 +40,5 @@ The InstaMAT Product Line features the following Integrations:
 ## Integrations Features vs InstaMAT Studio
 
 InstaMAT's Integrated Plugins are designed to bring InstaMAT packagage files into your application of choice for direct manipulation and integration into your projects. The creation of these package files is done in InstaMAT Studio where projects such as an `Element Graph` or `Layering Project` are built.
+
+To learn more about InstaMAT Studio and the creation of these project types, click [here](/Products/InstaMAT_Studio).
