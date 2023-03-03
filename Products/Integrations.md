@@ -2,7 +2,7 @@
 title: Integrations
 description: InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possbile.
 published: true
-date: 2023-03-03T10:15:40.132Z
+date: 2023-03-03T10:16:02.765Z
 tags: integrations
 editor: markdown
 dateCreated: 2023-03-02T17:38:48.183Z
@@ -41,6 +41,6 @@ To learn more about InstaMAT for Unreal Engine, click [here](/Products/Integrati
 
 ## Integrations Features vs InstaMAT Studio
 
-InstaMAT's Integrated Plugins are designed to allow you to bring InstaMAT package files into your preferred application for direct manipulation and seamless integration into your projects. These package files are created in InstaMAT Studio, where project types such as Element Graph or Layering Project can be built.
+InstaMAT's Integrated Plugins are designed to allow you to bring InstaMAT package files into your preferred application for direct manipulation and seamless integration into your projects. These package files are created in InstaMAT Studio, where project types such as `Element Graph` or `Layering Project` can be built.
 
 To learn more about InstaMAT Studio and the creation of these project types, click [here](/Products/InstaMAT_Studio).
