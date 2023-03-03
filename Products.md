@@ -2,7 +2,7 @@
 title: Products
 description: An overview of the InstaMAT product line.
 published: true
-date: 2023-03-03T10:20:47.995Z
+date: 2023-03-03T10:21:20.301Z
 tags: instamat studio, integrations, instamat pipeline, sdk
 editor: markdown
 dateCreated: 2023-03-03T09:15:28.520Z
@@ -28,7 +28,7 @@ To learn more about InstaMAT Pipeline, click [here]().
 ## InstaMAT SDK
 ![sdk_cpp_540p.jpg.webp](/instamat_sdk/sdk_cpp_540p.jpg.webp =400x){.align-right} The 64-bit C++ SDK enables developers with custom tools and technology to integrate our technology seamlessly into their software. Leveraging the InstaMAT SDK for your in-house application development is easy and painless.
 
-To learn more about InstaMAT SDK, click [here]().
+To learn more about InstaMAT SDK, click [here](/Products/InstaMAT_C++_SDK).
 
 <br style="clear: right;"/>
 
