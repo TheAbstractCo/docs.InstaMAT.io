@@ -2,7 +2,7 @@
 title: Integrations
 description: InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possbile.
 published: true
-date: 2023-03-03T09:57:38.036Z
+date: 2023-03-03T10:10:44.924Z
 tags: integrations
 editor: markdown
 dateCreated: 2023-03-02T17:38:48.183Z
@@ -36,3 +36,7 @@ The InstaMAT Product Line features the following Integrations:
 ![ue_540p.jpg.webp](/instamat_integrations/instamat_for_ue/ue_540p.jpg.webp =400x){.align-right} Empowering game developers to build beautiful content faster and with less friction. From the built-in material library to high-speed rendering of materials and asset pipelines — your workflow is going to be amped up.
 
 <br style="clear: right;"/>
+
+## Integrations Features vs InstaMAT Studio
+
+InstaMAT's Integrated Plugins are designed to bring InstaMAT packagage files into your application of choice for direct manipulation and integration into your projects. The creation of these package files is done in InstaMAT Studio where projects such as an `Element Graph` or `Layering Project` are built.
