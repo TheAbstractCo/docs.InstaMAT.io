@@ -2,7 +2,7 @@
 title: Products
 description: An overview of the InstaMAT product line.
 published: true
-date: 2023-03-03T09:42:40.597Z
+date: 2023-03-03T09:45:42.031Z
 tags: instamat studio, integrations, instamat pipeline, sdk
 editor: markdown
 dateCreated: 2023-03-03T09:15:28.520Z
@@ -13,6 +13,8 @@ This page overviews the InstaLOD product line. InstaMAT revolutionizes your mate
 ## InstaMAT Studio
 
 ![studio_540p.png.webp](/instamat_studio/general/studio_540p.png.webp =400x){.align-right} Experience the best way to create procedural materials and assets, unlock scalable texturing and create data-driven asset pipelines. With a plethora of features and a massive library of nodes and materials — InstaMAT Studio will be all you'll ever need.
+
+To learn more about InstaMAT Studio, click [here](/Products/InstaMAT_Studio).
 
 <br style="clear: right;"/>
 
