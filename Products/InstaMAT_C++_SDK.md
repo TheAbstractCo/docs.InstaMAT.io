@@ -2,11 +2,13 @@
 title: InstaMAT C++ SDK
 description: The technology behind InstaMAT is also available as C++ SDK.
 published: true
-date: 2023-03-02T17:20:54.022Z
+date: 2023-03-03T09:31:19.221Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:26:36.240Z
 ---
+
+![InstaMAT SDK](/instamat_sdk/sdk_cpp_540p.jpg.webp){.align-center}
 
 The technology behind InstaMAT is also available as C++ SDK. This means that you can integrate our technology into your app or native pipeline to dynamically execute Atoms and Elements. 
 
