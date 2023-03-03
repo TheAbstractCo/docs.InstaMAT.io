@@ -2,7 +2,7 @@
 title: Products
 description: An overview of the InstaMAT product line.
 published: true
-date: 2023-03-03T09:41:58.988Z
+date: 2023-03-03T09:42:40.597Z
 tags: instamat studio, integrations, instamat pipeline, sdk
 editor: markdown
 dateCreated: 2023-03-03T09:15:28.520Z
@@ -49,6 +49,6 @@ This page overviews the InstaLOD product line. InstaMAT revolutionizes your mate
 <br style="clear: right;"/>
 
 ## InstaMAT for Unreal Engine
-Empowering game developers to build beautiful content faster and with less friction. From the built-in material library to high-speed rendering of materials and asset pipelines — your workflow is going to be amped up.
+![ue_540p.jpg.webp](/instamat_integrations/instamat_for_ue/ue_540p.jpg.webp =400x){.align-right} Empowering game developers to build beautiful content faster and with less friction. From the built-in material library to high-speed rendering of materials and asset pipelines — your workflow is going to be amped up.
 
 <br style="clear: right;"/>
