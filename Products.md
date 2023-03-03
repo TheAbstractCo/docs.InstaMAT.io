@@ -2,7 +2,7 @@
 title: Products
 description: An overview of the InstaMAT product line.
 published: true
-date: 2023-03-03T09:33:33.960Z
+date: 2023-03-03T09:41:58.988Z
 tags: instamat studio, integrations, instamat pipeline, sdk
 editor: markdown
 dateCreated: 2023-03-03T09:15:28.520Z
@@ -34,17 +34,17 @@ This page overviews the InstaLOD product line. InstaMAT revolutionizes your mate
 <br style="clear: right;"/>
 
 ## InstaMAT for Autodesk 3ds Max
-Import and adjust your materials and Elements from within the DCC tool. From the integrated material browser to the execution, InstaMAT for Autodesk 3ds Max has been smoothly integrated into the app with a native feel.
+![3dsmax_540p.jpg.webp](/instamat_integrations/instamat_for_autodesk_3ds_max/3dsmax_540p.jpg.webp =400x){.align-right} Import and adjust your materials and Elements from within the DCC tool. From the integrated material browser to the execution, InstaMAT for Autodesk 3ds Max has been smoothly integrated into the app with a native feel.
 
 <br style="clear: right;"/>
 
 ## InstaMAT for Blender
-Introducing powerful material and asset processing to the popular open-source 3D modelling package. Easily browse and render your materials and Elements and adjust dynamic properties — all within Blender.
+![blender_540p.png.webp](/instamat_integrations/instamat_for_blender/blender_540p.png.webp =400x){.align-right} Introducing powerful material and asset processing to the popular open-source 3D modelling package. Easily browse and render your materials and Elements and adjust dynamic properties — all within Blender.
 
 <br style="clear: right;"/>
 
 ## InstaMAT for Unity
-A perfect integration of powerful material and asset processing into the engine's sleek editor UI. Import and tweak your materials, or dynamically generate procedural geometry on the fly with InstaMAT for Unity.
+![unity_540p.jpg.webp](/instamat_integrations/instamat_for_unity/unity_540p.jpg.webp =400x){.align-right} A perfect integration of powerful material and asset processing into the engine's sleek editor UI. Import and tweak your materials, or dynamically generate procedural geometry on the fly with InstaMAT for Unity.
 
 <br style="clear: right;"/>
 
