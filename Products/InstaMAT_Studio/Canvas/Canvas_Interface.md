@@ -2,7 +2,7 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Right Panel, Center Area, and the Toolbar.
 published: true
-date: 2023-02-20T17:09:22.728Z
+date: 2023-03-03T10:30:46.569Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-30T13:47:04.460Z
@@ -48,9 +48,11 @@ By default, the center area contains the Canvas itself where nodes are instanced
 
 ![canvas_center_view.gif](/instamat_studio/canvas/canvas_center_view.gif =700x){.align-center}
 
-> To learn more about working in the Canvas check out these articles.
-> - [Working in the Canvas](): Learn how to navigate and work within InstaMAT's Canvas to begin building procedural materials and workflows. Leverage how the Canvas UI can adapt to different use cases by swapping the position of the Viewport, Canvas, and Image Viewer to your liking. Discover how to take advantage of the many tools at your disposal to clean up your graphs with comments and reroute nodes as your projects get more complex.
+> To learn more about working in the Canvas please read the following articles:
+>
 > - [Node-Based Workflow Key Concepts](): Uncover the power of a node-based workflow by tapping into its non-linear nature. Learn about graph inheritance, how to expose input parameters and create outputs, and explore the power of changing a graph's execution resolution and seed. These key concepts drive the core of working within the Canvas.
+> - [Canvas Navigation](/Products/InstaMAT_Studio/Canvas/Canvas_Navigation): How to navigate the Canvas view.
+> - [Graph Organization](/Products/InstaMAT_Studio/Canvas/Graph_Organization): The Canvas contains several features and utilities that help maintain the organization and readability of a graph. This article overviews a few methods: Reroute nodes, Temporary Reroute Points and Comments.
 {.is-info}
 
 ## <i class="fa-regular fa-circle-4"></i> Toolbar
