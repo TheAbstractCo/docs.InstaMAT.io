@@ -2,7 +2,7 @@
 title: InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-03-03T09:36:16.430Z
+date: 2023-03-03T09:36:32.021Z
 tags: integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-03-02T17:31:20.600Z
@@ -57,7 +57,7 @@ InstaMAT is fully integrated into Unreal Engine, and all asset generation featur
 
 Materials can be imported through the InstaMAT Library or by importing an `.imp` file into the Unreal Engines `Content Browser`. If the `.imp` file contains multiple InstaMAT Graphs a graph object for each included InstaMAT Graph will be generated. The graph objects can be used to create instances of the same type. Instances are generated either through the context menu of the graph by right clicking on the asset and selecting `Create Instance` or through the detail settings inside the `Create New Instance` panel. 
 
-![Create Instance From Context Menu](/instamat_integrations/instamat_for_ue/instamat_create_instance.png){.align-center}
+![Create Instance From Context Menu](/instamat_integrations/instamat_for_ue/instamat_create_instance.png =500x){.align-center}
 
 The context menu will spawn a naming dialog for the new instance the detail panel requires to provide a valid name inside the text field.
 
