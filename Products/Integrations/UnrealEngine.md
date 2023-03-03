@@ -2,7 +2,7 @@
 title: InstaMAT for Unreal Engine
 description: This page will help you to get up to speed with InstaMAT for Unreal Engine in minutes.
 published: true
-date: 2023-03-03T09:36:32.021Z
+date: 2023-03-03T09:37:03.711Z
 tags: integrations, instamat for unrealengine
 editor: markdown
 dateCreated: 2023-03-02T17:31:20.600Z
@@ -61,7 +61,7 @@ Materials can be imported through the InstaMAT Library or by importing an `.imp`
 
 The context menu will spawn a naming dialog for the new instance the detail panel requires to provide a valid name inside the text field.
 
-![Creating Instance From Detail Panel](/instamat_integrations/instamat_for_ue/instamat_create_instance_detail.png){.align-center}
+![Creating Instance From Detail Panel](/instamat_integrations/instamat_for_ue/instamat_create_instance_detail.png =800x){.align-center}
   
 InstaMAT will generate an instance of the InstaMAT Graph with a connected material, and all assets, like textures, with the specified name. 
 
