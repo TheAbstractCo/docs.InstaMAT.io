@@ -2,7 +2,7 @@
 title: Products
 description: An overview of the InstaMAT product line.
 published: true
-date: 2023-03-03T09:30:48.640Z
+date: 2023-03-03T09:33:33.960Z
 tags: instamat studio, integrations, instamat pipeline, sdk
 editor: markdown
 dateCreated: 2023-03-03T09:15:28.520Z
@@ -29,7 +29,7 @@ This page overviews the InstaLOD product line. InstaMAT revolutionizes your mate
 <br style="clear: right;"/>
 
 ## InstaMAT for Autodesk Maya
-Browse, render and tweak your materials and Elements right inside your shading network. A carefully designed user-experience ensures a high degree of productivity even when using InstaMAT for Autodesk Maya for the first time.
+![maya_540p.png.webp](/instamat_integrations/instamat_for_autodesk_maya/maya_540p.png.webp =400x){.align-right} Browse, render and tweak your materials and Elements right inside your shading network. A carefully designed user-experience ensures a high degree of productivity even when using InstaMAT for Autodesk Maya for the first time.
 
 <br style="clear: right;"/>
 
