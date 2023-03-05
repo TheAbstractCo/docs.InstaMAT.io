@@ -2,7 +2,7 @@
 title: Integrations
 description: InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possbile.
 published: true
-date: 2023-03-03T16:06:11.751Z
+date: 2023-03-05T20:12:36.385Z
 tags: integrations
 editor: markdown
 dateCreated: 2023-03-02T17:38:48.183Z
@@ -35,7 +35,7 @@ The InstaMAT Product Line features the following Integrations:
 ## InstaMAT for Unreal Engine
 ![ue_540p.jpg.webp](/instamat_integrations/instamat_for_ue/ue_540p.jpg.webp =400x){.align-right} Empowering game developers to build beautiful content faster and with less friction. From the built-in material library to high-speed rendering of materials and asset pipelines — your workflow is going to be amped up.
 
-To learn more about InstaMAT for Unreal Engine, click [here](/Products/Integrations/UnrealEngine).
+To learn more about InstaMAT for Unreal Engine, click [here](/Products/Integrations/InstaMAT_for_UnrealEngine).
 
 <br style="clear: right;"/>
 
