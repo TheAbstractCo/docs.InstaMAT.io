@@ -2,13 +2,11 @@
 title: Preferences
 description: The Preferences Panel provides access to all of InstaMAT Studio's settings.
 published: true
-date: 2023-02-26T19:14:13.570Z
+date: 2023-03-06T08:22:15.130Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:33:20.852Z
 ---
-
-# Preferences
 
 ![Preferences](/instamat_studio/canvas/preferences.png =900x){.align-center}
 
