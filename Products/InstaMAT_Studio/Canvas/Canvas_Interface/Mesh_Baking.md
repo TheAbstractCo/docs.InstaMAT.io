@@ -2,13 +2,11 @@
 title: Mesh Baking
 description: The Mesh Baking Panel provides access to InstaMAT's powerful and sophisticated texture bakers. These bakers can be used to generate texture maps by extracting information from incoming mesh geometry.
 published: true
-date: 2023-02-06T10:32:02.903Z
+date: 2023-03-06T08:21:35.833Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T19:56:47.226Z
 ---
-
-# Mesh Baking
 
 ![Mesh Baking Panel](/instamat_studio/canvas/mesh_baking_panel.png){.align-center}
 
