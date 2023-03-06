@@ -2,13 +2,11 @@
 title: Package Management
 description: The Package Management Panel contains all of the resources within the active package file. This includes projects, images, meshes, point clouds, baked mesh data, and baking settings.
 published: true
-date: 2023-02-06T10:36:29.460Z
+date: 2023-03-06T08:22:00.726Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T16:10:28.956Z
 ---
-
-# Package Management
 
 ![Package Management Panel](/instamat_studio/canvas/package_management.png =300x){.align-center}
 
