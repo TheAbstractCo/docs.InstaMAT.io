@@ -2,13 +2,11 @@
 title: Resource Picker
 description: The Resource Picker Panel is a contextual popup panel with access to InstaMAT Studio's library of nodes and assets.
 published: true
-date: 2023-02-06T10:53:46.447Z
+date: 2023-03-06T08:22:55.536Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:52:50.800Z
 ---
-
-# Resource Picker
 
 ![Resource Picker variants](/instamat_studio/canvas/resource_picker_variants.png){.align-center}
 
