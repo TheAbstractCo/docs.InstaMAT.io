@@ -2,7 +2,7 @@
 title: InstaMAT Studio
 description: InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner.
 published: true
-date: 2023-03-06T17:53:44.458Z
+date: 2023-03-06T17:59:09.305Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
@@ -50,6 +50,8 @@ Layering is also a great companion to InstaMAT Studio's procedural painting engi
 
 ## Materialize Image
 
-![filler_400.png](/instamat_studio/canvas/filler_400.png =300x){.align-right} Materialize Image lets you create procedural PBR materials from a single image or photo. InstaMAT is able to generate all of the necessary maps required for a PBR material including normal, height, and ambient occlusion maps. With powerful technologies such as Image Synthesis, shadow cancellation, and effect generators, Materialize Image is able to generate beautiful results while still maintaining a procedural approach. Limitless variations can be created from a single image. Once the material has been created it can be utilized in InstaMAT's other project types like Layering or an Element Graph. Creating a material has never been easier.
+![filler_400.png](/instamat_studio/canvas/filler_400.png =300x){.align-right} Materialize Image lets you create procedural PBR materials from a single image or photo. InstaMAT is able to generate all of the necessary maps required for a PBR material including normal, height, and ambient occlusion maps. With powerful technologies such as Image Synthesis, shadow cancellation, and effect generators, Materialize Image is able to generate beautiful results while still maintaining a procedural approach. Limitless variations can be created from a single image.
+
+Once the material has been created it can be utilized in InstaMAT's other project types like Layering or an Element Graph. Creating a material has never been easier.
 
 <br style="clear: right;"/>
