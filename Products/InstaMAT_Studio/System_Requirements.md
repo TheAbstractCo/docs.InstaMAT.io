@@ -2,13 +2,11 @@
 title: System Requirements
 description: The minimum and recommended system requirements to run InstaMAT Studio.
 published: true
-date: 2023-01-20T16:38:11.004Z
+date: 2023-03-06T08:15:14.140Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-20T16:37:32.851Z
 ---
-
-# System Requirements
 
 InstaMAT Studio can run efficiently even on low-end hardware. However, better hardware allows InstaMAT to process operations faster. 
 
