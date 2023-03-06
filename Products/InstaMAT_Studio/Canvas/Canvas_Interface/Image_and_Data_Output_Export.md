@@ -2,13 +2,11 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-01-27T17:54:38.303Z
+date: 2023-03-06T08:21:08.407Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
 ---
-
-# Image and Data Output Export
 
 ![Export Window](/instamat_studio/canvas/output_export_dialog.png)
 
