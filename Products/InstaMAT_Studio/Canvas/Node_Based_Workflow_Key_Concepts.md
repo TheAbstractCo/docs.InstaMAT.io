@@ -2,13 +2,11 @@
 title: Node-Based Workflow Key Concepts
 description: This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's Canvas interface.
 published: true
-date: 2023-02-26T18:18:01.247Z
+date: 2023-03-06T08:19:21.956Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T19:16:50.444Z
 ---
-
-# Node-Based Workflow Key Concepts
 
 This article overviews the important key concepts needed to understand while working in a node-based workflow in InstaMAT Studio's [Canvas](/Products/InstaMAT_Studio/Canvas) interface.
 
