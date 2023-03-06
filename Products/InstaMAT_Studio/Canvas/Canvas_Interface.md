@@ -2,13 +2,11 @@
 title: Canvas Interface
 description: InstaMAT Studio's Canvas interface is made up of four parts: The Left Panel, Right Panel, Center Area, and the Toolbar.
 published: true
-date: 2023-03-03T10:30:46.569Z
+date: 2023-03-06T08:19:49.946Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-30T13:47:04.460Z
 ---
-
-# Canvas Interface Overview
 
 ![canvas_interface_numbered.png](/instamat_studio/canvas/canvas_interface_numbered.png)
 
