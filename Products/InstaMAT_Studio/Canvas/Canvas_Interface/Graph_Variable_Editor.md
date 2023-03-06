@@ -2,15 +2,11 @@
 title: Graph Variable Editor
 description: The Graph Variable Editor (GVE) provides fine tune control and adjustments to variables such as Graph Inputs, Local Variables, and Graph Outputs.
 published: true
-date: 2023-02-06T10:25:22.064Z
+date: 2023-03-06T08:20:56.410Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T15:42:40.580Z
 ---
-
-# Graph Variable Editor
-
-<img src="" width="400"/>
 
 ![Graph Variable Editor](/instamat_studio/canvas/graph_variable_editor_elementimage.png =600x){.align-center}
 
