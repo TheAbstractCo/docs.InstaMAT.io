@@ -2,13 +2,11 @@
 title: Graph Organization
 description: InstaMAT Studio features several ways to keep graphs organized and readable.
 published: true
-date: 2023-02-23T19:04:39.446Z
+date: 2023-03-06T08:18:30.938Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-23T13:08:05.737Z
 ---
-
-# Graph Organization
 
 The Canvas in InstaMAT Studio contains several features and utilities that help maintain the organization and readability of a graph. This article overviews a few  methods: Reroute nodes, Temporary Reroute Points and Comments.
 
