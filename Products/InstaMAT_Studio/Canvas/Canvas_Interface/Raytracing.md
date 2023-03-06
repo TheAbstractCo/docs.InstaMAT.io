@@ -2,13 +2,11 @@
 title: Raytracing
 description: The Raytracing Panel contains the AMD Radeon™ ProRender raytracing engine. This allows users to quickly generate photo-real images with just a few clicks using both CPUs and GPUs.
 published: true
-date: 2023-02-06T10:01:05.857Z
+date: 2023-03-06T08:22:41.188Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:42:52.095Z
 ---
-
-# Raytracing
 
 ![Raytracing_Panel](/instamat_studio/canvas/raytracing_panel.png)
 
