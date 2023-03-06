@@ -2,13 +2,11 @@
 title: Viewport Settings
 description: The Viewport Settings Panel provides access to all of the adjustments and parameters needed to control InstaMAT Studio's 3D Viewport.
 published: true
-date: 2023-02-21T14:54:21.712Z
+date: 2023-03-06T08:23:21.386Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-23T17:21:17.648Z
 ---
-
-# Viewport Settings
 
 ![Viewport Settings Panel](/instamat_studio/canvas/viewport_settings.png =300x){.align-center}
 
