@@ -2,7 +2,7 @@
 title: InstaMAT Studio
 description: InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner.
 published: true
-date: 2023-03-08T19:04:40.388Z
+date: 2023-03-08T19:06:05.756Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
@@ -30,7 +30,7 @@ The following articles offer a quick starting point to begin using InstaMAT Stud
 
 ![filler_400.png](/instamat_studio/canvas/filler_400.png =300x){.align-right} The Canvas is InstaMAT's node-based interface used to build powerful workflows with immense flexibility. With an assortment of graph types, easy drag-and-drop integration with other InstaMAT projects, and the ability to combine images, meshes, and point clouds, the Canvas becomes a dynamic playground for building exhilarating assets and procedural pipelines.
 
-[Click here to learn more about the Canvas](/Products/InstaMAT_Studio/Canvas)
+To learn more about the Canvas click [here](/Products/InstaMAT_Studio/Canvas).
 
 <br style="clear: right;"/>
 
