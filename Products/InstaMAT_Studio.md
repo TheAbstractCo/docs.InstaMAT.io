@@ -2,7 +2,7 @@
 title: InstaMAT Studio
 description: InstaMAT Studio is a next generation 3D texture and asset creation software designed to create scalable workflows in an efficient and productive manner.
 published: true
-date: 2023-03-08T19:06:05.756Z
+date: 2023-03-08T19:10:12.896Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-02-20T17:03:56.655Z
@@ -40,11 +40,19 @@ To learn more about the Canvas click [here](/Products/InstaMAT_Studio/Canvas).
 
 Layering is also a great companion to InstaMAT Studio's procedural painting engine. Paint multiple channels of information at the same time without being tied to the mesh's UV coordinates. Each paint stroke is applied procedurally to the mesh providing enhanced flexibility when changing dynamic properties like the texture resolution on the fly.
 
+To learn more about Layering click here.
+
 <br style="clear: right;"/>
 
 ## Material Layering
 
-![filler_400.png](/instamat_studio/canvas/filler_400.png =300x){.align-right} Material Layering is an innovative way to build stunningly complex materials by combining them together one layer at a time.
+![filler_400.png](/instamat_studio/canvas/filler_400.png =300x){.align-right} Experience a new way to create fully procedural 3D materials with InstaMAT's Material Layering. Simply drag and drop your existing materials onto the material layer stack and experience a transformative workflow for creating procedural materials.
+
+Powered by InstaMAT's layering engine, this project type allows you rapidly design procedural materials: from effects, filters, and generators to InstaMAT's paint engine - you'll find yourself creating materials in no time.
+
+Drop your material layering project in an Element Graph or a DCC tool, and you'll see that it works exactly as material built with the powerful Element Graph canvas. As with canvas-based materials, you can also execute your material layering project from the command line using InstaMAT Pipeline.
+
+To learn more about Material Layering click here.
 
 <br style="clear: right;"/>
 
@@ -53,5 +61,7 @@ Layering is also a great companion to InstaMAT Studio's procedural painting engi
 ![filler_400.png](/instamat_studio/canvas/filler_400.png =300x){.align-right} Materialize Image lets you create procedural PBR materials from a single image or photo. InstaMAT is able to generate all of the necessary maps required for a PBR material including normal, height, and ambient occlusion maps. With powerful technologies such as Image Synthesis, shadow cancellation, and effect generators, Materialize Image is able to generate beautiful results while still maintaining a procedural approach. Limitless variations can be created from a single image.
 
 Once the material has been created it can be utilized in InstaMAT's other project types like Layering or an Element Graph. Creating a material has never been easier.
+
+To learn more about Materialize Image click here.
 
 <br style="clear: right;"/>
