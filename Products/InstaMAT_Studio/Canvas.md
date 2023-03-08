@@ -2,7 +2,7 @@
 title: Canvas
 description: The Canvas is InstaMAT's node-based interface used to build 3D assets, PBR materials, and powerful workflows with immense flexibility.
 published: true
-date: 2023-03-06T17:55:33.645Z
+date: 2023-03-08T16:38:11.363Z
 tags: instamat studio, canvas
 editor: markdown
 dateCreated: 2023-01-24T08:04:55.732Z
@@ -35,7 +35,7 @@ Learn about the different project types that can be built using the Canvas.
 
 ### Element Graph
 
-![element_preview.png](/instamat_studio/canvas/element_preview.png =400x){.align-right} The **Element Graph** is the Swiss Army knife of project types in InstaMAT. Create stunning materials, build powerful mesh-processing pipelines, and combine different mediums such as images, meshes, and point clouds. Expressions and arithmetic can also be integrated directly into the same graph along side your materials to customize and direct [exposed parameters](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts#creating-and-exposing-graph-inputs-custom-parameters). These parameters can be adjusted within InstaMAT Studio, [InstaMAT Pipeline](/Products/InstaMAT_Pipeline), or in our [Integrated Plugins](/Products/Integrations).
+![element_preview.png](/instamat_studio/canvas/element_preview.png =400x){.align-right} The **Element Graph** is the Swiss Army knife of project types in InstaMAT. Create stunning materials, build powerful mesh-processing pipelines, and combine different mediums such as images, meshes, and point clouds. Expressions and arithmetic can also be integrated directly into the same graph along side your materials to customize and direct [exposed parameters](/Products/InstaMAT_Studio/Canvas/Node_Based_Workflow_Key_Concepts#creating-and-exposing-graph-inputs-custom-parameters). These parameters can be adjusted within InstaMAT Studio, [InstaMAT Pipeline](/Products/InstaMAT_Pipeline), or in our [integrated plugins](/Products/Integrations).
 
 
 [Click here to learn more about the Element Graph]()
