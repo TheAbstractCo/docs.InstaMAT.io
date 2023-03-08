@@ -2,7 +2,7 @@
 title: InstaMAT C++ SDK
 description: The technology behind InstaMAT is also available as C++ SDK.
 published: true
-date: 2023-03-03T09:31:19.221Z
+date: 2023-03-08T16:40:51.614Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-20T15:26:36.240Z
@@ -15,6 +15,7 @@ The technology behind InstaMAT is also available as C++ SDK. This means that you
 More information is available on the [InstaMAT SDK documentation](https://www.InstaMaterial.com/GettingStartedWithSDK) page.
 
 > There is no difference between the InstaMAT C++ SDK that is available to our customers and partners and what we're using internally to build our own applications and integrations.
+>
 > This means that with the InstaMAT C++ SDK you will be able to leverage InstaMAT's powerful processing technology in the same way that the creators are doing it!{.is-info}
 
 ## Further Reading
