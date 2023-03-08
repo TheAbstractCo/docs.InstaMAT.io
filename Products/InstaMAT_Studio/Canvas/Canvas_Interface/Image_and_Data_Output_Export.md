@@ -2,7 +2,7 @@
 title: Image and Data Output Export
 description: The Image and Data Output Export window is a comprehensive interface for exporting a project's outputs to disk.
 published: true
-date: 2023-03-06T08:21:08.407Z
+date: 2023-03-08T19:16:20.001Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-01-23T20:20:31.730Z
@@ -10,7 +10,11 @@ dateCreated: 2023-01-23T20:20:31.730Z
 
 ![Export Window](/instamat_studio/canvas/output_export_dialog.png)
 
-The **Image and Data Output Export** window is a comprehensive interface for exporting a project's outputs to disk. For images, this includes all maps generated from a PBR material or Layering project. In addition to images, meshes and point clouds from an <a href="">Element Graph</a> can also be exported here. The Export window's template system makes it easy to combine multiple maps into one file through channel packing. This places maps that contain values in the pixels from 0 to 1 into separate Red, Green, Blue, and Alpha channels of an RGBA image. This packed image then contains multiple maps of information and reduces the texturing footprint of the asset. Additionally, many common map conversions can take place during export such as converting an OpenGL Normal map to a DirectX Normal map or switching from a Metallic/Roughness workflow to Specular/Glossy.
+The **Image and Data Output Export** window is a comprehensive interface for exporting a project's outputs to disk. For images, this includes all maps generated from a PBR material or Layering project. In addition to images, meshes and point clouds from an <a href="">Element Graph</a> can also be exported here.
+
+The Export window's template system makes it easy to combine multiple maps into one file through channel packing. This places maps that contain values in the pixels from 0 to 1 into separate Red, Green, Blue, and Alpha channels of an RGBA image. This packed image then contains multiple maps of information and reduces the texturing footprint of the asset.
+
+Additionally, many common map conversions can take place during export such as converting an OpenGL Normal map to a DirectX Normal map or switching from a Metallic/Roughness workflow to Specular/Glossy.
 
 ## Interface Overview
 
