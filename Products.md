@@ -2,13 +2,13 @@
 title: Products
 description: An overview of the InstaMAT product line.
 published: true
-date: 2023-03-03T10:24:26.293Z
+date: 2023-03-08T10:16:20.666Z
 tags: instamat studio, integrations, instamat pipeline, sdk
 editor: markdown
 dateCreated: 2023-03-03T09:15:28.520Z
 ---
 
-This page overviews the InstaLOD product line. InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possible. No matter where or how you work, InstaMAT will fit like a glove and catalyze your ability to deliver.
+This page overviews the InstaMAT product line. InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possible. No matter where or how you work, InstaMAT will fit like a glove and catalyze your ability to deliver.
 
 ## InstaMAT Studio
 
