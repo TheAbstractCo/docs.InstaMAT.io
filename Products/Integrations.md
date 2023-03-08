@@ -2,7 +2,7 @@
 title: Integrations
 description: InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possbile.
 published: true
-date: 2023-03-08T10:10:49.809Z
+date: 2023-03-08T10:11:31.552Z
 tags: integrations
 editor: markdown
 dateCreated: 2023-03-02T17:38:48.183Z
