@@ -2,7 +2,7 @@
 title: Integrations
 description: InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possbile.
 published: true
-date: 2023-03-05T20:12:36.385Z
+date: 2023-03-08T10:10:49.809Z
 tags: integrations
 editor: markdown
 dateCreated: 2023-03-02T17:38:48.183Z
@@ -10,7 +10,9 @@ dateCreated: 2023-03-02T17:38:48.183Z
 
 InstaMAT revolutionizes your material and asset production with workflows you did not consider to be possbile. No matter where or how you work, InstaMAT will fit like a glove and catalyze your ability to deliver.
 
-The InstaMAT Product Line features the following Integrations:
+All integrations and plugins allow you to execute and render your `Element` and `Layering` projects — directly in the application you use to create your 3D content. Simply install the integration and you'll be immediately equipped with dragging and dropping InstaMAT packages into your applications. Apart from your own graphs, you'll have access to the entire standard library of nodes that ships with InstaMAT.
+
+The following integrations and plugins are currently available:
 
 ## InstaMAT for Autodesk Maya
 ![maya_540p.png.webp](/instamat_integrations/instamat_for_autodesk_maya/maya_540p.png.webp =400x){.align-right} Browse, render and tweak your materials and Elements right inside your shading network. A carefully designed user-experience ensures a high degree of productivity even when using InstaMAT for Autodesk Maya for the first time.
@@ -38,9 +40,3 @@ The InstaMAT Product Line features the following Integrations:
 To learn more about InstaMAT for Unreal Engine, click [here](/Products/Integrations/InstaMAT_for_UnrealEngine).
 
 <br style="clear: right;"/>
-
-## Integrations Features vs InstaMAT Studio
-
-InstaMAT's Integrated Plugins allow you to bring InstaMAT package files into your preferred application for direct manipulation and seamless integration into your projects. These package files are created in InstaMAT Studio, where project types such as the `Element Graph` or a `Layering Project` can be built.
-
-To learn more about InstaMAT Studio and the creation of these project types, click [here](/Products/InstaMAT_Studio).
