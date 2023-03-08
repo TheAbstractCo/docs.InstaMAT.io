@@ -2,7 +2,7 @@
 title: Creating a New Project
 description: New projects can be created inside an InstaMAT Package with the New Project screen.
 published: true
-date: 2023-03-08T16:23:19.824Z
+date: 2023-03-08T16:24:20.478Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-03-06T17:17:25.714Z
@@ -12,7 +12,7 @@ New projects can be created inside an InstaMAT `Package` with the `New Project` 
 
 ![new_project_screen.gif](/instamat_studio/general/new_project_screen.gif){.align-center}
 
-The New Project screen can be found in a few locations:
+The `New Project` screen can be found in a few locations:
 
 - From the `Welcome Screen`, click `Create a new InstaMAT project`
 - Go to `File` > `New Project` in the main menu
