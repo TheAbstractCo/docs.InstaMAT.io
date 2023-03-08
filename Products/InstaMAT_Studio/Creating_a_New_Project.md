@@ -2,7 +2,7 @@
 title: Creating a New Project
 description: New projects can be created inside an InstaMAT Package with the New Project screen.
 published: true
-date: 2023-03-08T15:44:25.874Z
+date: 2023-03-08T15:45:37.088Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-03-06T17:17:25.714Z
@@ -20,6 +20,6 @@ The New Project screen can be found in a few locations:
 
 ## Package Hirearchy
 
-`Projects` are created and stored inside InstaMAT `Packages`. In addition to multiple projects, packages contain related resources that are to be bundeled with each project such as images, fonts, baked mesh maps, baking settings, meshes, and point clouds.
+`Projects` are created and stored inside InstaMAT `Packages`. In addition to multiple projects, packages contain related resources that are to be bundeled with each project such as images, fonts, baked mesh maps, baking settings, meshes, and point clouds. Multiple projects can share the same resources in a package.
 
 Package contents are viewed through the [Package Management](/Products/InstaMAT_Studio/Canvas/Canvas_Interface/Package_Management) panel.
