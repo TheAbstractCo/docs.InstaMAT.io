@@ -2,7 +2,7 @@
 title: Creating a New Project
 description: New projects can be created inside an InstaMAT Package with the New Project screen.
 published: true
-date: 2023-03-08T15:45:37.088Z
+date: 2023-03-08T16:12:27.302Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-03-06T17:17:25.714Z
@@ -17,6 +17,18 @@ The New Project screen can be found in a few locations:
 - From the `Welcome Screen`, click `Create a new InstaMAT project`
 - Go to `File` > `New Project` in the main menu
 - Click the <i class="fa-regular fa-octagon-plus"></i> (New Project) button in the main toolbar
+
+## Project Types
+
+The following project types can be created in InstaMAT Studio:
+
+- **Layering:** 
+- **Material Layering:** 
+- **Materialize Image:** 
+- **Element Graph:** 
+- **nPass Element Graph:** 
+- **Atom Graph:** 
+- **Function Graph:** 
 
 ## Package Hirearchy
 
