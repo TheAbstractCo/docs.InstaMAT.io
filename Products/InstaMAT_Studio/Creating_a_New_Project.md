@@ -2,7 +2,7 @@
 title: Creating a New Project
 description: New projects can be created inside an InstaMAT Package with the New Project screen.
 published: true
-date: 2023-03-08T16:21:41.677Z
+date: 2023-03-08T16:23:19.824Z
 tags: instamat studio
 editor: markdown
 dateCreated: 2023-03-06T17:17:25.714Z
@@ -27,8 +27,8 @@ The following project types can be created in InstaMAT Studio:
 - **Materialize Image:** Convert any image into a complete PBR material with output channels for BaseColor, Normal, Roughness, Metalness, AmbientOcclusion, and Height.
 - **Element Graph:** The ultimate swiss-army knife for any 3D asset production pipeline. Design stunning and fully procedural materials with InstaMAT's vast library of noise functions, pattern generators and utility nodes. From procedural mesh processing nodes to string handling and arithmetic operations - it's there, waiting for your spark of creativity.
 - **nPass Element Graph:** Build advanced processing nodes that perform multiple passes when executed, with the ability to carry data from one pass to the next.
-- **Atom Graph:** Create custom image processing nodes that can be instanced in any Element Graph.
-- **Function Graph:** 
+- **Atom Graph:** Create custom image processing nodes that can be instanced in any ElementGraph.
+- **Function Graph:** Develop small functions that can be easily reused in your Atom Graphs.
 
 ## Package Hirearchy
 
